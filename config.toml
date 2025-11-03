@@ -1,0 +1,15 @@
+baseURL = "https://generalarcade.github.io/"
+languageCode = "en-us"
+title = "General Arcade"
+publishDir = "public"
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy", "term"]
+# Enable sitemap if needed by removing from disableKinds and uncommenting below:
+# [sitemap]
+#   changefreq = "weekly"
+#   filename = "sitemap.xml"
+#   priority = 0.5
+
+[markup.goldmark.renderer]
+unsafe = false
