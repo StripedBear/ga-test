@@ -21,21 +21,20 @@ body{
 .site-header{
   position:relative;
   width:100%;
-  min-height:320px; /* высота «подложки» */
+  min-height:2400px; 
 }
 
-/* Подложка на всю ширину с мягким полупрозрачным градиентом + диагональ */
 .header-bg{
   position:absolute;
   inset:0;
   background:
-    linear-gradient(115deg, var(--grad-a) 0%, var(--grad-b) 70%) /* основной градиент */
+    linear-gradient(115deg, var(--grad-a) 0%, var(--grad-b) 70%) 
     ;
   pointer-events:none;
   z-index:1;
 }
 
-/* Контент в шапке тянется во всю ширину, но с боковыми отступами */
+
 .header-inner{
   position:relative;
   z-index:2;
@@ -47,15 +46,15 @@ body{
   justify-content:space-between;
 }
 
-/* Логотип: крупный и «нависает» на нижнюю часть */
+
 .logo img{
-  height:360px;           /* в 3 раза больше обычного */
+  height:240px;           
   width:auto;
   display:block;
-  transform:translateY(60px); /* перекрытие нижнего блока примерно на треть */
+  transform:translateY(30px); 
 }
 
-/* Меню прижато вправо и по верхнему краю */
+
 .main-nav{margin-top:8px}
 .main-nav ul{
   margin:0; padding:0; list-style:none;
@@ -75,7 +74,7 @@ body{
 .site-footer{position:relative; margin-top:40px}
 .footer-bar{
   width:100%;
-  background:rgba(27,30,48,.7);      /* полупрозрачная плашка */
+  background:rgba(27,30,48,.7);      
   backdrop-filter:saturate(120%) blur(2px);
   border-top:1px solid rgba(255,255,255,.04);
   border-bottom:1px solid rgba(0,0,0,.35);
