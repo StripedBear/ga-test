@@ -6,7 +6,7 @@
   <title>{{ block "title" . }}{{ .Title }} | General Arcade{{ end }}</title>
 
   <!-- Styles -->
-  <link rel="stylesheet" href="/General Arcade _ Porting house and co-development studio_files/aos.css" />
+  <link rel="stylesheet" href="{{ 'General Arcade _ Porting house and co-development studio_files/aos.css' | relURL }}">
 
   <!-- Security headers as meta (for GitHub Pages); prefer real headers via CDN if possible -->
   <meta http-equiv="Content-Security-Policy"
@@ -23,6 +23,6 @@
   {{ partial "footer.html" . }}
 
   <!-- Scripts -->
-  <script src="/js/main.js" defer></script>
+  <script src="{{ 'js/main.js' | relURL }}" defer></script>
 </body>
 </html>
