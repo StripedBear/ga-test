@@ -40,7 +40,7 @@ body{
   z-index:2;
   max-width:1600px;
   margin:0 auto;
-  padding:24px clamp(16px, 1vw, 48px) 0;
+  padding:24px clamp(16px, 4vw, 48px) 0;
   display:flex;
   align-items:flex-start;
   justify-content:space-between;
@@ -71,27 +71,77 @@ body{
 }
 
 /* ===== Footer (full-bleed translucent bar) ===== */
-.site-footer{position:relative; margin-top:40px}
-.footer-bar{
-  width:100%;
-  background:rgba(27,30,48,.7);      
-  backdrop-filter:saturate(120%) blur(2px);
-  border-top:1px solid rgba(255,255,255,.04);
-  border-bottom:1px solid rgba(0,0,0,.35);
+.site-footer {
+  position: relative;
+  width: 100%;
+  background: #181a27;
+  color: #aeb3c7;
+  padding: 100px 0 80px;
+  overflow: hidden;
 }
-.footer-inner{
-  max-width:1600px;
-  margin:0 auto;
-  padding:24px clamp(16px, 1vw, 48px);
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
+
+.footer-bg {
+  position: absolute;
+  inset: 0;
+  background: url("../img/footer-bg.jpg") no-repeat right bottom;
+  background-size: cover;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 0;
 }
-.footer-left p{margin:.2rem 0; color:#aeb3c7}
-.footer-left a{color:#aeb3c7; text-decoration:underline}
-.footer-right a{display:inline-block; margin-left:18px}
-.footer-right img{width:56px; height:56px; opacity:.8; transition:opacity .15s}
-.footer-right img:hover{opacity:1}
+
+.footer-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: 12px;
+}
+
+.footer-left p {
+  margin: 4px 0;
+}
+
+.footer-left a {
+  color: #aeb3c7;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-left a:hover {
+  color: #2bb2ff;
+}
+
+.footer-right {
+  margin-top: 20px;
+}
+.footer-right a {
+  display: inline-block;
+  margin-left: 16px;
+}
+.footer-right img {
+  width: 48px;
+  height: 48px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.footer-right img:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .footer-inner {
+    align-items: center;
+    text-align: center;
+  }
+  .footer-right {
+    margin-top: 16px;
+  }
+}
 
 /* ===== Helpers ===== */
 @media (max-width: 900px){
