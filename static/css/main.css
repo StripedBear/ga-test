@@ -28,7 +28,7 @@ body{
   position:absolute;
   inset:0;
   background:
-    linear-gradient(115deg, var(--grad-a) 0%, var(--grad-b) 70%) 
+    linear-gradient(115deg, var(--grad-b) 0%, var(--grad-a) 70%) 
     ;
   pointer-events:none;
   z-index:1;
@@ -40,7 +40,7 @@ body{
   z-index:2;
   max-width:1600px;
   margin:0 auto;
-  padding:24px clamp(16px, 4vw, 48px) 0;
+  padding:24px clamp(16px, 1vw, 48px) 0;
   display:flex;
   align-items:flex-start;
   justify-content:space-between;
@@ -82,7 +82,7 @@ body{
 .footer-inner{
   max-width:1600px;
   margin:0 auto;
-  padding:24px clamp(16px, 4vw, 48px);
+  padding:24px clamp(16px, 1vw, 48px);
   display:flex;
   align-items:center;
   justify-content:space-between;
