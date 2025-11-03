@@ -1,133 +1,105 @@
-/* ====== Base ====== */
-body {
-  margin: 0;
-  background: #1a1b28;
-  color: #fff;
-  font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
+/* ===== Base ===== */
+:root{
+  --bg:#141726;
+  --bg-deep:#0f1220;
+  --grad-a: rgba(54,58,96,.88);      /* темно-фиолетовый */
+  --grad-b: rgba(18,20,33,.96);      /* почти чёрный */
+  --brand:#2bb2ff;
+  --text:#dfe3f1;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+html,body{height:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  overflow-x:hidden;
 }
 
-/* ====== Header ====== */
-.site-header {
-  position: relative;
-  width: 100%;
-  overflow: visible;
+/* ===== Header (full-bleed) ===== */
+.site-header{
+  position:relative;
+  width:100%;
+  min-height:320px; /* высота «подложки» */
 }
 
-/* Gradient */
-.header-gradient {
-  position: relative;
-  width: 100%;
-  height: 280px;
-  background: linear-gradient(270deg, rgba(51, 54, 92, 0.85) 0%, rgba(20, 22, 35, 0.95) 100%);
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+/* Подложка на всю ширину с мягким полупрозрачным градиентом + диагональ */
+.header-bg{
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(115deg, var(--grad-a) 0%, var(--grad-b) 70%) /* основной градиент */
+    ;
+  pointer-events:none;
+  z-index:1;
 }
 
-/* Container with logo & menu */
-.header-inner {
-  width: 95%;
-  max-width: 1600px;
-  margin: 0 auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  position: relative;
-  z-index: 2;
-  padding-top: 30px;
+/* Контент в шапке тянется во всю ширину, но с боковыми отступами */
+.header-inner{
+  position:relative;
+  z-index:2;
+  max-width:1600px;
+  margin:0 auto;
+  padding:24px clamp(16px, 4vw, 48px) 0;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
 }
 
-/* Logo */
-.logo img {
-  height: 360px;
-  width: auto;
-  display: block;
-  transform: translateY(60px);
+/* Логотип: крупный и «нависает» на нижнюю часть */
+.logo img{
+  height:360px;           /* в 3 раза больше обычного */
+  width:auto;
+  display:block;
+  transform:translateY(60px); /* перекрытие нижнего блока примерно на треть */
 }
 
-/* ====== Nav ====== */
-.main-nav {
-  margin-top: 40px;
+/* Меню прижато вправо и по верхнему краю */
+.main-nav{margin-top:8px}
+.main-nav ul{
+  margin:0; padding:0; list-style:none;
+  display:flex; gap:48px;
+}
+.main-nav a{
+  color:#fff; text-decoration:none; font-weight:600; letter-spacing:.2px;
+  position:relative; transition:color .2s ease;
+}
+.main-nav a:hover{color:var(--brand)}
+.main-nav a.active::after{
+  content:""; position:absolute; left:0; bottom:-6px; height:2px; width:100%;
+  background:var(--brand);
 }
 
-.main-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 48px;
-  margin: 0;
-  padding: 0;
+/* ===== Footer (full-bleed translucent bar) ===== */
+.site-footer{position:relative; margin-top:40px}
+.footer-bar{
+  width:100%;
+  background:rgba(27,30,48,.7);      /* полупрозрачная плашка */
+  backdrop-filter:saturate(120%) blur(2px);
+  border-top:1px solid rgba(255,255,255,.04);
+  border-bottom:1px solid rgba(0,0,0,.35);
 }
-
-.main-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-  transition: color 0.2s ease;
+.footer-inner{
+  max-width:1600px;
+  margin:0 auto;
+  padding:24px clamp(16px, 4vw, 48px);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 }
+.footer-left p{margin:.2rem 0; color:#aeb3c7}
+.footer-left a{color:#aeb3c7; text-decoration:underline}
+.footer-right a{display:inline-block; margin-left:18px}
+.footer-right img{width:56px; height:56px; opacity:.8; transition:opacity .15s}
+.footer-right img:hover{opacity:1}
 
-.main-nav a:hover {
-  color: #2bb2ff;
+/* ===== Helpers ===== */
+@media (max-width: 900px){
+  .logo img{height:260px; transform:translateY(40px)}
+  .main-nav ul{gap:28px}
 }
-
-.main-nav a.active::after {
-  content: "";
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: #2bb2ff;
-}
-
-/* ====== Footer ====== */
-.site-footer {
-  background: #1d1f2f;
-  padding: 60px 0;
-  color: #99a;
-  font-size: 14px;
-}
-
-.site-footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.site-footer a img {
-  width: 72px;
-  height: 72px;
-  margin-left: 16px;
-  opacity: 0.8;
-  transition: opacity 0.2s;
-}
-
-.site-footer a img:hover {
-  opacity: 1;
-}
-
-/* ====== Utility ====== */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  margin: 1em 0 0.5em 0;
-}
-
-p {
-  line-height: 1.6;
-  margin: 0 0 1em 0;
-}
-
-a {
-  color: #2bb2ff;
-}
-
-a:hover {
-  color: #4bcaff;
+@media (max-width: 640px){
+  .logo img{height:200px; transform:translateY(28px)}
+  .main-nav ul{gap:18px; flex-wrap:wrap; justify-content:flex-end}
 }
