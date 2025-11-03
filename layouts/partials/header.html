@@ -1,16 +1,17 @@
 <header class="site-header">
   <div class="container">
     <a href="{{ "/" | relURL }}" class="logo">
-      <img src="{{ "img/logo.png" | relURL }}" alt="General Arcade">
+      <img src='{{ "img/logo.png" | relURL }}' alt="General Arcade">
     </a>
     <nav class="nav">
       <ul>
-        <li><a href="{{ "/blog/" | relURL }}" class="{{ if eq .RelPermalink "/blog/" }}active{{ end }}">Blog</a></li>
-        <li><a href="{{ "/projects/" | relURL }}" class="{{ if eq .RelPermalink "/projects/" }}active{{ end }}">Projects</a></li>
-        <li><a href="{{ "/services/" | relURL }}" class="{{ if eq .RelPermalink "/services/" }}active{{ end }}">Services</a></li>
-        <li><a href="{{ "/switch2porting/" | relURL }}" class="{{ if eq .RelPermalink "/switch2porting/" }}active{{ end }}">Switch 2 Porting</a></li>
-        <li><a href="{{ "/about/" | relURL }}" class="{{ if eq .RelPermalink "/about/" }}active{{ end }}">About</a></li>
-        <li><a href="{{ "/contact/" | relURL }}" class="{{ if eq .RelPermalink "/contact/" }}active{{ end }}">Contact us</a></li>
+        {{ range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL | relURL }}" class="{{ if eq $.RelPermalink .URL }}active{{ end }}">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
       </ul>
     </nav>
   </div>

@@ -4,6 +4,33 @@ title = "General Arcade"
 publishDir = "public"
 enableRobotsTXT = true
 
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 3
+  [[menu.main]]
+    name = "Switch 2 Porting"
+    url = "/switch2porting/"
+    weight = 4
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
+  [[menu.main]]
+    name = "Contact us"
+    url = "/contact/"
+    weight = 6
+
+
 disableKinds = ["taxonomy", "term"]
 # Enable sitemap if needed by removing from disableKinds and uncommenting below:
 # [sitemap]
