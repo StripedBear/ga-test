@@ -1,3 +1,0 @@
-Contact: mailto:security@generalarcade.com
-Policy: https://generalarcade.com/security
-Preferred-Languages: en
