@@ -1,3 +1,8 @@
+{{ $imgSrc := (.Get "src") | default (.Get 0) }}
+{{ $imgPath := $imgSrc | strings.TrimPrefix "/" | strings.TrimPrefix "img/" }}
+{{ if not (hasPrefix $imgPath "img/") }}
+  {{ $imgPath = printf "img/%s" $imgPath }}
+{{ end }}
 <div class="{{ default "image" (.Get "class") }}">
-  <img src="{{ (.Get "src") | default (.Get 0) | relURL }}" alt="{{ default (path.Base ((.Get "src") | default (.Get 0)) | replaceRE "\\.[^.]+$" "" | replaceRE "[-_]" " " | humanize) (.Get "alt") }}">
+  <img src="{{ $imgPath | relURL }}" alt="{{ default (path.Base $imgSrc | replaceRE "\\.[^.]+$" "" | replaceRE "[-_]" " " | humanize) (.Get "alt") }}">
 </div>

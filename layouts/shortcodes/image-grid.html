@@ -15,8 +15,12 @@
           {{ $alt = path.Base $img | replaceRE "\\.[^.]+$" "" | replaceRE "[-_]" " " | humanize }}
         {{ end }}
         {{ if $img }}
+          {{ $imgPath := $img | strings.TrimPrefix "/" | strings.TrimPrefix "img/" }}
+          {{ if not (hasPrefix $imgPath "img/") }}
+            {{ $imgPath = printf "img/%s" $imgPath }}
+          {{ end }}
         <div class="{{ $itemClass }}">
-          <img src="{{ $img | relURL }}" alt="{{ trim $alt " " }}">
+          <img src="{{ $imgPath | relURL }}" alt="{{ trim $alt " " }}">
         </div>
         {{ end }}
       {{ end }}
