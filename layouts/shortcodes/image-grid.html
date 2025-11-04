@@ -1,0 +1,25 @@
+{{ $outerClass := default "image-grid" (.Get "class") }}
+{{ $gridClass := default "grid" (.Get "gridClass") }}
+{{ $itemClass := default "grid-item" (.Get "itemClass") }}
+
+<div class="{{ $outerClass }}">
+  <div class="{{ $gridClass }}">
+    {{ $images := split .Inner "\n" }}
+    {{ range $images }}
+      {{ $line := trim . " \t\r" }}
+      {{ if and $line (ne $line "") }}
+        {{ $parts := split $line "|" }}
+        {{ $img := trim (index $parts 0) " " }}
+        {{ $alt := default "" (index $parts 1) }}
+        {{ if eq $alt "" }}
+          {{ $alt = path.Base $img | replaceRE "\\.[^.]+$" "" | replaceRE "[-_]" " " | humanize }}
+        {{ end }}
+        {{ if $img }}
+        <div class="{{ $itemClass }}">
+          <img src="{{ $img | relURL }}" alt="{{ trim $alt " " }}">
+        </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

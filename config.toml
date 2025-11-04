@@ -39,4 +39,4 @@ disableKinds = ["taxonomy", "term"]
 #   priority = 0.5
 
 [markup.goldmark.renderer]
-unsafe = false
+unsafe = true
