@@ -2,7 +2,16 @@
 {{ define "main" }}
 <div class="container">
   <article class="content">
+    {{ if eq .Section "about" }}
+    <span class="page-label">{{ .Title }}</span>
+    {{ if .Params.subtitle }}
+    <h1 class="page-title">{{ .Params.subtitle }}</h1>
+    {{ else }}
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ end }}
+    {{ else }}
     <h1>{{ .Title }}</h1>
+    {{ end }}
     
     {{ .Content }}
     

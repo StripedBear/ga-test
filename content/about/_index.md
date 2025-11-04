@@ -1,8 +1,7 @@
 ---
 title: "About"
+subtitle: "Who we are"
 ---
-
-# Who we are
 
 General Arcade is a porting house and co-development studio based in Singapore and Malaysia. We've provided services for Larian, 505 Games, Square Enix, Capcom, SEGA, From Software, Devolver Digital, GOG, TinyBuild, The Indie Stone and others.
 
