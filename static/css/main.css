@@ -30,7 +30,8 @@ body {
   font-weight: 400;
   line-height: 1.56;
   color: var(--text-primary);
-  background: var(--bg-secondary);
+  background: #25283b;
+  background: linear-gradient(to bottom, #25283b 0%, #25283b 50%, #1b1d25 99%);
   overflow-x: hidden;
 }
 
@@ -51,6 +52,7 @@ a:hover {
   min-height: 140px;
   padding-top: 40px;
   padding-bottom: 24px;
+  background: #25283b;
 }
 
 .site-header::after {
@@ -60,7 +62,7 @@ a:hover {
   left: 0;
   right: 0;
   height: 140px;
-  background: linear-gradient(to right, rgba(61, 65, 103, 0) 0%, #3d4167 94%, #3d4167 100%);
+  background: linear-gradient(to right, rgba(61, 65, 103, 0) 0%, rgba(61, 65, 103, 0.6) 50%, #3d4167 94%, #3d4167 100%);
   z-index: 1;
   pointer-events: none;
 }
@@ -70,7 +72,7 @@ a:hover {
   z-index: 2;
   width: 100%;
   margin: 0;
-  padding: 0 clamp(32px, 6vw, 80px);
+  padding: 0 clamp(16px, 3vw, 40px);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -83,7 +85,7 @@ a:hover {
 }
 
 .logo img {
-  height: 178.8px;
+  height: 214.56px;
   width: auto;
   display: block;
   transform: translateY(59.5px);
@@ -140,7 +142,10 @@ main {
   z-index: 1;
   min-height: calc(100vh - 400px);
   padding: 60px 0 120px;
-  background: linear-gradient(to bottom, #25283b 50%, #1b1d25 99%, #1b1d25 100%);
+  background: #25283b;
+  background: linear-gradient(to bottom, #25283b 0%, #25283b 50%, #1b1d25 99%, #1b1d25 100%);
+  margin-top: 0;
+  border-top: none;
 }
 
 main::after {
@@ -391,7 +396,7 @@ time {
 .footer-inner {
   width: 100%;
   margin: 0;
-  padding: 0 clamp(32px, 6vw, 80px);
+  padding: 0;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -401,6 +406,8 @@ time {
 .footer-left {
   flex: 1;
   max-width: 50%;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .footer-left img {
@@ -408,6 +415,7 @@ time {
   max-width: 700px;
   height: auto;
   display: block;
+  margin-left: 0;
 }
 
 .footer-right {
@@ -417,6 +425,7 @@ time {
   flex-direction: column;
   align-items: flex-end;
   gap: 8px;
+  padding-right: clamp(16px, 3vw, 40px);
 }
 
 .footer-right p {
@@ -558,7 +567,7 @@ time {
   }
   
   .logo img {
-    height: 120px;
+    height: 144px;
     transform: translateY(34px);
   }
   
@@ -596,7 +605,7 @@ time {
   }
   
   .logo img {
-    height: 96px;
+    height: 115.2px;
     transform: translateY(0);
   }
   
