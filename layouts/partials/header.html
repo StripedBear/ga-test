@@ -1,9 +1,11 @@
 <header class="site-header">
-  <div class="header-bg"></div>
-
   <div class="header-inner">
     <a href="{{ "/" | relURL }}" class="logo">
+      {{ if fileExists "static/img/logo.svg" }}
+      <img src='{{ "img/logo.svg" | relURL }}' alt="General Arcade">
+      {{ else }}
       <img src='{{ "img/logo.png" | relURL }}' alt="General Arcade">
+      {{ end }}
     </a>
 
     <nav class="main-nav">

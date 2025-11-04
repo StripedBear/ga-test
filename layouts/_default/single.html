@@ -1,10 +1,16 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
-  <article class="post">
+<div class="container">
+  <article class="content">
     <h1>{{ .Title }}</h1>
-    {{ with .Date }}<time datetime="{{ . }}">{{ .Format "2006-01-02" }}</time>{{ end }}
+    {{ if eq .Section "blog" }}
+    {{ with .Date }}
+    <time datetime="{{ . }}" class="mb-2">{{ .Format "January 2, 2006" }}</time>
+    {{ end }}
+    {{ end }}
     <div class="post-body">
       {{ .Content }}
     </div>
   </article>
+</div>
 {{ end }}

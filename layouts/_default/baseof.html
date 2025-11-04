@@ -8,13 +8,15 @@
   <!-- Styles -->
   <link rel="stylesheet" href='{{ "css/main.css" | relURL }}'>
 
-  <!-- Security headers as meta (for GitHub Pages); prefer real headers via CDN if possible -->
+  <!-- Security headers as meta (for GitHub Pages) -->
   <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
+        content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self' data:; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
   <meta http-equiv="Referrer-Policy" content="no-referrer">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <meta http-equiv="X-Frame-Options" content="DENY">
   <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=()">
+  
+  <meta name="description" content="General Arcade is a porting house and co-development studio based in Singapore and Malaysia.">
 
 </head>
 <body>

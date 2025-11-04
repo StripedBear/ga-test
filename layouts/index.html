@@ -1,6 +1,13 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
-  <!-- TODO: вставить разметку главной страницы из текущего сайта -->
-  <section class="hero"><!-- hero --></section>
-  <section class="content"><!-- content --></section>
+<div class="container">
+  <section class="hero text-center mb-5">
+    <h1 class="mb-4">{{ .Title }}</h1>
+    <p class="lead">{{ .Params.description }}</p>
+  </section>
+
+  <section class="content">
+    {{ .Content }}
+  </section>
+</div>
 {{ end }}
