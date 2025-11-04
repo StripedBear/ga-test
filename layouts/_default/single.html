@@ -12,42 +12,30 @@
       {{ .Content }}
     </div>
     
-    {{ if eq .Section "about" }}
+    {{ if or (eq .Section "about") (eq .Title "About") (hasPrefix .RelPermalink "/about") }}
     <div class="about-stats">
       <div class="stats-grid">
-        {{ if fileExists "static/img/about/founded-2013.png" }}
         <div class="stat-item">
           <img src='{{ "img/about/founded-2013.png" | relURL }}' alt="Founded in 2013">
         </div>
-        {{ end }}
-        {{ if fileExists "static/img/about/shipped-100s.png" }}
         <div class="stat-item">
           <img src='{{ "img/about/shipped-100s.png" | relURL }}' alt="Shipped 100s of releases">
         </div>
-        {{ end }}
-        {{ if fileExists "static/img/about/3-offices.png" }}
         <div class="stat-item">
           <img src='{{ "img/about/3-offices.png" | relURL }}' alt="3 offices">
         </div>
-        {{ end }}
-        {{ if fileExists "static/img/about/clients-15-countries.png" }}
         <div class="stat-item">
           <img src='{{ "img/about/clients-15-countries.png" | relURL }}' alt="Clients from 15 countries">
         </div>
-        {{ end }}
-        {{ if fileExists "static/img/about/40-people.png" }}
         <div class="stat-item">
           <img src='{{ "img/about/40-people.png" | relURL }}' alt="40+ people">
         </div>
-        {{ end }}
       </div>
     </div>
     
-    {{ if fileExists "static/img/about/team-photo.jpg" }}
     <div class="team-photo">
       <img src='{{ "img/about/team-photo.jpg" | relURL }}' alt="General Arcade Team">
     </div>
-    {{ end }}
     {{ end }}
   </article>
 </div>

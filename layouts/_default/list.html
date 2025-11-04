@@ -1,33 +1,61 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
 <div class="container">
-  <h1>{{ .Title }}</h1>
-  
-  {{ .Content }}
-  
-  {{ if eq .Section "blog" }}
-  <ul class="post-list">
-    {{ range .Pages }}
-    <li class="post-item">
-      <a href="{{ .RelPermalink }}">
-        <h3>{{ .Title }}</h3>
-        {{ with .Date }}<time datetime="{{ . }}">{{ .Format "January 2, 2006" }}</time>{{ end }}
-        {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
-      </a>
-    </li>
+  <article class="content">
+    <h1>{{ .Title }}</h1>
+    
+    {{ .Content }}
+    
+    {{ if or (eq .Section "about") (eq .Title "About") (hasPrefix .RelPermalink "/about") }}
+    <div class="about-stats">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <img src='{{ "img/about/founded-2013.png" | relURL }}' alt="Founded in 2013">
+        </div>
+        <div class="stat-item">
+          <img src='{{ "img/about/shipped-100s.png" | relURL }}' alt="Shipped 100s of releases">
+        </div>
+        <div class="stat-item">
+          <img src='{{ "img/about/3-offices.png" | relURL }}' alt="3 offices">
+        </div>
+        <div class="stat-item">
+          <img src='{{ "img/about/clients-15-countries.png" | relURL }}' alt="Clients from 15 countries">
+        </div>
+        <div class="stat-item">
+          <img src='{{ "img/about/40-people.png" | relURL }}' alt="40+ people">
+        </div>
+      </div>
+    </div>
+    
+    <div class="team-photo">
+      <img src='{{ "img/about/team-photo.jpg" | relURL }}' alt="General Arcade Team">
+    </div>
     {{ end }}
-  </ul>
-  {{ else if eq .Section "projects" }}
-  <ul class="project-list">
-    {{ range .Pages }}
-    <li class="project-item">
-      <a href="{{ .RelPermalink }}">
-        <h3>{{ .Title }}</h3>
-        {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
-      </a>
-    </li>
+    
+    {{ if eq .Section "blog" }}
+    <ul class="post-list">
+      {{ range .Pages }}
+      <li class="post-item">
+        <a href="{{ .RelPermalink }}">
+          <h3>{{ .Title }}</h3>
+          {{ with .Date }}<time datetime="{{ . }}">{{ .Format "January 2, 2006" }}</time>{{ end }}
+          {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ else if eq .Section "projects" }}
+    <ul class="project-list">
+      {{ range .Pages }}
+      <li class="project-item">
+        <a href="{{ .RelPermalink }}">
+          <h3>{{ .Title }}</h3>
+          {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
     {{ end }}
-  </ul>
-  {{ end }}
+  </article>
 </div>
 {{ end }}
