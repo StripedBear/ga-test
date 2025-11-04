@@ -84,10 +84,10 @@ a:hover {
 }
 
 .logo img {
-  height: 149px;
+  height: 178.8px;
   width: auto;
   display: block;
-  transform: translateY(70px);
+  transform: translateY(59.5px);
   transition: transform 0.3s ease;
 }
 
@@ -248,6 +248,60 @@ time {
 
 .content em {
   font-style: italic;
+}
+
+/* ===== About Page Stats ===== */
+.about-stats {
+  margin: 80px 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  margin: 60px 0;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+}
+
+.team-photo {
+  margin: 100px 0 60px;
+  width: 100%;
+}
+
+.team-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .stat-item img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }
 
 /* ===== Footer ===== */
@@ -428,8 +482,8 @@ time {
   }
   
   .logo img {
-    height: 100px;
-    transform: translateY(40px);
+    height: 120px;
+    transform: translateY(34px);
   }
   
   .main-nav ul {
@@ -466,7 +520,7 @@ time {
   }
   
   .logo img {
-    height: 80px;
+    height: 96px;
     transform: translateY(0);
   }
   

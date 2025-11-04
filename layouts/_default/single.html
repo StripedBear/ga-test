@@ -11,6 +11,32 @@
     <div class="post-body">
       {{ .Content }}
     </div>
+    
+    {{ if eq .Section "about" }}
+    <div class="about-stats">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <img src='{{ "img/about/founded-2013.png" | relURL }}' alt="Founded in 2013">
+        </div>
+        <div class="stat-item">
+          <img src='{{ "img/about/shipped-100s.png" | relURL }}' alt="Shipped 100s of releases">
+        </div>
+        <div class="stat-item">
+          <img src='{{ "img/about/3-offices.png" | relURL }}' alt="3 offices">
+        </div>
+        <div class="stat-item">
+          <img src='{{ "img/about/clients-15-countries.png" | relURL }}' alt="Clients from 15 countries">
+        </div>
+        <div class="stat-item">
+          <img src='{{ "img/about/40-people.png" | relURL }}' alt="40+ people">
+        </div>
+      </div>
+    </div>
+    
+    <div class="team-photo">
+      <img src='{{ "img/about/team-photo.jpg" | relURL }}' alt="General Arcade Team">
+    </div>
+    {{ end }}
   </article>
 </div>
 {{ end }}

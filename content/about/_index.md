@@ -2,20 +2,8 @@
 title: "About"
 ---
 
-# About General Arcade
+# Who we are
 
-General Arcade is a porting house and co-development studio based in Singapore and Malaysia. Since our founding in 2013, we have grown into a team of 50 specialists dedicated to video games engineering.
+General Arcade is a porting house and co-development studio based in Singapore and Malaysia. We've provided services for Larian, 505 Games, Square Enix, Capcom, SEGA, From Software, Devolver Digital, GOG, TinyBuild, The Indie Stone and others.
 
-## Our Expertise
-
-We specialize in game porting, co-development, and technical services for the video game industry. Our team has worked with leading publishers and developers including Larian Studios, SEGA, Capcom, From Software, Devolver Digital, GOG, TinyBuild, and The Indie Stone.
-
-## Our Mission
-
-To provide exceptional technical services that help game developers bring their vision to players across all platforms.
-
-## Location
-
-We are based in Singapore and Malaysia, serving clients worldwide.
-
-
+General Arcade was involved in the development of the following titles and IPs: Metal Wolf Chaos XD, Duke Nukem 3D, Dragon's Dogma, Shadow Warrior, Cat Quest 2, VA-11 HALL-A, Tooth and Tail, Tacoma, Hotline Miami 2, Gone Home, Luftrausers, etc.
