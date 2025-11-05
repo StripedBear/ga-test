@@ -1,27 +1,46 @@
 ---
 title: "Switch 2 Porting"
+subtitle: "Bring your games to the fastest-selling console in history"
 ---
 
-# Switch 2 Porting
+## Nintendo Switch 2 Porting & Co-Development
 
-General Arcade specializes in porting games to Nintendo Switch and the upcoming Switch 2 platform.
+The Nintendo Switch 2 has taken the industry by storm — breaking sales records and setting a new standard for hybrid gaming. By **August 1, 2025, more than 6 million units have been sold worldwide** (_according to Nintendo's latest financial results_).
 
-## Our Expertise
+Yet, while the original Switch eShop features thousands of titles, the **Nintendo Switch 2 eShop currently lists only 46 games (US store)**. This represents a massive opportunity for developers and publishers to bring their games to a huge, rapidly growing audience — and we can help you do it. 
 
-With extensive experience in console porting, we understand the unique challenges and opportunities that come with developing for Nintendo platforms. Our team has successfully ported numerous titles to Switch, ensuring optimal performance and platform-specific feature implementation.
+General Arcade offers Switch 2 porting and co-development services
 
-## Why Choose Us
+## Why the Nintendo Switch 2 is a Game-Changer
 
-- **Deep platform knowledge**: Extensive experience with Switch architecture and optimization
-- **Performance expertise**: Proven track record of optimizing games for Switch hardware
-- **Platform features**: Full implementation of Switch-specific features and APIs
-- **Quality assurance**: Comprehensive testing to ensure your game meets Nintendo's standards
+Compared to the original Nintendo Switch, the Switch 2 delivers major improvements in performance, graphics, and capabilities:
+
+* **Faster CPU & GPU** — enabling richer worlds, higher frame rates, and advanced effects.
+* **Increased RAM & Storage** — larger and more complex games run smoothly.
+* **Enhanced Joy-Con Features** — new control options for unique gameplay experiences.
+* **4K Docked Support** — console-level fidelity on the big screen.
+
+## Four Ways to Maximize Switch 2 Potential
+
+There are multiple paths to bring your existing or new titles to Switch 2. We can guide you through all of them:
+
+* **Backward Compatibility**  
+Most Nintendo Switch 1 titles run out of the box on Switch 2. Many even see small performance gains depending on architecture — no patches required.
+* **Conditional Implementation**  
+Switch 1 games can detect when they are running on Switch 2, even without the Switch 2 SDK. Developers can unlock frame rates or enable enhanced visuals for immediate improvements with minimal effort.
+* **Upgrade Pack**  
+Release a digital add-on to boost your Switch 1 title with Switch 2-exclusive enhancements. This can be free or paid, giving you flexibility in how you deliver value to players.
+* **Switch 2 Edition**  
+Build a fully enhanced version of your existing game for Switch 2. This definitive edition leverages the full hardware power for the most complete upgrade possible.
+
+## Why Work With Us
+
+We are a proven porting and co-development studio with direct **access to Nintendo Switch 2 development** — one of the few teams worldwide already working with the new hardware.
+
+Our track record spans collaborations with **AAA publishers and leading indies** across dozens of titles. Whether you need a straight port, optimization, or a co-development partner, our engineering-driven approach ensures your game will feel at home on Switch 2.
 
 ## Get Started
 
-Contact us to discuss your Switch or Switch 2 porting project.
+Don't miss the early-mover advantage on Nintendo Switch 2.
 
-
-
-
-
+**Contact us today for a quote**: [contact@generalarcade.com](mailto:contact@generalarcade.com)

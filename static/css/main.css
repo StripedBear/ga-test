@@ -280,6 +280,27 @@ body:has(.about-header) .container .content {
   margin: 0 auto;
 }
 
+/* ===== Switch 2 Porting Page ===== */
+body:has(.switch2porting-header) .container {
+  margin: 0 clamp(40px, 10vw, 310px) 80px;
+  padding: 40px 40px 0;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1920px) {
+  body:has(.switch2porting-header) .container {
+    margin-left: 310px;
+    margin-right: 310px;
+  }
+}
+
+body:has(.switch2porting-header) .container .content {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 .about-header {
   margin-bottom: 40px;
 }

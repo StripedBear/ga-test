@@ -2,8 +2,8 @@
 {{ define "main" }}
 <div class="container">
   <article class="content">
-    {{ if eq .Section "about" }}
-    <div class="about-header">
+    {{ if or (eq .Section "about") (eq .Section "switch2porting") }}
+    <div class="about-header{{ if eq .Section "switch2porting" }} switch2porting-header{{ end }}">
       <span class="page-label">{{ .Title }}</span>
       {{ if .Params.subtitle }}
       <h1 class="page-title">{{ .Params.subtitle }}</h1>
