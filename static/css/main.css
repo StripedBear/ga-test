@@ -286,7 +286,7 @@ body:has(.about-header) .container {
 }
 
 body:has(.about-header) .container .content {
-  max-width: 820px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
