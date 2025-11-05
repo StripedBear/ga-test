@@ -415,8 +415,8 @@ time {
 }
 
 .footer-left img {
-  width: 100%;
   max-width: 525px;
+  width: auto;
   height: auto;
   display: block;
   margin-left: 0;
