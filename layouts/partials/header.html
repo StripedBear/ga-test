@@ -12,7 +12,11 @@
       <ul>
         {{ range .Site.Menus.main }}
         <li>
+          {{ if hasPrefix .URL "#" }}
+          <a href="{{ .URL }}" class="{{ if eq $.RelPermalink .URL }}active{{ end }}">{{ .Name }}</a>
+          {{ else }}
           <a href="{{ .URL | relURL }}" class="{{ if eq $.RelPermalink .URL }}active{{ end }}">{{ .Name }}</a>
+          {{ end }}
         </li>
         {{ end }}
       </ul>
