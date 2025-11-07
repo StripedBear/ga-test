@@ -31,7 +31,7 @@ enableRobotsTXT = true
     weight = 6
 
 
-disableKinds = ["taxonomy", "term"]
+disableKinds = []
 # Enable sitemap if needed by removing from disableKinds and uncommenting below:
 # [sitemap]
 #   changefreq = "weekly"

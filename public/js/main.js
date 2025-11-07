@@ -79,4 +79,60 @@
       });
     }
   });
+
+  // Blog category filter
+  var categoryFilter = q('#blog-category-filter');
+  if (categoryFilter) {
+    categoryFilter.addEventListener('change', function() {
+      var selectedCategory = this.value;
+      var posts = qa('.blog-post-card');
+      posts.forEach(function(post) {
+        var postCategories = post.getAttribute('data-categories') || '';
+        if (!selectedCategory || postCategories.indexOf(selectedCategory) !== -1) {
+          post.classList.remove('hidden');
+        } else {
+          post.classList.add('hidden');
+        }
+      });
+    });
+  }
+
+  // Blog load more
+  var loadMoreBtn = q('#blog-load-more-btn');
+  if (loadMoreBtn) {
+    var hiddenPosts = qa('.blog-post-card.hidden');
+    var postsPerPage = 9;
+    var visibleCount = 0;
+    
+    function showMorePosts() {
+      var toShow = Math.min(postsPerPage, hiddenPosts.length - visibleCount);
+      for (var i = visibleCount; i < visibleCount + toShow; i++) {
+        if (hiddenPosts[i]) {
+          hiddenPosts[i].classList.remove('hidden');
+        }
+      }
+      visibleCount += toShow;
+      
+      if (visibleCount >= hiddenPosts.length) {
+        loadMoreBtn.style.display = 'none';
+      }
+    }
+    
+    // Initially hide posts beyond first page
+    var allPosts = qa('.blog-post-card');
+    allPosts.forEach(function(post, index) {
+      if (index >= postsPerPage) {
+        post.classList.add('hidden');
+        if (hiddenPosts.indexOf(post) === -1) {
+          hiddenPosts.push(post);
+        }
+      }
+    });
+    
+    if (hiddenPosts.length > 0) {
+      loadMoreBtn.addEventListener('click', showMorePosts);
+    } else {
+      loadMoreBtn.style.display = 'none';
+    }
+  }
 })();

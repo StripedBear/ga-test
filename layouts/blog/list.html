@@ -1,0 +1,81 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "main" }}
+<div class="container">
+  <article class="content">
+    <h1>{{ .Title }}</h1>
+    
+    {{/* Categories dropdown */}}
+    <div class="blog-categories">
+      <select class="blog-categories-select" id="blog-category-filter">
+        <option value="">All categories</option>
+        {{ range .Site.Taxonomies.categories }}
+        <option value="{{ .Page.Title | urlize }}">{{ .Page.Title }}</option>
+        {{ end }}
+      </select>
+    </div>
+    
+    {{/* Blog posts grid */}}
+    <div class="blog-grid" id="blog-grid">
+      {{ range .Pages }}
+      <article class="blog-post-card" data-categories="{{ range .Params.categories }}{{ . | urlize }} {{ end }}">
+        <a href="{{ .RelPermalink }}" class="blog-post-link">
+          {{/* Featured image */}}
+          {{ $featuredImage := false }}
+          {{ if .Params.featured_image }}
+            {{ $featuredImage = .Resources.Get .Params.featured_image }}
+            {{ if not $featuredImage }}
+              {{ $featuredImage = .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+            {{ end }}
+          {{ else }}
+            {{ $featuredImage = .Resources.GetMatch "featured.*" }}
+            {{ if not $featuredImage }}
+              {{ $featuredImage = .Resources.GetMatch "thumbnail.*" }}
+            {{ end }}
+          {{ end }}
+          
+          {{ if $featuredImage }}
+          <div class="blog-post-card__image" style="background-image: url('{{ $featuredImage.RelPermalink }}');"></div>
+          {{ else }}
+          <div class="blog-post-card__image blog-post-card__image--placeholder"></div>
+          {{ end }}
+          
+          <div class="blog-post-card__content">
+            {{/* Date */}}
+            {{ with .Date }}
+            <time datetime="{{ . }}" class="blog-post-card__date">{{ .Format "02 January 2006" }}</time>
+            {{ end }}
+            
+            {{/* Categories */}}
+            {{ if .Params.categories }}
+            <div class="blog-post-card__categories">
+              {{ $categories := .Params.categories }}
+              {{ range $index, $category := $categories }}{{ $category }}{{ if lt $index (sub (len $categories) 1) }}, {{ end }}{{ end }}
+            </div>
+            {{ end }}
+            
+            {{/* Title */}}
+            <h3 class="blog-post-card__title">{{ .Title }}</h3>
+            
+            {{/* Excerpt */}}
+            {{ if .Summary }}
+            <div class="blog-post-card__excerpt">{{ .Summary | truncate 150 }}</div>
+            {{ end }}
+            
+            {{/* Read more */}}
+            <span class="blog-post-card__readmore">Read more</span>
+          </div>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+    
+    {{/* Load more button - показываем только если есть больше постов */}}
+    {{ if gt (len .Pages) 9 }}
+    <div class="blog-load-more">
+      <button class="blog-load-more-btn" id="blog-load-more-btn">Load more</button>
+    </div>
+    {{ end }}
+  </article>
+</div>
+{{ end }}
+
