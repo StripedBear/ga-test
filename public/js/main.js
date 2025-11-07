@@ -81,19 +81,59 @@
   });
 
   // Blog category filter
-  var categoryFilter = q('#blog-category-filter');
-  if (categoryFilter) {
-    categoryFilter.addEventListener('change', function() {
-      var selectedCategory = this.value;
-      var posts = qa('.blog-post-card');
-      posts.forEach(function(post) {
-        var postCategories = post.getAttribute('data-categories') || '';
-        if (!selectedCategory || postCategories.indexOf(selectedCategory) !== -1) {
-          post.classList.remove('hidden');
-        } else {
-          post.classList.add('hidden');
-        }
-      });
+  var categoryDropdown = q('#blog-category-dropdown');
+  var categoryToggle = q('#blog-category-toggle');
+  var categoryMenu = q('#blog-categories-menu');
+  var categorySelected = q('.blog-categories-selected');
+  
+  if (categoryDropdown && categoryToggle && categoryMenu) {
+    // Toggle dropdown
+    categoryToggle.addEventListener('click', function(e) {
+      e.stopPropagation();
+      categoryDropdown.classList.toggle('open');
+    });
+    
+    // Close dropdown when clicking outside
+    d.addEventListener('click', function(e) {
+      if (!categoryDropdown.contains(e.target)) {
+        categoryDropdown.classList.remove('open');
+      }
+    });
+    
+    // Handle category selection
+    var categoryItems = qa('.blog-categories-item');
+    categoryItems.forEach(function(item) {
+      var link = item.querySelector('.blog-categories-link');
+      if (link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          var value = item.getAttribute('data-value');
+          var text = link.textContent.trim();
+          
+          // Update selected text
+          categorySelected.textContent = text;
+          
+          // Update active state
+          categoryItems.forEach(function(i) {
+            i.classList.remove('active');
+          });
+          item.classList.add('active');
+          
+          // Filter posts
+          var posts = qa('.blog-post-card');
+          posts.forEach(function(post) {
+            var postCategories = post.getAttribute('data-categories') || '';
+            if (!value || postCategories.indexOf(value) !== -1) {
+              post.classList.remove('hidden');
+            } else {
+              post.classList.add('hidden');
+            }
+          });
+          
+          // Close dropdown
+          categoryDropdown.classList.remove('open');
+        });
+      }
     });
   }
 

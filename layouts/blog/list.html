@@ -6,12 +6,22 @@
     
     {{/* Categories dropdown */}}
     <div class="blog-categories">
-      <select class="blog-categories-select" id="blog-category-filter">
-        <option value="">All categories</option>
-        {{ range .Site.Taxonomies.categories }}
-        <option value="{{ .Page.Title | urlize }}">{{ .Page.Title }}</option>
-        {{ end }}
-      </select>
+      <div class="blog-categories-dropdown" id="blog-category-dropdown">
+        <button class="blog-categories-toggle" id="blog-category-toggle" type="button">
+          <span class="blog-categories-selected">All categories</span>
+          <span class="blog-categories-arrow">▼</span>
+        </button>
+        <ul class="blog-categories-menu" id="blog-categories-menu">
+          <li class="blog-categories-item active" data-value="">
+            <a href="#" class="blog-categories-link">All categories</a>
+          </li>
+          {{ range .Site.Taxonomies.categories }}
+          <li class="blog-categories-item" data-value="{{ .Page.Title | urlize }}">
+            <a href="#" class="blog-categories-link">{{ .Page.Title }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
     </div>
     
     {{/* Blog posts grid */}}
