@@ -751,7 +751,7 @@ body:has(.switch2porting-header) .container .content {
 /* ===== Services Grid ===== */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px 20px;
   margin: 60px 0;
   max-width: 1200px;
@@ -759,39 +759,28 @@ body:has(.switch2porting-header) .container .content {
   margin-right: auto;
 }
 
-@media (min-width: 768px) {
-  .services-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px 40px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .services-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
+/* Последний элемент по центру, если не кратно 3 */
+.services-grid .service-item:last-child:nth-child(3n+1) {
+  grid-column: 2;
 }
 
 .service-item {
   text-align: center;
-  max-width: 280px;
   margin: 0 auto;
 }
 
 .service-item__icon {
-  height: 140px;
-  position: relative;
-  margin-bottom: 22px;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 22px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .service-item__icon img {
-  max-height: 100%;
-  max-width: 140px;
-  width: auto;
-  height: auto;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
 }
 
