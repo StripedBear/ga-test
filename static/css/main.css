@@ -301,6 +301,20 @@ body:has(.switch2porting-header) .container .content {
   margin: 0 auto;
 }
 
+.switch2porting-hero {
+  width: 100%;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.switch2porting-hero img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .about-header {
   margin-bottom: 40px;
 }

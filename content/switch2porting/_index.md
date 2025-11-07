@@ -3,6 +3,8 @@ title: "Switch 2 Porting"
 subtitle: "Bring your games to the fastest-selling console in history"
 ---
 
+{{< image src="img/switch2porting/hero-image.jpg" alt="Nintendo Switch 2" class="switch2porting-hero" >}}
+
 ## Nintendo Switch 2 Porting & Co-Development
 
 The Nintendo Switch 2 has taken the industry by storm — breaking sales records and setting a new standard for hybrid gaming. By **August 1, 2025, more than 6 million units have been sold worldwide** (_according to Nintendo's latest financial results_).
