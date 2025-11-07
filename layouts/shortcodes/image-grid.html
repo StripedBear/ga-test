@@ -15,12 +15,30 @@
           {{ $alt = path.Base $img | replaceRE "\\.[^.]+$" "" | replaceRE "[-_]" " " | humanize }}
         {{ end }}
         {{ if $img }}
-          {{ $imgPath := $img | strings.TrimPrefix "/" | strings.TrimPrefix "img/" }}
-          {{ if not (hasPrefix $imgPath "img/") }}
-            {{ $imgPath = printf "img/%s" $imgPath }}
+          {{ $imgResource := false }}
+          {{ $imgURL := "" }}
+          
+          {{/* Пытаемся найти ресурс в Page Bundle */}}
+          {{ if $.Page.Resources }}
+            {{ $imgResource = $.Page.Resources.Get $img }}
+            {{ if not $imgResource }}
+              {{ $imgResource = $.Page.Resources.GetMatch (printf "*%s*" $img) }}
+            {{ end }}
+          {{ end }}
+          
+          {{ if $imgResource }}
+            {{/* Используем ресурс из Page Bundle */}}
+            {{ $imgURL = $imgResource.RelPermalink }}
+          {{ else }}
+            {{/* Fallback: абсолютный путь для общих ресурсов */}}
+            {{ $imgPath := $img | strings.TrimPrefix "/" }}
+            {{ if not (hasPrefix $imgPath "img/") }}
+              {{ $imgPath = printf "img/%s" $imgPath }}
+            {{ end }}
+            {{ $imgURL = $imgPath | relURL }}
           {{ end }}
         <div class="{{ $itemClass }}">
-          <img src="{{ $imgPath | relURL }}" alt="{{ trim $alt " " }}">
+          <img src="{{ $imgURL }}" alt="{{ trim $alt " " }}">
         </div>
         {{ end }}
       {{ end }}

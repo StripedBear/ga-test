@@ -3,7 +3,7 @@ title: "Switch 2 Porting"
 subtitle: "Bring your games to the fastest-selling console in history"
 ---
 
-{{< image src="img/switch2porting/hero-image.jpg" alt="Nintendo Switch 2" class="switch2porting-hero" >}}
+{{< image src="hero-image.jpg" alt="Nintendo Switch 2" class="switch2porting-hero" >}}
 
 ## Nintendo Switch 2 Porting & Co-Development
 

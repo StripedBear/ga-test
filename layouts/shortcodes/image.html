@@ -1,8 +1,27 @@
 {{ $imgSrc := (.Get "src") | default (.Get 0) }}
-{{ $imgPath := $imgSrc | strings.TrimPrefix "/" | strings.TrimPrefix "img/" }}
-{{ if not (hasPrefix $imgPath "img/") }}
-  {{ $imgPath = printf "img/%s" $imgPath }}
+{{ $imgResource := false }}
+{{ $imgURL := "" }}
+
+{{/* Пытаемся найти ресурс в Page Bundle */}}
+{{ if .Page.Resources }}
+  {{ $imgResource = .Page.Resources.Get $imgSrc }}
+  {{ if not $imgResource }}
+    {{ $imgResource = .Page.Resources.GetMatch (printf "*%s*" $imgSrc) }}
+  {{ end }}
 {{ end }}
+
+{{ if $imgResource }}
+  {{/* Используем ресурс из Page Bundle */}}
+  {{ $imgURL = $imgResource.RelPermalink }}
+{{ else }}
+  {{/* Fallback: абсолютный путь для общих ресурсов (logo, footer и т.д.) */}}
+  {{ $imgPath := $imgSrc | strings.TrimPrefix "/" }}
+  {{ if not (hasPrefix $imgPath "img/") }}
+    {{ $imgPath = printf "img/%s" $imgPath }}
+  {{ end }}
+  {{ $imgURL = $imgPath | relURL }}
+{{ end }}
+
 <div class="{{ default "image" (.Get "class") }}">
-  <img src="{{ $imgPath | relURL }}" alt="{{ default (path.Base $imgSrc | replaceRE "\\.[^.]+$" "" | replaceRE "[-_]" " " | humanize) (.Get "alt") }}">
+  <img src="{{ $imgURL }}" alt="{{ default (path.Base $imgSrc | replaceRE "\\.[^.]+$" "" | replaceRE "[-_]" " " | humanize) (.Get "alt") }}">
 </div>

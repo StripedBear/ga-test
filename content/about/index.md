@@ -8,11 +8,11 @@ General Arcade is a porting house and co-development studio based in Singapore a
 General Arcade was involved in the development of the following titles and IPs: Metal Wolf Chaos XD, Duke Nukem 3D, Dragon's Dogma, Shadow Warrior, Cat Quest 2, VA-11 HALL-A, Tooth and Tail, Tacoma, Hotline Miami 2, Gone Home, Luftrausers, etc.
 
 {{< image-grid class="about-stats" gridClass="stats-grid" itemClass="stat-item" >}}
-img/about/founded-2013.png
-img/about/shipped-100s.png
-img/about/3-offices.png
-img/about/clients-15-countries.png
-img/about/40-people.png
+founded-2013.png
+shipped-100s.png
+3-offices.png
+clients-15-countries.png
+40-people.png
 {{< /image-grid >}}
 
-{{< image src="img/about/team-photo.jpg" alt="General Arcade Team" class="team-photo" >}}
+{{< image src="team-photo.jpg" alt="General Arcade Team" class="team-photo" >}}
