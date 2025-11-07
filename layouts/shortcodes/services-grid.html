@@ -1,0 +1,23 @@
+{{ $gridClass := default "services-grid" (.Get "gridClass") }}
+{{ $itemClass := default "service-item" (.Get "itemClass") }}
+
+<div class="{{ $gridClass }}">
+  {{ $services := split .Inner "\n" }}
+  {{ range $services }}
+    {{ $line := trim . " \t\r" }}
+    {{ if and $line (ne $line "") }}
+      {{ $parts := split $line "|" }}
+      {{ $icon := trim (index $parts 0) " " }}
+      {{ $title := trim (index $parts 1) " " }}
+      {{ if and $icon $title }}
+        <div class="{{ $itemClass }}">
+          <div class="service-item__icon">
+            <img src="{{ printf "img/services/%s" $icon | relURL }}" alt="{{ $title }}">
+          </div>
+          <h3>{{ $title }}</h3>
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+
