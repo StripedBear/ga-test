@@ -40,18 +40,18 @@
           {{ end }}
           
           <div class="blog-post-card__content">
-            {{/* Date */}}
-            {{ with .Date }}
-            <time datetime="{{ . }}" class="blog-post-card__date">{{ .Format "02 January 2006" }}</time>
-            {{ end }}
-            
-            {{/* Categories */}}
-            {{ if .Params.categories }}
-            <div class="blog-post-card__categories">
-              {{ $categories := .Params.categories }}
-              {{ range $index, $category := $categories }}{{ $category }}{{ if lt $index (sub (len $categories) 1) }}, {{ end }}{{ end }}
+            {{/* Date and Categories */}}
+            <div class="blog-post-card__meta">
+              {{ with .Date }}
+              <time datetime="{{ . }}" class="blog-post-card__date">{{ .Format "2 January 2006" }}</time>
+              {{ end }}
+              {{ if .Params.categories }}
+              <span class="blog-post-card__categories">
+                {{ $categories := .Params.categories }}
+                {{ range $index, $category := $categories }}{{ $category }}{{ if lt $index (sub (len $categories) 1) }}, {{ end }}{{ end }}
+              </span>
+              {{ end }}
             </div>
-            {{ end }}
             
             {{/* Title */}}
             <h3 class="blog-post-card__title">{{ .Title }}</h3>
