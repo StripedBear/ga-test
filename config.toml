@@ -27,7 +27,7 @@ enableRobotsTXT = true
     weight = 5
   [[menu.main]]
     name = "Contact us"
-    url = "/contact/"
+    url = "#footer"
     weight = 6
 
 
