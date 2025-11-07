@@ -9,15 +9,19 @@
       a.addEventListener("click",function(e){
         var href=a.getAttribute("href");
         if(href && href.length>1 && href!="#"){
-          var t=q(href);
+          e.preventDefault();
+          var targetId=href.substring(1);
+          var t=q("#"+targetId);
           if(t){
-            e.preventDefault();
             var headerHeight=q('.site-header')?q('.site-header').offsetHeight:0;
             var top=t.getBoundingClientRect().top+w.pageYOffset-headerHeight;
             if("scrollBehavior" in d.documentElement.style){
               w.scrollTo({top:Math.max(0,top),behavior:"smooth"});
             }else{
               w.scrollTo(0,Math.max(0,top));
+            }
+            if(w.history && w.history.pushState){
+              w.history.pushState(null,null,href);
             }
           }
         }
