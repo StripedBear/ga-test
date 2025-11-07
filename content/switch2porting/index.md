@@ -3,7 +3,6 @@ title: "Switch 2 Porting"
 subtitle: "Bring your games to the fastest-selling console in history"
 ---
 
-{{< image src="hero-image.jpg" alt="Nintendo Switch 2" class="switch2porting-hero" >}}
 
 ## Nintendo Switch 2 Porting & Co-Development
 
@@ -12,6 +11,8 @@ The Nintendo Switch 2 has taken the industry by storm — breaking sales records
 Yet, while the original Switch eShop features thousands of titles, the **Nintendo Switch 2 eShop currently lists only 46 games (US store)**. This represents a massive opportunity for developers and publishers to bring their games to a huge, rapidly growing audience — and we can help you do it. 
 
 General Arcade offers Switch 2 porting and co-development services
+
+{{< image src="hero-image.jpg" alt="Nintendo Switch 2" class="switch2porting-hero" >}}
 
 ## Why the Nintendo Switch 2 is a Game-Changer
 
