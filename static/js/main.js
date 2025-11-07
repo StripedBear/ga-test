@@ -140,38 +140,43 @@
   // Blog load more
   var loadMoreBtn = q('#blog-load-more-btn');
   if (loadMoreBtn) {
-    var hiddenPosts = qa('.blog-post-card.hidden');
-    var postsPerPage = 9;
-    var visibleCount = 0;
+    var allPosts = qa('.blog-post-card');
+    var postsPerPage = 6;
+    var visibleCount = postsPerPage;
     
+    // Initially hide posts beyond first page
+    allPosts.forEach(function(post, index) {
+      if (index >= postsPerPage) {
+        post.classList.add('hidden');
+      }
+    });
+    
+    // Show more posts function
     function showMorePosts() {
-      var toShow = Math.min(postsPerPage, hiddenPosts.length - visibleCount);
+      var toShow = Math.min(postsPerPage, allPosts.length - visibleCount);
+      
       for (var i = visibleCount; i < visibleCount + toShow; i++) {
-        if (hiddenPosts[i]) {
-          hiddenPosts[i].classList.remove('hidden');
+        if (allPosts[i]) {
+          allPosts[i].classList.remove('hidden');
         }
       }
+      
       visibleCount += toShow;
       
-      if (visibleCount >= hiddenPosts.length) {
+      // Hide button if all posts are visible
+      if (visibleCount >= allPosts.length) {
         loadMoreBtn.style.display = 'none';
       }
     }
     
-    // Initially hide posts beyond first page
-    var allPosts = qa('.blog-post-card');
-    allPosts.forEach(function(post, index) {
-      if (index >= postsPerPage) {
-        post.classList.add('hidden');
-        if (hiddenPosts.indexOf(post) === -1) {
-          hiddenPosts.push(post);
-        }
-      }
+    // Attach click handler
+    loadMoreBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      showMorePosts();
     });
     
-    if (hiddenPosts.length > 0) {
-      loadMoreBtn.addEventListener('click', showMorePosts);
-    } else {
+    // Hide button if all posts are already visible
+    if (allPosts.length <= postsPerPage) {
       loadMoreBtn.style.display = 'none';
     }
   }

@@ -80,9 +80,9 @@
     </div>
     
     {{/* Load more button - показываем только если есть больше постов */}}
-    {{ if gt (len .Pages) 9 }}
+    {{ if gt (len .Pages) 6 }}
     <div class="blog-load-more">
-      <button class="blog-load-more-btn" id="blog-load-more-btn">Load more</button>
+      <button class="blog-load-more-btn" id="blog-load-more-btn" type="button">Load more</button>
     </div>
     {{ end }}
   </article>
