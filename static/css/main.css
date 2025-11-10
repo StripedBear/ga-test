@@ -1703,8 +1703,9 @@ body:has(.switch2porting-header) .container .content {
 }
 
 .blog-post-title {
+  font-family: "campaign_groteskmedium", sans-serif;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: normal;
   color: var(--text-primary);
   margin: 0 0 40px 0;
   line-height: 1.3;
