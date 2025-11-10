@@ -1,0 +1,130 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "main" }}
+<div class="container">
+  <article class="content">
+    {{/* Back to Blog link */}}
+    <div class="blog-post-back">
+      <a href="{{ "/blog/" | relURL }}" class="blog-post-back-link">← Back to Blog</a>
+    </div>
+
+    {{/* Post title */}}
+    <h1 class="blog-post-title">{{ .Title }}</h1>
+
+    {{/* Featured image */}}
+    {{ $featuredImage := false }}
+    {{ if .Params.featured_image }}
+      {{ $featuredImage = .Resources.Get .Params.featured_image }}
+      {{ if not $featuredImage }}
+        {{ $featuredImage = .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+      {{ end }}
+    {{ else }}
+      {{ $featuredImage = .Resources.GetMatch "featured.*" }}
+      {{ if not $featuredImage }}
+        {{ $featuredImage = .Resources.GetMatch "thumbnail.*" }}
+      {{ end }}
+    {{ end }}
+    
+    {{ if $featuredImage }}
+    <div class="blog-post-featured-image">
+      <img src="{{ $featuredImage.RelPermalink }}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+
+    {{/* Post content */}}
+    <div class="blog-post-body">
+      {{ .Content }}
+    </div>
+
+    {{/* Post meta (date, categories, tags) */}}
+    <div class="blog-post-meta">
+      {{ with .Date }}
+      <div class="blog-post-meta-item">
+        <span class="blog-post-meta-label">Date:</span>
+        <time datetime="{{ . }}">{{ .Format "2 January 2006" }}</time>
+      </div>
+      {{ end }}
+      {{ if .Params.categories }}
+      <div class="blog-post-meta-item">
+        <span class="blog-post-meta-label">Categories:</span>
+        <span class="blog-post-meta-value">
+          {{ $categories := .Params.categories }}
+          {{ range $index, $category := $categories }}{{ $category }}{{ if lt $index (sub (len $categories) 1) }}, {{ end }}{{ end }}
+        </span>
+      </div>
+      {{ end }}
+      {{ if .Params.tags }}
+      <div class="blog-post-meta-item">
+        <span class="blog-post-meta-label">Tags:</span>
+        <span class="blog-post-meta-value">
+          {{ $tags := .Params.tags }}
+          {{ range $index, $tag := $tags }}{{ $tag }}{{ if lt $index (sub (len $tags) 1) }}, {{ end }}{{ end }}
+        </span>
+      </div>
+      {{ end }}
+    </div>
+
+    {{/* Navigation: Previous and Next posts */}}
+    <nav class="blog-post-navigation">
+      {{ $prev := .PrevInSection }}
+      {{ $next := .NextInSection }}
+      
+      {{ if or $prev $next }}
+        {{ if $prev }}
+          {{ $prevFeaturedImage := false }}
+          {{ if $prev.Params.featured_image }}
+            {{ $prevFeaturedImage = $prev.Resources.Get $prev.Params.featured_image }}
+            {{ if not $prevFeaturedImage }}
+              {{ $prevFeaturedImage = $prev.Resources.GetMatch (printf "*%s*" $prev.Params.featured_image) }}
+            {{ end }}
+          {{ else }}
+            {{ $prevFeaturedImage = $prev.Resources.GetMatch "featured.*" }}
+            {{ if not $prevFeaturedImage }}
+              {{ $prevFeaturedImage = $prev.Resources.GetMatch "thumbnail.*" }}
+            {{ end }}
+          {{ end }}
+          
+          <a href="{{ $prev.RelPermalink }}" class="blog-post-nav-link blog-post-nav-link--prev">
+            <div class="blog-post-nav-image"{{ if $prevFeaturedImage }} style="background-image: url('{{ $prevFeaturedImage.RelPermalink }}');"{{ end }}>
+              <div class="blog-post-nav-gradient"></div>
+            </div>
+            <div class="blog-post-nav-content">
+              <span class="blog-post-nav-label">Previous</span>
+              <span class="blog-post-nav-title">{{ $prev.Title }}</span>
+            </div>
+          </a>
+        {{ else }}
+          <div class="blog-post-nav-link blog-post-nav-link--prev blog-post-nav-link--empty"></div>
+        {{ end }}
+
+        {{ if $next }}
+          {{ $nextFeaturedImage := false }}
+          {{ if $next.Params.featured_image }}
+            {{ $nextFeaturedImage = $next.Resources.Get $next.Params.featured_image }}
+            {{ if not $nextFeaturedImage }}
+              {{ $nextFeaturedImage = $next.Resources.GetMatch (printf "*%s*" $next.Params.featured_image) }}
+            {{ end }}
+          {{ else }}
+            {{ $nextFeaturedImage = $next.Resources.GetMatch "featured.*" }}
+            {{ if not $nextFeaturedImage }}
+              {{ $nextFeaturedImage = $next.Resources.GetMatch "thumbnail.*" }}
+            {{ end }}
+          {{ end }}
+          
+          <a href="{{ $next.RelPermalink }}" class="blog-post-nav-link blog-post-nav-link--next">
+            <div class="blog-post-nav-image"{{ if $nextFeaturedImage }} style="background-image: url('{{ $nextFeaturedImage.RelPermalink }}');"{{ end }}>
+              <div class="blog-post-nav-gradient"></div>
+            </div>
+            <div class="blog-post-nav-content">
+              <span class="blog-post-nav-label">Next</span>
+              <span class="blog-post-nav-title">{{ $next.Title }}</span>
+            </div>
+          </a>
+        {{ else }}
+          <div class="blog-post-nav-link blog-post-nav-link--next blog-post-nav-link--empty"></div>
+        {{ end }}
+      {{ end }}
+    </nav>
+  </article>
+</div>
+{{ end }}
+

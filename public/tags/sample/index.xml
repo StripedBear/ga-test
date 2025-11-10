@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sample on General Arcade</title><link>https://generalarcade.github.io/ga-test/tags/sample/</link><description>Recent content in Sample on General Arcade</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://generalarcade.github.io/ga-test/tags/sample/index.xml" rel="self" type="application/rss+xml"/><item><title>Sample Post</title><link>https://generalarcade.github.io/ga-test/blog/sample-post/</link><pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate><guid>https://generalarcade.github.io/ga-test/blog/sample-post/</guid><description>&lt;p&gt;This is a &lt;strong&gt;sample&lt;/strong&gt; blog post written in Markdown. Replace with your content.&lt;/p&gt;
+&lt;p&gt;You can add images to your post using the &lt;code&gt;image&lt;/code&gt; shortcode:&lt;/p&gt;
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+&lt;div class="image"&gt;
+ &lt;img src="https://generalarcade.github.io/ga-test/img/example-image.jpg" alt="Example image"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The featured image (specified in front matter or auto-detected) will be displayed at the top of the post and used as preview in blog listing and navigation buttons.&lt;/p&gt;</description></item></channel></rss>
