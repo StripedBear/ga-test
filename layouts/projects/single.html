@@ -1,0 +1,140 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "main" }}
+<div class="container mb-6 mb-md-8">
+  <div class="o-inner-container o-inner-container--large mx-auto">
+    <a href="{{ "/projects/" | relURL }}" class="u-fs-small text-primary mb-3 d-inline-block">Back to all projects</a>
+    <h1 class="u-fs-huge text-white mb-0">{{ .Title }}</h1>
+  </div>
+</div>
+
+<div class="container pb-6 pb-lg-8">
+  <div class="o-inner-container o-inner-container--large mx-auto">
+    <div class="row">
+      <div class="col-md-8 col-lg-9 pr-md-4 pr-lg-6 mb-4 mb-md-0">
+        <div class="c-wp text-white">
+          <div class="mb-6">
+            {{ .Content }}
+          </div>
+          
+          {{/* Featured/Thumbnail image */}}
+          {{ $featuredImage := false }}
+          {{ if .Params.featured_image }}
+            {{ $featuredImage = .Resources.Get .Params.featured_image }}
+            {{ if not $featuredImage }}
+              {{ $featuredImage = .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+            {{ end }}
+          {{ else }}
+            {{ $featuredImage = .Resources.GetMatch "featured.*" }}
+            {{ if not $featuredImage }}
+              {{ $featuredImage = .Resources.GetMatch "thumbnail.*" }}
+            {{ end }}
+          {{ end }}
+          
+          {{ if $featuredImage }}
+          <div class="pb-5 text-center">
+            <img src="{{ $featuredImage.RelPermalink }}" alt="{{ .Title }}" class="mw-100" />
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-lg-3">
+        <div class="bg-primary-dark-2 p-5">
+          <ul class="list-unstyled">
+            {{ if .Params.client }}
+            <li class="list-unstyled-item mb-3">
+              <p class="text-primary mb-1 u-fs-tiny">Client:</p>
+              <span>{{ .Params.client }}</span>
+            </li>
+            {{ end }}
+            {{ if .Params.developer }}
+            <li class="list-unstyled-item mb-3">
+              <p class="text-primary mb-1 u-fs-tiny">Developer:</p>
+              <span>{{ .Params.developer }}</span>
+            </li>
+            {{ end }}
+            {{ if .Params.publisher }}
+            <li class="list-unstyled-item mb-3">
+              <p class="text-primary mb-1 u-fs-tiny">Publisher:</p>
+              <span>{{ .Params.publisher }}</span>
+            </li>
+            {{ end }}
+            {{ if .Params.platforms }}
+            <li class="list-unstyled-item mb-3">
+              <p class="text-primary mb-1 u-fs-tiny">Platforms:</p>
+              <span>
+                {{ $platforms := .Params.platforms }}
+                {{ range $index, $platform := $platforms }}
+                  <a href="{{ "/platforms/" | relURL }}{{ $platform | urlize }}/" class="text-white">{{ $platform }}</a>{{ if lt $index (sub (len $platforms) 1) }}, {{ end }}
+                {{ end }}
+              </span>
+            </li>
+            {{ end }}
+          </ul>
+          {{ if .Params.website }}
+          <a href="{{ .Params.website }}" class="c-button" target="_blank" rel="noopener">Website</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{/* Navigation: Previous and Next projects */}}
+<nav class="project-navigation">
+  {{ $prev := .PrevInSection }}
+  {{ $next := .NextInSection }}
+  
+  {{ if or $prev $next }}
+    {{ if $prev }}
+      {{ $prevFeaturedImage := false }}
+      {{ if $prev.Params.featured_image }}
+        {{ $prevFeaturedImage = $prev.Resources.Get $prev.Params.featured_image }}
+        {{ if not $prevFeaturedImage }}
+          {{ $prevFeaturedImage = $prev.Resources.GetMatch (printf "*%s*" $prev.Params.featured_image) }}
+        {{ end }}
+      {{ else }}
+        {{ $prevFeaturedImage = $prev.Resources.GetMatch "featured.*" }}
+        {{ if not $prevFeaturedImage }}
+          {{ $prevFeaturedImage = $prev.Resources.GetMatch "thumbnail.*" }}
+        {{ end }}
+      {{ end }}
+      
+      <a href="{{ $prev.RelPermalink }}" class="project-nav-link project-nav-link--prev"{{ if $prevFeaturedImage }} style="background-image: url('{{ $prevFeaturedImage.RelPermalink }}');"{{ end }}>
+        <div class="project-nav-content">
+          <span class="project-nav-label">Previous project</span>
+          <span class="project-nav-title">{{ $prev.Title }}</span>
+        </div>
+      </a>
+    {{ else }}
+      <div class="project-nav-link project-nav-link--prev project-nav-link--empty"></div>
+    {{ end }}
+
+    {{ if $next }}
+      {{ $nextFeaturedImage := false }}
+      {{ if $next.Params.featured_image }}
+        {{ $nextFeaturedImage = $next.Resources.Get $next.Params.featured_image }}
+        {{ if not $nextFeaturedImage }}
+          {{ $nextFeaturedImage = $next.Resources.GetMatch (printf "*%s*" $next.Params.featured_image) }}
+        {{ end }}
+      {{ else }}
+        {{ $nextFeaturedImage = $next.Resources.GetMatch "featured.*" }}
+        {{ if not $nextFeaturedImage }}
+          {{ $nextFeaturedImage = $next.Resources.GetMatch "thumbnail.*" }}
+        {{ end }}
+      {{ end }}
+      
+      <a href="{{ $next.RelPermalink }}" class="project-nav-link project-nav-link--next"{{ if $nextFeaturedImage }} style="background-image: url('{{ $nextFeaturedImage.RelPermalink }}');"{{ end }}>
+        <div class="project-nav-content">
+          <span class="project-nav-label">Next project</span>
+          <span class="project-nav-title">{{ $next.Title }}</span>
+        </div>
+      </a>
+    {{ else }}
+      <div class="project-nav-link project-nav-link--next project-nav-link--empty"></div>
+    {{ end }}
+  {{ end }}
+</nav>
+{{ end }}
+
+
