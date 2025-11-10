@@ -1232,11 +1232,27 @@ body:has(.switch2porting-header) .container .content {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.blog-post-nav-link--prev .blog-post-nav-gradient {
   background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.3) 50%,
-    rgba(0, 0, 0, 0.7) 100%
+    to right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.95) 15%,
+    rgba(0, 0, 0, 0.8) 30%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0) 70%
+  );
+}
+
+.blog-post-nav-link--next .blog-post-nav-gradient {
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.95) 15%,
+    rgba(0, 0, 0, 0.8) 30%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0) 70%
   );
 }
 
