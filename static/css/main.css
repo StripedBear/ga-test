@@ -1183,23 +1183,17 @@ body:has(.switch2porting-header) .container .content {
 
 /* Blog post navigation */
 .blog-post-navigation {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-top: 60px;
-}
-
-@media (min-width: 768px) {
-  .blog-post-navigation {
-    gap: 32px;
-  }
+  width: 100%;
 }
 
 .blog-post-nav-link {
   position: relative;
   display: inline-block;
-  width: 100%;
-  max-width: 500px;
+  width: 500px;
   height: 150px;
   text-decoration: none;
   color: inherit;
@@ -1208,6 +1202,7 @@ body:has(.switch2porting-header) .container .content {
   overflow: hidden;
   transition: opacity 0.18s ease-out, background-color 0.18s ease-out;
   z-index: 2;
+  flex-shrink: 0;
 }
 
 .blog-post-nav-link:hover::before {
