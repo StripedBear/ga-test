@@ -280,4 +280,84 @@
       projectsLoadMoreBtn.style.display = 'none';
     }
   }
+
+  // Testimonials carousel
+  var testimonialsCarousel = q('.js-testimonials-carousel');
+  var navigationCarousel = q('.js-navigation-carousel');
+  var prevBtn = q('.js-testimonials-carousel-prev-slide');
+  var nextBtn = q('.js-testimonials-carousel-next-slide');
+  
+  if (testimonialsCarousel && navigationCarousel) {
+    var testimonials = qa('.js-testimonials-carousel .c-testimonial');
+    var navSlides = qa('.js-navigation-carousel .c-navigation-carousel__slide');
+    var currentIndex = 0;
+    var isAnimating = false;
+    
+    function showSlide(index) {
+      if (isAnimating) return;
+      isAnimating = true;
+      
+      // Update testimonials
+      testimonials.forEach(function(testimonial, i) {
+        testimonial.classList.toggle('active', i === index);
+      });
+      
+      // Update navigation
+      navSlides.forEach(function(slide, i) {
+        slide.classList.toggle('active', i === index);
+      });
+      
+      setTimeout(function() {
+        isAnimating = false;
+      }, 300);
+    }
+    
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % testimonials.length;
+      showSlide(currentIndex);
+    }
+    
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+      showSlide(currentIndex);
+    }
+    
+    // Initialize first slide
+    if (testimonials.length > 0) {
+      showSlide(0);
+    }
+    
+    // Attach event listeners
+    if (nextBtn) {
+      nextBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        nextSlide();
+      });
+    }
+    
+    if (prevBtn) {
+      prevBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        prevSlide();
+      });
+    }
+    
+    // Auto-play (optional)
+    var autoPlayInterval = setInterval(function() {
+      nextSlide();
+    }, 5000);
+    
+    // Pause on hover
+    var carouselWrapper = q('.c-testimonials-wrapper');
+    if (carouselWrapper) {
+      carouselWrapper.addEventListener('mouseenter', function() {
+        clearInterval(autoPlayInterval);
+      });
+      carouselWrapper.addEventListener('mouseleave', function() {
+        autoPlayInterval = setInterval(function() {
+          nextSlide();
+        }, 5000);
+      });
+    }
+  }
 })();

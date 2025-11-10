@@ -2318,12 +2318,19 @@ body:has(.switch2porting-header) .container .content {
   text-align: center;
   margin: 0 auto;
   max-width: 550px;
+  position: relative;
+  overflow: hidden;
 }
 
-.c-testimonial {
+.c-testimonials .c-testimonial {
   width: 100%;
   text-align: center;
   margin: 0 auto;
+  display: none;
+}
+
+.c-testimonials .c-testimonial.active {
+  display: block;
 }
 
 .c-testimonial__content {
@@ -2332,6 +2339,82 @@ body:has(.switch2porting-header) .container .content {
 
 .c-testimonial__company {
   padding-top: 40px;
+}
+
+.c-testimonials-controls {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  margin: 40px auto;
+}
+
+@media (max-width: 991.98px) {
+  .c-testimonials-controls {
+    position: relative;
+    margin: 20px auto;
+  }
+}
+
+.c-testimonials-controls__button {
+  position: absolute;
+  top: 10%;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.c-testimonials-controls__button--prev {
+  left: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23a4a8f2'%3E%3Cpath d='M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z'/%3E%3C/svg%3E");
+}
+
+.c-testimonials-controls__button--next {
+  right: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23a4a8f2'%3E%3Cpath d='M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z'/%3E%3C/svg%3E");
+}
+
+.c-navigation-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.c-navigation-carousel__slide {
+  display: none;
+  text-align: center;
+}
+
+.c-navigation-carousel__slide.active {
+  display: block;
+}
+
+@media (min-width: 720px) {
+  .c-navigation-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .c-navigation-carousel__slide {
+    display: block;
+    flex: 0 0 calc(33.333% - 14px);
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+  
+  .c-navigation-carousel__slide.active {
+    opacity: 1;
+  }
+  
+  .c-navigation-carousel__slide.active .c-navigation-carousel__icon img {
+    filter: brightness(0) invert(1);
+  }
 }
 
 .c-navigation-carousel__icon {
