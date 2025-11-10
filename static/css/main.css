@@ -1049,22 +1049,50 @@ body:has(.switch2porting-header) .container .content {
 }
 
 .blog-load-more-btn {
-  background: transparent;
-  border: 2px solid var(--accent);
-  color: var(--accent);
-  padding: 14px 40px;
-  font-size: 1rem;
-  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: #595c85;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.25rem;
   cursor: pointer;
-  border-radius: 4px;
-  transition: all 0.2s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  outline: none;
+  margin: 0;
+  vertical-align: middle;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.18s ease-out, background 0.2s ease-out;
 }
 
-.blog-load-more-btn:hover {
-  background: var(--accent);
-  color: var(--text-primary);
+.blog-load-more-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2f2a8a;
+  background: linear-gradient(to right, #2f2a8a 0%, #1398ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f2a8a', endColorstr='#1398ff', GradientType=1);
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+  z-index: -1;
+}
+
+.blog-load-more-btn:hover,
+.blog-load-more-btn:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.blog-load-more-btn:hover::after,
+.blog-load-more-btn:active::after {
+  opacity: 1;
 }
 
 /* Hidden posts for load more */
@@ -1315,22 +1343,50 @@ body:has(.switch2porting-header) .container .content {
 }
 
 .projects-load-more-btn {
-  background: transparent;
-  border: 2px solid var(--accent);
-  color: var(--accent);
-  padding: 14px 40px;
-  font-size: 1rem;
-  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: #595c85;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.25rem;
   cursor: pointer;
-  border-radius: 4px;
-  transition: all 0.2s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  outline: none;
+  margin: 0;
+  vertical-align: middle;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.18s ease-out, background 0.2s ease-out;
 }
 
-.projects-load-more-btn:hover {
-  background: var(--accent);
-  color: var(--text-primary);
+.projects-load-more-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2f2a8a;
+  background: linear-gradient(to right, #2f2a8a 0%, #1398ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f2a8a', endColorstr='#1398ff', GradientType=1);
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+  z-index: -1;
+}
+
+.projects-load-more-btn:hover,
+.projects-load-more-btn:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.projects-load-more-btn:hover::after,
+.projects-load-more-btn:active::after {
+  opacity: 1;
 }
 
 /* Hidden projects for load more */
