@@ -180,4 +180,104 @@
       loadMoreBtn.style.display = 'none';
     }
   }
+
+  // Projects category filter
+  var projectsCategoryDropdown = q('#projects-category-dropdown');
+  var projectsCategoryToggle = q('#projects-category-toggle');
+  var projectsCategorySelected = q('.projects-categories-selected');
+  
+  if (projectsCategoryDropdown && projectsCategoryToggle) {
+    // Toggle dropdown
+    projectsCategoryToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      projectsCategoryDropdown.classList.toggle('open');
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!projectsCategoryDropdown.contains(e.target)) {
+        projectsCategoryDropdown.classList.remove('open');
+      }
+    });
+    
+    // Handle category selection
+    var projectsCategoryItems = qa('.projects-categories-item');
+    projectsCategoryItems.forEach(function(item) {
+      var link = item.querySelector('.projects-categories-link');
+      if (link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          var value = item.getAttribute('data-value');
+          var text = link.textContent.trim();
+          
+          // Update selected text
+          projectsCategorySelected.textContent = text;
+          
+          // Update active state
+          projectsCategoryItems.forEach(function(i) {
+            i.classList.remove('active');
+          });
+          item.classList.add('active');
+          
+          // Filter projects
+          var projects = qa('.project-card');
+          projects.forEach(function(project) {
+            var projectPlatforms = project.getAttribute('data-platforms') || '';
+            if (!value || projectPlatforms.indexOf(value) !== -1) {
+              project.classList.remove('hidden');
+            } else {
+              project.classList.add('hidden');
+            }
+          });
+          
+          // Close dropdown
+          projectsCategoryDropdown.classList.remove('open');
+        });
+      }
+    });
+  }
+
+  // Projects load more
+  var projectsLoadMoreBtn = q('#projects-load-more-btn');
+  if (projectsLoadMoreBtn) {
+    var allProjects = qa('.project-card');
+    var projectsPerPage = 6;
+    var visibleProjectsCount = projectsPerPage;
+    
+    // Initially hide projects beyond first page
+    allProjects.forEach(function(project, index) {
+      if (index >= projectsPerPage) {
+        project.classList.add('hidden');
+      }
+    });
+    
+    // Show more projects function
+    function showMoreProjects() {
+      var toShow = Math.min(projectsPerPage, allProjects.length - visibleProjectsCount);
+      
+      for (var i = visibleProjectsCount; i < visibleProjectsCount + toShow; i++) {
+        if (allProjects[i]) {
+          allProjects[i].classList.remove('hidden');
+        }
+      }
+      
+      visibleProjectsCount += toShow;
+      
+      // Hide button if all projects are visible
+      if (visibleProjectsCount >= allProjects.length) {
+        projectsLoadMoreBtn.style.display = 'none';
+      }
+    }
+    
+    // Attach click handler
+    projectsLoadMoreBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      showMoreProjects();
+    });
+    
+    // Hide button if all projects are already visible
+    if (allProjects.length <= projectsPerPage) {
+      projectsLoadMoreBtn.style.display = 'none';
+    }
+  }
 })();
