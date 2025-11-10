@@ -83,10 +83,7 @@
             {{ end }}
           {{ end }}
           
-          <a href="{{ $prev.RelPermalink }}" class="blog-post-nav-link blog-post-nav-link--prev">
-            <div class="blog-post-nav-image"{{ if $prevFeaturedImage }} style="background-image: url('{{ $prevFeaturedImage.RelPermalink }}');"{{ end }}>
-              <div class="blog-post-nav-gradient"></div>
-            </div>
+          <a href="{{ $prev.RelPermalink }}" class="blog-post-nav-link blog-post-nav-link--prev"{{ if $prevFeaturedImage }} style="background-image: url('{{ $prevFeaturedImage.RelPermalink }}');"{{ end }}>
             <div class="blog-post-nav-content">
               <span class="blog-post-nav-label">Previous</span>
               <span class="blog-post-nav-title">{{ $prev.Title }}</span>
@@ -110,10 +107,7 @@
             {{ end }}
           {{ end }}
           
-          <a href="{{ $next.RelPermalink }}" class="blog-post-nav-link blog-post-nav-link--next">
-            <div class="blog-post-nav-image"{{ if $nextFeaturedImage }} style="background-image: url('{{ $nextFeaturedImage.RelPermalink }}');"{{ end }}>
-              <div class="blog-post-nav-gradient"></div>
-            </div>
+          <a href="{{ $next.RelPermalink }}" class="blog-post-nav-link blog-post-nav-link--next"{{ if $nextFeaturedImage }} style="background-image: url('{{ $nextFeaturedImage.RelPermalink }}');"{{ end }}>
             <div class="blog-post-nav-content">
               <span class="blog-post-nav-label">Next</span>
               <span class="blog-post-nav-title">{{ $next.Title }}</span>
