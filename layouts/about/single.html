@@ -1,0 +1,66 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "main" }}
+<div class="container mb-8 mb-md-9 pt-6">
+  <div class="o-inner-container o-inner-container--large mx-auto">
+    <div class="o-inner-container o-inner-container--medium-large">
+      <span class="u-fs-small text-primary mb-3 d-inline-block">{{ .Title }}</span>
+      <h1 class="u-fs-large text-white mb-6">{{ .Params.subtitle }}</h1>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div class="c-wp u-fs-small u-ft-regular">
+            {{ $content := .Content }}
+            {{/* Удаляем shortcodes из контента, оставляем только текст */}}
+            {{ $content = $content | replaceRE `\{\{< image-grid[^>]*>\}\}[\s\S]*?\{\{< /image-grid >\}\}` "" }}
+            {{ $content = $content | replaceRE `\{\{< image[^>]*>\}\}` "" }}
+            {{ $content | safeHTML }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{/* Stats images - first 3 */}}
+{{ $images := .Resources.Match "*.png" }}
+{{ if $images }}
+<div class="container mb-4">
+  <div class="o-inner-container o-inner-container--large mx-auto">
+    <div class="row justify-content-center mx-md-n8">
+      {{ range first 3 $images }}
+      <div class="col-6 col-sm-4 px-md-8 mb-6 mb-md-8 mb-lg-9">
+        <img src="{{ .RelPermalink }}" class="mw-100" alt="">
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{/* Stats images - next 2 */}}
+{{ $remainingImages := after 3 (first 5 $images) }}
+{{ if $remainingImages }}
+<div class="container mb-4">
+  <div class="o-inner-container o-inner-container--large mx-auto">
+    <div class="row justify-content-center mx-md-n8">
+      {{ range $remainingImages }}
+      <div class="col-6 col-sm-4 px-md-8 mb-6 mb-md-8 mb-lg-9">
+        <img src="{{ .RelPermalink }}" class="mw-100" alt="">
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ end }}
+
+{{/* Team photo */}}
+{{ $teamPhoto := .Resources.GetMatch "team-photo.*" }}
+{{ if $teamPhoto }}
+<div class="block1" style="height: 1518px; width: 100%; position: relative;">
+  <div>
+    <img src="{{ $teamPhoto.RelPermalink }}" class="o-crop__content o-crop__content--center" alt="{{ .Site.Title }}">
+  </div>
+</div>
+{{ end }}
+{{ end }}
+

@@ -11,3 +11,4 @@ In a recent article on PocketGamer.biz, Gennadii Potapov (CEO of General Arcade)
 [Read the full article.](https://www.pocketgamer.biz/how-small-studios-can-scale-amid-games-industry-turbulence/)
 
 
+
