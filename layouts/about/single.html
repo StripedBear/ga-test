@@ -21,36 +21,42 @@
   </div>
 </div>
 
-{{/* Stats images - first 3 */}}
-{{ $images := .Resources.Match "*.png" }}
-{{ if $images }}
-<div class="container mb-4">
-  <div class="o-inner-container o-inner-container--large mx-auto">
-    <div class="row justify-content-center mx-md-n8">
-      {{ range first 3 $images }}
-      <div class="col-6 col-sm-4 px-md-8 mb-6 mb-md-8 mb-lg-9">
-        <img src="{{ .RelPermalink }}" class="mw-100" alt="">
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</div>
-
-{{/* Stats images - next 2 */}}
-{{ $remainingImages := after 3 (first 5 $images) }}
-{{ if $remainingImages }}
-<div class="container mb-4">
-  <div class="o-inner-container o-inner-container--large mx-auto">
-    <div class="row justify-content-center mx-md-n8">
-      {{ range $remainingImages }}
-      <div class="col-6 col-sm-4 px-md-8 mb-6 mb-md-8 mb-lg-9">
-        <img src="{{ .RelPermalink }}" class="mw-100" alt="">
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</div>
+{{/* Stats images in original order */}}
+{{ $page := . }}
+{{ $orderedNames := slice "founded-2013" "shipped-100s" "3-offices" "clients-15-countries" "40-people" }}
+{{ $orderedImages := slice }}
+{{ range $orderedNames }}
+  {{ with $page.Resources.GetMatch (printf "%s.*" .) }}
+    {{ $orderedImages = $orderedImages | append . }}
+  {{ end }}
 {{ end }}
+
+{{ if gt (len $orderedImages) 0 }}
+  <div class="container mb-4">
+    <div class="o-inner-container o-inner-container--large mx-auto">
+      <div class="row justify-content-center mx-md-n8">
+        {{ range first 3 $orderedImages }}
+        <div class="col-6 col-sm-4 px-md-8 mb-6 mb-md-8 mb-lg-9">
+          <img src="{{ .RelPermalink }}" class="mw-100" alt="">
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  {{ if gt (len $orderedImages) 3 }}
+  <div class="container mb-4">
+    <div class="o-inner-container o-inner-container--large mx-auto">
+      <div class="row justify-content-center mx-md-n8">
+        {{ range after 3 $orderedImages }}
+        <div class="col-6 col-sm-4 px-md-8 mb-6 mb-md-8 mb-lg-9">
+          <img src="{{ .RelPermalink }}" class="mw-100" alt="">
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ end }}
 {{ end }}
 
 {{/* Team photo */}}
