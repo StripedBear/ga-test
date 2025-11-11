@@ -2014,22 +2014,22 @@ body:has(.switch2porting-header) .container .content {
 }
 
 .o-inner-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  width: 100%;
+  position: relative;
+  display: block;
 }
 
 .o-inner-container--large {
-  max-width: 1080px;
+  max-width: 1080px !important;
 }
 
 .o-inner-container--medium-large {
-  max-width: 820px;
+  max-width: 820px !important;
 }
 
 .mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .u-fs-small {
