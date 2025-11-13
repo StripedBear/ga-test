@@ -282,58 +282,68 @@
   }
 
   // Testimonials carousel
-  var testimonialsCarousel = q('.js-testimonials-carousel');
-  var navigationCarousel = q('.js-navigation-carousel');
+  var testimonialsTrack = q('.js-testimonials-track');
+  var navigationTrack = q('.js-navigation-carousel-track');
   var prevBtn = q('.js-testimonials-carousel-prev-slide');
   var nextBtn = q('.js-testimonials-carousel-next-slide');
   
-  if (testimonialsCarousel && navigationCarousel) {
-    var testimonials = qa('.js-testimonials-carousel .c-testimonial');
-    var navSlides = qa('.js-navigation-carousel .c-navigation-carousel__slide');
+  if (testimonialsTrack && navigationTrack) {
+    var testimonials = qa('.js-testimonials-track .c-testimonial');
+    var navSlides = qa('.js-navigation-carousel-track .c-navigation-carousel__slide');
     var currentIndex = 0;
     var isAnimating = false;
+    var slideWidth = 100; // percentage
+    var isMobile = window.innerWidth < 720;
     
-    function showSlide(index) {
+    // Update slide width on resize
+    window.addEventListener('resize', function() {
+      isMobile = window.innerWidth < 720;
+      updateCarousel();
+    });
+    
+    function updateCarousel() {
       if (isAnimating) return;
-      isAnimating = true;
       
-      // Remove active class from all testimonials
-      testimonials.forEach(function(testimonial) {
-        testimonial.classList.remove('active');
+      var testimonialsOffset = -currentIndex * slideWidth;
+      var navOffset = -currentIndex * slideWidth;
+      
+      if (!isMobile) {
+        // On desktop, show 3 slides, center the active one
+        navOffset = -currentIndex * (100 / 3);
+      }
+      
+      testimonialsTrack.style.transform = 'translateX(' + testimonialsOffset + '%)';
+      navigationTrack.style.transform = 'translateX(' + navOffset + '%)';
+      
+      // Update active class for navigation slides
+      navSlides.forEach(function(slide, i) {
+        slide.classList.toggle('active', i === currentIndex);
       });
-      
-      // Remove active class from all nav slides
-      navSlides.forEach(function(slide) {
-        slide.classList.remove('active');
-      });
-      
-      // Add active class to current slide with slight delay for smooth transition
-      setTimeout(function() {
-        if (testimonials[index]) {
-          testimonials[index].classList.add('active');
-        }
-        if (navSlides[index]) {
-          navSlides[index].classList.add('active');
-        }
-        setTimeout(function() {
-          isAnimating = false;
-        }, 100);
-      }, 50);
     }
     
     function nextSlide() {
+      if (isAnimating) return;
+      isAnimating = true;
       currentIndex = (currentIndex + 1) % testimonials.length;
-      showSlide(currentIndex);
+      updateCarousel();
+      setTimeout(function() {
+        isAnimating = false;
+      }, 700);
     }
     
     function prevSlide() {
+      if (isAnimating) return;
+      isAnimating = true;
       currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
-      showSlide(currentIndex);
+      updateCarousel();
+      setTimeout(function() {
+        isAnimating = false;
+      }, 700);
     }
     
     // Initialize first slide
     if (testimonials.length > 0) {
-      showSlide(0);
+      updateCarousel();
     }
     
     // Attach event listeners
@@ -350,6 +360,21 @@
         prevSlide();
       });
     }
+    
+    // Click on navigation slides
+    navSlides.forEach(function(slide, index) {
+      slide.addEventListener('click', function(e) {
+        e.preventDefault();
+        if (index !== currentIndex && !isAnimating) {
+          isAnimating = true;
+          currentIndex = index;
+          updateCarousel();
+          setTimeout(function() {
+            isAnimating = false;
+          }, 700);
+        }
+      });
+    });
     
     // Auto-play (optional)
     var autoPlayInterval = setInterval(function() {

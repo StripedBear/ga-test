@@ -2399,36 +2399,26 @@ body:has(.switch2porting-header) .container .content {
   margin: 0 auto;
 }
 
-.c-testimonials {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 550px;
+.c-testimonials-container {
   position: relative;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
   overflow: hidden;
-  min-height: 200px;
 }
 
-.c-testimonials .c-testimonial {
+.c-testimonials-track {
+  display: flex;
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.c-testimonials-track .c-testimonial {
+  flex: 0 0 100%;
   width: 100%;
   text-align: center;
-  margin: 0 auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 0;
-  transform: translateX(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.c-testimonials .c-testimonial.active {
-  position: absolute;
-  opacity: 1;
-  transform: translateX(0);
-  pointer-events: auto;
-  z-index: 2;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .c-testimonial__content {
@@ -2475,7 +2465,7 @@ body:has(.switch2porting-header) .container .content {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23a4a8f2'%3E%3Cpath d='M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z'/%3E%3C/svg%3E");
 }
 
-.c-navigation-carousel {
+.c-navigation-carousel-container {
   position: relative;
   width: 100%;
   max-width: 550px;
@@ -2483,29 +2473,21 @@ body:has(.switch2porting-header) .container .content {
   overflow: hidden;
 }
 
-.c-navigation-carousel__slide {
-  display: none;
-  text-align: center;
-  opacity: 0;
-  transform: scale(0.9);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+.c-navigation-carousel-track {
+  display: flex;
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
 }
 
-.c-navigation-carousel__slide.active {
-  display: block;
-  opacity: 1;
-  transform: scale(1);
+.c-navigation-carousel__slide {
+  flex: 0 0 100%;
+  text-align: center;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 720px) {
-  .c-navigation-carousel {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
   .c-navigation-carousel__slide {
-    display: block;
     flex: 0 0 calc(33.333% - 14px);
     opacity: 0.5;
     transition: opacity 0.3s ease;
@@ -2517,6 +2499,10 @@ body:has(.switch2porting-header) .container .content {
   
   .c-navigation-carousel__slide.active .c-navigation-carousel__icon img {
     filter: brightness(0) invert(1);
+  }
+  
+  .c-navigation-carousel__slide:hover {
+    opacity: 0.8;
   }
 }
 
