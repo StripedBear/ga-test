@@ -291,8 +291,7 @@
   var navSlides = navigationTrack ? qa('.js-navigation-carousel-track .c-navigation-carousel__slide') : [];
   var currentIndex = 0;
   var isAnimating = false;
-  var slideWidth = 100; // percentage
-  var isMobile = window.innerWidth < 720;
+  var slideWidth = 100; // percentage for testimonials
   var autoPlayInterval = null;
   var realSlideCount = testimonials.length;
   
@@ -331,12 +330,6 @@
     currentIndex = 1;
   }
   
-  // Update slide width on resize
-  window.addEventListener('resize', function() {
-    isMobile = window.innerWidth < 720;
-    updateCarousel();
-  });
-  
   function updateCarousel(disableTransition) {
     if (!testimonialsTrack || !navigationTrack || testimonials.length === 0) return;
     
@@ -348,13 +341,13 @@
       navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
     }
     
+    // Testimonials: one slide at a time
     var testimonialsOffset = -currentIndex * slideWidth;
-    var navOffset = -currentIndex * slideWidth;
     
-    if (!isMobile) {
-      // On desktop, show 3 slides, center the active one
-      navOffset = -currentIndex * (100 / 3);
-    }
+    // Navigation: always show 3 slides, center the active one
+    // To center active slide, we need to show (currentIndex-1), currentIndex, (currentIndex+1)
+    // So offset should be -(currentIndex - 1) * (100/3)
+    var navOffset = -(currentIndex - 1) * (100 / 3);
     
     testimonialsTrack.style.transform = 'translateX(' + testimonialsOffset + '%)';
     navigationTrack.style.transform = 'translateX(' + navOffset + '%)';
