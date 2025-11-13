@@ -287,84 +287,90 @@
   var prevBtn = q('.js-testimonials-carousel-prev-slide');
   var nextBtn = q('.js-testimonials-carousel-next-slide');
   
-  if (testimonialsTrack && navigationTrack) {
-    var testimonials = qa('.js-testimonials-track .c-testimonial');
-    var navSlides = qa('.js-navigation-carousel-track .c-navigation-carousel__slide');
-    var currentIndex = 0;
-    var isAnimating = false;
-    var slideWidth = 100; // percentage
-    var isMobile = window.innerWidth < 720;
+  var testimonials = testimonialsTrack ? qa('.js-testimonials-track .c-testimonial') : [];
+  var navSlides = navigationTrack ? qa('.js-navigation-carousel-track .c-navigation-carousel__slide') : [];
+  var currentIndex = 0;
+  var isAnimating = false;
+  var slideWidth = 100; // percentage
+  var isMobile = window.innerWidth < 720;
+  var autoPlayInterval = null;
+  
+  // Update slide width on resize
+  window.addEventListener('resize', function() {
+    isMobile = window.innerWidth < 720;
+    updateCarousel();
+  });
+  
+  function updateCarousel() {
+    if (!testimonialsTrack || !navigationTrack || testimonials.length === 0) return;
     
-    // Update slide width on resize
-    window.addEventListener('resize', function() {
-      isMobile = window.innerWidth < 720;
-      updateCarousel();
-    });
+    var testimonialsOffset = -currentIndex * slideWidth;
+    var navOffset = -currentIndex * slideWidth;
     
-    function updateCarousel() {
-      if (isAnimating) return;
-      
-      var testimonialsOffset = -currentIndex * slideWidth;
-      var navOffset = -currentIndex * slideWidth;
-      
-      if (!isMobile) {
-        // On desktop, show 3 slides, center the active one
-        navOffset = -currentIndex * (100 / 3);
-      }
-      
-      testimonialsTrack.style.transform = 'translateX(' + testimonialsOffset + '%)';
-      navigationTrack.style.transform = 'translateX(' + navOffset + '%)';
-      
-      // Update active class for navigation slides
-      navSlides.forEach(function(slide, i) {
+    if (!isMobile) {
+      // On desktop, show 3 slides, center the active one
+      navOffset = -currentIndex * (100 / 3);
+    }
+    
+    testimonialsTrack.style.transform = 'translateX(' + testimonialsOffset + '%)';
+    navigationTrack.style.transform = 'translateX(' + navOffset + '%)';
+    
+    // Update active class for navigation slides
+    navSlides.forEach(function(slide, i) {
+      if (slide) {
         slide.classList.toggle('active', i === currentIndex);
-      });
-    }
-    
-    function nextSlide() {
-      if (isAnimating) return;
-      isAnimating = true;
-      currentIndex = (currentIndex + 1) % testimonials.length;
-      updateCarousel();
-      setTimeout(function() {
-        isAnimating = false;
-      }, 700);
-    }
-    
-    function prevSlide() {
-      if (isAnimating) return;
-      isAnimating = true;
-      currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
-      updateCarousel();
-      setTimeout(function() {
-        isAnimating = false;
-      }, 700);
-    }
-    
-    // Initialize first slide
-    if (testimonials.length > 0) {
-      updateCarousel();
-    }
-    
-    // Attach event listeners
-    if (nextBtn) {
-      nextBtn.addEventListener('click', function(e) {
-        e.preventDefault();
-        nextSlide();
-      });
-    }
-    
-    if (prevBtn) {
-      prevBtn.addEventListener('click', function(e) {
-        e.preventDefault();
-        prevSlide();
-      });
-    }
-    
-    // Click on navigation slides
-    navSlides.forEach(function(slide, index) {
+      }
+    });
+  }
+  
+  function nextSlide() {
+    if (isAnimating || testimonials.length === 0) return;
+    isAnimating = true;
+    currentIndex = (currentIndex + 1) % testimonials.length;
+    updateCarousel();
+    setTimeout(function() {
+      isAnimating = false;
+    }, 700);
+  }
+  
+  function prevSlide() {
+    if (isAnimating || testimonials.length === 0) return;
+    isAnimating = true;
+    currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+    updateCarousel();
+    setTimeout(function() {
+      isAnimating = false;
+    }, 700);
+  }
+  
+  // Initialize first slide
+  if (testimonials.length > 0) {
+    updateCarousel();
+  }
+  
+  // Attach event listeners for buttons
+  if (nextBtn) {
+    nextBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      nextSlide();
+    });
+  }
+  
+  if (prevBtn) {
+    prevBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      prevSlide();
+    });
+  }
+  
+  // Click on navigation slides
+  navSlides.forEach(function(slide, index) {
+    if (slide) {
       slide.addEventListener('click', function(e) {
         e.preventDefault();
+        e.stopPropagation();
         if (index !== currentIndex && !isAnimating) {
           isAnimating = true;
           currentIndex = index;
@@ -374,22 +380,30 @@
           }, 700);
         }
       });
-    });
-    
-    // Auto-play (optional)
-    var autoPlayInterval = setInterval(function() {
-      nextSlide();
+    }
+  });
+  
+  // Auto-play (optional)
+  if (testimonials.length > 0) {
+    autoPlayInterval = setInterval(function() {
+      if (!isAnimating) {
+        nextSlide();
+      }
     }, 5000);
     
     // Pause on hover
     var carouselWrapper = q('.c-testimonials-wrapper');
     if (carouselWrapper) {
       carouselWrapper.addEventListener('mouseenter', function() {
-        clearInterval(autoPlayInterval);
+        if (autoPlayInterval) {
+          clearInterval(autoPlayInterval);
+        }
       });
       carouselWrapper.addEventListener('mouseleave', function() {
         autoPlayInterval = setInterval(function() {
-          nextSlide();
+          if (!isAnimating) {
+            nextSlide();
+          }
         }, 5000);
       });
     }
