@@ -297,19 +297,28 @@
       if (isAnimating) return;
       isAnimating = true;
       
-      // Update testimonials
-      testimonials.forEach(function(testimonial, i) {
-        testimonial.classList.toggle('active', i === index);
+      // Remove active class from all testimonials
+      testimonials.forEach(function(testimonial) {
+        testimonial.classList.remove('active');
       });
       
-      // Update navigation
-      navSlides.forEach(function(slide, i) {
-        slide.classList.toggle('active', i === index);
+      // Remove active class from all nav slides
+      navSlides.forEach(function(slide) {
+        slide.classList.remove('active');
       });
       
+      // Add active class to current slide with slight delay for smooth transition
       setTimeout(function() {
-        isAnimating = false;
-      }, 300);
+        if (testimonials[index]) {
+          testimonials[index].classList.add('active');
+        }
+        if (navSlides[index]) {
+          navSlides[index].classList.add('active');
+        }
+        setTimeout(function() {
+          isAnimating = false;
+        }, 100);
+      }, 50);
     }
     
     function nextSlide() {

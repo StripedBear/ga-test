@@ -2405,17 +2405,27 @@ body:has(.switch2porting-header) .container .content {
   max-width: 550px;
   position: relative;
   overflow: hidden;
+  min-height: 200px;
 }
 
 .c-testimonials .c-testimonial {
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  pointer-events: none;
 }
 
 .c-testimonials .c-testimonial.active {
-  display: block;
+  position: relative;
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
 }
 
 .c-testimonial__content {
@@ -2473,10 +2483,15 @@ body:has(.switch2porting-header) .container .content {
 .c-navigation-carousel__slide {
   display: none;
   text-align: center;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .c-navigation-carousel__slide.active {
   display: block;
+  opacity: 1;
+  transform: scale(1);
 }
 
 @media (min-width: 720px) {
