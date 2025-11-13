@@ -194,32 +194,18 @@
 <div class="container">
   <h2 class="u-fs-huge text-center mb-6 mb-lg-8">Clients & Partners</h2>
   <ul class="c-partners">
-      <li class="c-partners__item"><img src="{{ "/img/larian.png" | relURL }}" alt="Larian" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/devolver.png" | relURL }}" alt="Devolver Digital" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/unity.png" | relURL }}" alt="Unity" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/gog.png" | relURL }}" alt="GOG" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/3d-realms.png" | relURL }}" alt="3D Realms" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/from-software.png" | relURL }}" alt="FromSoftware" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/capcom.png" | relURL }}" alt="Capcom" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/sega.png" | relURL }}" alt="SEGA" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/square-enix.png" | relURL }}" alt="Square Enix" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/aspyr.png" | relURL }}" alt="Aspyr" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/irregular-corporation.png" | relURL }}" alt="Irregular Corporation" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/vlambeer.png" | relURL }}" alt="Vlambeer" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/indie-stone.png" | relURL }}" alt="The Indie Stone" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/ice-pick.png" | relURL }}" alt="Ice-Pick Lodge" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/ysbryd.png" | relURL }}" alt="Ysbryd Games" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/roll-7.png" | relURL }}" alt="Roll7" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/pocketwatch.png" | relURL }}" alt="Pocketwatch Games" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/kongregate.png" | relURL }}" alt="Kongregate" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/gentlebros.png" | relURL }}" alt="The Gentlebros" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/abstraction.png" | relURL }}" alt="Abstraction Games" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/fullbright.png" | relURL }}" alt="Fullbright" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/plug-in-digital.png" | relURL }}" alt="Plug In Digital" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/playism.png" | relURL }}" alt="Playism" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/messhof.png" | relURL }}" alt="Messhof" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/505.png" | relURL }}" alt="505 Games" /></li>
-      <li class="c-partners__item"><img src="{{ "/img/tinybuild.png" | relURL }}" alt="tinyBuild" /></li>
+      {{ $logos := slice "larian.png" "devolver.png" "unity.png" "gog.png" "3d-realms.png" "from-software.png" "capcom.png" "sega.png" "square-enix.png" "aspyr.png" "irregular-corporation.png" "vlambeer.png" "indie-stone.png" "ice-pick.png" "ysbryd.png" "roll-7.png" "pocketwatch.png" "kongregate.png" "gentlebros.png" "abstraction.png" "fullbright.png" "plug-in-digital.png" "playism.png" "messhof.png" "505.png" "tinybuild.png" }}
+      {{ range $logos }}
+        {{ $img := $.Resources.Get . }}
+        {{ if not $img }}
+          {{ $img = $.Resources.GetMatch (printf "*%s*" .) }}
+        {{ end }}
+        {{ if $img }}
+          <li class="c-partners__item"><img src="{{ $img.RelPermalink }}" alt="{{ . | replaceRE "\.png$" "" | replaceRE "[-_]" " " | title }}" /></li>
+        {{ else }}
+          <li class="c-partners__item"><img src="{{ (printf "/img/%s" .) | relURL }}" alt="{{ . | replaceRE "\.png$" "" | replaceRE "[-_]" " " | title }}" /></li>
+        {{ end }}
+      {{ end }}
     </ul>
 </div>
 {{ end }}
