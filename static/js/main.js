@@ -375,42 +375,48 @@
     if (isAnimating || testimonials.length === 0) return;
     isAnimating = true;
     currentIndex++;
+    updateCarousel(false);
     
-    // If we're at the last clone, jump to first real slide without animation
-    if (currentIndex >= testimonials.length - 1) {
-      updateCarousel(true);
-      currentIndex = 1;
-      setTimeout(function() {
-        updateCarousel(false);
+    setTimeout(function() {
+      // If we're at the last clone (which is copy of first slide), jump to first real slide
+      if (currentIndex >= testimonials.length - 1) {
+        testimonialsTrack.style.transition = 'none';
+        navigationTrack.style.transition = 'none';
+        currentIndex = 1;
+        updateCarousel(true);
+        setTimeout(function() {
+          testimonialsTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+          navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+          isAnimating = false;
+        }, 50);
+      } else {
         isAnimating = false;
-      }, 50);
-    } else {
-      updateCarousel(false);
-      setTimeout(function() {
-        isAnimating = false;
-      }, 700);
-    }
+      }
+    }, 700);
   }
   
   function prevSlide() {
     if (isAnimating || testimonials.length === 0) return;
     isAnimating = true;
     currentIndex--;
+    updateCarousel(false);
     
-    // If we're at the first clone, jump to last real slide without animation
-    if (currentIndex <= 0) {
-      updateCarousel(true);
-      currentIndex = realSlideCount;
-      setTimeout(function() {
-        updateCarousel(false);
+    setTimeout(function() {
+      // If we're at the first clone (which is copy of last slide), jump to last real slide
+      if (currentIndex <= 0) {
+        testimonialsTrack.style.transition = 'none';
+        navigationTrack.style.transition = 'none';
+        currentIndex = realSlideCount;
+        updateCarousel(true);
+        setTimeout(function() {
+          testimonialsTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+          navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+          isAnimating = false;
+        }, 50);
+      } else {
         isAnimating = false;
-      }, 50);
-    } else {
-      updateCarousel(false);
-      setTimeout(function() {
-        isAnimating = false;
-      }, 700);
-    }
+      }
+    }, 700);
   }
   
   // Initialize carousel with clones
