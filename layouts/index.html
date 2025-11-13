@@ -132,60 +132,26 @@
       <div class="c-testimonials-controls__button c-testimonials-controls__button--next js-testimonials-carousel-next-slide"></div>
     </div>
     <div class="c-navigation-carousel js-navigation-carousel">
-      <div class="c-navigation-carousel__slide">
-        <div class="c-navigation-carousel__icon">
-          <img src="{{ "/img/devolver.png" | relURL }}" alt="Devolver Digital" />
+      {{ $testimonialLogos := slice (dict "logo" "devolver.png" "company" "Devolver Digital" "author" "Nigel Lowrie") (dict "logo" "3d-realms.png" "company" "3D Realms" "author" "Mike Nielsen") (dict "logo" "abstraction.png" "company" "Abstraction" "author" "Ralph Egas") (dict "logo" "indie-stone.png" "company" "Indie Stone" "author" "Will Porter") (dict "logo" "gog.png" "company" "GOG" "author" "Artem Shchuiko") (dict "logo" "bluemanchu.png" "company" "Blue Manchu" "author" "Jay Kyburz") }}
+      {{ range $testimonialLogos }}
+        {{ $img := $.Resources.Get .logo }}
+        {{ if not $img }}
+          {{ $img = $.Resources.GetMatch (printf "*%s*" .logo) }}
+        {{ end }}
+        <div class="c-navigation-carousel__slide">
+          <div class="c-navigation-carousel__icon">
+            {{ if $img }}
+              <img src="{{ $img.RelPermalink }}" alt="{{ .company }}" />
+            {{ else }}
+              <img src="{{ (printf "/img/%s" .logo) | relURL }}" alt="{{ .company }}" />
+            {{ end }}
+          </div>
+          <div class="c-navigation-carousel__details">
+            <span>{{ .company }}</span>
+            <span>{{ .author }}</span>
+          </div>
         </div>
-        <div class="c-navigation-carousel__details">
-          <span>Devolver Digital</span>
-          <span>Nigel Lowrie</span>
-        </div>
-      </div>
-      <div class="c-navigation-carousel__slide">
-        <div class="c-navigation-carousel__icon">
-          <img src="{{ "/img/3d-realms.png" | relURL }}" alt="3D Realms" />
-        </div>
-        <div class="c-navigation-carousel__details">
-          <span>3D Realms</span>
-          <span>Mike Nielsen</span>
-        </div>
-      </div>
-      <div class="c-navigation-carousel__slide">
-        <div class="c-navigation-carousel__icon">
-          <img src="{{ "/img/abstraction.png" | relURL }}" alt="Abstraction" />
-        </div>
-        <div class="c-navigation-carousel__details">
-          <span>Abstraction</span>
-          <span>Ralph Egas</span>
-        </div>
-      </div>
-      <div class="c-navigation-carousel__slide">
-        <div class="c-navigation-carousel__icon">
-          <img src="{{ "/img/indie-stone.png" | relURL }}" alt="Indie Stone" />
-        </div>
-        <div class="c-navigation-carousel__details">
-          <span>Indie Stone</span>
-          <span>Will Porter</span>
-        </div>
-      </div>
-      <div class="c-navigation-carousel__slide">
-        <div class="c-navigation-carousel__icon">
-          <img src="{{ "/img/gog.png" | relURL }}" alt="GOG" />
-        </div>
-        <div class="c-navigation-carousel__details">
-          <span>GOG</span>
-          <span>Artem Shchuiko</span>
-        </div>
-      </div>
-      <div class="c-navigation-carousel__slide">
-        <div class="c-navigation-carousel__icon">
-          <img src="{{ "/img/bluemanchu.png" | relURL }}" alt="Blue Manchu" />
-        </div>
-        <div class="c-navigation-carousel__details">
-          <span>Blue Manchu</span>
-          <span>Jay Kyburz</span>
-        </div>
-      </div>
+      {{ end }}
     </div>
   </div>
 </div>
