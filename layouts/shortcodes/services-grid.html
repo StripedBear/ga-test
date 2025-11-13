@@ -28,7 +28,7 @@
           {{/* Fallback: абсолютный путь для общих ресурсов */}}
           {{ $imgPath := $icon | strings.TrimPrefix "/" }}
           {{ if not (hasPrefix $imgPath "img/") }}
-            {{ $imgPath = printf "img/services/%s" $icon }}
+            {{ $imgPath = printf "img/%s" $icon }}
           {{ end }}
           {{ $imgURL = $imgPath | relURL }}
         {{ end }}
