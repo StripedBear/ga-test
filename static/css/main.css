@@ -2529,59 +2529,29 @@ body:has(.switch2porting-header) .container .content {
   margin-bottom: 5px;
 }
 
-.c-clients-list {
-  margin: 60px 0;
-}
-
-.c-clients-list__items {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+.c-partners {
+  font-size: 0;
   list-style: none;
+  text-align: center;
   padding: 0;
-  margin: 0;
-  align-items: center;
-  justify-items: center;
+  margin: 0 -20px;
 }
 
-.c-clients-list__items li {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.c-partners li {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
 }
 
-.c-clients-list__items img {
-  max-width: 150px;
-  max-height: 60px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.6;
-  transition: filter 0.3s ease, opacity 0.3s ease;
+.c-partners img {
+  max-width: 90px;
+  max-height: 40px;
 }
 
-.c-clients-list__items img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-}
-
-@media (min-width: 576px) {
-  .c-clients-list__items {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (min-width: 768px) {
-  .c-clients-list__items {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (min-width: 992px) {
-  .c-clients-list__items {
-    grid-template-columns: repeat(6, 1fr);
+@media (min-width: 720px) {
+  .c-partners img {
+    max-width: 125px;
+    max-height: 56px;
   }
 }
 
