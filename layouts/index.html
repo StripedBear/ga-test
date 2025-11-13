@@ -200,10 +200,11 @@
         {{ if not $img }}
           {{ $img = $.Resources.GetMatch (printf "*%s*" .) }}
         {{ end }}
+        {{ $altText := . | replaceRE `\.png$` "" | replaceRE `[-_]` " " | title }}
         {{ if $img }}
-          <li class="c-partners__item"><img src="{{ $img.RelPermalink }}" alt="{{ . | replaceRE "\.png$" "" | replaceRE "[-_]" " " | title }}" /></li>
+          <li class="c-partners__item"><img src="{{ $img.RelPermalink }}" alt="{{ $altText }}" /></li>
         {{ else }}
-          <li class="c-partners__item"><img src="{{ (printf "/img/%s" .) | relURL }}" alt="{{ . | replaceRE "\.png$" "" | replaceRE "[-_]" " " | title }}" /></li>
+          <li class="c-partners__item"><img src="{{ (printf "/img/%s" .) | relURL }}" alt="{{ $altText }}" /></li>
         {{ end }}
       {{ end }}
     </ul>
