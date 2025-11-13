@@ -294,6 +294,42 @@
   var slideWidth = 100; // percentage
   var isMobile = window.innerWidth < 720;
   var autoPlayInterval = null;
+  var realSlideCount = testimonials.length;
+  
+  // Clone slides for seamless loop
+  function cloneSlides() {
+    if (!testimonialsTrack || !navigationTrack || testimonials.length === 0) return;
+    
+    // Clone last testimonial to beginning
+    var lastTestimonial = testimonials[testimonials.length - 1];
+    var firstClone = lastTestimonial.cloneNode(true);
+    firstClone.classList.add('js-clone');
+    testimonialsTrack.insertBefore(firstClone, testimonialsTrack.firstChild);
+    
+    // Clone first testimonial to end
+    var firstTestimonial = testimonials[0];
+    var lastClone = firstTestimonial.cloneNode(true);
+    lastClone.classList.add('js-clone');
+    testimonialsTrack.appendChild(lastClone);
+    
+    // Clone navigation slides
+    var lastNavSlide = navSlides[navSlides.length - 1];
+    var firstNavClone = lastNavSlide.cloneNode(true);
+    firstNavClone.classList.add('js-clone');
+    navigationTrack.insertBefore(firstNavClone, navigationTrack.firstChild);
+    
+    var firstNavSlide = navSlides[0];
+    var lastNavClone = firstNavSlide.cloneNode(true);
+    lastNavClone.classList.add('js-clone');
+    navigationTrack.appendChild(lastNavClone);
+    
+    // Update references
+    testimonials = qa('.js-testimonials-track .c-testimonial');
+    navSlides = qa('.js-navigation-carousel-track .c-navigation-carousel__slide');
+    
+    // Start at first real slide (index 1, because clone is at 0)
+    currentIndex = 1;
+  }
   
   // Update slide width on resize
   window.addEventListener('resize', function() {
@@ -301,8 +337,16 @@
     updateCarousel();
   });
   
-  function updateCarousel() {
+  function updateCarousel(disableTransition) {
     if (!testimonialsTrack || !navigationTrack || testimonials.length === 0) return;
+    
+    if (disableTransition) {
+      testimonialsTrack.style.transition = 'none';
+      navigationTrack.style.transition = 'none';
+    } else {
+      testimonialsTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+      navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+    }
     
     var testimonialsOffset = -currentIndex * slideWidth;
     var navOffset = -currentIndex * slideWidth;
@@ -315,10 +359,14 @@
     testimonialsTrack.style.transform = 'translateX(' + testimonialsOffset + '%)';
     navigationTrack.style.transform = 'translateX(' + navOffset + '%)';
     
-    // Update active class for navigation slides
+    // Update active class for navigation slides (only real slides, not clones)
     navSlides.forEach(function(slide, i) {
       if (slide) {
-        slide.classList.toggle('active', i === currentIndex);
+        var isClone = slide.classList.contains('js-clone');
+        var realIndex = i - 1; // Account for first clone
+        if (realIndex < 0) realIndex = realSlideCount - 1;
+        if (realIndex >= realSlideCount) realIndex = 0;
+        slide.classList.toggle('active', !isClone && realIndex === (currentIndex - 1) % realSlideCount);
       }
     });
   }
@@ -326,26 +374,52 @@
   function nextSlide() {
     if (isAnimating || testimonials.length === 0) return;
     isAnimating = true;
-    currentIndex = (currentIndex + 1) % testimonials.length;
-    updateCarousel();
-    setTimeout(function() {
-      isAnimating = false;
-    }, 700);
+    currentIndex++;
+    
+    // If we're at the last clone, jump to first real slide without animation
+    if (currentIndex >= testimonials.length - 1) {
+      updateCarousel(true);
+      currentIndex = 1;
+      setTimeout(function() {
+        updateCarousel(false);
+        isAnimating = false;
+      }, 50);
+    } else {
+      updateCarousel(false);
+      setTimeout(function() {
+        isAnimating = false;
+      }, 700);
+    }
   }
   
   function prevSlide() {
     if (isAnimating || testimonials.length === 0) return;
     isAnimating = true;
-    currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
-    updateCarousel();
-    setTimeout(function() {
-      isAnimating = false;
-    }, 700);
+    currentIndex--;
+    
+    // If we're at the first clone, jump to last real slide without animation
+    if (currentIndex <= 0) {
+      updateCarousel(true);
+      currentIndex = realSlideCount;
+      setTimeout(function() {
+        updateCarousel(false);
+        isAnimating = false;
+      }, 50);
+    } else {
+      updateCarousel(false);
+      setTimeout(function() {
+        isAnimating = false;
+      }, 700);
+    }
   }
   
-  // Initialize first slide
+  // Initialize carousel with clones
   if (testimonials.length > 0) {
-    updateCarousel();
+    cloneSlides();
+    updateCarousel(true);
+    setTimeout(function() {
+      updateCarousel(false);
+    }, 100);
   }
   
   // Attach event listeners for buttons
@@ -365,26 +439,32 @@
     });
   }
   
-  // Click on navigation slides
-  navSlides.forEach(function(slide, index) {
-    if (slide) {
-      slide.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        if (index !== currentIndex && !isAnimating) {
-          isAnimating = true;
-          currentIndex = index;
-          updateCarousel();
-          setTimeout(function() {
-            isAnimating = false;
-          }, 700);
-        }
-      });
-    }
-  });
+  // Click on navigation slides (only real slides, not clones)
+  if (navSlides.length > 0) {
+    navSlides.forEach(function(slide, index) {
+      if (slide && !slide.classList.contains('js-clone')) {
+        slide.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          var realIndex = index - 1; // Account for first clone
+          if (realIndex < 0) realIndex = realSlideCount - 1;
+          if (realIndex >= realSlideCount) realIndex = 0;
+          var targetIndex = realIndex + 1; // Account for first clone in track
+          if (targetIndex !== currentIndex && !isAnimating) {
+            isAnimating = true;
+            currentIndex = targetIndex;
+            updateCarousel(false);
+            setTimeout(function() {
+              isAnimating = false;
+            }, 700);
+          }
+        });
+      }
+    });
+  }
   
   // Auto-play (optional)
-  if (testimonials.length > 0) {
+  if (realSlideCount > 0) {
     autoPlayInterval = setInterval(function() {
       if (!isAnimating) {
         nextSlide();
