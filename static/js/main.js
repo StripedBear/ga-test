@@ -372,43 +372,33 @@
   }
   
   function handleTransitionEnd() {
-    if (!testimonialsTrack || !navigationTrack) return;
-    
-    // If we're at the last clone (which is copy of first slide), jump to first real slide
-    if (currentIndex >= testimonials.length - 1) {
-      testimonialsTrack.style.transition = 'none';
-      navigationTrack.style.transition = 'none';
-      currentIndex = 1;
-      updateCarousel(true);
-      
-      // Use requestAnimationFrame for instant jump
-      animationFrameId = requestAnimationFrame(function() {
-        animationFrameId = requestAnimationFrame(function() {
-          testimonialsTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
-          navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
-          isAnimating = false;
-        });
-      });
-    }
-    // If we're at the first clone (which is copy of last slide), jump to last real slide
-    else if (currentIndex <= 0) {
-      testimonialsTrack.style.transition = 'none';
-      navigationTrack.style.transition = 'none';
-      currentIndex = realSlideCount;
-      updateCarousel(true);
-      
-      // Use requestAnimationFrame for instant jump
-      animationFrameId = requestAnimationFrame(function() {
-        animationFrameId = requestAnimationFrame(function() {
-          testimonialsTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
-          navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
-          isAnimating = false;
-        });
-      });
-    } else {
-      isAnimating = false;
-    }
-  }
+	  if (!testimonialsTrack || !navigationTrack) return;
+
+	  if (currentIndex >= testimonials.length - 1) {
+	    testimonialsTrack.style.transition = 'none';
+	    navigationTrack.style.transition = 'none';
+	    currentIndex = 1;
+	    updateCarousel(true);
+	    setTimeout(() => {
+	      testimonialsTrack.style.transition = '';
+	      navigationTrack.style.transition = '';
+	      isAnimating = false;
+	    }, 20);
+	  } else if (currentIndex <= 0) {
+	    testimonialsTrack.style.transition = 'none';
+	    navigationTrack.style.transition = 'none';
+	    currentIndex = realSlideCount;
+	    updateCarousel(true);
+	    setTimeout(() => {
+	      testimonialsTrack.style.transition = '';
+	      navigationTrack.style.transition = '';
+	      isAnimating = false;
+	    }, 20);
+	  } else {
+	    isAnimating = false;
+	  }
+	}
+
   
   function nextSlide() {
     if (isAnimating || testimonials.length === 0) return;
