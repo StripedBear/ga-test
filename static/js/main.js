@@ -313,16 +313,20 @@
     lastClone.classList.add('js-clone');
     testimonialsTrack.appendChild(lastClone);
     
-    // Clone navigation slides - need multiple clones for seamless loop
-    for (var i = 0; i < 3; i++) {
+    // Clone navigation slides - clone enough for seamless loop
+    // Clone last 3 slides to beginning (for desktop: need to show 3 slides)
+    for (var i = 0; i < 3 && i < navSlides.length; i++) {
       var lastNavSlide = navSlides[navSlides.length - 1 - i];
       if (lastNavSlide) {
         var firstNavClone = lastNavSlide.cloneNode(true);
         firstNavClone.classList.add('js-clone');
         navigationTrack.insertBefore(firstNavClone, navigationTrack.firstChild);
       }
-      
-      var firstNavSlide = navSlides[i];
+    }
+    
+    // Clone first 3 slides to end
+    for (var j = 0; j < 3 && j < navSlides.length; j++) {
+      var firstNavSlide = navSlides[j];
       if (firstNavSlide) {
         var lastNavClone = firstNavSlide.cloneNode(true);
         lastNavClone.classList.add('js-clone');
@@ -336,28 +340,6 @@
     
     // Start at first real slide (index 1, because clone is at 0)
     currentIndex = 1;
-  }
-  
-  function centerActiveSlide() {
-    if (!navigationTrack || !navigationContainer) return;
-    
-    var activeSlide = q('.c-navigation-carousel__slide.active');
-    if (!activeSlide) return;
-    
-    var containerRect = navigationContainer.getBoundingClientRect();
-    var activeRect = activeSlide.getBoundingClientRect();
-    var containerCenter = containerRect.left + containerRect.width / 2;
-    var activeCenter = activeRect.left + activeRect.width / 2;
-    var offset = containerCenter - activeCenter;
-    
-    // Get current transform value
-    var currentTransform = 0;
-    var transformMatch = navigationTrack.style.transform.match(/translateX\(([^)]+)\)/);
-    if (transformMatch) {
-      currentTransform = parseFloat(transformMatch[1]) || 0;
-    }
-    
-    navigationTrack.style.transform = 'translateX(' + (currentTransform + offset) + 'px)';
   }
   
   function updateCarousel(disableTransition) {
@@ -375,48 +357,74 @@
     var testimonialOffset = -currentIndex * 100;
     testimonialsTrack.style.transform = 'translateX(' + testimonialOffset + '%)';
     
-    // Update active class for navigation slides (only real slides, not clones)
-    var currentRealIndex = currentIndex - 1; // Account for first clone
+    // Navigation: calculate offset to center active slide
+    var currentRealIndex = currentIndex - 1; // Account for first clone (0-based for real slides)
+    
+    // Find all real slides (not clones) and their positions
+    var realSlides = [];
     navSlides.forEach(function(slide, i) {
-      if (slide) {
-        var isClone = slide.classList.contains('js-clone');
-        if (!isClone) {
-          // Calculate real index: need to find which real slide this is
-          // Count non-clone slides before this one
-          var realIndex = 0;
-          for (var j = 0; j < i; j++) {
-            if (!navSlides[j].classList.contains('js-clone')) {
-              realIndex++;
-            }
-          }
-          // Adjust for clones at the beginning
-          var cloneCountAtStart = 0;
-          for (var k = 0; k < navSlides.length; k++) {
-            if (navSlides[k].classList.contains('js-clone') && k < i) {
-              cloneCountAtStart++;
-            } else {
-              break;
-            }
-          }
-          realIndex = realIndex - cloneCountAtStart;
-          if (realIndex < 0) realIndex = realSlideCount + realIndex;
-          if (realIndex >= realSlideCount) realIndex = realIndex % realSlideCount;
-          
-          var isActive = realIndex === currentRealIndex;
-          slide.classList.toggle('active', isActive);
-        } else {
-          slide.classList.remove('active');
+      if (!slide.classList.contains('js-clone')) {
+        realSlides.push({
+          slide: slide,
+          index: i,
+          realIndex: realSlides.length
+        });
+      }
+    });
+    
+    // Update active class and details visibility
+    realSlides.forEach(function(item) {
+      var isActive = item.realIndex === currentRealIndex;
+      item.slide.classList.toggle('active', isActive);
+      
+      // Hide/show details based on active state
+      var details = item.slide.querySelector('.c-navigation-carousel__details');
+      if (details) {
+        details.style.opacity = isActive ? '1' : '0';
+      }
+    });
+    
+    // Remove active class from clones
+    navSlides.forEach(function(slide) {
+      if (slide.classList.contains('js-clone')) {
+        slide.classList.remove('active');
+        var details = slide.querySelector('.c-navigation-carousel__details');
+        if (details) {
+          details.style.opacity = '0';
         }
       }
     });
     
-    // Center active slide after a short delay to allow DOM to update
-    if (!disableTransition) {
-      setTimeout(function() {
-        centerActiveSlide();
-      }, 50);
-    } else {
-      centerActiveSlide();
+    // Calculate navigation offset to center active slide using pixels
+    var activeRealSlide = realSlides.find(function(item) {
+      return item.realIndex === currentRealIndex;
+    });
+    
+    if (activeRealSlide && navigationContainer) {
+      // Use requestAnimationFrame to ensure DOM is updated
+      requestAnimationFrame(function() {
+        var containerRect = navigationContainer.getBoundingClientRect();
+        var activeRect = activeRealSlide.slide.getBoundingClientRect();
+        var containerCenter = containerRect.left + containerRect.width / 2;
+        var activeCenter = activeRect.left + activeRect.width / 2;
+        var offset = containerCenter - activeCenter;
+        
+        // Get current transform value
+        var currentTransform = 0;
+        var transformMatch = navigationTrack.style.transform.match(/translateX\(([^)]+)\)/);
+        if (transformMatch) {
+          var transformValue = transformMatch[1].trim();
+          if (transformValue.indexOf('%') !== -1) {
+            // Convert percentage to pixels if needed
+            var percentage = parseFloat(transformValue);
+            currentTransform = (percentage / 100) * navigationTrack.offsetWidth;
+          } else {
+            currentTransform = parseFloat(transformValue) || 0;
+          }
+        }
+        
+        navigationTrack.style.transform = 'translateX(' + (currentTransform + offset) + 'px)';
+      });
     }
   }
   
@@ -429,11 +437,13 @@
       navigationTrack.style.transition = 'none';
       currentIndex = 1;
       updateCarousel(true);
-      setTimeout(function() {
-        testimonialsTrack.style.transition = 'transform 0.7s ease';
-        navigationTrack.style.transition = 'transform 0.7s ease';
-        isAnimating = false;
-      }, 20);
+      requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+          testimonialsTrack.style.transition = 'transform 0.7s ease';
+          navigationTrack.style.transition = 'transform 0.7s ease';
+          isAnimating = false;
+        });
+      });
     }
     // If we're at the first clone (which is copy of last slide), jump to last real slide
     else if (currentIndex <= 0) {
@@ -441,11 +451,13 @@
       navigationTrack.style.transition = 'none';
       currentIndex = realSlideCount;
       updateCarousel(true);
-      setTimeout(function() {
-        testimonialsTrack.style.transition = 'transform 0.7s ease';
-        navigationTrack.style.transition = 'transform 0.7s ease';
-        isAnimating = false;
-      }, 20);
+      requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+          testimonialsTrack.style.transition = 'transform 0.7s ease';
+          navigationTrack.style.transition = 'transform 0.7s ease';
+          isAnimating = false;
+        });
+      });
     } else {
       isAnimating = false;
     }
@@ -541,7 +553,8 @@
       
       // Find all real slides (not clones) and get index
       var allRealSlides = [];
-      navSlides.forEach(function(s) {
+      var allNavSlides = qa('.js-navigation-carousel-track .c-navigation-carousel__slide');
+      allNavSlides.forEach(function(s) {
         if (!s.classList.contains('js-clone')) {
           allRealSlides.push(s);
         }

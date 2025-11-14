@@ -2479,7 +2479,7 @@ body:has(.switch2porting-header) .container .content {
 }
 
 .c-navigation-carousel__slide {
-  flex: 0 0 auto;
+  flex: 0 0 100%;
   text-align: center;
   padding: 0 10px;
   box-sizing: border-box;
@@ -2503,13 +2503,7 @@ body:has(.switch2porting-header) .container .content {
 
 @media (min-width: 720px) {
   .c-navigation-carousel__slide {
-    flex: 0 0 calc(33.333% - 20px);
-  }
-}
-
-@media (max-width: 719.98px) {
-  .c-navigation-carousel__slide {
-    flex: 0 0 100%;
+    flex: 0 0 33.333%;
   }
 }
 
