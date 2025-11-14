@@ -294,6 +294,8 @@
   var slideWidth = 100; // percentage for testimonials
   var autoPlayInterval = null;
   var realSlideCount = testimonials.length;
+  var animationFrameId = null;
+  var transitionDuration = 700; // ms
   
   // Clone slides for seamless loop
   function cloneSlides() {
@@ -356,12 +358,56 @@
     navSlides.forEach(function(slide, i) {
       if (slide) {
         var isClone = slide.classList.contains('js-clone');
-        var realIndex = i - 1; // Account for first clone
-        if (realIndex < 0) realIndex = realSlideCount - 1;
-        if (realIndex >= realSlideCount) realIndex = 0;
-        slide.classList.toggle('active', !isClone && realIndex === (currentIndex - 1) % realSlideCount);
+        if (!isClone) {
+          // Calculate real index: i - 1 (account for first clone)
+          var realIndex = i - 1;
+          // Current real index: currentIndex - 1 (account for first clone)
+          var currentRealIndex = currentIndex - 1;
+          slide.classList.toggle('active', realIndex === currentRealIndex);
+        } else {
+          slide.classList.remove('active');
+        }
       }
     });
+  }
+  
+  function handleTransitionEnd() {
+    if (!testimonialsTrack || !navigationTrack) return;
+    
+    // If we're at the last clone (which is copy of first slide), jump to first real slide
+    if (currentIndex >= testimonials.length - 1) {
+      testimonialsTrack.style.transition = 'none';
+      navigationTrack.style.transition = 'none';
+      currentIndex = 1;
+      updateCarousel(true);
+      
+      // Use requestAnimationFrame for instant jump
+      animationFrameId = requestAnimationFrame(function() {
+        animationFrameId = requestAnimationFrame(function() {
+          testimonialsTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+          navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+          isAnimating = false;
+        });
+      });
+    }
+    // If we're at the first clone (which is copy of last slide), jump to last real slide
+    else if (currentIndex <= 0) {
+      testimonialsTrack.style.transition = 'none';
+      navigationTrack.style.transition = 'none';
+      currentIndex = realSlideCount;
+      updateCarousel(true);
+      
+      // Use requestAnimationFrame for instant jump
+      animationFrameId = requestAnimationFrame(function() {
+        animationFrameId = requestAnimationFrame(function() {
+          testimonialsTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+          navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+          isAnimating = false;
+        });
+      });
+    } else {
+      isAnimating = false;
+    }
   }
   
   function nextSlide() {
@@ -369,23 +415,6 @@
     isAnimating = true;
     currentIndex++;
     updateCarousel(false);
-    
-    setTimeout(function() {
-      // If we're at the last clone (which is copy of first slide), jump to first real slide
-      if (currentIndex >= testimonials.length - 1) {
-        testimonialsTrack.style.transition = 'none';
-        navigationTrack.style.transition = 'none';
-        currentIndex = 1;
-        updateCarousel(true);
-        setTimeout(function() {
-          testimonialsTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
-          navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
-          isAnimating = false;
-        }, 50);
-      } else {
-        isAnimating = false;
-      }
-    }, 700);
   }
   
   function prevSlide() {
@@ -393,32 +422,46 @@
     isAnimating = true;
     currentIndex--;
     updateCarousel(false);
+  }
+  
+  var transitionEndHandler = function(e) {
+    if (e.target === testimonialsTrack && e.propertyName === 'transform') {
+      handleTransitionEnd();
+    }
+  };
+  
+  // Listen to transition end events
+  if (testimonialsTrack) {
+    testimonialsTrack.addEventListener('transitionend', transitionEndHandler);
+  }
+  
+  function goToSlide(targetRealIndex) {
+    if (isAnimating || testimonials.length === 0) return;
+    if (targetRealIndex < 0 || targetRealIndex >= realSlideCount) return;
     
-    setTimeout(function() {
-      // If we're at the first clone (which is copy of last slide), jump to last real slide
-      if (currentIndex <= 0) {
-        testimonialsTrack.style.transition = 'none';
-        navigationTrack.style.transition = 'none';
-        currentIndex = realSlideCount;
-        updateCarousel(true);
-        setTimeout(function() {
-          testimonialsTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
-          navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
-          isAnimating = false;
-        }, 50);
-      } else {
-        isAnimating = false;
-      }
-    }, 700);
+    // targetRealIndex is 0-based for real slides
+    // currentIndex is 1-based (accounting for first clone)
+    var targetIndex = targetRealIndex + 1;
+    
+    if (targetIndex === currentIndex) return;
+    
+    isAnimating = true;
+    currentIndex = targetIndex;
+    updateCarousel(false);
+    // isAnimating will be set to false by transitionend handler
   }
   
   // Initialize carousel with clones
-  if (testimonials.length > 0) {
+  if (testimonials.length > 0 && realSlideCount > 0) {
     cloneSlides();
     updateCarousel(true);
-    setTimeout(function() {
-      updateCarousel(false);
-    }, 100);
+    
+    // Use requestAnimationFrame for initial positioning
+    animationFrameId = requestAnimationFrame(function() {
+      animationFrameId = requestAnimationFrame(function() {
+        updateCarousel(false);
+      });
+    });
   }
   
   // Attach event listeners for buttons
@@ -438,32 +481,33 @@
     });
   }
   
-  // Click on navigation slides (only real slides, not clones)
-  if (navSlides.length > 0) {
-    navSlides.forEach(function(slide, index) {
-      if (slide && !slide.classList.contains('js-clone')) {
-        slide.addEventListener('click', function(e) {
-          e.preventDefault();
-          e.stopPropagation();
-          var realIndex = index - 1; // Account for first clone
-          if (realIndex < 0) realIndex = realSlideCount - 1;
-          if (realIndex >= realSlideCount) realIndex = 0;
-          var targetIndex = realIndex + 1; // Account for first clone in track
-          if (targetIndex !== currentIndex && !isAnimating) {
-            isAnimating = true;
-            currentIndex = targetIndex;
-            updateCarousel(false);
-            setTimeout(function() {
-              isAnimating = false;
-            }, 700);
-          }
-        });
-      }
+  // Click on navigation slides - use event delegation
+  if (navigationTrack) {
+    navigationTrack.addEventListener('click', function(e) {
+      var slide = e.target.closest('.c-navigation-carousel__slide');
+      if (!slide || slide.classList.contains('js-clone') || isAnimating) return;
+      
+      e.preventDefault();
+      e.stopPropagation();
+      
+      // Find index of clicked slide
+      var allNavSlides = qa('.js-navigation-carousel-track .c-navigation-carousel__slide');
+      var clickedIndex = Array.prototype.indexOf.call(allNavSlides, slide);
+      
+      if (clickedIndex === -1) return;
+      
+      // Calculate real index: clickedIndex - 1 (account for first clone)
+      var realIndex = clickedIndex - 1;
+      if (realIndex < 0) realIndex = realSlideCount - 1;
+      if (realIndex >= realSlideCount) realIndex = 0;
+      
+      goToSlide(realIndex);
     });
   }
   
-  // Auto-play (optional)
   if (realSlideCount > 0) {
+    
+    // Auto-play
     autoPlayInterval = setInterval(function() {
       if (!isAnimating) {
         nextSlide();
@@ -476,15 +520,28 @@
       carouselWrapper.addEventListener('mouseenter', function() {
         if (autoPlayInterval) {
           clearInterval(autoPlayInterval);
+          autoPlayInterval = null;
         }
       });
       carouselWrapper.addEventListener('mouseleave', function() {
-        autoPlayInterval = setInterval(function() {
-          if (!isAnimating) {
-            nextSlide();
-          }
-        }, 5000);
+        if (!autoPlayInterval) {
+          autoPlayInterval = setInterval(function() {
+            if (!isAnimating) {
+              nextSlide();
+            }
+          }, 5000);
+        }
       });
     }
   }
+  
+  // Cleanup on page unload
+  window.addEventListener('beforeunload', function() {
+    if (animationFrameId) {
+      cancelAnimationFrame(animationFrameId);
+    }
+    if (autoPlayInterval) {
+      clearInterval(autoPlayInterval);
+    }
+  });
 })();

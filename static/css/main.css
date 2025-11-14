@@ -2334,7 +2334,7 @@ body:has(.switch2porting-header) .container .content {
 
 /* Homepage styles */
 .c-home-header {
-  /* Placeholder for header section */
+  display: block;
 }
 
 .c-separator {
@@ -2486,10 +2486,17 @@ body:has(.switch2porting-header) .container .content {
   box-sizing: border-box;
   opacity: 0.5;
   transition: opacity 0.3s ease;
+  cursor: pointer;
 }
 
 .c-navigation-carousel__slide.active {
   opacity: 1;
+}
+
+@media (max-width: 767.98px) {
+  .c-navigation-carousel__slide {
+    flex: 0 0 calc(33.333% - 14px);
+  }
 }
 
 .c-navigation-carousel__slide.active .c-navigation-carousel__icon img {
