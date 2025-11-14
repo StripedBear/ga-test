@@ -333,43 +333,43 @@
   }
   
   function updateCarousel(disableTransition) {
-    if (!testimonialsTrack || !navigationTrack || testimonials.length === 0) return;
-    
-    if (disableTransition) {
-      testimonialsTrack.style.transition = 'none';
-      navigationTrack.style.transition = 'none';
-    } else {
-      testimonialsTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
-      navigationTrack.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
-    }
-    
-    // Testimonials: one slide at a time
-    var testimonialsOffset = -currentIndex * slideWidth;
-    
-    // Navigation: always show 3 slides, center the active one
-    // To center active slide, we need to show (currentIndex-1), currentIndex, (currentIndex+1)
-    // So offset should be -(currentIndex - 1) * (100/3)
-    var navOffset = -(currentIndex - 1) * (100 / 3);
-    
-    testimonialsTrack.style.transform = 'translateX(' + testimonialsOffset + '%)';
-    navigationTrack.style.transform = 'translateX(' + navOffset + '%)';
-    
-    // Update active class for navigation slides (only real slides, not clones)
-    navSlides.forEach(function(slide, i) {
-      if (slide) {
-        var isClone = slide.classList.contains('js-clone');
-        if (!isClone) {
-          // Calculate real index: i - 1 (account for first clone)
-          var realIndex = i - 1;
-          // Current real index: currentIndex - 1 (account for first clone)
-          var currentRealIndex = currentIndex - 1;
-          slide.classList.toggle('active', realIndex === currentRealIndex);
-        } else {
-          slide.classList.remove('active');
-        }
-      }
-    });
+  if (!testimonialsTrack || !navigationTrack || testimonials.length === 0) return;
+
+  if (disableTransition) {
+    testimonialsTrack.style.transition = 'none';
+    navigationTrack.style.transition = 'none';
+  } else {
+    testimonialsTrack.style.transition = 'transform 0.7s ease';
+    navigationTrack.style.transition = 'transform 0.7s ease';
   }
+
+  const testimonialOffset = -currentIndex * 100; // 100% per slide
+  testimonialsTrack.style.transform = `translateX(${testimonialOffset}%)`;
+
+  const active = document.querySelector('.c-navigation-carousel__slide.active');
+  if (active && navigationTrack) {
+    const wrapper = document.querySelector('.c-navigation-carousel-container');
+    const wrapperRect = wrapper.getBoundingClientRect();
+    const activeRect = active.getBoundingClientRect();
+    const currentTransform = navigationTrack.style.transform
+      ? parseFloat(navigationTrack.style.transform.replace(/[^-0-9.]/g, ''))
+      : 0;
+    const delta = (activeRect.left + activeRect.right) / 2 - (wrapperRect.left + wrapperRect.right) / 2;
+    const newTransform = currentTransform - delta;
+    navigationTrack.style.transform = `translateX(${newTransform}px)`;
+  }
+
+  navSlides.forEach((slide, i) => {
+    const isClone = slide.classList.contains('js-clone');
+    if (!isClone) {
+      const realIndex = i - 1;
+      const currentReal = currentIndex - 1;
+      slide.classList.toggle('active', realIndex === currentReal);
+    } else {
+      slide.classList.remove('active');
+    }
+  });
+}
   
   function handleTransitionEnd() {
 	  if (!testimonialsTrack || !navigationTrack) return;
@@ -399,6 +399,22 @@
 	  }
 	}
 
+  function centerActiveLogo() {
+	  const active = document.querySelector('.c-navigation-carousel__slide.active');
+	  if (!active || !navigationTrack || !navigationWrapper) return;
+
+	  const wrapperRect = navigationWrapper.getBoundingClientRect();
+	  const activeRect = active.getBoundingClientRect();
+
+	  const currentOffset = navigationTrack.style.transform
+	    ? parseFloat(navigationTrack.style.transform.replace(/[^-?\d.]/g, ''))
+	    : 0;
+
+	  const delta = (activeRect.left + activeRect.right) / 2 - (wrapperRect.left + wrapperRect.right) / 2;
+
+	  navigationTrack.style.transition = 'transform 0.6s ease';
+	  navigationTrack.style.transform = `translateX(${currentOffset - delta}px)`;
+	}
   
   function nextSlide() {
     if (isAnimating || testimonials.length === 0) return;

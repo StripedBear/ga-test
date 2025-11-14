@@ -2474,18 +2474,15 @@ body:has(.switch2porting-header) .container .content {
 
 .c-navigation-carousel-track {
   display: flex;
-  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.6s ease;
   will-change: transform;
 }
 
 .c-navigation-carousel__slide {
-  flex: 0 0 calc(33.333% - 14px);
-  text-align: center;
-  padding: 0 10px;
-  box-sizing: border-box;
+  flex: 0 0 auto;
+  margin: 0 10px;
   opacity: 0.5;
-  transition: opacity 0.3s ease;
-  cursor: pointer;
+  transition: opacity 0.3s;
 }
 
 .c-navigation-carousel__slide.active {
