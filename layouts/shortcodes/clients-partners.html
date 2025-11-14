@@ -1,0 +1,26 @@
+<div class="container">
+  <h2 class="u-fs-huge text-center mb-6 mb-lg-8">Clients & Partners</h2>
+  <ul class="c-partners">
+    {{ $logos := split .Inner "\n" }}
+    {{ range $logos }}
+      {{ $line := trim . " \t\r" }}
+      {{ if and $line (ne $line "") }}
+        {{ $logo := $line }}
+        {{ $imgResource := false }}
+        {{ if $.Page.Resources }}
+          {{ $imgResource = $.Page.Resources.Get $logo }}
+          {{ if not $imgResource }}
+            {{ $imgResource = $.Page.Resources.GetMatch (printf "*%s*" $logo) }}
+          {{ end }}
+        {{ end }}
+        {{ $altText := $logo | replaceRE `\.png$` "" | replaceRE `\.jpg$` "" | replaceRE `\.jpeg$` "" | replaceRE `[-_]` " " | title }}
+        {{ if $imgResource }}
+          <li class="c-partners__item"><img src="{{ $imgResource.RelPermalink }}" alt="{{ $altText }}" /></li>
+        {{ else }}
+          <li class="c-partners__item"><img src="{{ (printf "/img/%s" $logo) | relURL }}" alt="{{ $altText }}" /></li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>
+
