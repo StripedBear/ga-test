@@ -4,8 +4,6 @@ description: "Video games engineering specialists"
 summary: "General Arcade is a porting house and co-development studio based in Singapore and Malaysia. We've provided services for Larian, SEGA, Capcom, From Software, Devolver Digital, GOG, TinyBuild, The Indie Stone, and others. Founded in 2013, we are a team of 50 specialists."
 ---
 
-General Arcade is a porting house and co-development studio based in Singapore and Malaysia. We've provided services for Larian, SEGA, Capcom, From Software, Devolver Digital, GOG, TinyBuild, The Indie Stone, and others. Founded in 2013, we are a team of 50 specialists.
-
 {{< services-home >}}
 {{< services-grid gridClass="services-grid-home" >}}
 service-1.png|Porting from any platform to any platform
