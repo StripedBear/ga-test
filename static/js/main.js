@@ -281,9 +281,10 @@
     }
   }
 
-  // Testimonials carousel
+  // Testimonials carousel - based on original Owl Carousel implementation
   var testimonialsTrack = q('.js-testimonials-track');
   var navigationTrack = q('.js-navigation-carousel-track');
+  var navigationContainer = q('.c-navigation-carousel-container');
   var prevBtn = q('.js-testimonials-carousel-prev-slide');
   var nextBtn = q('.js-testimonials-carousel-next-slide');
   
@@ -291,13 +292,12 @@
   var navSlides = navigationTrack ? qa('.js-navigation-carousel-track .c-navigation-carousel__slide') : [];
   var currentIndex = 0;
   var isAnimating = false;
-  var slideWidth = 100; // percentage for testimonials
   var autoPlayInterval = null;
   var realSlideCount = testimonials.length;
-  var animationFrameId = null;
+  var isMobile = window.innerWidth < 720;
   var transitionDuration = 700; // ms
   
-  // Clone slides for seamless loop
+  // Clone slides for seamless infinite loop
   function cloneSlides() {
     if (!testimonialsTrack || !navigationTrack || testimonials.length === 0) return;
     
@@ -313,16 +313,22 @@
     lastClone.classList.add('js-clone');
     testimonialsTrack.appendChild(lastClone);
     
-    // Clone navigation slides
-    var lastNavSlide = navSlides[navSlides.length - 1];
-    var firstNavClone = lastNavSlide.cloneNode(true);
-    firstNavClone.classList.add('js-clone');
-    navigationTrack.insertBefore(firstNavClone, navigationTrack.firstChild);
-    
-    var firstNavSlide = navSlides[0];
-    var lastNavClone = firstNavSlide.cloneNode(true);
-    lastNavClone.classList.add('js-clone');
-    navigationTrack.appendChild(lastNavClone);
+    // Clone navigation slides - need multiple clones for seamless loop
+    for (var i = 0; i < 3; i++) {
+      var lastNavSlide = navSlides[navSlides.length - 1 - i];
+      if (lastNavSlide) {
+        var firstNavClone = lastNavSlide.cloneNode(true);
+        firstNavClone.classList.add('js-clone');
+        navigationTrack.insertBefore(firstNavClone, navigationTrack.firstChild);
+      }
+      
+      var firstNavSlide = navSlides[i];
+      if (firstNavSlide) {
+        var lastNavClone = firstNavSlide.cloneNode(true);
+        lastNavClone.classList.add('js-clone');
+        navigationTrack.appendChild(lastNavClone);
+      }
+    }
     
     // Update references
     testimonials = qa('.js-testimonials-track .c-testimonial');
@@ -332,89 +338,118 @@
     currentIndex = 1;
   }
   
-  function updateCarousel(disableTransition) {
-  if (!testimonialsTrack || !navigationTrack || testimonials.length === 0) return;
-
-  if (disableTransition) {
-    testimonialsTrack.style.transition = 'none';
-    navigationTrack.style.transition = 'none';
-  } else {
-    testimonialsTrack.style.transition = 'transform 0.7s ease';
-    navigationTrack.style.transition = 'transform 0.7s ease';
-  }
-
-  const testimonialOffset = -currentIndex * 100; // 100% per slide
-  testimonialsTrack.style.transform = `translateX(${testimonialOffset}%)`;
-
-  const active = document.querySelector('.c-navigation-carousel__slide.active');
-  if (active && navigationTrack) {
-    const wrapper = document.querySelector('.c-navigation-carousel-container');
-    const wrapperRect = wrapper.getBoundingClientRect();
-    const activeRect = active.getBoundingClientRect();
-    const currentTransform = navigationTrack.style.transform
-      ? parseFloat(navigationTrack.style.transform.replace(/[^-0-9.]/g, ''))
-      : 0;
-    const delta = (activeRect.left + activeRect.right) / 2 - (wrapperRect.left + wrapperRect.right) / 2;
-    const newTransform = currentTransform - delta;
-    navigationTrack.style.transform = `translateX(${newTransform}px)`;
-  }
-
-  navSlides.forEach((slide, i) => {
-    const isClone = slide.classList.contains('js-clone');
-    if (!isClone) {
-      const realIndex = i - 1;
-      const currentReal = currentIndex - 1;
-      slide.classList.toggle('active', realIndex === currentReal);
-    } else {
-      slide.classList.remove('active');
+  function centerActiveSlide() {
+    if (!navigationTrack || !navigationContainer) return;
+    
+    var activeSlide = q('.c-navigation-carousel__slide.active');
+    if (!activeSlide) return;
+    
+    var containerRect = navigationContainer.getBoundingClientRect();
+    var activeRect = activeSlide.getBoundingClientRect();
+    var containerCenter = containerRect.left + containerRect.width / 2;
+    var activeCenter = activeRect.left + activeRect.width / 2;
+    var offset = containerCenter - activeCenter;
+    
+    // Get current transform value
+    var currentTransform = 0;
+    var transformMatch = navigationTrack.style.transform.match(/translateX\(([^)]+)\)/);
+    if (transformMatch) {
+      currentTransform = parseFloat(transformMatch[1]) || 0;
     }
-  });
-}
+    
+    navigationTrack.style.transform = 'translateX(' + (currentTransform + offset) + 'px)';
+  }
+  
+  function updateCarousel(disableTransition) {
+    if (!testimonialsTrack || !navigationTrack || testimonials.length === 0) return;
+    
+    if (disableTransition) {
+      testimonialsTrack.style.transition = 'none';
+      navigationTrack.style.transition = 'none';
+    } else {
+      testimonialsTrack.style.transition = 'transform 0.7s ease';
+      navigationTrack.style.transition = 'transform 0.7s ease';
+    }
+    
+    // Testimonials: one slide at a time
+    var testimonialOffset = -currentIndex * 100;
+    testimonialsTrack.style.transform = 'translateX(' + testimonialOffset + '%)';
+    
+    // Update active class for navigation slides (only real slides, not clones)
+    var currentRealIndex = currentIndex - 1; // Account for first clone
+    navSlides.forEach(function(slide, i) {
+      if (slide) {
+        var isClone = slide.classList.contains('js-clone');
+        if (!isClone) {
+          // Calculate real index: need to find which real slide this is
+          // Count non-clone slides before this one
+          var realIndex = 0;
+          for (var j = 0; j < i; j++) {
+            if (!navSlides[j].classList.contains('js-clone')) {
+              realIndex++;
+            }
+          }
+          // Adjust for clones at the beginning
+          var cloneCountAtStart = 0;
+          for (var k = 0; k < navSlides.length; k++) {
+            if (navSlides[k].classList.contains('js-clone') && k < i) {
+              cloneCountAtStart++;
+            } else {
+              break;
+            }
+          }
+          realIndex = realIndex - cloneCountAtStart;
+          if (realIndex < 0) realIndex = realSlideCount + realIndex;
+          if (realIndex >= realSlideCount) realIndex = realIndex % realSlideCount;
+          
+          var isActive = realIndex === currentRealIndex;
+          slide.classList.toggle('active', isActive);
+        } else {
+          slide.classList.remove('active');
+        }
+      }
+    });
+    
+    // Center active slide after a short delay to allow DOM to update
+    if (!disableTransition) {
+      setTimeout(function() {
+        centerActiveSlide();
+      }, 50);
+    } else {
+      centerActiveSlide();
+    }
+  }
   
   function handleTransitionEnd() {
-	  if (!testimonialsTrack || !navigationTrack) return;
-
-	  if (currentIndex >= testimonials.length - 1) {
-	    testimonialsTrack.style.transition = 'none';
-	    navigationTrack.style.transition = 'none';
-	    currentIndex = 1;
-	    updateCarousel(true);
-	    setTimeout(() => {
-	      testimonialsTrack.style.transition = '';
-	      navigationTrack.style.transition = '';
-	      isAnimating = false;
-	    }, 20);
-	  } else if (currentIndex <= 0) {
-	    testimonialsTrack.style.transition = 'none';
-	    navigationTrack.style.transition = 'none';
-	    currentIndex = realSlideCount;
-	    updateCarousel(true);
-	    setTimeout(() => {
-	      testimonialsTrack.style.transition = '';
-	      navigationTrack.style.transition = '';
-	      isAnimating = false;
-	    }, 20);
-	  } else {
-	    isAnimating = false;
-	  }
-	}
-
-  function centerActiveLogo() {
-	  const active = document.querySelector('.c-navigation-carousel__slide.active');
-	  if (!active || !navigationTrack || !navigationWrapper) return;
-
-	  const wrapperRect = navigationWrapper.getBoundingClientRect();
-	  const activeRect = active.getBoundingClientRect();
-
-	  const currentOffset = navigationTrack.style.transform
-	    ? parseFloat(navigationTrack.style.transform.replace(/[^-?\d.]/g, ''))
-	    : 0;
-
-	  const delta = (activeRect.left + activeRect.right) / 2 - (wrapperRect.left + wrapperRect.right) / 2;
-
-	  navigationTrack.style.transition = 'transform 0.6s ease';
-	  navigationTrack.style.transform = `translateX(${currentOffset - delta}px)`;
-	}
+    if (!testimonialsTrack || !navigationTrack) return;
+    
+    // If we're at the last clone (which is copy of first slide), jump to first real slide
+    if (currentIndex >= testimonials.length - 1) {
+      testimonialsTrack.style.transition = 'none';
+      navigationTrack.style.transition = 'none';
+      currentIndex = 1;
+      updateCarousel(true);
+      setTimeout(function() {
+        testimonialsTrack.style.transition = 'transform 0.7s ease';
+        navigationTrack.style.transition = 'transform 0.7s ease';
+        isAnimating = false;
+      }, 20);
+    }
+    // If we're at the first clone (which is copy of last slide), jump to last real slide
+    else if (currentIndex <= 0) {
+      testimonialsTrack.style.transition = 'none';
+      navigationTrack.style.transition = 'none';
+      currentIndex = realSlideCount;
+      updateCarousel(true);
+      setTimeout(function() {
+        testimonialsTrack.style.transition = 'transform 0.7s ease';
+        navigationTrack.style.transition = 'transform 0.7s ease';
+        isAnimating = false;
+      }, 20);
+    } else {
+      isAnimating = false;
+    }
+  }
   
   function nextSlide() {
     if (isAnimating || testimonials.length === 0) return;
@@ -454,8 +489,16 @@
     isAnimating = true;
     currentIndex = targetIndex;
     updateCarousel(false);
-    // isAnimating will be set to false by transitionend handler
   }
+  
+  // Handle window resize
+  window.addEventListener('resize', function() {
+    var wasMobile = isMobile;
+    isMobile = window.innerWidth < 720;
+    if (wasMobile !== isMobile) {
+      centerActiveSlide();
+    }
+  });
   
   // Initialize carousel with clones
   if (testimonials.length > 0 && realSlideCount > 0) {
@@ -463,8 +506,8 @@
     updateCarousel(true);
     
     // Use requestAnimationFrame for initial positioning
-    animationFrameId = requestAnimationFrame(function() {
-      animationFrameId = requestAnimationFrame(function() {
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() {
         updateCarousel(false);
       });
     });
@@ -496,23 +539,22 @@
       e.preventDefault();
       e.stopPropagation();
       
-      // Find index of clicked slide
-      var allNavSlides = qa('.js-navigation-carousel-track .c-navigation-carousel__slide');
-      var clickedIndex = Array.prototype.indexOf.call(allNavSlides, slide);
+      // Find all real slides (not clones) and get index
+      var allRealSlides = [];
+      navSlides.forEach(function(s) {
+        if (!s.classList.contains('js-clone')) {
+          allRealSlides.push(s);
+        }
+      });
       
-      if (clickedIndex === -1) return;
+      var clickedRealIndex = allRealSlides.indexOf(slide);
+      if (clickedRealIndex === -1) return;
       
-      // Calculate real index: clickedIndex - 1 (account for first clone)
-      var realIndex = clickedIndex - 1;
-      if (realIndex < 0) realIndex = realSlideCount - 1;
-      if (realIndex >= realSlideCount) realIndex = 0;
-      
-      goToSlide(realIndex);
+      goToSlide(clickedRealIndex);
     });
   }
   
   if (realSlideCount > 0) {
-    
     // Auto-play
     autoPlayInterval = setInterval(function() {
       if (!isAnimating) {
@@ -540,14 +582,4 @@
       });
     }
   }
-  
-  // Cleanup on page unload
-  window.addEventListener('beforeunload', function() {
-    if (animationFrameId) {
-      cancelAnimationFrame(animationFrameId);
-    }
-    if (autoPlayInterval) {
-      clearInterval(autoPlayInterval);
-    }
-  });
 })();
