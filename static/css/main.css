@@ -171,16 +171,11 @@ main {
   min-height: calc(100vh - 400px);
   padding: 60px 0 0;
   background: #25283b;
-  background: linear-gradient(to bottom, #25283b 0%, #25283b 50%, #1b1d25 100%);
+  background: linear-gradient(to bottom, #25283b 0%, #25283b 50%, var(--bg-secondary) 100%);
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
   border-top: none;
-}
-
-main:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
 }
 
 .container {
