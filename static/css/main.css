@@ -2338,11 +2338,26 @@ body.homepage .site-header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 10;
+  z-index: 1;
 }
 
 body.homepage .site-header::after {
   display: none;
+}
+
+body.homepage .header-inner {
+  position: relative;
+  z-index: 2;
+}
+
+body.homepage .logo {
+  position: relative;
+  z-index: 3;
+}
+
+body.homepage .main-nav {
+  position: relative;
+  z-index: 3;
 }
 
 .c-home-header-wrapper {

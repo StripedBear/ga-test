@@ -11,17 +11,11 @@
 {{ if $mainPage }}
 {{ $headerBg := $mainPage.Resources.Get "home-header-bg.png" }}
 {{ if $headerBg }}
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var header = document.querySelector('.site-header');
-    if (header) {
-      header.style.backgroundImage = 'url({{ $headerBg.RelPermalink }})';
-      header.style.backgroundPosition = 'center';
-      header.style.backgroundRepeat = 'no-repeat';
-      header.style.backgroundSize = 'cover';
-    }
-  });
-</script>
+<style>
+  body.homepage .site-header {
+    background-image: url('{{ $headerBg.RelPermalink }}');
+  }
+</style>
 {{ end }}
 <div class="c-home-header-wrapper">
   <div class="container mb-5 mb-md-8 mb-lg-10">
