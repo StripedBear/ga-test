@@ -24,55 +24,58 @@
       </div>
     </div>
     
-    {{/* Projects grid */}}
-    <div class="projects-grid" id="projects-grid">
-      {{ range .Pages }}
-      <article class="project-card" data-platforms="{{ range .Params.platforms }}{{ . | urlize }} {{ end }}">
-        <a href="{{ .RelPermalink }}" class="project-card-link">
-          {{/* Featured image */}}
-          {{ $featuredImage := false }}
-          {{ if .Params.featured_image }}
-            {{ $featuredImage = .Resources.Get .Params.featured_image }}
-            {{ if not $featuredImage }}
-              {{ $featuredImage = .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
-            {{ end }}
-          {{ else }}
-            {{ $featuredImage = .Resources.GetMatch "featured.*" }}
-            {{ if not $featuredImage }}
-              {{ $featuredImage = .Resources.GetMatch "thumbnail.*" }}
-            {{ end }}
-          {{ end }}
-          
-          <div class="project-card__background"{{ if $featuredImage }} style="background-image: url('{{ $featuredImage.RelPermalink }}');"{{ end }}></div>
-          
-          <div class="project-card__overlay"></div>
-          
-          <div class="project-card__description">
-            {{ if .Params.platforms }}
-            <span class="project-card__platforms">
-              {{ $platforms := .Params.platforms }}
-              {{ range $index, $platform := $platforms }}{{ $platform }}{{ if lt $index (sub (len $platforms) 1) }}, {{ end }}{{ end }}
-            </span>
-            {{ end }}
-            <h3 class="project-card__title">{{ .Title }}</h3>
-          </div>
-          
-          <div class="project-card__more">
-            <div class="project-card__button">Read more</div>
-          </div>
-        </a>
-      </article>
-      {{ end }}
-    </div>
-    
-    {{/* Load more button */}}
-    {{ if gt (len .Pages) 6 }}
-    <div class="projects-load-more">
-      <button class="projects-load-more-btn" id="projects-load-more-btn" type="button">Load more projects</button>
-    </div>
-    {{ end }}
   </article>
 </div>
+
+{{/* Projects grid - full width */}}
+<div class="projects-grid" id="projects-grid">
+  {{ range .Pages }}
+  <article class="project-card" data-platforms="{{ range .Params.platforms }}{{ . | urlize }} {{ end }}">
+    <a href="{{ .RelPermalink }}" class="project-card-link">
+      {{/* Featured image */}}
+      {{ $featuredImage := false }}
+      {{ if .Params.featured_image }}
+        {{ $featuredImage = .Resources.Get .Params.featured_image }}
+        {{ if not $featuredImage }}
+          {{ $featuredImage = .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+        {{ end }}
+      {{ else }}
+        {{ $featuredImage = .Resources.GetMatch "featured.*" }}
+        {{ if not $featuredImage }}
+          {{ $featuredImage = .Resources.GetMatch "thumbnail.*" }}
+        {{ end }}
+      {{ end }}
+      
+      <div class="project-card__background"{{ if $featuredImage }} style="background-image: url('{{ $featuredImage.RelPermalink }}');"{{ end }}></div>
+      
+      <div class="project-card__overlay"></div>
+      
+      <div class="project-card__description">
+        {{ if .Params.platforms }}
+        <span class="project-card__platforms">
+          {{ $platforms := .Params.platforms }}
+          {{ range $index, $platform := $platforms }}{{ $platform }}{{ if lt $index (sub (len $platforms) 1) }}, {{ end }}{{ end }}
+        </span>
+        {{ end }}
+        <h3 class="project-card__title">{{ .Title }}</h3>
+      </div>
+      
+      <div class="project-card__more">
+        <div class="project-card__button">Read more</div>
+      </div>
+    </a>
+  </article>
+  {{ end }}
+</div>
+
+{{/* Load more button */}}
+{{ if gt (len .Pages) 6 }}
+<div class="container">
+  <div class="projects-load-more">
+    <button class="projects-load-more-btn" id="projects-load-more-btn" type="button">Load more projects</button>
+  </div>
+</div>
+{{ end }}
 {{ end }}
 
 
