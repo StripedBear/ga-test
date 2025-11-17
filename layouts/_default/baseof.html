@@ -19,7 +19,11 @@
   <meta name="description" content="General Arcade is a porting house and co-development studio based in Singapore and Malaysia.">
 
 </head>
-<body{{ if eq .RelPermalink "/" }} class="homepage"{{ end }}>
+{{ if .IsHome }}
+<body class="homepage">
+{{ else }}
+<body>
+{{ end }}
   {{ partial "header.html" . }}
   <main>{{ block "main" . }}{{ end }}</main>
   {{ partial "footer.html" . }}

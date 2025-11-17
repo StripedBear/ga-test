@@ -2349,9 +2349,13 @@ main + .site-footer {
 /* Homepage styles */
 body.homepage .site-header {
   position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url('/img/home-header-bg.png');
   background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding-top: 40px;
+  padding-bottom: 120px;
   z-index: 1;
 }
 
@@ -2359,16 +2363,8 @@ body.homepage .site-header::after {
   display: none;
 }
 
-body.homepage .header-inner {
-  position: relative;
-  z-index: 2;
-}
-
-body.homepage .logo {
-  position: relative;
-  z-index: 3;
-}
-
+body.homepage .header-inner,
+body.homepage .logo,
 body.homepage .main-nav {
   position: relative;
   z-index: 3;

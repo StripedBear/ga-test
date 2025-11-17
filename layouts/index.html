@@ -9,14 +9,6 @@
   {{ end }}
 {{ end }}
 {{ if $mainPage }}
-{{ $headerBg := $mainPage.Resources.Get "home-header-bg.png" }}
-{{ if $headerBg }}
-<style>
-  body.homepage .site-header {
-    background-image: url('{{ $headerBg.RelPermalink }}');
-  }
-</style>
-{{ end }}
 <div class="c-home-header-wrapper">
   <div class="container mb-5 mb-md-8 mb-lg-10">
     <div class="o-inner-container o-inner-container--small mx-auto">
