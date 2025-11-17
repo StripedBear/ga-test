@@ -2349,7 +2349,7 @@ main + .site-footer {
 /* Homepage styles */
 body.homepage .site-header {
   position: relative;
-  background-image: url('/img/home-header-bg.png');
+  background-image: url('../img/home-header-bg.png');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
