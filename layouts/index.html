@@ -1,8 +1,12 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
-{{ $mainPage := .Site.GetPage "main" }}
+{{ $mainPage := .Site.GetPage "/main" }}
 {{ if not $mainPage }}
-  {{ $mainPage = .Site.GetPage "/main" }}
+  {{ range .Site.Pages }}
+    {{ if eq .RelPermalink "/main/" }}
+      {{ $mainPage = . }}
+    {{ end }}
+  {{ end }}
 {{ end }}
 {{ if $mainPage }}
 <div class="c-home-header"></div>
