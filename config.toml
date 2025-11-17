@@ -1,4 +1,4 @@
-baseURL = "https://generalarcade.github.io/ga-test/"
+baseURL = "https://stripedbear.github.io/"
 languageCode = "en-us"
 title = "General Arcade"
 publishDir = "public"
