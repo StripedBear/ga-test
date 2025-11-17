@@ -12,40 +12,40 @@
 {{ $headerBg := $mainPage.Resources.Get "home-header-bg.png" }}
 <div class="c-home-header-wrapper">
   <div class="c-home-header"{{ if $headerBg }} style="background-image: url('{{ $headerBg.RelPermalink }}');"{{ end }}></div>
+  
   <div class="container mb-5 mb-md-8 mb-lg-10">
-  <div class="o-inner-container o-inner-container--small mx-auto">
-    <div class="text-center text-white mb-5 mb-lg-7">
-      <h1 class="u-fs-huge mb-5">{{ $mainPage.Title }}</h1>
-      <p>{{ $mainPage.Params.description }}</p>
+    <div class="o-inner-container o-inner-container--small mx-auto">
+      <div class="text-center text-white mb-5 mb-lg-7">
+        <h1 class="u-fs-huge mb-5">{{ $mainPage.Title }}</h1>
+        <p>{{ $mainPage.Params.description }}</p>
+      </div>
+      <div class="c-separator c-separator--small mx-auto"></div>
     </div>
-    <div class="c-separator c-separator--small mx-auto"></div>
   </div>
-</div>
 
-<div class="container mb-md-8 mb-lg-10">
-  <div class="row align-items-center">
-    <div class="col-md-7 col-lg-6 mb-6 mb-md-0">
-      <div class="o-inner-container o-inner-container--small mx-auto text-center text-md-left">
-        <h2 class="u-fs-large mb-4">Who we are</h2>
-        <div class="c-wp text-primary pr-md-4">
-          {{ $mainPage.Summary }}
+  <div class="container mb-md-8 mb-lg-10">
+    <div class="row align-items-center">
+      <div class="col-md-7 col-lg-6 mb-6 mb-md-0">
+        <div class="o-inner-container o-inner-container--small mx-auto text-center text-md-left">
+          <h2 class="u-fs-large mb-4">Who we are</h2>
+          <div class="c-wp text-primary pr-md-4">
+            {{ $mainPage.Summary }}
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-5 col-lg-6">
-      {{ $whoWeAreImage := $mainPage.Resources.Get "who-we-are-ga.jpg" }}
-      {{ if $whoWeAreImage }}
-        <img src="{{ $whoWeAreImage.RelPermalink }}" alt="" class="mw-100" />
-      {{ else }}
-        <img src="{{ "/img/who-we-are-ga.jpg" | relURL }}" alt="" class="mw-100" />
-      {{ end }}
+      <div class="col-md-5 col-lg-6">
+        {{ $whoWeAreImage := $mainPage.Resources.Get "who-we-are-ga.jpg" }}
+        {{ if $whoWeAreImage }}
+          <img src="{{ $whoWeAreImage.RelPermalink }}" alt="" class="mw-100" />
+        {{ else }}
+          <img src="{{ "/img/who-we-are-ga.jpg" | relURL }}" alt="" class="mw-100" />
+        {{ end }}
+      </div>
     </div>
   </div>
-</div>
 
-{{/* Render content from main/index.md which includes shortcodes */}}
-{{ $mainPage.Content }}
-  </div>
+  {{/* Render content from main/index.md which includes shortcodes */}}
+  {{ $mainPage.Content }}
 </div>
 {{ end }}
 {{ end }}
