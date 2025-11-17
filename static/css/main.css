@@ -2337,6 +2337,7 @@ body:has(.switch2porting-header) .container .content {
   position: relative;
   width: 100%;
   min-height: 360px;
+  overflow: hidden;
 }
 
 @media (min-width: 992px) {
@@ -2353,6 +2354,7 @@ body:has(.switch2porting-header) .container .content {
   width: 100%;
   height: 100%;
   min-height: 360px;
+  max-height: 570px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2362,6 +2364,7 @@ body:has(.switch2porting-header) .container .content {
 @media (min-width: 992px) {
   .c-home-header {
     min-height: 570px;
+    max-height: 570px;
   }
 }
 
