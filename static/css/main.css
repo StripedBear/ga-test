@@ -2333,57 +2333,26 @@ body:has(.switch2porting-header) .container .content {
 .mb-10 { margin-bottom: 6rem; }
 
 /* Homepage styles */
-.c-home-header-wrapper {
+body.homepage .site-header {
   position: relative;
-  width: 100%;
-  min-height: 360px;
-  overflow: hidden;
-  margin-top: -60px;
-  padding-top: 60px;
-}
-
-@media (min-width: 992px) {
-  .c-home-header-wrapper {
-    min-height: 570px;
-  }
-}
-
-.c-home-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 570px;
-  min-height: 360px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 0;
-  pointer-events: none;
+  z-index: 10;
 }
 
-@media (min-width: 992px) {
-  .c-home-header {
-    height: 570px;
-  }
+body.homepage .site-header::after {
+  display: none;
 }
 
-@media (max-width: 991.98px) {
-  .c-home-header {
-    height: 360px;
-  }
+.c-home-header-wrapper {
+  position: relative;
+  width: 100%;
 }
 
 .c-home-header-wrapper > .container {
   position: relative;
   z-index: 1;
-}
-
-/* Ensure header is above background */
-.site-header {
-  position: relative;
-  z-index: 10;
 }
 
 .c-separator {
