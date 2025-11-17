@@ -10,9 +10,9 @@
 {{ end }}
 {{ if $mainPage }}
 {{ $headerBg := $mainPage.Resources.Get "home-header-bg.png" }}
-<div class="c-home-header"{{ if $headerBg }} style="background-image: url('{{ $headerBg.RelPermalink }}');"{{ end }}></div>
-
-<div class="container mb-5 mb-md-8 mb-lg-10">
+<div class="c-home-header-wrapper">
+  <div class="c-home-header"{{ if $headerBg }} style="background-image: url('{{ $headerBg.RelPermalink }}');"{{ end }}></div>
+  <div class="container mb-5 mb-md-8 mb-lg-10">
   <div class="o-inner-container o-inner-container--small mx-auto">
     <div class="text-center text-white mb-5 mb-lg-7">
       <h1 class="u-fs-huge mb-5">{{ $mainPage.Title }}</h1>
@@ -45,5 +45,7 @@
 
 {{/* Render content from main/index.md which includes shortcodes */}}
 {{ $mainPage.Content }}
+  </div>
+</div>
 {{ end }}
 {{ end }}
