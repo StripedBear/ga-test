@@ -1,5 +1,10 @@
 ﻿---
 title: "STAR WARS™: Bounty Hunter™"
+weight: 998
+platforms: ["Nintendo Switch", "Playstation 4", "Playstation 5", "Steam", "Windows", "Xbox One", "Xbox Series X/S"]
+client: "Aspyr"
+developer: "Lucasfilm Games"
+publisher: "Aspyr"
 featured_image: "featured.jpg"
 draft: false
 ---
@@ -19,3 +24,21 @@ _Armed to the Teeth_
 Fight your way through the galaxy’s underbelly, equipped with Dual Blasters, your Flamethrower, Whipcord, and pure Mandalorian Rage.
 
 We are willing to share more details about the project, please contact us.
+
+{{< image src="ss_a4c849f21c74cbfacc2e84494540abfbcadb0751.1920x1080-1-300x169.jpg" >}}
+
+{{< image src="ss_f1e1475208997ca22b0a0183fd7df14914119673.1920x1080-300x169.jpg" >}}
+
+{{< image src="https://generalarcade.com/content/uploads/2024/11/ss_3567050572ec2bbf4676ab7a9b9a4f3c94e9cddb.1920x1080.jpg" >}}
+
+{{< image src="ss_25f267e3abf1980da54e3a90a48e62d2576cbbec.1920x1080-300x169.jpg" >}}
+
+{{< image src="ss_b6a242da579efb9d17a1f333f7fc7fdeb4697989.1920x1080.jpg" >}}
+
+{{< video iframe="<iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/q8zh1HUcqBk?si=YhvnceOQfoOQnc9V\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>" >}}
+
+We are willing to share more details about the project, please contact us.
+
+{{< image src="ss_e349463688bbbade6d01b5a02f4e7ce00536bf94.1920x1080-300x169.jpg" >}}
+
+{{< image src="ss_22ed46b85d0ad11df259d01905424f7d48d8d614.1920x1080-300x169.jpg" >}}

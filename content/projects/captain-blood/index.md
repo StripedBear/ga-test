@@ -1,5 +1,11 @@
 ﻿---
 title: "Captain Blood"
+weight: 1000
+platforms: ["DRM Free", "Epic Games Store", "Mac App Store", "Nintendo Switch", "OSX", "Playstation 4", "Playstation 5", "Steam", "Windows", "Xbox One", "Xbox Series X/S"]
+client: "SNEG"
+developer: "Seawolf Studio"
+publisher: "SNEG"
+website: "https://store.steampowered.com/app/3040220/Captain_Blood/"
 featured_image: "featured.jpg"
 draft: false
 ---
@@ -79,3 +85,19 @@ Fully redrawn HUD and backgrounds for 4K resolution.
 - 
 
 Added HDR, motion blur, ambient occlusion, and anti-aliasing.
+
+{{< image src="ss_d5ba8768c38395316bf4497be6707750d4430597.1920x1080-300x169.jpg" >}}
+
+{{< image src="ss_36b0802ce6bc2167aab9e11ea8acd5eb538ec4f7.1920x1080-300x169.jpg" >}}
+
+{{< image src="https://generalarcade.com/content/uploads/2025/05/Library-Hero_Captain-Blood_1920х1080-1.jpg" >}}
+
+{{< image src="ss_9b576b9b9971b648276df131b018c82c069565c5.1920x1080-300x169.jpg" >}}
+
+{{< image src="ss_623693a7e04a0c36509aa289d29b8d964c5d1ac7.1920x1080.jpg" >}}
+
+{{< video iframe="<iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/lDIODgnY8Nc?si=LZ1lK_Hkl3mJ4FI-\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>" >}}
+
+{{< image src="ss_1dda63b0577e71648714e3cf6d211840ce4cd734.1920x1080-300x169.jpg" >}}
+
+{{< image src="ss_980c7b12f2920532eaf0c12b812db89bf2ce4b12.1920x1080-300x169.jpg" >}}

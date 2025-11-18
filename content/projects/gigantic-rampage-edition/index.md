@@ -1,5 +1,11 @@
 ﻿---
 title: "Gigantic: Rampage Edition"
+weight: 1000
+platforms: ["Cross Play", "Playstation 4", "Playstation 5", "Xbox One", "Xbox Series X"]
+client: "Abstraction Games"
+developer: "Abstraction Games"
+publisher: "Arc Games"
+website: "https://www.gogigantic.com/en/"
 featured_image: "featured.jpg"
 draft: false
 ---
@@ -21,3 +27,19 @@ Our engineers help with the following tasks:
 - Tutorial improvements
 
 - Bugfixing
+
+{{< image src="ss_559a4769b0ff9a33dd06fcb74c3a370258468d3f.1920x1080-300x169.jpg" >}}
+
+{{< image src="ss_c57e5484fca2573de511f0c85530d81e7c9e3a92.1920x1080-300x169.jpg" >}}
+
+{{< image src="https://generalarcade.com/content/uploads/2024/04/gigantic.0.jpg" >}}
+
+{{< image src="ss_7f28034676a0b2f3f05920a00d4d840b0a1a6f92.1920x1080-300x169.jpg" >}}
+
+{{< image src="ss_a5d432c1fbd5090e51b68c6356bccdc3df3caa6f.1920x1080.jpg" >}}
+
+{{< video iframe="<iframe title=\"GIGANTIC: RAMPAGE EDITION | Announcement Trailer\" src=\"https://www.youtube.com/embed/WvKqQr6ePRc\" width=\"2542\" height=\"1105\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>" >}}
+
+{{< image src="ss_4f0ae9ecd23d0bd902c895cdad9966ff066abd4d.1920x1080-300x169.jpg" >}}
+
+{{< image src="ss_963f5258c5fc71e687b940062cdf786c79397a63.1920x1080-300x169.jpg" >}}
