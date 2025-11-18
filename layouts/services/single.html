@@ -1,27 +1,28 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
+<div class="container mb-8 mb-md-9 pt-6">
+  <nav class="services-nav">
+    <ul>
+      {{ $servicesSection := .Site.GetPage "section" "services" }}
+      {{ $allPages := slice }}
+      {{ if $servicesSection }}
+        {{ $allPages = $allPages | append $servicesSection }}
+        {{ range $servicesSection.Pages }}
+          {{ $allPages = $allPages | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $sortedPages := sort $allPages "Weight" }}
+      {{ range $sortedPages }}
+      <li>
+        <a href="{{ .RelPermalink }}" class="{{ if eq $.RelPermalink .RelPermalink }}active{{ end }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</div>
+
 <div class="container">
   <article class="content">
-    {{/* Services navigation tabs */}}
-    <nav class="services-nav">
-      <ul>
-        {{ $servicesSection := .Site.GetPage "section" "services" }}
-        {{ $allPages := slice }}
-        {{ if $servicesSection }}
-          {{ $allPages = $allPages | append $servicesSection }}
-          {{ range $servicesSection.Pages }}
-            {{ $allPages = $allPages | append . }}
-          {{ end }}
-        {{ end }}
-        {{ $sortedPages := sort $allPages "Weight" }}
-        {{ range $sortedPages }}
-        <li>
-          <a href="{{ .RelPermalink }}" class="{{ if eq $.RelPermalink .RelPermalink }}active{{ end }}">{{ .Title }}</a>
-        </li>
-        {{ end }}
-      </ul>
-    </nav>
-    
     <div class="post-body">
       {{ .Content }}
     </div>
