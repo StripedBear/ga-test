@@ -2247,6 +2247,15 @@ main + .site-footer {
     flex: 0 0 50%;
     max-width: 50%;
   }
+  
+  .pt-8 .row,
+  .pt-md-9 .row {
+    justify-content: space-between;
+  }
+  
+  .col-sm-6.text-right {
+    margin-left: auto;
+  }
 }
 
 @media (min-width: 768px) {
