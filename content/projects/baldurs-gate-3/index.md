@@ -35,4 +35,3 @@ General Arcade is proud to assist Larian Studios with the Mac version updates of
 
 ©2020 Wizards of the Coast. Wizards of the Coast, BALDUR'S GATE, DUNGEONS &#038; DRAGONS, AND THEIR RESPECTIVE LOGOS ARE REGISTERED TRADEMARKS OF WIZARDS OF THE COAST LLC.
 
-©2020 Larian Studios. LARIAN STUDIOS is a registered trademark of Larian Studios Games ltd.affiliates. All Rights Reserved.

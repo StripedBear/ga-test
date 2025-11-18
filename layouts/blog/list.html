@@ -1,91 +1,88 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
-<div class="container">
-  <article class="content">
-    <h1>{{ .Title }}</h1>
-    
-    {{/* Categories dropdown */}}
-    <div class="blog-categories">
-      <div class="blog-categories-dropdown" id="blog-category-dropdown">
-        <button class="blog-categories-toggle" id="blog-category-toggle" type="button">
-          <span class="blog-categories-selected">All categories</span>
-          <span class="blog-categories-arrow">▼</span>
-        </button>
-        <ul class="blog-categories-menu" id="blog-categories-menu">
-          <li class="blog-categories-item active" data-value="">
-            <a href="#" class="blog-categories-link">All categories</a>
-          </li>
-          {{ range .Site.Taxonomies.categories }}
-          <li class="blog-categories-item" data-value="{{ .Page.Title | urlize }}">
-            <a href="#" class="blog-categories-link">{{ .Page.Title }}</a>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
+{{ $posts := .Pages.ByDate.Reverse }}
+
+<div class="container mb-5 mb-md-6">
+  <div class="o-inner-container o-inner-container--small mx-auto">
+    <div class="text-center text-white">
+      <h1 class="u-fs-huge mb-0">{{ .Title }}</h1>
     </div>
-    
-    {{/* Blog posts grid */}}
-    <div class="blog-grid" id="blog-grid">
-      {{ range .Pages }}
-      <article class="blog-post-card" data-categories="{{ range .Params.categories }}{{ . | urlize }} {{ end }}">
-        <a href="{{ .RelPermalink }}" class="blog-post-link">
-          {{/* Featured image */}}
-          {{ $featuredImage := false }}
-          {{ if .Params.featured_image }}
-            {{ $featuredImage = .Resources.Get .Params.featured_image }}
-            {{ if not $featuredImage }}
-              {{ $featuredImage = .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
-            {{ end }}
-          {{ else }}
-            {{ $featuredImage = .Resources.GetMatch "featured.*" }}
-            {{ if not $featuredImage }}
-              {{ $featuredImage = .Resources.GetMatch "thumbnail.*" }}
-            {{ end }}
-          {{ end }}
-          
-          {{ if $featuredImage }}
-          <div class="blog-post-card__image" style="background-image: url('{{ $featuredImage.RelPermalink }}');"></div>
-          {{ else }}
-          <div class="blog-post-card__image blog-post-card__image--placeholder"></div>
-          {{ end }}
-          
-          <div class="blog-post-card__content">
-            {{/* Date and Categories */}}
-            <div class="blog-post-card__meta">
-              {{ with .Date }}
-              <time datetime="{{ . }}" class="blog-post-card__date">{{ .Format "2 January 2006" }}</time>
-              {{ end }}
-              {{ if .Params.categories }}
-              <span class="blog-post-card__categories">
-                {{ $categories := .Params.categories }}
-                {{ range $index, $category := $categories }}{{ $category }}{{ if lt $index (sub (len $categories) 1) }}, {{ end }}{{ end }}
-              </span>
-              {{ end }}
-            </div>
-            
-            {{/* Title */}}
-            <h3 class="blog-post-card__title">{{ .Title }}</h3>
-            
-            {{/* Excerpt */}}
-            {{ if .Summary }}
-            <div class="blog-post-card__excerpt">{{ .Summary | truncate 150 }}</div>
-            {{ end }}
-            
-            {{/* Read more */}}
-            <span class="blog-post-card__readmore">Read more</span>
-          </div>
-        </a>
-      </article>
+  </div>
+</div>
+
+<div class="c-dd-nav" id="blog-category-dropdown">
+  <span class="c-dd-nav__current js-dd-nav-open" id="blog-category-toggle">
+    <span class="blog-categories-selected">All categories</span>
+  </span>
+  <ul class="c-dd-nav__list js-dd-nav-list" id="blog-categories-menu">
+    <li class="blog-categories-item active" data-value="">
+      <a href="#" class="blog-categories-link active">All categories</a>
+    </li>
+    {{ $categorySlice := slice }}
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+      {{ $categorySlice = $categorySlice | append (dict "name" $name) }}
+    {{ end }}
+    {{ range sort $categorySlice "name" }}
+      {{ $name := .name }}
+      <li class="blog-categories-item" data-value="{{ $name | urlize }}">
+        <a href="#" class="blog-categories-link">{{ $name }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+
+<div class="container-wider mb-7 mb-md-8">
+  <div class="row u-fs-zero c-news-grid js-news-grid mx-xl-n4" id="blog-grid">
+    {{ range $posts }}
+    {{ $categories := .Params.categories }}
+    {{ $categorySlugs := slice }}
+    {{ if $categories }}
+      {{ range $categories }}
+        {{ $categorySlugs = $categorySlugs | append (. | urlize) }}
       {{ end }}
-    </div>
-    
-    {{/* Load more button - показываем только если есть больше постов */}}
-    {{ if gt (len .Pages) 6 }}
-    <div class="blog-load-more">
-      <button class="blog-load-more-btn" id="blog-load-more-btn" type="button">Load more</button>
+    {{ end }}
+    <div class="col-6 col-lg-4 mb-4 mb-xl-6 px-xl-4 blog-post-entry" data-categories="{{ delimit $categorySlugs " " }}">
+      {{ $featuredImage := false }}
+      {{ if .Params.featured_image }}
+        {{ $featuredImage = .Resources.Get .Params.featured_image }}
+        {{ if not $featuredImage }}
+          {{ $featuredImage = .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+        {{ end }}
+      {{ else }}
+        {{ $featuredImage = .Resources.GetMatch "featured.*" }}
+        {{ if not $featuredImage }}
+          {{ $featuredImage = .Resources.GetMatch "thumbnail.*" }}
+        {{ end }}
+      {{ end }}
+      <a href="{{ .RelPermalink }}" class="c-article js-article">
+        <div class="c-article__bg"{{ if $featuredImage }} style="background-image:url({{ $featuredImage.RelPermalink }});"{{ end }}></div>
+        <div class="c-article__content">
+          <time datetime="{{ .Date.Format "2006-01-02" }}" class="u-fs-tiny text-primary-dark mb-2 d-block">{{ .Date.Format "2 January 2006" }}</time>
+          {{ if $categories }}
+          <span class="u-fs-tiny text-secondary mb-2 d-block">
+            {{ range $index, $category := $categories }}{{ $category }}{{ if lt $index (sub (len $categories) 1) }}, {{ end }}{{ end }}
+          </span>
+          {{ end }}
+          <h3 class="u-fs-medium-large mb-4">{{ .Title }}</h3>
+          <div class="d-none d-md-block">
+            {{ with .Summary }}
+            <div class="c-wp mb-5 text-primary-dark">
+              {{ . | plainify | truncate 200 }}
+            </div>
+            {{ end }}
+            <span class="u-fs-tiny u-ft-medium text-primary text-uppercase">Read more</span>
+          </div>
+        </div>
+      </a>
     </div>
     {{ end }}
-  </article>
+  </div>
 </div>
+
+{{ if gt (len $posts) 6 }}
+<div class="text-center">
+  <a href="#" class="c-button js-news-more" id="blog-load-more-btn" data-category-id="">Load more</a>
+</div>
+{{ end }}
 {{ end }}
 

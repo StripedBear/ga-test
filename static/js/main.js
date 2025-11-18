@@ -120,7 +120,7 @@
           item.classList.add('active');
           
           // Filter posts
-          var posts = qa('.blog-post-card');
+          var posts = qa('.blog-post-entry');
           posts.forEach(function(post) {
             var postCategories = post.getAttribute('data-categories') || '';
             if (!value || postCategories.indexOf(value) !== -1) {
@@ -140,7 +140,7 @@
   // Blog load more
   var loadMoreBtn = q('#blog-load-more-btn');
   if (loadMoreBtn) {
-    var allPosts = qa('.blog-post-card');
+    var allPosts = qa('.blog-post-entry');
     var postsPerPage = 6;
     var visibleCount = postsPerPage;
     
