@@ -2248,11 +2248,22 @@ main + .site-footer {
     max-width: 50%;
   }
   
-  .pt-8 .row,
-  .pt-md-9 .row {
-    justify-content: space-between;
-  }
-  
+.pt-8 .row,
+.pt-md-9 .row {
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: clamp(16px, 3vw, 40px);
+  padding-right: clamp(16px, 3vw, 40px);
+}
+
+.pt-8 .row .col-sm-6,
+.pt-md-9 .row .col-sm-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 576px) {
   .col-sm-6.text-right {
     margin-left: auto;
   }
