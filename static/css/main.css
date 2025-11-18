@@ -1727,8 +1727,8 @@ main + .site-footer {
   background: linear-gradient(
     to right,
     rgba(36, 39, 57, 0) 0%,
-    rgba(36, 39, 57, 0.92) 92%,
-    rgba(36, 39, 57, 1) 100%
+    rgba(28, 31, 40, 1) 84%,
+    rgba(27, 29, 37, 1) 100%
   );
   z-index: -1;
 }
@@ -1973,8 +1973,8 @@ main + .site-footer {
   background: linear-gradient(
     to right,
     rgba(36, 39, 57, 0) 0%,
-    rgba(36, 39, 57, 0.92) 92%,
-    rgba(36, 39, 57, 1) 100%
+    rgba(28, 31, 40, 1) 84%,
+    rgba(27, 29, 37, 1) 100%
   );
   z-index: -1;
 }
@@ -2253,8 +2253,8 @@ main + .site-footer {
   justify-content: space-between;
   margin-left: 0;
   margin-right: 0;
-  padding-left: clamp(16px, 3vw, 40px);
-  padding-right: clamp(16px, 3vw, 40px);
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .pt-8 .row .col-sm-6,
