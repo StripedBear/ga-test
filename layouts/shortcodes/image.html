@@ -2,7 +2,7 @@
 {{ $imgResource := false }}
 {{ $imgURL := "" }}
 
-{{/* Пытаемся найти ресурс в Page Bundle */}}
+{{/* Try to find resource in Page Bundle */}}
 {{ if .Page.Resources }}
   {{ $imgResource = .Page.Resources.Get $imgSrc }}
   {{ if not $imgResource }}
@@ -11,10 +11,10 @@
 {{ end }}
 
 {{ if $imgResource }}
-  {{/* Используем ресурс из Page Bundle */}}
+  {{/* Use resource from Page Bundle */}}
   {{ $imgURL = $imgResource.RelPermalink }}
 {{ else }}
-  {{/* Fallback: абсолютный путь для общих ресурсов (logo, footer и т.д.) */}}
+  {{/* Fallback: absolute path for common resources (logo, footer, etc.) */}}
   {{ $imgPath := $imgSrc | strings.TrimPrefix "/" }}
   {{ if not (hasPrefix $imgPath "img/") }}
     {{ $imgPath = printf "img/%s" $imgPath }}

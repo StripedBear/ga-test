@@ -13,7 +13,7 @@
         {{ $imgResource := false }}
         {{ $imgURL := "" }}
         
-        {{/* Пытаемся найти ресурс в Page Bundle */}}
+        {{/* Try to find resource in Page Bundle */}}
         {{ if $.Page.Resources }}
           {{ $imgResource = $.Page.Resources.Get $icon }}
           {{ if not $imgResource }}
@@ -21,7 +21,7 @@
           {{ end }}
         {{ end }}
         
-        {{/* Если не найдено, проверяем ресурсы родительской секции */}}
+        {{/* If not found, check parent section resources */}}
         {{ if not $imgResource }}
           {{ $section := $.Page.Section }}
           {{ if $section }}
@@ -38,10 +38,10 @@
         {{ end }}
         
         {{ if $imgResource }}
-          {{/* Используем ресурс из Page Bundle или секции */}}
+          {{/* Use resource from Page Bundle or section */}}
           {{ $imgURL = $imgResource.RelPermalink }}
         {{ else }}
-          {{/* Fallback: абсолютный путь для общих ресурсов */}}
+          {{/* Fallback: absolute path for common resources */}}
           {{ $imgPath := $icon | strings.TrimPrefix "/" }}
           {{ if not (hasPrefix $imgPath "img/") }}
             {{ $imgPath = printf "img/%s" $icon }}
