@@ -63,63 +63,64 @@
       {{ end }}
     </div>
 
-    {{/* Navigation: Previous and Next posts */}}
-    {{ $prev := .PrevInSection }}
-    {{ $next := .NextInSection }}
-    
-    {{ if or $prev $next }}
-    <div class="pt-8 pt-md-9">
-      <div class="row">
-        <div class="col-sm-6">
-          {{ if $prev }}
-            {{ $prevFeaturedImage := false }}
-            {{ if $prev.Params.featured_image }}
-              {{ $prevFeaturedImage = $prev.Resources.Get $prev.Params.featured_image }}
-              {{ if not $prevFeaturedImage }}
-                {{ $prevFeaturedImage = $prev.Resources.GetMatch (printf "*%s*" $prev.Params.featured_image) }}
-              {{ end }}
-            {{ else }}
-              {{ $prevFeaturedImage = $prev.Resources.GetMatch "featured.*" }}
-              {{ if not $prevFeaturedImage }}
-                {{ $prevFeaturedImage = $prev.Resources.GetMatch "thumbnail.*" }}
-              {{ end }}
-            {{ end }}
-            
-            <a href="{{ $prev.RelPermalink }}" class="blog-post-nav-link blog-post-nav-link--prev"{{ if $prevFeaturedImage }} style="background-image: url('{{ $prevFeaturedImage.RelPermalink }}');"{{ end }}>
-              <div class="blog-post-nav-content">
-                <span class="blog-post-nav-label">Previous</span>
-                <span class="blog-post-nav-title">{{ $prev.Title }}</span>
-              </div>
-            </a>
-          {{ end }}
-        </div>
-        <div class="col-sm-6 text-right">
-          {{ if $next }}
-            {{ $nextFeaturedImage := false }}
-            {{ if $next.Params.featured_image }}
-              {{ $nextFeaturedImage = $next.Resources.Get $next.Params.featured_image }}
-              {{ if not $nextFeaturedImage }}
-                {{ $nextFeaturedImage = $next.Resources.GetMatch (printf "*%s*" $next.Params.featured_image) }}
-              {{ end }}
-            {{ else }}
-              {{ $nextFeaturedImage = $next.Resources.GetMatch "featured.*" }}
-              {{ if not $nextFeaturedImage }}
-                {{ $nextFeaturedImage = $next.Resources.GetMatch "thumbnail.*" }}
-              {{ end }}
-            {{ end }}
-            
-            <a href="{{ $next.RelPermalink }}" class="blog-post-nav-link blog-post-nav-link--next"{{ if $nextFeaturedImage }} style="background-image: url('{{ $nextFeaturedImage.RelPermalink }}');"{{ end }}>
-              <div class="blog-post-nav-content">
-                <span class="blog-post-nav-label">Next</span>
-                <span class="blog-post-nav-title">{{ $next.Title }}</span>
-              </div>
-            </a>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-    {{ end }}
   </article>
 </div>
+
+{{/* Navigation: Previous and Next posts */}}
+{{ $prev := .PrevInSection }}
+{{ $next := .NextInSection }}
+
+{{ if or $prev $next }}
+<div class="pt-8 pt-md-9">
+  <div class="row">
+    <div class="col-sm-6">
+      {{ if $prev }}
+        {{ $prevFeaturedImage := false }}
+        {{ if $prev.Params.featured_image }}
+          {{ $prevFeaturedImage = $prev.Resources.Get $prev.Params.featured_image }}
+          {{ if not $prevFeaturedImage }}
+            {{ $prevFeaturedImage = $prev.Resources.GetMatch (printf "*%s*" $prev.Params.featured_image) }}
+          {{ end }}
+        {{ else }}
+          {{ $prevFeaturedImage = $prev.Resources.GetMatch "featured.*" }}
+          {{ if not $prevFeaturedImage }}
+            {{ $prevFeaturedImage = $prev.Resources.GetMatch "thumbnail.*" }}
+          {{ end }}
+        {{ end }}
+        
+        <a href="{{ $prev.RelPermalink }}" class="blog-post-nav-link blog-post-nav-link--prev"{{ if $prevFeaturedImage }} style="background-image: url('{{ $prevFeaturedImage.RelPermalink }}');"{{ end }}>
+          <div class="blog-post-nav-content">
+            <span class="blog-post-nav-label">Previous</span>
+            <span class="blog-post-nav-title">{{ $prev.Title }}</span>
+          </div>
+        </a>
+      {{ end }}
+    </div>
+    <div class="col-sm-6 text-right">
+      {{ if $next }}
+        {{ $nextFeaturedImage := false }}
+        {{ if $next.Params.featured_image }}
+          {{ $nextFeaturedImage = $next.Resources.Get $next.Params.featured_image }}
+          {{ if not $nextFeaturedImage }}
+            {{ $nextFeaturedImage = $next.Resources.GetMatch (printf "*%s*" $next.Params.featured_image) }}
+          {{ end }}
+        {{ else }}
+          {{ $nextFeaturedImage = $next.Resources.GetMatch "featured.*" }}
+          {{ if not $nextFeaturedImage }}
+            {{ $nextFeaturedImage = $next.Resources.GetMatch "thumbnail.*" }}
+          {{ end }}
+        {{ end }}
+        
+        <a href="{{ $next.RelPermalink }}" class="blog-post-nav-link blog-post-nav-link--next"{{ if $nextFeaturedImage }} style="background-image: url('{{ $nextFeaturedImage.RelPermalink }}');"{{ end }}>
+          <div class="blog-post-nav-content">
+            <span class="blog-post-nav-label">Next</span>
+            <span class="blog-post-nav-title">{{ $next.Title }}</span>
+          </div>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
 {{ end }}
 
