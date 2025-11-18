@@ -6,7 +6,7 @@ weight: 3
 {{< services-grid >}}
 ps.svg|Sony Playstation 4 / 5
 xbox.svg|Microsoft Xbox One / Series X
-Nintendo-Switch.svgg|Nintendo Switch 1 / 2
+Nintendo-Switch.svg|Nintendo Switch 1 / 2
 windows.svg|Windows
 mac-os.svg|macOS
 linux.svg|Linux
