@@ -799,6 +799,7 @@ main + .site-footer {
 
 .services-nav li {
   margin: 0;
+  list-style: none;
 }
 
 .services-nav a {
@@ -857,7 +858,7 @@ main + .site-footer {
 .service-item h3 {
   font-size: 1rem;
   font-weight: 400;
-  color: var(--text-secondary);
+  color: #a4a8f2;
   margin: 0;
   line-height: 1.4;
   transition: color 0.18s ease-out;
