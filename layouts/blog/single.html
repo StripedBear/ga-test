@@ -1,69 +1,74 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
-<div class="container">
-  <article class="content">
-    {{/* Back to Blog link */}}
-    <div class="blog-post-back">
-      <a href="{{ "/blog/" | relURL }}" class="blog-post-back-link">← Back to Blog</a>
-    </div>
+<div class="container mb-6 mb-md-8">
+  <div class="o-inner-container o-inner-container--large mx-auto">
+    <a href="{{ "/blog/" | relURL }}" class="u-fs-small text-primary mb-3 d-inline-block">Back to Blog</a>
+    <h1 class="u-fs-huge text-white mb-0">{{ .Title }}</h1>
+  </div>
+</div>
 
-    {{/* Post title */}}
-    <h1 class="blog-post-title">{{ .Title }}</h1>
+{{/* Featured image lookup */}}
+{{ $featuredImage := false }}
+{{ if .Params.featured_image }}
+  {{ $featuredImage = .Resources.Get .Params.featured_image }}
+  {{ if not $featuredImage }}
+    {{ $featuredImage = .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
+  {{ end }}
+{{ else }}
+  {{ $featuredImage = .Resources.GetMatch "featured.*" }}
+  {{ if not $featuredImage }}
+    {{ $featuredImage = .Resources.GetMatch "thumbnail.*" }}
+  {{ end }}
+{{ end }}
 
-    {{/* Featured image */}}
-    {{ $featuredImage := false }}
-    {{ if .Params.featured_image }}
-      {{ $featuredImage = .Resources.Get .Params.featured_image }}
-      {{ if not $featuredImage }}
-        {{ $featuredImage = .Resources.GetMatch (printf "*%s*" .Params.featured_image) }}
-      {{ end }}
-    {{ else }}
-      {{ $featuredImage = .Resources.GetMatch "featured.*" }}
-      {{ if not $featuredImage }}
-        {{ $featuredImage = .Resources.GetMatch "thumbnail.*" }}
-      {{ end }}
-    {{ end }}
-    
-    {{ if $featuredImage }}
-    <div class="blog-post-featured-image">
-      <img src="{{ $featuredImage.RelPermalink }}" alt="{{ .Title }}">
-    </div>
-    {{ end }}
+<div class="container pb-6 pb-lg-8">
+  <div class="o-inner-container o-inner-container--large mx-auto">
+    <div class="row">
+      <div class="col-md-8 col-lg-9 pr-md-4 pr-lg-6 mb-4 mb-md-0">
+        <div class="c-wp text-white">
+          {{ if $featuredImage }}
+          <div class="pb-5 text-center">
+            <img src="{{ $featuredImage.RelPermalink }}" alt="{{ .Title }}" class="mw-100" />
+          </div>
+          {{ end }}
 
-    {{/* Post content */}}
-    <div class="blog-post-body">
-      {{ .Content }}
-    </div>
-
-    {{/* Post meta (date, categories, tags) */}}
-    <div class="blog-post-meta">
-      {{ with .Date }}
-      <div class="blog-post-meta-item">
-        <span class="blog-post-meta-label">Date:</span>
-        <time datetime="{{ . }}">{{ .Format "2 January 2006" }}</time>
+          <div class="mb-6">
+            {{ .Content }}
+          </div>
+        </div>
       </div>
-      {{ end }}
-      {{ if .Params.categories }}
-      <div class="blog-post-meta-item">
-        <span class="blog-post-meta-label">Categories:</span>
-        <span class="blog-post-meta-value">
-          {{ $categories := .Params.categories }}
-          {{ range $index, $category := $categories }}{{ $category }}{{ if lt $index (sub (len $categories) 1) }}, {{ end }}{{ end }}
-        </span>
+      <div class="col-md-4 col-lg-3">
+        <div class="bg-primary-dark-2 p-5">
+          <ul class="list-unstyled">
+            {{ with .Date }}
+            <li class="list-unstyled-item mb-3">
+              <p class="text-primary mb-1 u-fs-tiny">Date:</p>
+              <time datetime="{{ .Format "2006-01-02" }}">{{ .Format "2 January 2006" }}</time>
+            </li>
+            {{ end }}
+            {{ with .Params.categories }}
+            {{ $categories := . }}
+            <li class="list-unstyled-item mb-3">
+              <p class="text-primary mb-1 u-fs-tiny">Categories:</p>
+              {{ range $index, $category := $categories }}
+                <a href="{{ (printf "/categories/%s/" ($category | urlize)) | relURL }}" class="text-white">{{ $category }}</a>{{ if lt $index (sub (len $categories) 1) }}, {{ end }}
+              {{ end }}
+            </li>
+            {{ end }}
+            {{ with .Params.tags }}
+            {{ $tags := . }}
+            <li class="list-unstyled-item mb-3">
+              <p class="text-primary mb-1 u-fs-tiny">Tags:</p>
+              <span>
+                {{ range $index, $tag := $tags }}{{ $tag }}{{ if lt $index (sub (len $tags) 1) }}, {{ end }}{{ end }}
+              </span>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
-      {{ end }}
-      {{ if .Params.tags }}
-      <div class="blog-post-meta-item">
-        <span class="blog-post-meta-label">Tags:</span>
-        <span class="blog-post-meta-value">
-          {{ $tags := .Params.tags }}
-          {{ range $index, $tag := $tags }}{{ $tag }}{{ if lt $index (sub (len $tags) 1) }}, {{ end }}{{ end }}
-        </span>
-      </div>
-      {{ end }}
     </div>
-
-  </article>
+  </div>
 </div>
 
 {{/* Navigation: Previous and Next posts */}}
