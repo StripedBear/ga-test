@@ -9,19 +9,21 @@
   {{ end }}
 {{ end }}
 {{ if $mainPage }}
-<div class="c-home-header-wrapper">
-  <div class="container mb-5 mb-md-8 mb-lg-10">
-    <div class="o-inner-container o-inner-container--small mx-auto">
-      <div class="text-center text-white mb-5 mb-lg-7">
-        <h1 class="u-fs-huge mb-5">{{ $mainPage.Title }}</h1>
-        <p>{{ $mainPage.Params.description }}</p>
+<div class="c-home-header-container">
+  <div class="c-home-header-bg"></div>
+  <div class="c-home-header-wrapper">
+    <div class="container mb-5 mb-md-8 mb-lg-10">
+      <div class="o-inner-container o-inner-container--small mx-auto">
+        <div class="text-center text-white mb-5 mb-lg-7">
+          <h1 class="u-fs-huge mb-5">{{ $mainPage.Title }}</h1>
+          <p>{{ $mainPage.Params.description }}</p>
+        </div>
+        <div class="c-separator c-separator--small mx-auto"></div>
       </div>
-      <div class="c-separator c-separator--small mx-auto"></div>
     </div>
   </div>
-</div>
 
-<div class="container mb-md-8 mb-lg-10">
+  <div class="container mb-md-8 mb-lg-10 c-home-header-section">
     <div class="row align-items-center">
       <div class="col-md-7 col-lg-6 mb-6 mb-md-0">
         <div class="o-inner-container o-inner-container--small mx-auto text-center text-md-left">
@@ -41,9 +43,9 @@
       </div>
     </div>
   </div>
+</div>
 
   {{/* Render content from main/index.md which includes shortcodes */}}
   {{ $mainPage.Content }}
-</div>
 {{ end }}
 {{ end }}

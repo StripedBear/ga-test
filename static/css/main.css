@@ -2349,18 +2349,13 @@ main + .site-footer {
 /* Homepage styles */
 body.homepage .site-header {
   position: relative;
-  background-image: url('../img/home-header-bg.png');
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
   padding-top: 40px;
-  padding-bottom: 120px;
-  z-index: 1;
+  padding-bottom: 24px;
+  z-index: 2;
 }
 
 body.homepage .site-header::after {
-  display: none;
+  display: block;
 }
 
 body.homepage .header-inner,
@@ -2370,9 +2365,42 @@ body.homepage .main-nav {
   z-index: 3;
 }
 
+body.homepage {
+  position: relative;
+}
+
+.c-home-header-container {
+  position: relative;
+  width: 100%;
+  margin-top: -164px;
+  padding-top: 164px;
+}
+
+.c-home-header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url('../img/home-header-bg.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  z-index: 0;
+  pointer-events: none;
+}
+
+body.homepage .c-home-header-section {
+  position: relative;
+  z-index: 1;
+}
+
 .c-home-header-wrapper {
   position: relative;
   width: 100%;
+  z-index: 1;
 }
 
 .c-home-header-wrapper > .container {
