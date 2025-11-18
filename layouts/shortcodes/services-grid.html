@@ -21,8 +21,24 @@
           {{ end }}
         {{ end }}
         
+        {{/* Если не найдено, проверяем ресурсы родительской секции */}}
+        {{ if not $imgResource }}
+          {{ $section := $.Page.Section }}
+          {{ if $section }}
+            {{ $sectionPage := $.Page.Site.GetPage "section" $section }}
+            {{ if $sectionPage }}
+              {{ if $sectionPage.Resources }}
+                {{ $imgResource = $sectionPage.Resources.Get $icon }}
+                {{ if not $imgResource }}
+                  {{ $imgResource = $sectionPage.Resources.GetMatch (printf "*%s*" $icon) }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        
         {{ if $imgResource }}
-          {{/* Используем ресурс из Page Bundle */}}
+          {{/* Используем ресурс из Page Bundle или секции */}}
           {{ $imgURL = $imgResource.RelPermalink }}
         {{ else }}
           {{/* Fallback: абсолютный путь для общих ресурсов */}}
