@@ -1,0 +1,7 @@
+{{ $iframe := (.Get "iframe") | default (.Get 0) }}
+{{ if $iframe }}
+<div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 20px 0;">
+  {{ $iframe | safeHTML }}
+</div>
+{{ end }}
+
