@@ -41,7 +41,7 @@
         {{ $categorySlugs = $categorySlugs | append (. | urlize) }}
       {{ end }}
     {{ end }}
-    <div class="col-6 col-lg-4 mb-4 mb-xl-6 px-xl-4 blog-post-entry" data-categories="{{ delimit $categorySlugs " " }}">
+    <div class="col-12 col-md-4 col-lg-4 mb-4 mb-xl-6 px-xl-4 blog-post-entry" data-categories="{{ delimit $categorySlugs " " }}">
       {{ $featuredImage := false }}
       {{ if .Params.featured_image }}
         {{ $featuredImage = .Resources.Get .Params.featured_image }}
