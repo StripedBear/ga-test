@@ -1049,10 +1049,8 @@ main + .site-footer {
 @media (min-width: 720px) {
   .c-dd-nav__list {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
     width: 100%;
-    max-width: 360px;
     padding-bottom: 30px;
   }
 }
