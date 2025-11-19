@@ -1,29 +1,29 @@
 # General Arcade — Hugo + GitHub Pages
 
-Статический сайт с автодеплоем на GitHub Pages. Визуал и ассеты скопированы из предоставленного архива `_files`.
-Чтобы повторить верстку 1:1, вставьте HTML-разметку текущего сайта в шаблоны Hugo:
+Static site with auto-deployment to GitHub Pages. Visual design and assets copied from the provided `_files` archive.
+To replicate the layout 1:1, insert the current site's HTML markup into Hugo templates:
 
-- `layouts/partials/header.html` — шапка
-- `layouts/index.html` — главная
-- `layouts/_default/single.html` — страница/статья
-- `layouts/_default/list.html` — список статей/новостей
-- `layouts/partials/footer.html` — футер
+- `layouts/partials/header.html` — header
+- `layouts/index.html` — homepage
+- `layouts/_default/single.html` — page/article
+- `layouts/_default/list.html` — article/news list
+- `layouts/partials/footer.html` — footer
 
-Ассеты (CSS/JS/картинки/шрифты) уже лежат в `static/` под своими путями. Подключение главного CSS/JS происходит в `baseof.html`. 
-При необходимости, поправьте пути к файлам стилей/скриптов под ваш реальный `main.css`/`main.js`.
+Assets (CSS/JS/images/fonts) are already in `static/` under their respective paths. Main CSS/JS are included in `baseof.html`.
+If needed, adjust paths to style/script files to match your actual `main.css`/`main.js`.
 
-## Локально
+## Local Development
 ```bash
 hugo server -D
 ```
-Откройте http://localhost:1313
+Open http://localhost:1313
 
-## Деплой
-- Запушьте в ветку `main`. CI соберёт и задеплоит на GitHub Pages.
+## Deployment
+- Push to the `main` branch. CI will build and deploy to GitHub Pages.
 
-## Безопасность
-- CSP/Referrer-Policy/X-Frame-Options/Permissions-Policy выставлены через `<meta http-equiv>` в `baseof.html` (для GitHub Pages).
-- Не используйте инлайн-скрипты и сторонние CDN-скрипты. Все ассеты должны идти с вашего домена.
+## Security
+- CSP/Referrer-Policy/X-Frame-Options/Permissions-Policy are set via `<meta http-equiv>` in `baseof.html` (for GitHub Pages).
+- Do not use inline scripts or third-party CDN scripts. All assets should be served from your domain.
 
-## Контент (Markdown)
-- Страницы и статьи — в `content/`. Пример поста: `content/blog/2025-11-03-sample.md`.
+## Content (Markdown)
+- Pages and articles — in `content/`. Example post: `content/blog/2025-11-03-sample.md`.
