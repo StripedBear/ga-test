@@ -269,6 +269,10 @@ main {
 }
 
 .post-body {
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 0;
 }
