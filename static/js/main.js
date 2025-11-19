@@ -191,19 +191,21 @@
     projectsCategoryToggle.addEventListener('click', function(e) {
       e.preventDefault();
       projectsCategoryDropdown.classList.toggle('open');
+      projectsCategoryDropdown.classList.toggle('c-dd-nav--open');
     });
     
     // Close dropdown when clicking outside
     document.addEventListener('click', function(e) {
       if (!projectsCategoryDropdown.contains(e.target)) {
         projectsCategoryDropdown.classList.remove('open');
+        projectsCategoryDropdown.classList.remove('c-dd-nav--open');
       }
     });
     
     // Handle category selection
     var projectsCategoryItems = qa('.projects-categories-item');
     projectsCategoryItems.forEach(function(item) {
-      var link = item.querySelector('.projects-categories-link');
+      var link = item.querySelector('.blog-categories-link');
       if (link) {
         link.addEventListener('click', function(e) {
           e.preventDefault();
@@ -216,8 +218,11 @@
           // Update active state
           projectsCategoryItems.forEach(function(i) {
             i.classList.remove('active');
+            var iLink = i.querySelector('.blog-categories-link');
+            if (iLink) iLink.classList.remove('active');
           });
           item.classList.add('active');
+          link.classList.add('active');
           
           // Filter projects
           var projects = qa('.project-card');
@@ -232,6 +237,7 @@
           
           // Close dropdown
           projectsCategoryDropdown.classList.remove('open');
+          projectsCategoryDropdown.classList.remove('c-dd-nav--open');
         });
       }
     });
