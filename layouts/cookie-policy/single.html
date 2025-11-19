@@ -1,0 +1,35 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "main" }}
+<div class="cookie-policy-page">
+  <div class="container mb-6 mb-md-8">
+    <div class="o-inner-container o-inner-container--medium-large mx-auto">
+      <div class="cookie-policy-header text-center">
+        <p class="cookie-policy-label text-primary text-uppercase mb-2">General Arcade</p>
+        <h1 class="cookie-policy-title text-white mb-0">{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-6 mb-md-9">
+    <div class="o-inner-container o-inner-container--large mx-auto">
+      <div class="cookie-policy-content c-wp text-white">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+  <div class="cookie-policy-contact text-center">
+    <div class="container">
+      <div class="o-inner-container o-inner-container--small mx-auto">
+        <p class="cookie-policy-company text-white mb-2">General Arcade</p>
+        <a href="mailto:contact@generalarcade.com" class="cookie-policy-mail">contact@generalarcade.com</a>
+        <p class="cookie-policy-location text-white-50 mb-0">General Arcade (Pte. Ltd.), Singapore (2025)</p>
+        <div class="cookie-policy-footer-links mt-4">
+          <a href="/cookie-policy/" class="cookie-policy-link">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
