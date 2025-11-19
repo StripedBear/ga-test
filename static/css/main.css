@@ -403,6 +403,20 @@ body:has(.switch2porting-header) .container .content {
   line-height: 1.2;
 }
 
+.about-page-label {
+  color: #a4a8f2;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.about-page-heading {
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
 /* ===== About Page Stats ===== */
 .about-stats {
   margin: 60px 0;
@@ -563,6 +577,15 @@ main + .site-footer {
 
 .footer-right a:hover {
   color: var(--accent);
+}
+
+.footer-highlight-link {
+  color: inherit;
+  transition: color 0.2s;
+}
+
+.footer-highlight-link:hover {
+  color: #72749d;
 }
 
 .footer-links {
