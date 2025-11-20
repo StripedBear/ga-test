@@ -2,43 +2,49 @@
 {{ define "main" }}
 <div class="container mb-8 mb-md-9 pt-6">
   <div class="o-inner-container o-inner-container--large mx-auto">
-    <div class="content">
-      <div class="post-body">
-        <span class="about-page-label mb-3 d-inline-block">{{ .Title }}</span>
-        <h1 class="about-page-heading mb-6">{{ .Params.subtitle }}</h1>
-        
-        <div class="c-wp u-fs-small u-ft-regular">
-          {{ $content := .Content }}
-          {{ $content = $content | replaceRE `\{\{< image-grid[^>]*>\}\}[\s\S]*?\{\{< /image-grid >\}\}` "" }}
-          {{ $content = $content | replaceRE `\{\{< image[^>]*>\}\}` "" }}
-          {{ $content | safeHTML }}
-        </div>
-      </div>
-
-      {{/* Stats images in original order */}}
-      {{ $page := . }}
-      {{ $orderedNames := slice "founded-2013" "shipped-100s" "3-offices" "clients-15-countries" "40-people" }}
-      {{ $orderedImages := slice }}
-      {{ range $orderedNames }}
-        {{ with $page.Resources.GetMatch (printf "%s.*" .) }}
-          {{ $orderedImages = $orderedImages | append . }}
-        {{ end }}
-      {{ end }}
-
-      {{ if gt (len $orderedImages) 0 }}
-      <div class="about-stats">
-        <div class="stats-grid">
-          {{ range $orderedImages }}
-          <div class="stat-item">
-            <img src="{{ .RelPermalink }}" alt="">
+    <div class="o-inner-container o-inner-container--medium-large">
+      <span class="u-fs-small text-primary mb-3 d-inline-block">{{ .Title }}</span>
+      <h1 class="u-fs-large text-white mb-6">{{ .Params.subtitle }}</h1>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div class="c-wp u-fs-small u-ft-regular">
+            {{ $content := .Content }}
+            {{ $content = $content | replaceRE `\{\{< image-grid[^>]*>\}\}[\s\S]*?\{\{< /image-grid >\}\}` "" }}
+            {{ $content = $content | replaceRE `\{\{< image[^>]*>\}\}` "" }}
+            {{ $content | safeHTML }}
           </div>
-          {{ end }}
         </div>
       </div>
-      {{ end }}
     </div>
   </div>
 </div>
+
+{{/* Stats images in original order */}}
+{{ $page := . }}
+{{ $orderedNames := slice "founded-2013" "shipped-100s" "3-offices" "clients-15-countries" "40-people" }}
+{{ $orderedImages := slice }}
+{{ range $orderedNames }}
+  {{ with $page.Resources.GetMatch (printf "%s.*" .) }}
+    {{ $orderedImages = $orderedImages | append . }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $orderedImages) 0 }}
+<div class="container mb-4">
+  <div class="o-inner-container o-inner-container--large mx-auto">
+    <div class="about-stats">
+      <div class="stats-grid">
+        {{ range $orderedImages }}
+        <div class="stat-item">
+          <img src="{{ .RelPermalink }}" alt="">
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
 
 {{/* Team photo */}}
 {{ $teamPhoto := .Resources.GetMatch "team-photo.*" }}
