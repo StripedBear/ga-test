@@ -422,14 +422,18 @@ body:has(.switch2porting-header) .container .content {
 }
 
 /* ===== Cookie Policy ===== */
-.cookie-policy-label {
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  color: #a4a8f2;
+.cookie-policy-title {
+  font-size: 50px;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
 }
 
 .cookie-policy-body {
-  color: #dfe3ff;
+  color: #ffffff;
   font-size: 17px;
   line-height: 1.65;
 }
@@ -437,28 +441,38 @@ body:has(.switch2porting-header) .container .content {
 .cookie-policy-wrapper {
   max-width: 800px;
   width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .cookie-policy-body p {
   margin-bottom: 1.35em;
 }
 
-.cookie-policy-body strong {
+.cookie-policy-body > *:last-child {
+  margin-bottom: 0;
+}
+
+.cookie-policy-body p:last-child {
+  margin-bottom: 0;
+}
+
+.cookie-policy-body p strong {
   display: block;
-  color: #ffffff;
-  font-size: 20px;
+  color: #a4a8f2;
+  font-size: 16px;
   font-weight: 600;
   margin: 2em 0 0.65em;
 }
 
-.cookie-policy-body strong:first-child {
+.cookie-policy-body p strong:first-child {
   margin-top: 0;
 }
 
 .cookie-policy-body em {
   display: block;
-  color: #a4a8f2;
-  font-style: normal;
+  color: #ffffff;
+  font-style: italic;
   font-size: 16px;
   margin: 1.5em 0 0.35em;
   text-transform: none;

@@ -32,15 +32,13 @@
 
 {{ if gt (len $orderedImages) 0 }}
 <div class="container mb-4">
-  <div class="o-inner-container o-inner-container--large mx-auto">
-    <div class="about-stats">
-      <div class="stats-grid">
-        {{ range $orderedImages }}
-        <div class="stat-item">
-          <img src="{{ .RelPermalink }}" alt="">
-        </div>
-        {{ end }}
+  <div class="about-stats">
+    <div class="stats-grid">
+      {{ range $orderedImages }}
+      <div class="stat-item">
+        <img src="{{ .RelPermalink }}" alt="">
       </div>
+      {{ end }}
     </div>
   </div>
 </div>

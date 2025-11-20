@@ -30,7 +30,5 @@ If you want to restrict or block the cookies that are set by our website, you ca
 
 If you have any questions about this cookie policy or our use of cookies, please contact us.
 
-General Arcade  
-contact@generalarcade.com  
-General Arcade (Pte. Ltd.), Singapore (2025)
+
 

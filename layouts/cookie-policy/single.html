@@ -1,19 +1,9 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
-<div class="container mb-5 mb-md-6 pt-6">
-  <div class="o-inner-container o-inner-container--small mx-auto">
-    <div class="text-center text-white">
-      {{ with .Params.label }}
-      <p class="cookie-policy-label text-primary text-uppercase mb-2">{{ . }}</p>
-      {{ end }}
-      <h1 class="u-fs-huge mb-0">{{ .Title }}</h1>
-    </div>
-  </div>
-</div>
-
-<div class="container pb-6 pb-md-8">
+<div class="container pt-6">
   <div class="o-inner-container o-inner-container--small mx-auto cookie-policy-wrapper">
-    <div class="cookie-policy-body c-wp u-fs-small u-ft-regular">
+    <h1 class="cookie-policy-title mb-0">{{ .Title }}</h1>
+    <div class="cookie-policy-body">
       {{ .Content }}
     </div>
   </div>
