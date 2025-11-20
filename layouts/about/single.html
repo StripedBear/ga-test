@@ -22,7 +22,7 @@
 
 {{/* Stats images in original order */}}
 {{ $page := . }}
-{{ $orderedNames := slice "founded-2013" "shipped-100s" "3-offices" "clients-15-countries" "40-people" }}
+{{ $orderedNames := slice "40-people" "3-offices" "founded-2013" "clients-15-countries" "shipped-100s" }}
 {{ $orderedImages := slice }}
 {{ range $orderedNames }}
   {{ with $page.Resources.GetMatch (printf "%s.*" .) }}
