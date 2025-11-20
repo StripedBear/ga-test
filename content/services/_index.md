@@ -4,7 +4,7 @@ weight: 1
 ---
 
 {{< services-grid >}}
-service-1.png|Porting from any platform to any platform
+service-1.png|Porting from any platform<br>to any platform
 service-2.png|Co-development
 service-3.png|Remastering
 service-4.png|Performance optimization

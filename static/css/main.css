@@ -373,6 +373,41 @@ body:has(.switch2porting-header) .container .content {
   margin: 0 auto;
 }
 
+.switch2porting-title {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0 0 1rem 0;
+}
+
+.switch2porting-subtitle {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0 0 2rem 0;
+}
+
+.switch2porting-content {
+  color: #ffffff;
+}
+
+.switch2porting-content > *:last-child {
+  margin-bottom: 0;
+}
+
+.switch2porting-content strong {
+  color: #a4a8f2;
+  font-weight: 600;
+}
+
+.switch2porting-content li strong,
+.switch2porting-content ul strong,
+.switch2porting-content ol strong {
+  color: #ffffff;
+}
+
 .switch2porting-hero {
   width: 100%;
   margin: 0 0 40px 0;
@@ -502,7 +537,7 @@ body:has(.switch2porting-header) .container .content {
 .stat-item {
   flex: 0 0 50%;
   max-width: 50%;
-  padding: 0 20px;
+  padding: 0 30px;
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
@@ -540,7 +575,7 @@ body:has(.switch2porting-header) .container .content {
   .stat-item {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-    padding: 0 30px;
+    padding: 0 40px;
   }
   
   .stat-item img {
@@ -556,7 +591,7 @@ body:has(.switch2porting-header) .container .content {
   .stat-item {
     flex: 0 0 auto;
     max-width: none;
-    padding: 0 20px;
+    padding: 0 40px;
     margin-bottom: 60px;
   }
   
@@ -905,7 +940,7 @@ main + .site-footer {
 }
 
 .services-nav a {
-  font-size: 1.5rem;
+  font-size: 35px;
   font-weight: 400;
   color: var(--text-muted);
   transition: color 0.2s ease;
@@ -924,11 +959,11 @@ main + .site-footer {
 /* ===== Services Grid ===== */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px 20px;
+  grid-template-columns: repeat(3, minmax(320px, 1fr));
+  gap: 80px 30px;
   margin: 60px 0;
   max-width: 1200px;
-  margin-left: auto;
+  margin-left: -100px;
   margin-right: auto;
 }
 
@@ -939,7 +974,9 @@ main + .site-footer {
 
 .service-item {
   text-align: center;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  /*width: 100%;*/
+  /*max-width: 400px;*/
 }
 
 .service-item__icon {
@@ -958,12 +995,18 @@ main + .site-footer {
 }
 
 .service-item h3 {
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 18px;
+  /*font-weight: 400;*/
   color: #a4a8f2;
   margin: 0;
   line-height: 1.4;
   transition: color 0.18s ease-out;
+  width: 100%;
+  max-width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .service-item:hover h3 {
