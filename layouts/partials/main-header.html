@@ -1,0 +1,38 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ "/" | relURL }}" class="logo">
+      {{ if fileExists "static/img/logo.svg" }}
+      <img src='{{ "img/logo.svg" | relURL }}' alt="General Arcade">
+      {{ else }}
+      <img src='{{ "img/logo.png" | relURL }}' alt="General Arcade">
+      {{ end }}
+    </a>
+
+    <nav class="main-nav">
+      <ul>
+        {{ range .Site.Menus.main }}
+        <li>
+          {{ if hasPrefix .URL "#" }}
+          <a href="{{ .URL }}" class="{{ if eq $.RelPermalink .URL }}active{{ end }}">{{ .Name }}</a>
+          {{ else }}
+          <a href="{{ .URL | relURL }}" class="{{ if eq $.RelPermalink .URL }}active{{ end }}">{{ .Name }}</a>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+
+  {{ if .IsHome }}
+  <div class="c-home-header-bg"></div>
+  <div class="c-home-header-wrapper">
+    <div class="o-inner-container o-inner-container--small mx-auto">
+        <div class="text-center text-white mb-5 mb-lg-7">
+          <h1 class="u-fs-huge mb-5">General Arcade</h1>
+          <p>Video games engineering specialists</p>
+        </div>
+        <div class="c-separator c-separator--small mx-auto"></div>
+      </div>
+  </div>
+  {{ end }}
+</header>

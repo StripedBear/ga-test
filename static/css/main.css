@@ -2620,7 +2620,7 @@ body.homepage .c-home-header-section {
 }
 
 .c-separator--small {
-  max-width: 100px;
+  max-width: 400px;
 }
 
 .services-grid-home {
@@ -2872,7 +2872,7 @@ body.homepage .c-home-header-section {
   padding-right: 10px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .col-sm-4 {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
