@@ -602,17 +602,4 @@
     }
   }
 
-  document.addEventListener('click', function(e) {
-  const img = e.target.closest('.gallery-item img');
-  if (!img) return;
-
-  const overlay = document.createElement('div');
-  overlay.className = 'lightbox-overlay';
-  overlay.innerHTML = `<img src="${img.src}" class="lightbox-img"><span class="lightbox-close">×</span>`;
-  document.body.appendChild(overlay);
-
-  overlay.querySelector('.lightbox-close').onclick = () => overlay.remove();
-}); 
-
-
 })();
