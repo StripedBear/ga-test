@@ -2613,7 +2613,7 @@ main + .site-footer {
 }
 
 .mb-5 { margin-bottom: 3rem; }
-.mb-6 { margin-bottom: 40px !important; }
+.mb-6 { margin-bottom: 0px !important; }
 .mb-7 { margin-bottom: 4rem; }
 .mb-8 { margin-bottom: 60px !important; }
 .mb-9 { margin-bottom: 0; }
@@ -3058,22 +3058,28 @@ body.homepage .c-home-header-section {
   padding: 0;
   list-style-type: none;
   margin: 0 auto 18px;
-  display: flex;
-  flex-wrap: wrap;
 }
-.gallery-item {
-  width: 33%;
-  padding: 8px;
+
+.gallery .gallery-item {
+  float: left;
+  width: 32%;
+  box-sizing: border-box;
+  padding: 0px;
 }
+
 .gallery-item img {
   width: 100%;
   height: auto;
   cursor: pointer;
   transition: 0.3s;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 .gallery-item img:hover {
   background: #383B55;
 }
+
 .lightbox-overlay {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
@@ -3094,4 +3100,8 @@ body.homepage .c-home-header-section {
   font-size: 3rem;
   color: white;
   cursor: pointer;
+}
+
+.col-md-8.col-lg-9.pr-md-4.pr-lg-6 {
+  padding-right: 36px !important; 
 }

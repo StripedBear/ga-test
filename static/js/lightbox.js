@@ -8,13 +8,13 @@ document.addEventListener('click', function (e) {
   const prevBtn = overlay.querySelector('.lightbox-prev');
   const nextBtn = overlay.querySelector('.lightbox-next');
 
-  // собираем все изображения галереи
+
   const images = Array.from(document.querySelectorAll('.gallery img'));
 
-  // определяем текущий индекс
+
   let currentIndex = images.indexOf(img);
 
-  // функция обновления картинки
+
   function updateImage() {
     lightboxImg.src = images[currentIndex].src;
   }
@@ -22,19 +22,17 @@ document.addEventListener('click', function (e) {
   updateImage();
   overlay.style.display = 'flex';
 
-  // закрытие
+
   closeBtn.onclick = () => {
     overlay.style.display = 'none';
     lightboxImg.src = '';
   };
 
-  // переключение назад
   prevBtn.onclick = () => {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
     updateImage();
   };
 
-  // переключение вперед
   nextBtn.onclick = () => {
     currentIndex = (currentIndex + 1) % images.length;
     updateImage();

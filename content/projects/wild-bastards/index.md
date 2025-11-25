@@ -75,5 +75,7 @@ General Arcade specialists ported **Wild Bastards** to Xbox Series X/S, PlayStat
   <img src="ss_906199cd7b5f487951910da6a23d98f98411cd70.1920x1080-1-300x169.jpg" alt="">
   <img src="ss_14eb73c959bbde47c65176cea66cef6500dca860.1920x1080-1-300x169.jpg" alt="">
   <img src="ss_702dd03e59309abb89ef6565b329125838013a03.1920x1080-1-300x169.jpg" alt="">
+  <img src="ss_702dd03e59309abb89ef6565b329125838013a03.1920x1080-1-300x169.jpg" alt="">
+  <img src="ss_702dd03e59309abb89ef6565b329125838013a03.1920x1080-1-300x169.jpg" alt="">
+  <img src="ss_702dd03e59309abb89ef6565b329125838013a03.1920x1080-1-300x169.jpg" alt="">
 {{< /slider >}}
-

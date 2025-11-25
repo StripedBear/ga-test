@@ -1,12 +1,19 @@
 <div class="gallery gallery-columns-3">
-  {{ .Inner }}
+
+  {{/* превращаем .Inner в список строк */}}
+  {{ $items := split (trim .Inner "\n\r\t ") "\n" }}
+
+  {{ range $index, $item := $items }}
+    <div class="gallery-item">
+      {{ $item | safeHTML }}
+    </div>
+  {{ end }}
+
 </div>
 
 <div id="lightbox" class="lightbox-overlay" style="display:none;">
   <span class="lightbox-close">×</span>
-
   <span class="lightbox-prev">‹</span>
   <span class="lightbox-next">›</span>
-
   <img class="lightbox-img" src="" alt="">
 </div>
