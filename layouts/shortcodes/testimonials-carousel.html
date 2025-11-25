@@ -1,6 +1,12 @@
 <div class="container mb-8 mb-lg-9 pt-lg-6">
   <h2 class="u-fs-huge text-center mb-6 mb-lg-8">What our clients say</h2>
   <div class="c-testimonials-wrapper">
+    <div class="c-testimonials-controls__button c-testimonials-controls__button--prev js-testimonials-carousel-prev-slide"></div>
+    <div class="c-testimonials-controls__button c-testimonials-controls__button--next js-testimonials-carousel-next-slide"></div>
+    <div class="c-testimonials-controls">
+      
+      
+    </div>
     <div class="c-testimonials-container">
       <div class="c-testimonials-track js-testimonials-track">
         {{ $testimonials := split .Inner "\n" }}
@@ -12,7 +18,7 @@
               {{ $testimonial := trim (index $parts 0) " " }}
               {{ if $testimonial }}
                 <div class="c-testimonial">
-                  <div class="c-wp text-primary c-testimonial__content">
+                  <div class="c-wp2 text-primary c-testimonial__content">
                     <span class="text-white d-inline">"</span>{{ $testimonial }}<span class="text-white d-inline">"</span>
                   </div>
                 </div>
@@ -22,10 +28,7 @@
         {{ end }}
       </div>
     </div>
-    <div class="c-testimonials-controls">
-      <div class="c-testimonials-controls__button c-testimonials-controls__button--prev js-testimonials-carousel-prev-slide"></div>
-      <div class="c-testimonials-controls__button c-testimonials-controls__button--next js-testimonials-carousel-next-slide"></div>
-    </div>
+    
     <div class="c-navigation-carousel-container">
       <div class="c-navigation-carousel-track js-navigation-carousel-track">
         {{ $testimonials := split .Inner "\n" }}

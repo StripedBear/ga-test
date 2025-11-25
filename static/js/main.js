@@ -141,7 +141,7 @@
   var loadMoreBtn = q('#blog-load-more-btn');
   if (loadMoreBtn) {
     var allPosts = qa('.blog-post-entry');
-    var postsPerPage = 6;
+    var postsPerPage = 9;
     var visibleCount = postsPerPage;
     
     // Initially hide posts beyond first page
@@ -247,7 +247,7 @@
   var projectsLoadMoreBtn = q('#projects-load-more-btn');
   if (projectsLoadMoreBtn) {
     var allProjects = qa('.project-card');
-    var projectsPerPage = 6;
+    var projectsPerPage = 9;
     var visibleProjectsCount = projectsPerPage;
     
     // Initially hide projects beyond first page
@@ -601,4 +601,18 @@
       });
     }
   }
+
+  document.addEventListener('click', function(e) {
+  const img = e.target.closest('.gallery-item img');
+  if (!img) return;
+
+  const overlay = document.createElement('div');
+  overlay.className = 'lightbox-overlay';
+  overlay.innerHTML = `<img src="${img.src}" class="lightbox-img"><span class="lightbox-close">×</span>`;
+  document.body.appendChild(overlay);
+
+  overlay.querySelector('.lightbox-close').onclick = () => overlay.remove();
+}); 
+
+
 })();
