@@ -3,7 +3,7 @@
 <div class="container mb-6 mb-md-8">
   <div class="o-inner-container o-inner-container--large mx-auto">
     <a href="{{ "/blog/" | relURL }}" class="u-fs-small text-primary mb-3 d-inline-block">Back to Blog</a>
-    <h1 class="u-fs-huge text-white mb-0">{{ .Title }}</h1>
+    <h1 class="u-fs-huge text-white mb-5">{{ .Title }}</h1>
   </div>
 </div>
 
@@ -43,7 +43,7 @@
             {{ with .Date }}
             <li class="list-unstyled-item mb-3">
               <p class="text-primary mb-1 u-fs-tiny">Date:</p>
-              <time datetime="{{ .Format "2006-01-02" }}">{{ .Format "2 January 2006" }}</time>
+              <time datetime="{{ .Format "2006-01-02" }}"  class="text-white">{{ .Format "2 January 2006" }}</time>
             </li>
             {{ end }}
             {{ with .Params.categories }}

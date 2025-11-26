@@ -2240,7 +2240,7 @@ main + .site-footer {
 
 @media (min-width: 768px) {
   .u-fs-huge {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
