@@ -990,23 +990,17 @@ main + .site-footer {
 }
 
 .service-item__icon img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  max-width: none !important;
   /*object-fit: contain;*/
 }
 
-/*.service-item h3 {
-  white-space: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2; 
-  -webkit-box-orient: vertical;
-  max-width: 100%;
-}*/
+
 .service-item h3 {
   /*display: inline-block;*/
-  max-width: 100px; /* регулируй по необходимости */
+  max-width: none !important;
+  width: 100%;
   white-space: normal;
   text-align: center;
   word-break: normal;
@@ -2707,6 +2701,7 @@ body.homepage .c-home-header-section {
   gap: 40px 20px !important;
   max-width: 100% !important;
   margin: 0 !important;
+  align-items: start !important;
 }
 
 .services-grid-home .services-grid .service-item:last-child {
