@@ -1823,7 +1823,7 @@ main + .site-footer {
   left: 0;
   background: var(--bg-secondary);
   opacity: 0.8;
-  z-index: -2;
+  z-index: 0;
   transition: opacity 0.18s ease-out, background-color 0.18s ease-out;
 }
 
@@ -1844,7 +1844,7 @@ main + .site-footer {
   right: 0;
   bottom: 0;
   width: 100%;
-  z-index: -1;
+  z-index: 1;
 }
 
 .project-nav-link--prev::after {
@@ -1874,7 +1874,7 @@ main + .site-footer {
   right: 0;
   transform: translateY(-50%);
   text-align: center;
-  z-index: 1;
+  z-index: 2;
   padding: 0 20px;
 }
 
@@ -3105,3 +3105,8 @@ body.homepage .c-home-header-section {
 .col-md-8.col-lg-9.pr-md-4.pr-lg-6 {
   padding-right: 36px !important; 
 }
+
+main {
+  z-index: auto !important;
+}
+

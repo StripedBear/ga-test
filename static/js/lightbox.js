@@ -10,8 +10,6 @@ document.addEventListener('click', function (e) {
 
 
   const images = Array.from(document.querySelectorAll('.gallery img'));
-
-
   let currentIndex = images.indexOf(img);
 
 
@@ -20,8 +18,10 @@ document.addEventListener('click', function (e) {
   }
 
   updateImage();
-  overlay.style.display = 'flex';
 
+  document.body.appendChild(overlay);
+
+  overlay.style.display = 'flex';
 
   closeBtn.onclick = () => {
     overlay.style.display = 'none';
