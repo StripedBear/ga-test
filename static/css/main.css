@@ -277,6 +277,10 @@ main {
   margin-bottom: 0;
 }
 
+body:has(.services-grid-page) .post-body {
+  max-width: 1200px;
+}
+
 .post-body > *:last-child {
   margin-bottom: 0;
 }
@@ -999,7 +1003,13 @@ main + .site-footer {
 
 .service-item h3 {
   /*display: inline-block;*/
+  /*font-family: "campaign_groteskregular", sans-serif !important;*/
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-size: 16px;
+  color: #A4A8F2;
   max-width: none !important;
+  margin-bottom: 30px;
   width: 100%;
   white-space: normal;
   text-align: center;
@@ -1007,6 +1017,13 @@ main + .site-footer {
   hyphens: none;
   overflow-wrap: normal;
   line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .service-item h3 {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
 }
 
 .service-item:hover h3 {
@@ -3027,6 +3044,127 @@ body.homepage .c-home-header-section {
     padding-top: 80px;
   }
 }
+
+
+.services-grid-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 0px;
+  justify-items: center;
+  align-items: start;
+  max-width: 900px;
+/*  margin: 0 auto 80px;*/
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.services-page .services-grid-page .service-item-page:last-child:nth-child(3n+1) {
+  grid-column: 2;
+}
+
+.services-grid-page .service-item-page:nth-child(10) {
+  grid-column: 2;
+}
+
+.service-item-page {
+  text-align: center;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+
+.service-item-page__icon img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 25px;
+}
+
+.service-item-page h3 {
+  font-family: "campaign_groteskregular", sans-serif;
+  font-weight: 400;           
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  color: #a4a8f2;            
+  transition: color 0.2s ease;
+}
+
+/* Hover — как на оригинале */
+.service-item-page:hover h3 {
+  color: #ffffff;
+}
+
+.service-item-page:hover {
+  transform: translateY(-4px);
+}
+
+/* ===== ALTERNATIVE SERVICES GRID (ENGINES / PLATFORMS STYLE) ===== */
+
+/* ОБЁРТКА ОДНОГО ЭЛЕМЕНТА (иконка + текст) */
+.service-item-alt {
+  text-align: center;
+  cursor: default;
+  transition: color .25s ease;
+  margin-bottom: 50px;   
+}
+
+/* ИКОНКА — 280×100px как в задаче */
+.service-item-alt__icon img {
+  width: 280px;   /* <<< ТВОЙ РАЗМЕР */
+  height: 100px;  /* <<< ТВОЙ РАЗМЕР */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 15px auto; /* расстояние между картинкой и текстом */
+  transition: transform .25s ease;
+}
+
+.service-item-alt:hover img {
+  transform: translateY(-4px);
+}
+
+/* ТЕКСТ */
+.service-item-alt h3 {
+  font-family: campaign_groteskregular, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #A4A8F2;
+  margin: 0;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: color .25s ease;
+}
+
+/* ХОВЕР ПО ТЕКСТУ */
+.service-item-alt:hover h3 {
+  color: #FFF;
+}
+
+/* СЕТКА 3×2 */
+.services-grid-alt-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 66px;
+  width: 100%;
+  margin-left: -90px;
+  margin-right: 0;
+  justify-content: start;
+}
+
+/* СЕТКА НИЖНЯЯ (2 элемента) */
+.services-grid-alt-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 110px;
+  justify-items: center;
+  max-width: 60%;
+  margin-left: 45px;
+}
+
+
 
 /* ===== Image crop utilities ===== */
 .o-crop__content {

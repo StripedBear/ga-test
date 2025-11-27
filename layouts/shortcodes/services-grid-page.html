@@ -1,5 +1,5 @@
-{{ $gridClass := default "services-grid" (.Get "gridClass") }}
-{{ $itemClass := default "service-item" (.Get "itemClass") }}
+{{ $gridClass := default "services-grid-page" (.Get "gridClass") }}
+{{ $itemClass := default "service-item-page" (.Get "itemClass") }}
 
 <div class="{{ $gridClass }}">
   {{ $services := split .Inner "\n" }}
@@ -50,7 +50,7 @@
         {{ end }}
         
         <div class="{{ $itemClass }}">
-          <div class="service-item__icon mb-5">
+          <div class="service-item-page__icon mb-3">
             <img src="{{ $imgURL }}" alt="{{ $title }}">
           </div>
           <h3>{{ $title | safeHTML }}</h3>

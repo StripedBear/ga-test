@@ -1,0 +1,80 @@
+{{ $gridClass := default "services-grid-alt" (.Get "gridClass") }}
+{{ $itemClass := default "service-item-alt" (.Get "itemClass") }}
+
+{{/* Конвертируем строки в массив объектов */}}
+{{ $raw := split .Inner "\n" }}
+{{ $items := slice }}
+
+{{ range $raw }}
+  {{ $line := trim . " \t\r" }}
+  {{ if and $line (ne $line "") }}
+    {{ $parts := split $line "|" }}
+    {{ if eq (len $parts) 2 }}
+      {{ $icon := trim (index $parts 0) " " }}
+      {{ $title := trim (index $parts 1) " " }}
+
+      {{/* Ищем иконку */}}
+      {{ $imgResource := false }}
+      {{ $imgURL := "" }}
+
+      {{ if $.Page.Resources }}
+        {{ $imgResource = $.Page.Resources.Get $icon }}
+        {{ if not $imgResource }}
+          {{ $imgResource = $.Page.Resources.GetMatch (printf "*%s*" $icon) }}
+        {{ end }}
+      {{ end }}
+
+      {{ if not $imgResource }}
+        {{ $section := $.Page.Section }}
+        {{ if $section }}
+          {{ $sectionPage := $.Page.Site.GetPage "section" $section }}
+          {{ if and $sectionPage $sectionPage.Resources }}
+            {{ $imgResource = $sectionPage.Resources.Get $icon }}
+            {{ if not $imgResource }}
+              {{ $imgResource = $sectionPage.Resources.GetMatch (printf "*%s*" $icon) }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ if $imgResource }}
+        {{ $imgURL = $imgResource.RelPermalink }}
+      {{ else }}
+        {{ $imgPath := $icon | strings.TrimPrefix "/" }}
+        {{ if not (hasPrefix $imgPath "img/") }}
+          {{ $imgPath = printf "img/%s" $icon }}
+        {{ end }}
+        {{ $imgURL = $imgPath | relURL }}
+      {{ end }}
+
+      {{/* Добавляем объект */}}
+      {{ $items = $items | append (dict "icon" $imgURL "title" $title) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Разделяем на две группы */}}
+{{ $top := first 6 $items }}
+{{ $bottom := after 6 $items }}
+
+<div class="services-grid-alt-top">
+  {{ range $top }}
+    <div class="{{ $itemClass }}">
+      <div class="service-item-alt__icon mb-5">
+        <img src="{{ .icon }}" alt="{{ .title }}">
+      </div>
+      <h3>{{ .title | safeHTML }}</h3>
+    </div>
+  {{ end }}
+</div>
+
+<div class="services-grid-alt-bottom">
+  {{ range $bottom }}
+    <div class="{{ $itemClass }}">
+      <div class="service-item-alt__icon mb-5">
+        <img src="{{ .icon }}" alt="{{ .title }}">
+      </div>
+      <h3>{{ .title | safeHTML }}</h3>
+    </div>
+  {{ end }}
+</div>
