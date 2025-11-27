@@ -3107,16 +3107,16 @@ body.homepage .c-home-header-section {
   text-align: center;
   cursor: default;
   transition: color .25s ease;
-  margin-bottom: 50px;   
+  margin-bottom: 80px;   
 }
 
 /* ИКОНКА — 280×100px как в задаче */
 .service-item-alt__icon img {
-  width: 280px;   /* <<< ТВОЙ РАЗМЕР */
+  width: 120px;   /* <<< ТВОЙ РАЗМЕР */
   height: 100px;  /* <<< ТВОЙ РАЗМЕР */
   object-fit: contain;
   display: block;
-  margin: 0 auto 15px auto; /* расстояние между картинкой и текстом */
+  /*margin: 0 auto 0px auto;  */
   transition: transform .25s ease;
 }
 
@@ -3132,8 +3132,8 @@ body.homepage .c-home-header-section {
   line-height: 1.35;
   color: #A4A8F2;
   margin: 0;
-  max-width: 260px;
-  margin-left: auto;
+  width: 258px;
+  margin-left: -65px;
   margin-right: auto;
   transition: color .25s ease;
 }
@@ -3147,9 +3147,9 @@ body.homepage .c-home-header-section {
 .services-grid-alt-top {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 66px;
+  column-gap: 250px;
   width: 100%;
-  margin-left: -90px;
+  margin-left: -115px;
   margin-right: 0;
   justify-content: start;
 }
@@ -3158,10 +3158,10 @@ body.homepage .c-home-header-section {
 .services-grid-alt-bottom {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 110px;
+  column-gap: 250px;
   justify-items: center;
   max-width: 60%;
-  margin-left: 45px;
+  margin-left: 115px;
 }
 
 

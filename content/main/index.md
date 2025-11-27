@@ -57,4 +57,5 @@ playism.png
 messhof.png
 505.png
 tinybuild.png
+redhook.png
 {{< /clients-partners >}}

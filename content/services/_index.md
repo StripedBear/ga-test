@@ -3,7 +3,7 @@ title: "Services"
 weight: 1
 ---
 
-{{< services-grid >}}
+{{< services-grid-page >}}
 service-1.png|Porting from any platform<br>to any platform
 service-2.png|Co-development
 service-3.png|Remastering
@@ -14,7 +14,7 @@ service-7.png|Tools development
 service-8.png|Reverse engineering
 service-9.png|Technical support and dev-ops
 service-10.png|Consultations and code reviews
-{{< /services-grid >}}
+{{< /services-grid-page >}}
 
 
 

@@ -3,7 +3,7 @@ title: "Engines"
 weight: 2
 ---
 
-{{< services-grid >}}
+{{< services-grid-alt >}}
 cplus.svg|C/C++ proprietary engines
 unity-1.svg|Unity
 unreal.svg|Unreal Engine
@@ -12,7 +12,7 @@ monogame.svg|MonoGame / FNA / XNA
 gamemaker.svg|GameMaker Studio
 Cocos2D.svg|Cocos2D
 LibGDX.svg|LibGDX
-{{< /services-grid >}}
+{{< /services-grid-alt >}}
 
 
 

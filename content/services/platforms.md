@@ -3,7 +3,7 @@ title: "Platforms"
 weight: 3
 ---
 
-{{< services-grid >}}
+{{< services-grid-platforms >}}
 ps.svg|Sony Playstation 4 / 5
 xbox.svg|Microsoft Xbox One / Series X
 Nintendo-Switch.svg|Nintendo Switch 1 / 2
@@ -13,7 +13,7 @@ linux.svg|Linux
 apple.svg|iOS, iPadOS, Apple TV
 android.svg|Android, Android TV
 VR.svg|Virtual Reality
-{{< /services-grid >}}
+{{< /services-grid-platforms >}}
 
 
 
