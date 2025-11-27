@@ -154,15 +154,6 @@ a:hover {
   color: var(--text-primary);
 }
 
-.main-nav a.active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  height: 2px;
-  width: 100%;
-  background: var(--accent);
-}
 
 /* ===== Main Content ===== */
 main {
@@ -2942,6 +2933,35 @@ body.homepage .c-home-header-section {
   }
 }
 
+.link-underline-onload {
+  position: relative;
+  display: inline-block; /* ВАЖНО — ограничивает ширину текстом */
+}
+
+.link-underline-onload::before {
+  content: "";
+  position: absolute;
+  bottom: -6px; 
+  left: 0;
+  height: 2px;
+  width: 0; /* Начинаем с нуля */
+  background: linear-gradient(
+    to right,
+    rgba(61, 65, 103, 0.2) 0%,
+    rgba(59, 69, 111, 0.2) 5%,
+    #1398ff 100%
+  );
+  animation: underline-slide 0.6s ease-out forwards;
+}
+
+/* Анимация до полной ширины текста */
+@keyframes underline-slide {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+
+
 /* ===== Bootstrap-like grid utilities for about page ===== */
 .col-6 {
   flex: 0 0 50%;
@@ -3162,6 +3182,34 @@ body.homepage .c-home-header-section {
   justify-items: center;
   max-width: 60%;
   margin-left: 115px;
+}
+
+/* Новый underline-эффект */
+.c-nav-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.c-nav-underline::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(to right, rgba(61,65,103,0.2) 0%, rgba(59,69,111,0.2) 5%, #1398ff 100%);
+  border-radius: 4px;
+  transition: width .15s ease-out;
+}
+
+/* hover эффект */
+.c-nav-underline:hover::before {
+  width: 100%;
+}
+
+/* активная — черта ВСЕГДА видна */
+.c-nav-underline.active::before {
+  width: 100%;
 }
 
 
