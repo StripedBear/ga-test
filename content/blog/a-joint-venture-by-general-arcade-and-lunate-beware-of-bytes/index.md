@@ -12,13 +12,13 @@ original_url: "https://generalarcade.com/a-joint-venture-by-general-arcade-and-l
 draft: false
 ---
 
-We’re teaming up with **[Lunate Games](https://www.linkedin.com/company/lunate-games/)Lunate Games** to launch **[Beware of Bytes!](https://bewareofbytes.com/)**, a strategic joint venture built for scale, technical excellence, and stability in today’s evolving industry.
+We’re teaming up with **[Lunate Games](https://www.linkedin.com/company/lunate-games/)** to launch **[Beware of Bytes!](https://bewareofbytes.com/)**, a strategic joint venture built for scale, technical excellence, and stability in today’s evolving industry.
 
 ***What This Means for The Games Industry?***
 
 _Two powerhouse teams are now one_
 
-We’re doubling our engineering strength and expanding our expertise across Unity, Unreal Engine, CryEngine, and custom engines. Whether it’s porting, co-dev, remastering, performance optimisation, tools development, or network implementation, our partnership delivers cutting-edge solutions at a whole new level!
+We’re doubling our engineering strength and expanding our expertise across **[Unity](https://www.linkedin.com/company/unity/)**, **[Unreal Engine](https://www.linkedin.com/company/unreal-engine-for-design-visualization/)**, CryEngine, and custom engines. Whether it’s porting, co-dev, remastering, performance optimisation, tools development, or network implementation, our partnership delivers cutting-edge solutions at a whole new level!
 
 *Global reach, local expertise*
 

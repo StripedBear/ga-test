@@ -1,0 +1,26 @@
+{{- $raw := .Get 0 | default (.Get "url") -}}
+{{- $id := "" -}}
+
+{{/* 1. Если это формат ?v= */}}
+{{ if findRE `v=([^&]+)` $raw }}
+  {{ $id = (index (findRE `v=([^&]+)` $raw 1) 0) | replaceRE `v=` "" }}
+{{ end }}
+
+{{/* 2. Если короткий youtu.be */}}
+{{ if and (eq $id "") (findRE `youtu\.be/([^?]+)` $raw) }}
+  {{ $id = (index (findRE `youtu\.be/([^?]+)` $raw 1) 0) | replaceRE `youtu.be/` "" }}
+{{ end }}
+
+{{/* 3. Если уже embed */}}
+{{ if and (eq $id "") (findRE `embed/([^?]+)` $raw) }}
+  {{ $id = (index (findRE `embed/([^?]+)` $raw 1) 0) | replaceRE `embed/` "" }}
+{{ end }}
+
+<div class="video-wrapper" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:20px 0;">
+  <iframe 
+    src="https://www.youtube.com/embed/{{ $id }}" 
+    frameborder="0"
+    allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;">
+  </iframe>
+</div>

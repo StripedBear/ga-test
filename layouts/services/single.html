@@ -13,10 +13,15 @@
       {{ end }}
       {{ $sortedPages := sort $allPages "Weight" }}
       {{ range $sortedPages }}
-      <li>
-        <a href="{{ .RelPermalink }}" class="{{ if eq $.RelPermalink .RelPermalink }}c-nav-underline{{ end }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
+  {{ if .RelPermalink }}
+    {{ $isActive := eq $.RelPermalink .RelPermalink }}
+    <li>
+      <a href="{{ .RelPermalink }}" class="c-nav-underline {{ if $isActive }}active{{ end }}">
+        {{ .Title }}
+      </a>
+    </li>
+  {{ end }}
+{{ end }}
     </ul>
   </nav>
 </div>

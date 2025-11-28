@@ -2,8 +2,8 @@
 {{ define "main" }}
 <div class="container mb-6 mb-md-8">
   <div class="o-inner-container o-inner-container--large mx-auto">
-    <a href="{{ "/blog/" | relURL }}" class="u-fs-small text-primary mb-3 d-inline-block">Back to Blog</a>
-    <h1 class="u-fs-huge text-white mb-5">{{ .Title }}</h1>
+    <a href="{{ "/blog/" | relURL }}" class="u-fs-small text-primary mb-1 d-inline-block">Back to Blog</a>
+    <h1 class="u-fs-huge text-white mb-5 mt-1">{{ .Title }}</h1>
   </div>
 </div>
 
@@ -27,7 +27,7 @@
       <div class="col-md-8 col-lg-9 pr-md-4 pr-lg-6 mb-4 mb-md-0">
         <div class="c-wp text-white">
           {{ if $featuredImage }}
-          <div class="pb-5 text-center">
+          <div class="text-center mb-5">
             <img src="{{ $featuredImage.RelPermalink }}" alt="{{ .Title }}" class="mw-100" />
           </div>
           {{ end }}

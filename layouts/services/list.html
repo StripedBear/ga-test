@@ -14,7 +14,7 @@
       {{ $sortedPages := sort $allPages "Weight" }}
       {{ range $sortedPages }}
       <li>
-        <a href="{{ .RelPermalink }}" class="{{ if eq $.RelPermalink .RelPermalink }} c-nav-underline {{ end }}">{{ .Title }}</a>
+        <a href="{{ .RelPermalink }}" class="{{ if eq $.RelPermalink .RelPermalink }} c-nav-underline {{ end }} c-nav-underline">{{ .Title }}</a>
       </li>
       {{ end }}
     </ul>
