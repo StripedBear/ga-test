@@ -13,61 +13,112 @@ original_url: "https://generalarcade.com/general-weekly-16/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="General Weekly #16" class="mw-100" src="weekly16.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<h2 id="h-updates-releases-news">Updates/releases/news</h2>
-<p><a href="https://exodus-sdk.atlassian.net/wiki/spaces/ESDK/overview?mode=global">4A Games releases SDK for Metro: Exodus</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2048" height="425" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="4a-games-vypustila-sdk-dlya-metro-exodus-1024x425.jpg" srcset="https://generalarcade.com/content/uploads/2023/01/4a-games-vypustila-sdk-dlya-metro-exodus-1024x425.jpg 1024w, https://generalarcade.com/content/uploads/2023/01/4a-games-vypustila-sdk-dlya-metro-exodus-300x124.jpg 300w, https://generalarcade.com/content/uploads/2023/01/4a-games-vypustila-sdk-dlya-metro-exodus-768x319.jpg 768w, https://generalarcade.com/content/uploads/2023/01/4a-games-vypustila-sdk-dlya-metro-exodus-1280x531.jpg 1280w, https://generalarcade.com/content/uploads/2023/01/4a-games-vypustila-sdk-dlya-metro-exodus.jpg 1282w" width="1024"/></figure>
-<p>A set of tools for creating mods for Metro Exodus will help you create absolutely any type of modifications.</p>
-<p><a href="https://dtf.ru/gameindustry/1588573-microsoft-poprosila-sony-yavitsya-na-zasedanie-suda-chtoby-zashchitit-sebya-v-dele-protiv-federalnoy-torgovoy-komissii">Microsoft asked Sony to appear in court to defend itself in a case against the Federal Trade Commission</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2050" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="microsoft-poprosila-sony-yavitsya-na-zasedanie-suda-chtoby-zashchitit-sebya-v-dele-protiv-federalnoy-torgovoy-komissii-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/01/microsoft-poprosila-sony-yavitsya-na-zasedanie-suda-chtoby-zashchitit-sebya-v-dele-protiv-federalnoy-torgovoy-komissii-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/01/microsoft-poprosila-sony-yavitsya-na-zasedanie-suda-chtoby-zashchitit-sebya-v-dele-protiv-federalnoy-torgovoy-komissii-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/01/microsoft-poprosila-sony-yavitsya-na-zasedanie-suda-chtoby-zashchitit-sebya-v-dele-protiv-federalnoy-torgovoy-komissii-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/01/microsoft-poprosila-sony-yavitsya-na-zasedanie-suda-chtoby-zashchitit-sebya-v-dele-protiv-federalnoy-torgovoy-komissii.jpg 1280w" width="1024"/></figure>
-<p>The company wants a competitor to share some documents.</p>
-<h2 id="h-interesting-articles-videos">Interesting articles/videos</h2>
-<p><a href="https://twitter.com/AdventureMtn/status/1617582250299920384">An indie game must have 1000 reviews to be promoted by Steam</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2052" height="634" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="steam-games-1024x634.png" srcset="https://generalarcade.com/content/uploads/2023/01/steam-games-1024x634.png 1024w, https://generalarcade.com/content/uploads/2023/01/steam-games-300x186.png 300w, https://generalarcade.com/content/uploads/2023/01/steam-games-768x476.png 768w, https://generalarcade.com/content/uploads/2023/01/steam-games.png 1133w" width="1024"/></figure>
-<p>Chris Zukowski, an author of the Steam blog How To Market A Game, said that you need to get 1000 reviews in the first year in order tothe algorithms actively promote you on the platform.</p>
-<p>In 2022, over 12,000 indie games were released on Steam. Only ~550 (info from https://vginsights.com/) of them are pushed by algorithms. 1000 reviews * 30 * $10 (average indie price) = $300,000. From about this level, you are actively pushed in the same Daily Deals.</p>
-<p><a href="https://youtu.be/s9aCwCKgkLo">Working at Valve: no managers and complete freedom?</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/s9aCwCKgkLo" title="Working at Valve: 'A Fearless Adventure' or 'Lord of the Flies'?" width="560"></iframe></p>
-<p>Chris Brat and the team talked to former and current Valve employees and discussed the structure of the company in a video.</p>
-<p><a href="https://newsletter.gamediscover.co/p/how-goose-goose-duck-hit-700k-ccu">How Goose Goose Duck hit 700K CCU on Steam</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2054" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Goose_Goose_Duck-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/01/Goose_Goose_Duck-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/01/Goose_Goose_Duck-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/01/Goose_Goose_Duck-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/01/Goose_Goose_Duck-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/01/Goose_Goose_Duck-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/01/Goose_Goose_Duck.jpg 1920w" width="1024"/></figure>
-<p>Heard about the recent hit Goose Goose Duck? Well… like a recent one, the game came out in 2021, but the current one has skyrocketed recently. Yes, so much so that there were 700k CCU. Despite the fact that Among Us, which inspired the developers, only got to ~450k (but yes, Goose Goose Duck is free).</p>
-<p>Top 13 on Steam. Monetized by cosmetics. The guys from Gamediscover did a little analysis.</p>
-<p><a href="https://80.lv/articles/creating-a-stylized-medieval-building-in-3ds-max-ue5-substance-3d/">Creating a stylized medieval building in 3ds Max, UE5 and Substance 3D</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2056" height="564" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="creating-a-stylized-medieval-building-in-3ds-max-ue5-substance-3d-1024x564.jpg" srcset="https://generalarcade.com/content/uploads/2023/01/creating-a-stylized-medieval-building-in-3ds-max-ue5-substance-3d-1024x564.jpg 1024w, https://generalarcade.com/content/uploads/2023/01/creating-a-stylized-medieval-building-in-3ds-max-ue5-substance-3d-300x165.jpg 300w, https://generalarcade.com/content/uploads/2023/01/creating-a-stylized-medieval-building-in-3ds-max-ue5-substance-3d-768x423.jpg 768w, https://generalarcade.com/content/uploads/2023/01/creating-a-stylized-medieval-building-in-3ds-max-ue5-substance-3d-1280x704.jpg 1280w, https://generalarcade.com/content/uploads/2023/01/creating-a-stylized-medieval-building-in-3ds-max-ue5-substance-3d.jpg 1401w" width="1024"/></figure>
-<p>Tatiana Devos spoke about the Medieval House project, explained how modular elements were created and textured, and also told how she decorated the stage.</p>
-<p><a href="https://youtu.be/evJeudz8ZXY">How to make a cool double boss?</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/evJeudz8ZXY" title="What Makes A Great Double Boss Fight?" width="560"></iframe></p>
-<p>Yes, Smough and Ornstein included, but other examples are considered.</p>
-<p><a href="https://newsletter.gamediscover.co/p/can-another-big-game-release-crush">Could another major game release crush your initial sales?</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2059" height="450" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="can-another-big-game-release-crush.jpg" srcset="https://generalarcade.com/content/uploads/2023/01/can-another-big-game-release-crush.jpg 800w, https://generalarcade.com/content/uploads/2023/01/can-another-big-game-release-crush-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/01/can-another-big-game-release-crush-768x432.jpg 768w" width="800"/></figure>
-<p>The editors of gamediscover decided to address this issue.</p>
-<p><p><a href="https://youtu.be/Kwn32j8_-p0">The Best Game Animations of 2022</a></p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/Kwn32j8_-p0" title="The Best Game Animation of 2022" width="560"></iframe></p>
-<p>Daniel Floyd, professional animator and co-founder of Extra Credits, has taken a look at some of the coolest animations in games which came out in 2022.</p>
-<p><a href="https://www.unrealengine.com/en-US/tech-blog/bringing-nanite-to-fortnite-battle-royale-in-chapter-4">Adding Nanite to Fortnite Battle Royale</a></p>
-<div class="wp-block-image"><figure class="aligncenter"><img alt="" class="wp-image-13397" src="bringing-nanite-to-fortnite-battle-royale-in-chapter-4.gif"/></figure></div>
-<p>Graham Wihlidal, a developer at Epic Games, showed off the exciting features and improvements he and his team developed this year to launch Nanite in Fortnite Battle Royale Chapter 4. These features are available in Unreal Engine 5.1 (beta).</p>
-<p><a href="https://80.lv/articles/using-stable-diffusion-for-3d-texturing/">Using Stable Diffusion for 3D Texturing</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2063" height="552" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="using-stable-diffusion-for-3d-texturing-1024x552.jpg" srcset="https://generalarcade.com/content/uploads/2023/01/using-stable-diffusion-for-3d-texturing-1024x552.jpg 1024w, https://generalarcade.com/content/uploads/2023/01/using-stable-diffusion-for-3d-texturing-300x162.jpg 300w, https://generalarcade.com/content/uploads/2023/01/using-stable-diffusion-for-3d-texturing-768x414.jpg 768w, https://generalarcade.com/content/uploads/2023/01/using-stable-diffusion-for-3d-texturing-1536x828.jpg 1536w, https://generalarcade.com/content/uploads/2023/01/using-stable-diffusion-for-3d-texturing-2048x1105.jpg 2048w, https://generalarcade.com/content/uploads/2023/01/using-stable-diffusion-for-3d-texturing-1280x690.jpg 1280w" width="1024"/></figure>
-<p>Kieran Fogarty showed how you can use Stable Diffusion to create 3D textures and talked about the ethical side of using AI generators in production.</p>
-<p><a href="https://www.unrealengine.com/en-US/tech-blog/lumen-brings-real-time-global-illumination-to-fortnite-battle-royale-chapter-4">Lumen adds real-time global illumination to Fortnite Battle Royale Chapter 4</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2065" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="lumen-brings-real-time-global-illumination-to-fortnite-battle-royale-chapter-4-1024x576.png" srcset="https://generalarcade.com/content/uploads/2023/01/lumen-brings-real-time-global-illumination-to-fortnite-battle-royale-chapter-4-1024x576.png 1024w, https://generalarcade.com/content/uploads/2023/01/lumen-brings-real-time-global-illumination-to-fortnite-battle-royale-chapter-4-300x169.png 300w, https://generalarcade.com/content/uploads/2023/01/lumen-brings-real-time-global-illumination-to-fortnite-battle-royale-chapter-4-768x432.png 768w, https://generalarcade.com/content/uploads/2023/01/lumen-brings-real-time-global-illumination-to-fortnite-battle-royale-chapter-4.png 1218w" width="1024"/></figure>
-<p>Daniel Wright and Krzysztof Narkowicz, engineers working on Lumen, in the post talked about how Lumen works in Fortnite, and also about the improvements that the team made to Lumen upon  the new chapter release (which are now available to all developers in Unreal Engine 5.1).</p>
-<p><a href="https://www.reddit.com/r/gamedev/comments/10m8929/ever_wondered_what_happened_to_indie_devs_that/">Ever wondered what happened to indie developers who went all in?</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2066" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="ever_wondered_what_happened_to_indie_devs_that-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/01/ever_wondered_what_happened_to_indie_devs_that-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/01/ever_wondered_what_happened_to_indie_devs_that-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/01/ever_wondered_what_happened_to_indie_devs_that-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/01/ever_wondered_what_happened_to_indie_devs_that-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/01/ever_wondered_what_happened_to_indie_devs_that-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/01/ever_wondered_what_happened_to_indie_devs_that.jpg 1920w" width="1024"/></figure>
-<p>But one of the Reddit participants decided to collect everything from relevant subreddits into one list of such developers.</p>
-<p><a href="https://skillbox.ru/media/gamedev/sekret-addiktivnosti-vampire-survivors-pochemu-tak-slozhno-perestat-igrat/">The Secret of Vampire Survivors’ Addictiveness: Why It’s So Hard to Stop Playing</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2068" height="555" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="sekret-addiktivnosti-vampire-survivors-pochemu-tak-slozhno-perestat-igrat-1024x555.jpg" srcset="https://generalarcade.com/content/uploads/2023/01/sekret-addiktivnosti-vampire-survivors-pochemu-tak-slozhno-perestat-igrat-1024x555.jpg 1024w, https://generalarcade.com/content/uploads/2023/01/sekret-addiktivnosti-vampire-survivors-pochemu-tak-slozhno-perestat-igrat-300x162.jpg 300w, https://generalarcade.com/content/uploads/2023/01/sekret-addiktivnosti-vampire-survivors-pochemu-tak-slozhno-perestat-igrat-768x416.jpg 768w, https://generalarcade.com/content/uploads/2023/01/sekret-addiktivnosti-vampire-survivors-pochemu-tak-slozhno-perestat-igrat-1536x832.jpg 1536w, https://generalarcade.com/content/uploads/2023/01/sekret-addiktivnosti-vampire-survivors-pochemu-tak-slozhno-perestat-igrat-1280x693.jpg 1280w, https://generalarcade.com/content/uploads/2023/01/sekret-addiktivnosti-vampire-survivors-pochemu-tak-slozhno-perestat-igrat.jpg 1540w" width="1024"/></figure>
-<p>Let’s figure out how the hypnotic gameplay works, what Luca Galante’s game has in common with the casino, and what does the “one more move” phenomenon have to do with it.</p>
-<p><a href="https://howtomarketagame.com/2023/01/23/pay-attention-to-these-secretly-popular-sub-genres/">Pay attention to secretly popular subgenres</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2070" height="450" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="pay-attention-to-these-secretly-popular-sub-genres.png" srcset="https://generalarcade.com/content/uploads/2023/01/pay-attention-to-these-secretly-popular-sub-genres.png 800w, https://generalarcade.com/content/uploads/2023/01/pay-attention-to-these-secretly-popular-sub-genres-300x169.png 300w, https://generalarcade.com/content/uploads/2023/01/pay-attention-to-these-secretly-popular-sub-genres-768x432.png 768w" width="800"/></figure>
-<p>Chris Zukowski decided to review every Steam game released in 2022 that received at least 1,000 reviews. In the blog, he pointed out several genres that are very dear to the fans, there is not much competition there, and it is quite possible to develop them with a small team.</p>
-<p><a href="https://www.guerrilla-games.com/read/creating-the-many-faces-of-horizon-forbidden-west">Creating many faces of Horizon Forbidden West</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2072" height="574" loading="lazy" sizes="(max-width: 1014px) 100vw, 1014px" src="creating-the-many-faces-of-horizon-forbidden-west.png" srcset="https://generalarcade.com/content/uploads/2023/01/creating-the-many-faces-of-horizon-forbidden-west.png 1014w, https://generalarcade.com/content/uploads/2023/01/creating-the-many-faces-of-horizon-forbidden-west-300x170.png 300w, https://generalarcade.com/content/uploads/2023/01/creating-the-many-faces-of-horizon-forbidden-west-768x435.png 768w" width="1014"/></figure>
-<p>The Guerrilla Games team shared how they achieved the superb quality of their characters’ faces in Horizon Forbidden West, as well as the extra fidelity that comes with the PS5’s power.</p>
-<p><em>We thank <a href="https://suvitruf.ru">Andrei Apanasik</a> for writing the original post and allowing us to publish it on our blog in English.</em></p>
-</div>
+![General Weekly #16](weekly16.jpg)
+
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+## Updates/releases/news
+
+[4A Games releases SDK for Metro: Exodus](https://exodus-sdk.atlassian.net/wiki/spaces/ESDK/overview?mode=global)
+
+![](4a-games-vypustila-sdk-dlya-metro-exodus-1024x425.jpg)
+
+A set of tools for creating mods for Metro Exodus will help you create absolutely any type of modifications.
+
+[Microsoft asked Sony to appear in court to defend itself in a case against the Federal Trade Commission](https://dtf.ru/gameindustry/1588573-microsoft-poprosila-sony-yavitsya-na-zasedanie-suda-chtoby-zashchitit-sebya-v-dele-protiv-federalnoy-torgovoy-komissii)
+
+![](microsoft-poprosila-sony-yavitsya-na-zasedanie-suda-chtoby-zashchitit-sebya-v-dele-protiv-federalnoy-torgovoy-komissii-1024x576.jpg)
+
+The company wants a competitor to share some documents.
+
+## Interesting articles/videos
+
+[An indie game must have 1000 reviews to be promoted by Steam](https://twitter.com/AdventureMtn/status/1617582250299920384)
+
+![](steam-games-1024x634.png)
+
+Chris Zukowski, an author of the Steam blog How To Market A Game, said that you need to get 1000 reviews in the first year in order tothe algorithms actively promote you on the platform.
+
+In 2022, over 12,000 indie games were released on Steam. Only ~550 (info from https://vginsights.com/) of them are pushed by algorithms. 1000 reviews \* 30 \* $10 (average indie price) = $300,000. From about this level, you are actively pushed in the same Daily Deals.
+
+[Working at Valve: no managers and complete freedom?](https://youtu.be/s9aCwCKgkLo)
+
+{{< youtube "s9aCwCKgkLo" >}}
+
+Chris Brat and the team talked to former and current Valve employees and discussed the structure of the company in a video.
+
+[How Goose Goose Duck hit 700K CCU on Steam](https://newsletter.gamediscover.co/p/how-goose-goose-duck-hit-700k-ccu)
+
+![](Goose\_Goose\_Duck-1024x576.jpg)
+
+Heard about the recent hit Goose Goose Duck? Well… like a recent one, the game came out in 2021, but the current one has skyrocketed recently. Yes, so much so that there were 700k CCU. Despite the fact that Among Us, which inspired the developers, only got to ~450k (but yes, Goose Goose Duck is free).
+
+Top 13 on Steam. Monetized by cosmetics. The guys from Gamediscover did a little analysis.
+
+[Creating a stylized medieval building in 3ds Max, UE5 and Substance 3D](https://80.lv/articles/creating-a-stylized-medieval-building-in-3ds-max-ue5-substance-3d/)
+
+![](creating-a-stylized-medieval-building-in-3ds-max-ue5-substance-3d-1024x564.jpg)
+
+Tatiana Devos spoke about the Medieval House project, explained how modular elements were created and textured, and also told how she decorated the stage.
+
+[How to make a cool double boss?](https://youtu.be/evJeudz8ZXY)
+
+{{< youtube "evJeudz8ZXY" >}}
+
+Yes, Smough and Ornstein included, but other examples are considered.
+
+[Could another major game release crush your initial sales?](https://newsletter.gamediscover.co/p/can-another-big-game-release-crush)
+
+![](can-another-big-game-release-crush.jpg)
+
+The editors of gamediscover decided to address this issue.
+
+[The Best Game Animations of 2022](https://youtu.be/Kwn32j8_-p0)
+
+{{< youtube "Kwn32j8\_-p0" >}}
+
+Daniel Floyd, professional animator and co-founder of Extra Credits, has taken a look at some of the coolest animations in games which came out in 2022.
+
+[Adding Nanite to Fortnite Battle Royale](https://www.unrealengine.com/en-US/tech-blog/bringing-nanite-to-fortnite-battle-royale-in-chapter-4)
+
+![](bringing-nanite-to-fortnite-battle-royale-in-chapter-4.gif)
+
+Graham Wihlidal, a developer at Epic Games, showed off the exciting features and improvements he and his team developed this year to launch Nanite in Fortnite Battle Royale Chapter 4. These features are available in Unreal Engine 5.1 (beta).
+
+[Using Stable Diffusion for 3D Texturing](https://80.lv/articles/using-stable-diffusion-for-3d-texturing/)
+
+![](using-stable-diffusion-for-3d-texturing-1024x552.jpg)
+
+Kieran Fogarty showed how you can use Stable Diffusion to create 3D textures and talked about the ethical side of using AI generators in production.
+
+[Lumen adds real-time global illumination to Fortnite Battle Royale Chapter 4](https://www.unrealengine.com/en-US/tech-blog/lumen-brings-real-time-global-illumination-to-fortnite-battle-royale-chapter-4)
+
+![](lumen-brings-real-time-global-illumination-to-fortnite-battle-royale-chapter-4-1024x576.png)
+
+Daniel Wright and Krzysztof Narkowicz, engineers working on Lumen, in the post talked about how Lumen works in Fortnite, and also about the improvements that the team made to Lumen upon  the new chapter release (which are now available to all developers in Unreal Engine 5.1).
+
+[Ever wondered what happened to indie developers who went all in?](https://www.reddit.com/r/gamedev/comments/10m8929/ever_wondered_what_happened_to_indie_devs_that/)
+
+![](ever\_wondered\_what\_happened\_to\_indie\_devs\_that-1024x576.jpg)
+
+But one of the Reddit participants decided to collect everything from relevant subreddits into one list of such developers.
+
+[The Secret of Vampire Survivors’ Addictiveness: Why It’s So Hard to Stop Playing](https://skillbox.ru/media/gamedev/sekret-addiktivnosti-vampire-survivors-pochemu-tak-slozhno-perestat-igrat/)
+
+![](sekret-addiktivnosti-vampire-survivors-pochemu-tak-slozhno-perestat-igrat-1024x555.jpg)
+
+Let’s figure out how the hypnotic gameplay works, what Luca Galante’s game has in common with the casino, and what does the “one more move” phenomenon have to do with it.
+
+[Pay attention to secretly popular subgenres](https://howtomarketagame.com/2023/01/23/pay-attention-to-these-secretly-popular-sub-genres/)
+
+![](pay-attention-to-these-secretly-popular-sub-genres.png)
+
+Chris Zukowski decided to review every Steam game released in 2022 that received at least 1,000 reviews. In the blog, he pointed out several genres that are very dear to the fans, there is not much competition there, and it is quite possible to develop them with a small team.
+
+[Creating many faces of Horizon Forbidden West](https://www.guerrilla-games.com/read/creating-the-many-faces-of-horizon-forbidden-west)
+
+![](creating-the-many-faces-of-horizon-forbidden-west.png)
+
+The Guerrilla Games team shared how they achieved the superb quality of their characters’ faces in Horizon Forbidden West, as well as the extra fidelity that comes with the PS5’s power.
+
+*We thank [Andrei Apanasik](https://suvitruf.ru) for writing the original post and allowing us to publish it on our blog in English.*

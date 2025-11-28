@@ -16,14 +16,16 @@ original_url: "https://generalarcade.com/the-devolver-digital-publisher-sale-is-
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="The Devolver Digital Publisher Sale is live" class="mw-100" src="devolver-1.jpg"/>
-</div>
-<div class="mb-6">
-<p>Yes, <a href="http://store.steampowered.com/sale/devolver">Devolver Digital Publisher Sale</a> is live! A large catalog of indie games with big discounts will be waiting for you until May 16!</p>
-<p>The sale also includes games that our team has worked on:</p>
-<p><a href="https://store.steampowered.com/app/260190/Marc_Ecks_Getting_Up_Contents_Under_Pressure/">Marc Eckō’s Getting Up: Contents Under Pressure</a> (-90%)</p>
-<p><a href="https://store.steampowered.com/app/820630/Metal_Wolf_Chaos_XD/">Metal Wolf Chaos XD</a> (-50%)</p>
-<p><a href="https://store.steampowered.com/app/274250/OlliOlli/">OlliOlli</a> (-80%)</p>
-<p><a href="https://store.steampowered.com/app/225160/Shadow_Warrior_Classic_Redux/">Shadow Warrior Classic Redux</a> (-85%)</p>
-</div>
+![The Devolver Digital Publisher Sale is live](devolver-1.jpg)
+
+Yes, [Devolver Digital Publisher Sale](http://store.steampowered.com/sale/devolver) is live! A large catalog of indie games with big discounts will be waiting for you until May 16!
+
+The sale also includes games that our team has worked on:
+
+[Marc Eckō’s Getting Up: Contents Under Pressure](https://store.steampowered.com/app/260190/Marc_Ecks_Getting_Up_Contents_Under_Pressure/) (-90%)
+
+[Metal Wolf Chaos XD](https://store.steampowered.com/app/820630/Metal_Wolf_Chaos_XD/) (-50%)
+
+[OlliOlli](https://store.steampowered.com/app/274250/OlliOlli/) (-80%)
+
+[Shadow Warrior Classic Redux](https://store.steampowered.com/app/225160/Shadow_Warrior_Classic_Redux/) (-85%)

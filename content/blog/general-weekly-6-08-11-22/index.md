@@ -9,78 +9,144 @@ original_url: "https://generalarcade.com/general-weekly-6-08-11-22/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="General Weekly #6 08.11.22" class="mw-100" src="weekly6.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p>In the news: The Machinery game engine is no longer supported, and the developers ask customers to remove the sources and binaries, 9 months of development and now Godot 3.5 has been released, DreamWorks plans to release the MoonRay renderer under the Apache 2.0 license by the end of the year.</p>
-<p>Of interest: from game developers to developers of the Balancy service for game developers, 5 hours of highly focused John Carmack having fun, GPU memory pools in D3D12, shader water in Unreal Engine.</p>
-<h2 id="h-updates-releases-news">Updates/releases/news</h2>
-<p>The Machinery game engine is no longer supported, and the developers are asking customers to remove the sources and binaries</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1729" height="457" loading="lazy" sizes="(max-width: 833px) 100vw, 833px" src="The-Machinery-engine.png" srcset="https://generalarcade.com/content/uploads/2022/08/The-Machinery-engine.png 833w, https://generalarcade.com/content/uploads/2022/08/The-Machinery-engine-300x165.png 300w, https://generalarcade.com/content/uploads/2022/08/The-Machinery-engine-768x421.png 768w" width="833"/></figure></div>
-<p>The engine is no longer supported. But the most interesting thing here is:</p>
-<p>The developers say that clients must remove all source codes and binaries of the engine.</p>
-<p>The information that they can request this has been added to the EULA very recently. Even in the May version of the user agreement, this clause was not there.</p>
-<p><a href="https://godotengine.org/article/godot-3-5-cant-stop-wont-stop">9 months of development and now Godot 3.5 is out</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1730" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="godot-3-5-cant-stop-wont-stop-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/godot-3-5-cant-stop-wont-stop-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/08/godot-3-5-cant-stop-wont-stop-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/08/godot-3-5-cant-stop-wont-stop-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/08/godot-3-5-cant-stop-wont-stop-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2022/08/godot-3-5-cant-stop-wont-stop-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2022/08/godot-3-5-cant-stop-wont-stop.jpg 1920w" width="1024"/></figure></div>
-<p>New navigation system</p>
-<p>Physics interpolation</p>
-<p>Improved animation</p>
-<p>Singleton Time</p>
-<p>Label3D and TextMesh</p>
-<p>Asynchronous shader compilation</p>
-<p>Native editor for Android</p>
-<p>And much more.</p>
-<p><a href="https://openmoonray.org/MoonRayPressRelease.pdf">DreamWorks plans to release the MoonRay renderer under the Apache 2.0 license by the end of the year</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1732" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="The-Bad-Guys-1024x576.jpeg" srcset="https://generalarcade.com/content/uploads/2022/08/The-Bad-Guys-1024x576.jpeg 1024w, https://generalarcade.com/content/uploads/2022/08/The-Bad-Guys-300x169.jpeg 300w, https://generalarcade.com/content/uploads/2022/08/The-Bad-Guys-768x432.jpeg 768w, https://generalarcade.com/content/uploads/2022/08/The-Bad-Guys-1536x864.jpeg 1536w, https://generalarcade.com/content/uploads/2022/08/The-Bad-Guys-2048x1152.jpeg 2048w, https://generalarcade.com/content/uploads/2022/08/The-Bad-Guys-1280x720.jpeg 1280w" width="1024"/></figure></div>
-<p>Together with the Arras distributed rendering framework.</p>
-<p>The renderer was used in production of, for example, The Bad Guys and Puss in Boots: The Last Wish.</p>
-<p><a href="https://www.khronos.org/news/press/khronos-gltf-2.0-released-as-an-iso-iec-international-standard">Khronos glTF 2.0 Released as International ISO/IEC Standard</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1734" height="589" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="khronos-gltf-2.0-released-as-an-iso-iec-international-standard-1024x589.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/khronos-gltf-2.0-released-as-an-iso-iec-international-standard-1024x589.jpg 1024w, https://generalarcade.com/content/uploads/2022/08/khronos-gltf-2.0-released-as-an-iso-iec-international-standard-300x173.jpg 300w, https://generalarcade.com/content/uploads/2022/08/khronos-gltf-2.0-released-as-an-iso-iec-international-standard-768x442.jpg 768w, https://generalarcade.com/content/uploads/2022/08/khronos-gltf-2.0-released-as-an-iso-iec-international-standard.jpg 1269w" width="1024"/></figure>
-<p>This will reinforce the global acceptance and acceptance of glTF as a 3D asset format.</p>
-<p><a href="https://bevyengine.org/news/bevy-0-8/">Bevy 0.8 released</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1736" height="606" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="bevy-0-8-1024x606.png" srcset="https://generalarcade.com/content/uploads/2022/08/bevy-0-8-1024x606.png 1024w, https://generalarcade.com/content/uploads/2022/08/bevy-0-8-300x178.png 300w, https://generalarcade.com/content/uploads/2022/08/bevy-0-8-768x455.png 768w, https://generalarcade.com/content/uploads/2022/08/bevy-0-8-1280x758.png 1280w, https://generalarcade.com/content/uploads/2022/08/bevy-0-8.png 1282w" width="1024"/></figure></div>
-<p>The popular open-source Rust game engine has received an update that adds several new features, including a new material system, improvements to the ECS system, and a new much more flexible, and powerful camera system.</p>
-<p><a href="https://blog.unity.com/news/unity-and-microsoft-announce-cloud-partnership-for-game-developers-and-beyond">Microsoft and Unity have entered into a partnership – engine developers will use Azure cloud technologies</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1738" height="341" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="unity-and-microsoft-announce-cloud-partnership-for-game-developers-and-beyond-1024x341.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/unity-and-microsoft-announce-cloud-partnership-for-game-developers-and-beyond-1024x341.jpg 1024w, https://generalarcade.com/content/uploads/2022/08/unity-and-microsoft-announce-cloud-partnership-for-game-developers-and-beyond-300x100.jpg 300w, https://generalarcade.com/content/uploads/2022/08/unity-and-microsoft-announce-cloud-partnership-for-game-developers-and-beyond-768x256.jpg 768w, https://generalarcade.com/content/uploads/2022/08/unity-and-microsoft-announce-cloud-partnership-for-game-developers-and-beyond.jpg 1230w" width="1024"/></figure>
-<p>Unity claims that working with Microsoft will allow them to improve their entire infrastructure, as well as develop the ecosystem of tools and services that the company provides to developers.</p>
-<p><a href="https://render.otoy.com/forum/viewtopic.php?f=33&amp;t=80203">Sculptron 2022.1 is out in Early Access</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1740" height="480" loading="lazy" sizes="(max-width: 960px) 100vw, 960px" src="otoy-ships-sculptron-2022-1.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/otoy-ships-sculptron-2022-1.jpg 960w, https://generalarcade.com/content/uploads/2022/08/otoy-ships-sculptron-2022-1-300x150.jpg 300w, https://generalarcade.com/content/uploads/2022/08/otoy-ships-sculptron-2022-1-768x384.jpg 768w" width="960"/></figure></div>
-<p>The update includes support for exporting hair grooming from other software, new brushes and modifiers, and dynamic sculpting capabilities for some brushes.</p>
-<p><a href="https://www.thegrove3d.com/releases/the-grove-release-11/">The Grove Release 11</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1742" height="462" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="the-grove-release-11-1024x462.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/the-grove-release-11-1024x462.jpg 1024w, https://generalarcade.com/content/uploads/2022/08/the-grove-release-11-300x135.jpg 300w, https://generalarcade.com/content/uploads/2022/08/the-grove-release-11-768x347.jpg 768w, https://generalarcade.com/content/uploads/2022/08/the-grove-release-11-1536x693.jpg 1536w, https://generalarcade.com/content/uploads/2022/08/the-grove-release-11-1280x578.jpg 1280w, https://generalarcade.com/content/uploads/2022/08/the-grove-release-11.jpg 1600w" width="1024"/></figure></div>
-<p>The update adds a new Roots tool for creating outer roots, a Surround panel for simulating the shapes of trees growing in dense stands, and updates the software to use Blender’s geometry node system.</p>
-<p>BagaPie V7 released</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/uK7t_qDjm_0" title="YouTube video player" width="560"></iframe></p>
-<p>The update adds new procedural generators for fences, cables, tiles, and metal siding.</p>
-<h2 id="h-interesting-articles-videos">Interesting articles/videos</h2>
-<p><a href="https://anki3d.org/porting-anki-to-android-again-after-8-years/">Porting AnKi to Android…again after ~8 years</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1744" height="428" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="porting-anki-to-android-again-after-8-years-1024x428.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/porting-anki-to-android-again-after-8-years-1024x428.jpg 1024w, https://generalarcade.com/content/uploads/2022/08/porting-anki-to-android-again-after-8-years-300x125.jpg 300w, https://generalarcade.com/content/uploads/2022/08/porting-anki-to-android-again-after-8-years-768x321.jpg 768w, https://generalarcade.com/content/uploads/2022/08/porting-anki-to-android-again-after-8-years.jpg 1280w" width="1024"/></figure></div>
-<p>The developer of the AnKi 3D engine decided to rewrite the port of it for Android and talked about the adventures he encountered along the way.</p>
-<p>5 hours of enjoying concentrated John Carmack</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/I845O57ZSy4" title="YouTube video player" width="560">The legendary programmer, co-founder of id Software, and the lead developer of many revolutionary video games including Wolfenstein 3D, Doom, Quake, and the Commander Keen series discussed many topics in the podcast.</iframe></p>
-<p><a href="https://80.lv/articles/making-a-snow-dwarf-in-zbrush-maya-arnold/">Creating a Snow Gnome in ZBrush, Maya, and Arnold</a></p>
-<p>Enrique Mateo-Sagasta talked about the project, explained how to make believable skin in ZBrush, and shared some hair tips.</p>
-<p><a href="https://twitter.com/tom_forsyth/status/1555264293427326976">The game Urban Chaos for PS1 at one time was denied by the moderators because saves were running too fast</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1747" height="768" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="swig-1024x768.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/swig-1024x768.jpg 1024w, https://generalarcade.com/content/uploads/2022/08/swig-300x225.jpg 300w, https://generalarcade.com/content/uploads/2022/08/swig-768x576.jpg 768w, https://generalarcade.com/content/uploads/2022/08/swig.jpg 1200w" width="1024"/></figure></div>
-<p>The player did not have time to read the message “Saving… please do not remove the memory card”.</p>
-<p>What they did in the end:</p>
-<p>Save progress</p>
-<p>Showed a message</p>
-<p>Paused</p>
-<p>The message lied to the players.</p>
-<p><a href="https://blog.unity.com/technology/unlock-the-power-of-machine-learning-to-build-breathtaking-worlds">Gaia and the Intel Game Dev AI Toolkit</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1750" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="unlock-the-power-of-machine-learning-to-build-breathtaking-worlds-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/unlock-the-power-of-machine-learning-to-build-breathtaking-worlds-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/08/unlock-the-power-of-machine-learning-to-build-breathtaking-worlds-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/08/unlock-the-power-of-machine-learning-to-build-breathtaking-worlds-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/08/unlock-the-power-of-machine-learning-to-build-breathtaking-worlds-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2022/08/unlock-the-power-of-machine-learning-to-build-breathtaking-worlds-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2022/08/unlock-the-power-of-machine-learning-to-build-breathtaking-worlds.jpg 1920w" width="1024"/></figure>
-<p>Using AI, game developers can create hyper-realistic worlds filled with countless intricate adaptive NPCs. Now, most developers can effectively integrate AI capabilities with Unity features.</p>
-<p><a href="https://defold.com//2022/08/04/The-making-of-Boxrob/">Creation of BoxRob</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1751" height="556" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="The-making-of-Boxrob-1024x556.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/The-making-of-Boxrob-1024x556.jpg 1024w, https://generalarcade.com/content/uploads/2022/08/The-making-of-Boxrob-300x163.jpg 300w, https://generalarcade.com/content/uploads/2022/08/The-making-of-Boxrob-768x417.jpg 768w, https://generalarcade.com/content/uploads/2022/08/The-making-of-Boxrob-1536x834.jpg 1536w, https://generalarcade.com/content/uploads/2022/08/The-making-of-Boxrob-1280x695.jpg 1280w, https://generalarcade.com/content/uploads/2022/08/The-making-of-Boxrob.jpg 1998w" width="1024"/></figure>
-<p>In a blog post, d954mas shared his experience of working on the game, from the initial idea to the finished product.</p>
-<p>Material Options: A Solution for Managing Complex Material Libraries</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1753" height="341" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="material-variants-the-solution-for-managing-complex-material-libraries-1024x341.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/material-variants-the-solution-for-managing-complex-material-libraries-1024x341.jpg 1024w, https://generalarcade.com/content/uploads/2022/08/material-variants-the-solution-for-managing-complex-material-libraries-300x100.jpg 300w, https://generalarcade.com/content/uploads/2022/08/material-variants-the-solution-for-managing-complex-material-libraries-768x256.jpg 768w, https://generalarcade.com/content/uploads/2022/08/material-variants-the-solution-for-managing-complex-material-libraries.jpg 1230w" width="1024"/></figure></div>
-<p>Ever wanted to automatically apply changes from one material to several others? Or reuse base material for local settings? Unity 2022.1 introduced a prefab-like concept, compatible with all render pipelines, to manage material options in the editor.</p>
-<p><a href="https://newsletter.gamediscover.co/p/sales-comps-for-your-game-how-not">Compensation for your game: what not to do</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1755" height="414" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="sales-comps-for-your-game-how-not.jpg" srcset="https://generalarcade.com/content/uploads/2022/08/sales-comps-for-your-game-how-not.jpg 800w, https://generalarcade.com/content/uploads/2022/08/sales-comps-for-your-game-how-not-300x155.jpg 300w, https://generalarcade.com/content/uploads/2022/08/sales-comps-for-your-game-how-not-768x397.jpg 768w" width="800"/></figure>
-<p>For your game to come out and become successful, you need to properly budget the game. You may also need to estimate how many units you think will be sold.</p>
-<p><em>We thank <a href="https://suvitruf.ru">Andrei Apanasik</a> for writing the original post and allowing us to publish it on our blog in English.</em></p>
-</div>
+![General Weekly #6 08.11.22](weekly6.jpg)
+
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+In the news: The Machinery game engine is no longer supported, and the developers ask customers to remove the sources and binaries, 9 months of development and now Godot 3.5 has been released, DreamWorks plans to release the MoonRay renderer under the Apache 2.0 license by the end of the year.
+
+Of interest: from game developers to developers of the Balancy service for game developers, 5 hours of highly focused John Carmack having fun, GPU memory pools in D3D12, shader water in Unreal Engine.
+
+## Updates/releases/news
+
+The Machinery game engine is no longer supported, and the developers are asking customers to remove the sources and binaries
+
+![](The-Machinery-engine.png)
+
+The engine is no longer supported. But the most interesting thing here is:
+
+The developers say that clients must remove all source codes and binaries of the engine.
+
+The information that they can request this has been added to the EULA very recently. Even in the May version of the user agreement, this clause was not there.
+
+[9 months of development and now Godot 3.5 is out](https://godotengine.org/article/godot-3-5-cant-stop-wont-stop)
+
+![](godot-3-5-cant-stop-wont-stop-1024x576.jpg)
+
+New navigation system
+
+Physics interpolation
+
+Improved animation
+
+Singleton Time
+
+Label3D and TextMesh
+
+Asynchronous shader compilation
+
+Native editor for Android
+
+And much more.
+
+[DreamWorks plans to release the MoonRay renderer under the Apache 2.0 license by the end of the year](https://openmoonray.org/MoonRayPressRelease.pdf)
+
+![](The-Bad-Guys-1024x576.jpeg)
+
+Together with the Arras distributed rendering framework.
+
+The renderer was used in production of, for example, The Bad Guys and Puss in Boots: The Last Wish.
+
+[Khronos glTF 2.0 Released as International ISO/IEC Standard](https://www.khronos.org/news/press/khronos-gltf-2.0-released-as-an-iso-iec-international-standard)
+
+![](khronos-gltf-2.0-released-as-an-iso-iec-international-standard-1024x589.jpg)
+
+This will reinforce the global acceptance and acceptance of glTF as a 3D asset format.
+
+[Bevy 0.8 released](https://bevyengine.org/news/bevy-0-8/)
+
+![](bevy-0-8-1024x606.png)
+
+The popular open-source Rust game engine has received an update that adds several new features, including a new material system, improvements to the ECS system, and a new much more flexible, and powerful camera system.
+
+[Microsoft and Unity have entered into a partnership – engine developers will use Azure cloud technologies](https://blog.unity.com/news/unity-and-microsoft-announce-cloud-partnership-for-game-developers-and-beyond)
+
+![](unity-and-microsoft-announce-cloud-partnership-for-game-developers-and-beyond-1024x341.jpg)
+
+Unity claims that working with Microsoft will allow them to improve their entire infrastructure, as well as develop the ecosystem of tools and services that the company provides to developers.
+
+[Sculptron 2022.1 is out in Early Access](https://render.otoy.com/forum/viewtopic.php?f=33&t=80203)
+
+![](otoy-ships-sculptron-2022-1.jpg)
+
+The update includes support for exporting hair grooming from other software, new brushes and modifiers, and dynamic sculpting capabilities for some brushes.
+
+[The Grove Release 11](https://www.thegrove3d.com/releases/the-grove-release-11/)
+
+![](the-grove-release-11-1024x462.jpg)
+
+The update adds a new Roots tool for creating outer roots, a Surround panel for simulating the shapes of trees growing in dense stands, and updates the software to use Blender’s geometry node system.
+
+BagaPie V7 released
+
+{{< youtube "uK7t\_qDjm\_0" >}}
+
+The update adds new procedural generators for fences, cables, tiles, and metal siding.
+
+## Interesting articles/videos
+
+[Porting AnKi to Android…again after ~8 years](https://anki3d.org/porting-anki-to-android-again-after-8-years/)
+
+![](porting-anki-to-android-again-after-8-years-1024x428.jpg)
+
+The developer of the AnKi 3D engine decided to rewrite the port of it for Android and talked about the adventures he encountered along the way.
+
+5 hours of enjoying concentrated John Carmack
+
+{{< youtube "I845O57ZSy4" >}}
+
+[Creating a Snow Gnome in ZBrush, Maya, and Arnold](https://80.lv/articles/making-a-snow-dwarf-in-zbrush-maya-arnold/)
+
+Enrique Mateo-Sagasta talked about the project, explained how to make believable skin in ZBrush, and shared some hair tips.
+
+[The game Urban Chaos for PS1 at one time was denied by the moderators because saves were running too fast](https://twitter.com/tom_forsyth/status/1555264293427326976)
+
+![](swig-1024x768.jpg)
+
+The player did not have time to read the message “Saving… please do not remove the memory card”.
+
+What they did in the end:
+
+Save progress
+
+Showed a message
+
+Paused
+
+The message lied to the players.
+
+[Gaia and the Intel Game Dev AI Toolkit](https://blog.unity.com/technology/unlock-the-power-of-machine-learning-to-build-breathtaking-worlds)
+
+![](unlock-the-power-of-machine-learning-to-build-breathtaking-worlds-1024x576.jpg)
+
+Using AI, game developers can create hyper-realistic worlds filled with countless intricate adaptive NPCs. Now, most developers can effectively integrate AI capabilities with Unity features.
+
+[Creation of BoxRob](https://defold.com//2022/08/04/The-making-of-Boxrob/)
+
+![](The-making-of-Boxrob-1024x556.jpg)
+
+In a blog post, d954mas shared his experience of working on the game, from the initial idea to the finished product.
+
+Material Options: A Solution for Managing Complex Material Libraries
+
+![](material-variants-the-solution-for-managing-complex-material-libraries-1024x341.jpg)
+
+Ever wanted to automatically apply changes from one material to several others? Or reuse base material for local settings? Unity 2022.1 introduced a prefab-like concept, compatible with all render pipelines, to manage material options in the editor.
+
+[Compensation for your game: what not to do](https://newsletter.gamediscover.co/p/sales-comps-for-your-game-how-not)
+
+![](sales-comps-for-your-game-how-not.jpg)
+
+For your game to come out and become successful, you need to properly budget the game. You may also need to estimate how many units you think will be sold.
+
+*We thank [Andrei Apanasik](https://suvitruf.ru) for writing the original post and allowing us to publish it on our blog in English.*

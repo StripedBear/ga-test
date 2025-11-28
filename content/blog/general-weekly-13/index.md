@@ -10,75 +10,138 @@ original_url: "https://generalarcade.com/general-weekly-13/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="General Weekly #13" class="mw-100" src="weekly13.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<h2 id="h-updates-releases-news">Updates/releases/news</h2>
-<p><a href="https://github.com/storm-devs/captain-blood">The source code of the engine “Captain Blood” game was made publicly available under GPL-3</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1969" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="captain-blood-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/12/captain-blood-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/12/captain-blood-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/12/captain-blood-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/12/captain-blood.jpg 1280w" width="1024"/></figure>
-<p>You can download it from Github.</p>
-<p><a href="https://www.unrealengine.com/en-US/blog/new-metahuman-release-brings-easier-sharing-and-dna-calibration">Epic released a new version of MetaHuman</a></p>
-<div class="wp-block-image"><figure class="aligncenter"><img alt="" class="wp-image-13104" src="new-metahuman-release-brings-easier-sharing-and-dna-calibration.gif"/></figure></div>
-<p>The updates reveal MetaHumans’ “DNA” – sets of parameters that define 3D character head shapes and the structure of their facial rigs – making them easier to share and customize.</p>
-<p><a href="https://youtu.be/fXLOMOWWBJQ">RealityScan is now free to download on iOS</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/fXLOMOWWBJQ" title="RealityScan Available Now | Capture the World and Create Your Own" width="560"></iframe></p>
-<p>RealityScan is a 3D scanning app for mobile devices from Epic Games that turns photos into high-quality 3D models.</p>
-<p><a href="https://builder.blender.org/download/experimental/geometry-nodes-simulation/">Try the new simulation framework on Blender nodes</a></p>
-<div class="wp-block-image"><figure class="aligncenter"><img alt="" class="wp-image-13119" src="blender-simulation.gif"/></figure></div>
-<p>The framework extends the existing Geometry Nodes system to support particle-based modeling. You can poke in the experimental assembly.</p>
-<p><a href="https://godotengine.org/article/release-management-4-0-and-beyond">Godot 4.0+ Release Management</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1972" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="release-management-4-0-and-beyond-1024x576.png" srcset="https://generalarcade.com/content/uploads/2022/12/release-management-4-0-and-beyond-1024x576.png 1024w, https://generalarcade.com/content/uploads/2022/12/release-management-4-0-and-beyond-300x169.png 300w, https://generalarcade.com/content/uploads/2022/12/release-management-4-0-and-beyond-768x432.png 768w, https://generalarcade.com/content/uploads/2022/12/release-management-4-0-and-beyond-1536x864.png 1536w, https://generalarcade.com/content/uploads/2022/12/release-management-4-0-and-beyond-1280x720.png 1280w, https://generalarcade.com/content/uploads/2022/12/release-management-4-0-and-beyond.png 1920w" width="1024"/></figure>
-<p>In the post, the team shed some light on expectations for version 4.0 and the future of Godot 4.x.</p>
-<p><a href="https://blog.unity.com/technology/the-latest-on-cinematic-studio-and-live-capture">Latest news about Cinematic Studio and Live Capture</a></p>
-<div class="wp-block-image"><figure class="aligncenter"><img alt="" class="wp-image-13133" src="the-latest-on-cinematic-studio-and-live-capture.gif"/></figure></div>
-<p>Last year, Unity released a set of virtual production and cinematography tools, and then launched a closed beta program to gather information about what creators need.</p>
-<h2 id="h-interesting-articles-videos">Interesting articles/videos</h2>
-<p><a href="https://youtu.be/H9AAnV59ddE">Todd Howard on the Lex Friedman Podcast</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/H9AAnV59ddE" title="Todd Howard: Skyrim, Elder Scrolls 6, Fallout, and Starfield | Lex Fridman Podcast #342" width="560"></iframe></p>
-<p>The game designer regrets a little that he did not start developing the sixth part of TES earlier.</p>
-<p><a href="https://www.gamedeveloper.com/blogs/what-can-we-learn-from-the-1-600-highest-earning-indie-developers-on-steam-">What you can learn from 1600 indie developers on Steam who have earned over $100K</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1974" height="432" loading="lazy" sizes="(max-width: 768px) 100vw, 768px" src="chemu-mozhno-nauchitsya-u-1600-indi-razrabotchikov-v-steam-kotorye-zarabotali-bolshe-100k.png" srcset="https://generalarcade.com/content/uploads/2022/12/chemu-mozhno-nauchitsya-u-1600-indi-razrabotchikov-v-steam-kotorye-zarabotali-bolshe-100k.png 768w, https://generalarcade.com/content/uploads/2022/12/chemu-mozhno-nauchitsya-u-1600-indi-razrabotchikov-v-steam-kotorye-zarabotali-bolshe-100k-300x169.png 300w" width="768"/></figure>
-<p>Only 10% of developers on Steam have earned more than $100,000 in gross revenue. The author tried to compare, using open data, what successful developers did, that everyone else did not do.</p>
-<p><a href="https://youtu.be/d61_o4CGQd8">A Blow from the West: Wind Simulation in Ghost of Tsushima</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/d61_o4CGQd8" title="Blowing from the West: Simulating Wind in 'Ghost of Tsushima'" width="560"></iframe></p>
-<p>In a GDC 2021 talk, Bill Rockenbeck of Sucker Punch Productions gives a lot of tips and tricks to make simulations fast and believable while making the most of the Playstation’s GPU.</p>
-<p><a href="https://80.lv/articles/designing-the-post-apocalyptic-strategy-beacon-of-neyda/">Designing the post-apocalyptic strategic Beacon of Neyda</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1977" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="designing-the-post-apocalyptic-strategy-beacon-of-neyda-1024x576.jpeg" srcset="https://generalarcade.com/content/uploads/2022/12/designing-the-post-apocalyptic-strategy-beacon-of-neyda-1024x576.jpeg 1024w, https://generalarcade.com/content/uploads/2022/12/designing-the-post-apocalyptic-strategy-beacon-of-neyda-300x169.jpeg 300w, https://generalarcade.com/content/uploads/2022/12/designing-the-post-apocalyptic-strategy-beacon-of-neyda-768x432.jpeg 768w, https://generalarcade.com/content/uploads/2022/12/designing-the-post-apocalyptic-strategy-beacon-of-neyda-1536x864.jpeg 1536w, https://generalarcade.com/content/uploads/2022/12/designing-the-post-apocalyptic-strategy-beacon-of-neyda-1280x720.jpeg 1280w, https://generalarcade.com/content/uploads/2022/12/designing-the-post-apocalyptic-strategy-beacon-of-neyda.jpeg 1920w" width="1024"/></figure>
-<p>Christian Molina talked about the history of Ghost Creative Studio, described the world and gameplay of Beacon of Neyda, and also explained how the parallax effect was created.</p>
-<p><a href="https://mamoniem.com/behind-the-pretty-frames-death-stranding/">Parsing the Death Stranding Frame</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1978" height="540" loading="lazy" sizes="(max-width: 960px) 100vw, 960px" src="behind-the-pretty-frames-death-stranding.png" srcset="https://generalarcade.com/content/uploads/2022/12/behind-the-pretty-frames-death-stranding.png 960w, https://generalarcade.com/content/uploads/2022/12/behind-the-pretty-frames-death-stranding-300x169.png 300w, https://generalarcade.com/content/uploads/2022/12/behind-the-pretty-frames-death-stranding-768x432.png 768w" width="960"/></figure>
-<p>Momo has written another cool article.</p>
-<p><a href="https://gameworldobserver.com/2022/12/01/ai-generated-game-assets-stable-diffusion-red-alert-scenario">How to Create Red Alert Inspired Game Assets with Stable Diffusion</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1980" height="1024" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="ai-generated-game-assets-stable-diffusion-red-alert-scenario-1024x1024.jpg" srcset="https://generalarcade.com/content/uploads/2022/12/ai-generated-game-assets-stable-diffusion-red-alert-scenario-1024x1024.jpg 1024w, https://generalarcade.com/content/uploads/2022/12/ai-generated-game-assets-stable-diffusion-red-alert-scenario-300x300.jpg 300w, https://generalarcade.com/content/uploads/2022/12/ai-generated-game-assets-stable-diffusion-red-alert-scenario-150x150.jpg 150w, https://generalarcade.com/content/uploads/2022/12/ai-generated-game-assets-stable-diffusion-red-alert-scenario-768x768.jpg 768w, https://generalarcade.com/content/uploads/2022/12/ai-generated-game-assets-stable-diffusion-red-alert-scenario-1536x1536.jpg 1536w, https://generalarcade.com/content/uploads/2022/12/ai-generated-game-assets-stable-diffusion-red-alert-scenario-1280x1280.jpg 1280w, https://generalarcade.com/content/uploads/2022/12/ai-generated-game-assets-stable-diffusion-red-alert-scenario.jpg 1920w" width="1024"/></figure>
-<p>Tools for AI-generated assets are constantly evolving. Scenario co-founder Emmanuel de Maistre showed what game developers can achieve by setting up Stable Diffusion.</p>
-<p><a href="https://www.gamedeveloper.com/blogs/postmortem-my-hot-girlfriend">Postmortem: My Hot Girlfriend</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1981" height="541" loading="lazy" sizes="(max-width: 820px) 100vw, 820px" src="postmortem-my-hot-girlfriend.png" srcset="https://generalarcade.com/content/uploads/2022/12/postmortem-my-hot-girlfriend.png 820w, https://generalarcade.com/content/uploads/2022/12/postmortem-my-hot-girlfriend-300x198.png 300w, https://generalarcade.com/content/uploads/2022/12/postmortem-my-hot-girlfriend-768x507.png 768w" width="820"/></figure>
-<p>Lessons learned from building a tiny adventure game with Unity and Yarn Spinner.</p>
-<p><a href="https://youtu.be/AFo7KLk1eNE">Creating Enemies: The Evolution of Digital Humans Continues with Ziva</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/AFo7KLk1eNE" title="The making of Enemies: The evolution of digital humans continues with Ziva" width="560"></iframe></p>
-<p>Unity talks about the evolution and development of its tools.</p>
-<p><a href="https://newsletter.gamediscover.co/p/video-games-and-the-fractalization">Video games and the fractalization of attention</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1983" height="420" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="video-games-and-the-fractalization.jpg" srcset="https://generalarcade.com/content/uploads/2022/12/video-games-and-the-fractalization.jpg 800w, https://generalarcade.com/content/uploads/2022/12/video-games-and-the-fractalization-300x158.jpg 300w, https://generalarcade.com/content/uploads/2022/12/video-games-and-the-fractalization-768x403.jpg 768w" width="800"/></figure>
-<p>A story from GameDiscoverCo based on three different pieces of content: a conversation with a client about how they can keep track of what’s happening in the busy world of PC and console video games in 2022; interview with Jason Della Rocca; Chris Zukowski’s study on average gross indie games.</p>
-<p><a href="https://youtu.be/iZXLLIihMTs">How The Callisto Protocol Animations Came to Life with Motion Capture</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/iZXLLIihMTs" title="" width="560"></iframe></p>
-<p>Lead Designer Benjamin Wurlod talks about the basic principles of the game.</p>
-<p><a href="https://simblob.blogspot.com/2022/11/introduction-to-hexagons-part-1.html">Introduction to Hexagons</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1985" height="833" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="introduction-to-hexagons-part-1-1024x833.png" srcset="https://generalarcade.com/content/uploads/2022/12/introduction-to-hexagons-part-1-1024x833.png 1024w, https://generalarcade.com/content/uploads/2022/12/introduction-to-hexagons-part-1-300x244.png 300w, https://generalarcade.com/content/uploads/2022/12/introduction-to-hexagons-part-1-768x625.png 768w, https://generalarcade.com/content/uploads/2022/12/introduction-to-hexagons-part-1-1536x1250.png 1536w, https://generalarcade.com/content/uploads/2022/12/introduction-to-hexagons-part-1-2048x1667.png 2048w, https://generalarcade.com/content/uploads/2022/12/introduction-to-hexagons-part-1-1280x1042.png 1280w" width="1024"/></figure>
-<p>The developer tells in detail how he created his interactive diagrams for the tutorial.</p>
-<p><a href="https://www.deconstructoroffun.com/blog/2022/11/24/marvel-snap-the-one-deconstruction-to-rule-them-all">Why was the Marvel Snap a hit and how long will it stay?</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1986" height="445" loading="lazy" sizes="(max-width: 750px) 100vw, 750px" src="marvel-snap-the-one-deconstruction-to-rule-them-all.png" srcset="https://generalarcade.com/content/uploads/2022/12/marvel-snap-the-one-deconstruction-to-rule-them-all.png 750w, https://generalarcade.com/content/uploads/2022/12/marvel-snap-the-one-deconstruction-to-rule-them-all-300x178.png 300w" width="750"/></figure>
-<p>Deconstructor of fun goes into detail about the success of the game.</p>
-<p><a href="https://www.businessofapps.com/news/mobile-game-features-can-boost-player-retention/">Mobile gaming features can increase player retention</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1987" height="593" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="mobile-game-features-can-boost-player-retention.jpeg" srcset="https://generalarcade.com/content/uploads/2022/12/mobile-game-features-can-boost-player-retention.jpeg 1024w, https://generalarcade.com/content/uploads/2022/12/mobile-game-features-can-boost-player-retention-300x174.jpeg 300w, https://generalarcade.com/content/uploads/2022/12/mobile-game-features-can-boost-player-retention-768x445.jpeg 768w" width="1024"/></figure>
-<p>Mobile game development isn’t just about a great idea, good characters, or exciting worlds. The most successful projects contain several elements that enhance the gaming experience and keep users coming back for more. But what exactly are they?</p>
-<p><a href="https://www.gameinformer.com/feature/2022/11/25/how-a-neon-white-level-is-made">Level design in Neon White by Annapurna</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1989" height="450" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="how-a-neon-white-level-is-made.jpg" srcset="https://generalarcade.com/content/uploads/2022/12/how-a-neon-white-level-is-made.jpg 800w, https://generalarcade.com/content/uploads/2022/12/how-a-neon-white-level-is-made-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/12/how-a-neon-white-level-is-made-768x432.jpg 768w" width="800"/></figure>
-<p>The developers of Neon White discussed the challenges of creating a Smackdown playable level.</p>
-<p><a href="https://medium.com/geekculture/decompiling-nvidia-shaders-and-optimizing-5aeaeb65f828">Decompilation of Nvidia shaders and optimization</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1990" height="842" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="firefox_qsSRig6HXT-1024x842.png" srcset="https://generalarcade.com/content/uploads/2022/12/firefox_qsSRig6HXT-1024x842.png 1024w, https://generalarcade.com/content/uploads/2022/12/firefox_qsSRig6HXT-300x247.png 300w, https://generalarcade.com/content/uploads/2022/12/firefox_qsSRig6HXT-768x632.png 768w, https://generalarcade.com/content/uploads/2022/12/firefox_qsSRig6HXT.png 1087w" width="1024"/></figure>
-<p>This article shows how to decompile NVidia OpenGL and Vulkan shaders, what tools are needed to decompress Nvidia caches and rename shaders. Additionally, a couple of examples of optimizations and their impact on the generated assembly are presented.</p>
-<p><em>We thank <a href="https://suvitruf.ru">Andrei Apanasik</a> for writing the original post and allowing us to publish it on our blog in English.</em></p>
-</div>
+![General Weekly #13](weekly13.jpg)
+
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+## Updates/releases/news
+
+[The source code of the engine “Captain Blood” game was made publicly available under GPL-3](https://github.com/storm-devs/captain-blood)
+
+![](captain-blood-1024x576.jpg)
+
+You can download it from Github.
+
+[Epic released a new version of MetaHuman](https://www.unrealengine.com/en-US/blog/new-metahuman-release-brings-easier-sharing-and-dna-calibration)
+
+![](new-metahuman-release-brings-easier-sharing-and-dna-calibration.gif)
+
+The updates reveal MetaHumans’ “DNA” – sets of parameters that define 3D character head shapes and the structure of their facial rigs – making them easier to share and customize.
+
+[RealityScan is now free to download on iOS](https://youtu.be/fXLOMOWWBJQ)
+
+{{< youtube "fXLOMOWWBJQ" >}}
+
+RealityScan is a 3D scanning app for mobile devices from Epic Games that turns photos into high-quality 3D models.
+
+[Try the new simulation framework on Blender nodes](https://builder.blender.org/download/experimental/geometry-nodes-simulation/)
+
+![](blender-simulation.gif)
+
+The framework extends the existing Geometry Nodes system to support particle-based modeling. You can poke in the experimental assembly.
+
+[Godot 4.0+ Release Management](https://godotengine.org/article/release-management-4-0-and-beyond)
+
+![](release-management-4-0-and-beyond-1024x576.png)
+
+In the post, the team shed some light on expectations for version 4.0 and the future of Godot 4.x.
+
+[Latest news about Cinematic Studio and Live Capture](https://blog.unity.com/technology/the-latest-on-cinematic-studio-and-live-capture)
+
+![](the-latest-on-cinematic-studio-and-live-capture.gif)
+
+Last year, Unity released a set of virtual production and cinematography tools, and then launched a closed beta program to gather information about what creators need.
+
+## Interesting articles/videos
+
+[Todd Howard on the Lex Friedman Podcast](https://youtu.be/H9AAnV59ddE)
+
+{{< youtube "H9AAnV59ddE" >}}
+
+The game designer regrets a little that he did not start developing the sixth part of TES earlier.
+
+[What you can learn from 1600 indie developers on Steam who have earned over $100K](https://www.gamedeveloper.com/blogs/what-can-we-learn-from-the-1-600-highest-earning-indie-developers-on-steam-)
+
+![](chemu-mozhno-nauchitsya-u-1600-indi-razrabotchikov-v-steam-kotorye-zarabotali-bolshe-100k.png)
+
+Only 10% of developers on Steam have earned more than $100,000 in gross revenue. The author tried to compare, using open data, what successful developers did, that everyone else did not do.
+
+[A Blow from the West: Wind Simulation in Ghost of Tsushima](https://youtu.be/d61_o4CGQd8)
+
+{{< youtube "d61\_o4CGQd8" >}}
+
+In a GDC 2021 talk, Bill Rockenbeck of Sucker Punch Productions gives a lot of tips and tricks to make simulations fast and believable while making the most of the Playstation’s GPU.
+
+[Designing the post-apocalyptic strategic Beacon of Neyda](https://80.lv/articles/designing-the-post-apocalyptic-strategy-beacon-of-neyda/)
+
+![](designing-the-post-apocalyptic-strategy-beacon-of-neyda-1024x576.jpeg)
+
+Christian Molina talked about the history of Ghost Creative Studio, described the world and gameplay of Beacon of Neyda, and also explained how the parallax effect was created.
+
+[Parsing the Death Stranding Frame](https://mamoniem.com/behind-the-pretty-frames-death-stranding/)
+
+![](behind-the-pretty-frames-death-stranding.png)
+
+Momo has written another cool article.
+
+[How to Create Red Alert Inspired Game Assets with Stable Diffusion](https://gameworldobserver.com/2022/12/01/ai-generated-game-assets-stable-diffusion-red-alert-scenario)
+
+![](ai-generated-game-assets-stable-diffusion-red-alert-scenario-1024x1024.jpg)
+
+Tools for AI-generated assets are constantly evolving. Scenario co-founder Emmanuel de Maistre showed what game developers can achieve by setting up Stable Diffusion.
+
+[Postmortem: My Hot Girlfriend](https://www.gamedeveloper.com/blogs/postmortem-my-hot-girlfriend)
+
+![](postmortem-my-hot-girlfriend.png)
+
+Lessons learned from building a tiny adventure game with Unity and Yarn Spinner.
+
+[Creating Enemies: The Evolution of Digital Humans Continues with Ziva](https://youtu.be/AFo7KLk1eNE)
+
+{{< youtube "AFo7KLk1eNE" >}}
+
+Unity talks about the evolution and development of its tools.
+
+[Video games and the fractalization of attention](https://newsletter.gamediscover.co/p/video-games-and-the-fractalization)
+
+![](video-games-and-the-fractalization.jpg)
+
+A story from GameDiscoverCo based on three different pieces of content: a conversation with a client about how they can keep track of what’s happening in the busy world of PC and console video games in 2022; interview with Jason Della Rocca; Chris Zukowski’s study on average gross indie games.
+
+[How The Callisto Protocol Animations Came to Life with Motion Capture](https://youtu.be/iZXLLIihMTs)
+
+{{< youtube "iZXLLIihMTs" >}}
+
+Lead Designer Benjamin Wurlod talks about the basic principles of the game.
+
+[Introduction to Hexagons](https://simblob.blogspot.com/2022/11/introduction-to-hexagons-part-1.html)
+
+![](introduction-to-hexagons-part-1-1024x833.png)
+
+The developer tells in detail how he created his interactive diagrams for the tutorial.
+
+[Why was the Marvel Snap a hit and how long will it stay?](https://www.deconstructoroffun.com/blog/2022/11/24/marvel-snap-the-one-deconstruction-to-rule-them-all)
+
+![](marvel-snap-the-one-deconstruction-to-rule-them-all.png)
+
+Deconstructor of fun goes into detail about the success of the game.
+
+[Mobile gaming features can increase player retention](https://www.businessofapps.com/news/mobile-game-features-can-boost-player-retention/)
+
+![](mobile-game-features-can-boost-player-retention.jpeg)
+
+Mobile game development isn’t just about a great idea, good characters, or exciting worlds. The most successful projects contain several elements that enhance the gaming experience and keep users coming back for more. But what exactly are they?
+
+[Level design in Neon White by Annapurna](https://www.gameinformer.com/feature/2022/11/25/how-a-neon-white-level-is-made)
+
+![](how-a-neon-white-level-is-made.jpg)
+
+The developers of Neon White discussed the challenges of creating a Smackdown playable level.
+
+[Decompilation of Nvidia shaders and optimization](https://medium.com/geekculture/decompiling-nvidia-shaders-and-optimizing-5aeaeb65f828)
+
+![](firefox\_qsSRig6HXT-1024x842.png)
+
+This article shows how to decompile NVidia OpenGL and Vulkan shaders, what tools are needed to decompress Nvidia caches and rename shaders. Additionally, a couple of examples of optimizations and their impact on the generated assembly are presented.
+
+*We thank [Andrei Apanasik](https://suvitruf.ru) for writing the original post and allowing us to publish it on our blog in English.*

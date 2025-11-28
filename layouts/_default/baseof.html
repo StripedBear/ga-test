@@ -11,7 +11,21 @@
 
   <!-- Security headers as meta (for GitHub Pages) -->
   <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self' data:; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
+      content="
+default-src 'self';
+img-src 'self' data:;
+style-src 'self' 'unsafe-inline';
+script-src 'self';
+font-src 'self' data:;
+
+frame-src 'self' https://www.youtube.com https://youtube.com https://www.youtube-nocookie.com;
+child-src 'self' https://www.youtube.com https://youtube.com https://www.youtube-nocookie.com;
+
+base-uri 'none';
+form-action 'self';
+frame-ancestors 'self';
+">
+
   <meta http-equiv="Referrer-Policy" content="no-referrer">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <meta http-equiv="X-Frame-Options" content="DENY">

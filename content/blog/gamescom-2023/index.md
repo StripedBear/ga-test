@@ -9,10 +9,6 @@ original_url: "https://generalarcade.com/gamescom-2023/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="Gamescom 2023" class="mw-100" src="gamescom.jpg"/>
-</div>
-<div class="mb-6">
-<p>From August 21 to 25, look for us in Cologne (Köln) at Gamescom!</p>
-<p>We are ready to meet and talk again as with old friends and partners. Surely, we don’t mind making new ones 😉</p>
-</div>
+From August 21 to 25, look for us in Cologne (Köln) at Gamescom!
+
+We are ready to meet and talk again as with old friends and partners. Surely, we don’t mind making new ones 😉

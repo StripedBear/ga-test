@@ -10,45 +10,76 @@ original_url: "https://generalarcade.com/devsday-33/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="DEVsday #33" class="mw-100" src="devsday33.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p><a href="https://forums.unrealengine.com/t/unreal-engine-5-3-preview/1240016">Unreal Engine 5.3 Preview</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2566" height="308" loading="lazy" sizes="(max-width: 714px) 100vw, 714px" src="ue-5.3.png" srcset="https://generalarcade.com/content/uploads/2023/08/ue-5.3.png 714w, https://generalarcade.com/content/uploads/2023/08/ue-5.3-300x129.png 300w" width="714"/></figure>
-<p>In this version, the rendering functions provide more control over performance and produce better results. The assembly with the help of Multi-process Cook has been reduced, which will speed up iteration.</p>
-<p><a href="https://store.steampowered.com/news/group/4145017/view/3687933234141224746">New Steamworks Traffic Reporting Tools</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2568" height="283" loading="lazy" sizes="(max-width: 950px) 100vw, 950px" src="Steamworks-utm.jpg" srcset="https://generalarcade.com/content/uploads/2023/08/Steamworks-utm.jpg 950w, https://generalarcade.com/content/uploads/2023/08/Steamworks-utm-300x89.jpg 300w, https://generalarcade.com/content/uploads/2023/08/Steamworks-utm-768x229.jpg 768w" width="950"/></figure>
-<p>New UTM tools and deprecation of Google Analytics.</p>
-<p><a href="https://80.lv/articles/recreating-underwater-sun-rays-from-avatar-the-way-of-water-in-houdini/">Recreating the underwater sunbeams from Avatar in Houdini</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2570" height="508" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="recreating-underwater-sun-rays-from-avatar-the-way-of-water-in-houdini-1024x508.jpeg" srcset="https://generalarcade.com/content/uploads/2023/08/recreating-underwater-sun-rays-from-avatar-the-way-of-water-in-houdini-1024x508.jpeg 1024w, https://generalarcade.com/content/uploads/2023/08/recreating-underwater-sun-rays-from-avatar-the-way-of-water-in-houdini-300x149.jpeg 300w, https://generalarcade.com/content/uploads/2023/08/recreating-underwater-sun-rays-from-avatar-the-way-of-water-in-houdini-768x381.jpeg 768w, https://generalarcade.com/content/uploads/2023/08/recreating-underwater-sun-rays-from-avatar-the-way-of-water-in-houdini.jpeg 1280w" width="1024"/></figure>
-<p>Nabil Jabour, FX TD at Framestore, explains how he managed to recreate the effect from the film.</p>
-<p>Postmortem: Prototyping Let’s! Revolution! to turn Minesweeper into a turn-based roguelike strategy</p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2572" height="461" loading="lazy" sizes="(max-width: 822px) 100vw, 822px" src="prototyping-i-let-s-revolution-i-transforming-i-minesweeper-i-into-a-turn-based-strategy-roguelike.png" srcset="https://generalarcade.com/content/uploads/2023/08/prototyping-i-let-s-revolution-i-transforming-i-minesweeper-i-into-a-turn-based-strategy-roguelike.png 822w, https://generalarcade.com/content/uploads/2023/08/prototyping-i-let-s-revolution-i-transforming-i-minesweeper-i-into-a-turn-based-strategy-roguelike-300x168.png 300w, https://generalarcade.com/content/uploads/2023/08/prototyping-i-let-s-revolution-i-transforming-i-minesweeper-i-into-a-turn-based-strategy-roguelike-768x431.png 768w" width="822"/></figure>
-<p>Michael Highland, creative director, and Ian Sundstrom, gameplay programmer, talk about how their team went through the tedious process of releasing their first commercial game.</p>
-<p><a href="https://80.lv/articles/dynamic-character-poses-in-zbrush-evoking-motion-and-grace-in-fine-art-sculptures/">Dynamic character poses in ZBrush: movement and grace in sculptures</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2575" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="dynamic-character-poses-in-zbrush-evoking-motion-and-grace-in-fine-art-sculptures-1024x576.jpeg" srcset="https://generalarcade.com/content/uploads/2023/08/dynamic-character-poses-in-zbrush-evoking-motion-and-grace-in-fine-art-sculptures-1024x576.jpeg 1024w, https://generalarcade.com/content/uploads/2023/08/dynamic-character-poses-in-zbrush-evoking-motion-and-grace-in-fine-art-sculptures-300x169.jpeg 300w, https://generalarcade.com/content/uploads/2023/08/dynamic-character-poses-in-zbrush-evoking-motion-and-grace-in-fine-art-sculptures-768x432.jpeg 768w, https://generalarcade.com/content/uploads/2023/08/dynamic-character-poses-in-zbrush-evoking-motion-and-grace-in-fine-art-sculptures-1536x864.jpeg 1536w, https://generalarcade.com/content/uploads/2023/08/dynamic-character-poses-in-zbrush-evoking-motion-and-grace-in-fine-art-sculptures-1280x720.jpeg 1280w, https://generalarcade.com/content/uploads/2023/08/dynamic-character-poses-in-zbrush-evoking-motion-and-grace-in-fine-art-sculptures.jpeg 1920w" width="1024"/></figure>
-<p>3D artist Deryck Pelegrini shared the details of The Three Dancers project, explaining how he created a set of different poses from the same mesh using Reallusion’s new Pose Tools plugin for ZBrush.</p>
-<p><a href="https://www.unrealengine.com/en-US/developer-interviews/born-of-bread-is-a-paper-mario-inspired-rpg-made-entirely-with-blueprints">Born of Bread is a 100% Blueprinted Paper Mario RPG</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2576" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="born-of-bread-is-a-paper-mario-inspired-rpg-made-entirely-with-blueprints-1024x576.png" srcset="https://generalarcade.com/content/uploads/2023/08/born-of-bread-is-a-paper-mario-inspired-rpg-made-entirely-with-blueprints-1024x576.png 1024w, https://generalarcade.com/content/uploads/2023/08/born-of-bread-is-a-paper-mario-inspired-rpg-made-entirely-with-blueprints-300x169.png 300w, https://generalarcade.com/content/uploads/2023/08/born-of-bread-is-a-paper-mario-inspired-rpg-made-entirely-with-blueprints-768x432.png 768w, https://generalarcade.com/content/uploads/2023/08/born-of-bread-is-a-paper-mario-inspired-rpg-made-entirely-with-blueprints-1536x864.png 1536w, https://generalarcade.com/content/uploads/2023/08/born-of-bread-is-a-paper-mario-inspired-rpg-made-entirely-with-blueprints-2048x1152.png 2048w, https://generalarcade.com/content/uploads/2023/08/born-of-bread-is-a-paper-mario-inspired-rpg-made-entirely-with-blueprints-1280x720.png 1280w" width="1024"/></figure>
-<p>The Unreal Engine team spoke with the developers about the lessons learned from their first game, Helltown, and how they were applied to Born of Bread. We also chatted about how the team used the Unreal Engine to create the game’s signature 2D and 3D look, the power of blueprints, and whether it’s possible to pet a dog in their game.</p>
-<p><a href="https://sms.playstation.com/stories/gdc-2023-presentations">Santa Monica Studio Presentations from GDC 2023</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2578" height="572" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="gdc-2023-presentations-1024x572.png" srcset="https://generalarcade.com/content/uploads/2023/08/gdc-2023-presentations-1024x572.png 1024w, https://generalarcade.com/content/uploads/2023/08/gdc-2023-presentations-300x168.png 300w, https://generalarcade.com/content/uploads/2023/08/gdc-2023-presentations-768x429.png 768w, https://generalarcade.com/content/uploads/2023/08/gdc-2023-presentations-1536x858.png 1536w, https://generalarcade.com/content/uploads/2023/08/gdc-2023-presentations-1280x715.png 1280w, https://generalarcade.com/content/uploads/2023/08/gdc-2023-presentations.png 1902w" width="1024"/></figure>
-<p>The studio posted slides of their presentations. Reports about both rendering and animation, AI and more.</p>
-<p><a href="https://blog.unity.com/games/stunning-scenarios-in-warhammer-40000-warpforge">Crafting the stunning scenarios in Warhammer 40,000: Warpforge</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2579" height="768" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="stunning-scenarios-in-warhammer-40000-warpforge-1024x768.jpg" srcset="https://generalarcade.com/content/uploads/2023/08/stunning-scenarios-in-warhammer-40000-warpforge-1024x768.jpg 1024w, https://generalarcade.com/content/uploads/2023/08/stunning-scenarios-in-warhammer-40000-warpforge-300x225.jpg 300w, https://generalarcade.com/content/uploads/2023/08/stunning-scenarios-in-warhammer-40000-warpforge-768x576.jpg 768w, https://generalarcade.com/content/uploads/2023/08/stunning-scenarios-in-warhammer-40000-warpforge-1536x1151.jpg 1536w, https://generalarcade.com/content/uploads/2023/08/stunning-scenarios-in-warhammer-40000-warpforge-2048x1535.jpg 2048w, https://generalarcade.com/content/uploads/2023/08/stunning-scenarios-in-warhammer-40000-warpforge-1280x960.jpg 1280w" width="1024"/></figure>
-<p>The art director and producer talked about the development of the game on Unity.</p>
-<p><a href="https://80.lv/articles/developing-a-procedural-graffiti-generator-in-unreal-engine-5/">Creating a Procedural Graffiti Generator in Unreal Engine 5</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2581" height="501" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="developing-a-procedural-graffiti-generator-in-unreal-engine-5-1024x501.jpg" srcset="https://generalarcade.com/content/uploads/2023/08/developing-a-procedural-graffiti-generator-in-unreal-engine-5-1024x501.jpg 1024w, https://generalarcade.com/content/uploads/2023/08/developing-a-procedural-graffiti-generator-in-unreal-engine-5-300x147.jpg 300w, https://generalarcade.com/content/uploads/2023/08/developing-a-procedural-graffiti-generator-in-unreal-engine-5-768x376.jpg 768w, https://generalarcade.com/content/uploads/2023/08/developing-a-procedural-graffiti-generator-in-unreal-engine-5-1536x752.jpg 1536w, https://generalarcade.com/content/uploads/2023/08/developing-a-procedural-graffiti-generator-in-unreal-engine-5-1280x626.jpg 1280w, https://generalarcade.com/content/uploads/2023/08/developing-a-procedural-graffiti-generator-in-unreal-engine-5.jpg 1917w" width="1024"/></figure>
-<p>Canberk Yücekök shared a brief description of the process of creating his generator.</p>
-<p><a href="https://blog.unity.com/engine-platform/nature-shaders-with-shader-graph-in-2022-lts">How to create nature shaders with Shader Graph in 2022 LTS</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2583" height="341" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="nature-shaders-with-shader-graph-in-2022-lts-1024x341.jpg" srcset="https://generalarcade.com/content/uploads/2023/08/nature-shaders-with-shader-graph-in-2022-lts-1024x341.jpg 1024w, https://generalarcade.com/content/uploads/2023/08/nature-shaders-with-shader-graph-in-2022-lts-300x100.jpg 300w, https://generalarcade.com/content/uploads/2023/08/nature-shaders-with-shader-graph-in-2022-lts-768x256.jpg 768w, https://generalarcade.com/content/uploads/2023/08/nature-shaders-with-shader-graph-in-2022-lts.jpg 1230w" width="1024"/></figure>
-<p>The Unity team talks about the subtleties of writing shaders and gives an example of this for the nature shader.</p>
-<p><a href="https://www.gamesindustry.biz/hyper-games-mission-to-bring-moomins-to-the-masses">Hyper Games mission to popularize Moomin</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2585" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="hyper-games-mission-to-bring-moomins-to-the-masses-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/08/hyper-games-mission-to-bring-moomins-to-the-masses-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/08/hyper-games-mission-to-bring-moomins-to-the-masses-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/08/hyper-games-mission-to-bring-moomins-to-the-masses-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/08/hyper-games-mission-to-bring-moomins-to-the-masses-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/08/hyper-games-mission-to-bring-moomins-to-the-masses-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/08/hyper-games-mission-to-bring-moomins-to-the-masses.jpg 1920w" width="1024"/></figure>
-<p>The developer of Snufkin: Melody of Moominvalley talks about the adaptation of the world by Tove Jansson.</p>
-<p><a href="https://fabiensanglard.net/ega/index.html">Commander Keen’s Adaptive Tile Refresh</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2586" height="545" loading="lazy" sizes="(max-width: 878px) 100vw, 878px" src="atr.png" srcset="https://generalarcade.com/content/uploads/2023/08/atr.png 878w, https://generalarcade.com/content/uploads/2023/08/atr-300x186.png 300w, https://generalarcade.com/content/uploads/2023/08/atr-768x477.png 768w" width="878"/></figure>
-<p>Fabien Sanglard breaks down the technology used in the first trilogy.</p>
-</div>
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+[Unreal Engine 5.3 Preview](https://forums.unrealengine.com/t/unreal-engine-5-3-preview/1240016)
+
+![](ue-5.3.png)
+
+In this version, the rendering functions provide more control over performance and produce better results. The assembly with the help of Multi-process Cook has been reduced, which will speed up iteration.
+
+[New Steamworks Traffic Reporting Tools](https://store.steampowered.com/news/group/4145017/view/3687933234141224746)
+
+![](Steamworks-utm.jpg)
+
+New UTM tools and deprecation of Google Analytics.
+
+[Recreating the underwater sunbeams from Avatar in Houdini](https://80.lv/articles/recreating-underwater-sun-rays-from-avatar-the-way-of-water-in-houdini/)
+
+![](recreating-underwater-sun-rays-from-avatar-the-way-of-water-in-houdini-1024x508.jpeg)
+
+Nabil Jabour, FX TD at Framestore, explains how he managed to recreate the effect from the film.
+
+Postmortem: Prototyping Let’s! Revolution! to turn Minesweeper into a turn-based roguelike strategy
+
+![](prototyping-i-let-s-revolution-i-transforming-i-minesweeper-i-into-a-turn-based-strategy-roguelike.png)
+
+Michael Highland, creative director, and Ian Sundstrom, gameplay programmer, talk about how their team went through the tedious process of releasing their first commercial game.
+
+[Dynamic character poses in ZBrush: movement and grace in sculptures](https://80.lv/articles/dynamic-character-poses-in-zbrush-evoking-motion-and-grace-in-fine-art-sculptures/)
+
+![](dynamic-character-poses-in-zbrush-evoking-motion-and-grace-in-fine-art-sculptures-1024x576.jpeg)
+
+3D artist Deryck Pelegrini shared the details of The Three Dancers project, explaining how he created a set of different poses from the same mesh using Reallusion’s new Pose Tools plugin for ZBrush.
+
+[Born of Bread is a 100% Blueprinted Paper Mario RPG](https://www.unrealengine.com/en-US/developer-interviews/born-of-bread-is-a-paper-mario-inspired-rpg-made-entirely-with-blueprints)
+
+![](born-of-bread-is-a-paper-mario-inspired-rpg-made-entirely-with-blueprints-1024x576.png)
+
+The Unreal Engine team spoke with the developers about the lessons learned from their first game, Helltown, and how they were applied to Born of Bread. We also chatted about how the team used the Unreal Engine to create the game’s signature 2D and 3D look, the power of blueprints, and whether it’s possible to pet a dog in their game.
+
+[Santa Monica Studio Presentations from GDC 2023](https://sms.playstation.com/stories/gdc-2023-presentations)
+
+![](gdc-2023-presentations-1024x572.png)
+
+The studio posted slides of their presentations. Reports about both rendering and animation, AI and more.
+
+[Crafting the stunning scenarios in Warhammer 40,000: Warpforge](https://blog.unity.com/games/stunning-scenarios-in-warhammer-40000-warpforge)
+
+![](stunning-scenarios-in-warhammer-40000-warpforge-1024x768.jpg)
+
+The art director and producer talked about the development of the game on Unity.
+
+[Creating a Procedural Graffiti Generator in Unreal Engine 5](https://80.lv/articles/developing-a-procedural-graffiti-generator-in-unreal-engine-5/)
+
+![](developing-a-procedural-graffiti-generator-in-unreal-engine-5-1024x501.jpg)
+
+Canberk Yücekök shared a brief description of the process of creating his generator.
+
+[How to create nature shaders with Shader Graph in 2022 LTS](https://blog.unity.com/engine-platform/nature-shaders-with-shader-graph-in-2022-lts)
+
+![](nature-shaders-with-shader-graph-in-2022-lts-1024x341.jpg)
+
+The Unity team talks about the subtleties of writing shaders and gives an example of this for the nature shader.
+
+[Hyper Games mission to popularize Moomin](https://www.gamesindustry.biz/hyper-games-mission-to-bring-moomins-to-the-masses)
+
+![](hyper-games-mission-to-bring-moomins-to-the-masses-1024x576.jpg)
+
+The developer of Snufkin: Melody of Moominvalley talks about the adaptation of the world by Tove Jansson.
+
+[Commander Keen’s Adaptive Tile Refresh](https://fabiensanglard.net/ega/index.html)
+
+![](atr.png)
+
+Fabien Sanglard breaks down the technology used in the first trilogy.

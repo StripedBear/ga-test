@@ -13,74 +13,136 @@ original_url: "https://generalarcade.com/general-weekly-17/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="General Weekly #17" class="mw-100" src="weekly17.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<h2 id="h-updates-releases-news">Updates/releases/news</h2>
-<p><a href="https://godotengine.org/article/whats-new-in-csharp-for-godot-4-0/">Godot 4.0 release</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2082" height="457" loading="lazy" sizes="(max-width: 832px) 100vw, 832px" src="godot-4-0-sets-sail.png" srcset="https://generalarcade.com/content/uploads/2023/03/godot-4-0-sets-sail.png 832w, https://generalarcade.com/content/uploads/2023/03/godot-4-0-sets-sail-300x165.png 300w, https://generalarcade.com/content/uploads/2023/03/godot-4-0-sets-sail-768x422.png 768w" width="832"/></figure>
-<p>After over 3 years of rebuilding from the ground up, a complete core overhaul and engine rewrite, 17 alphas, 17 betas and 6 release candidates, the team has finally released the much anticipated new version of Godot. You can read more about 4.0 in a separate post.</p>
-<p><a href="https://platform.stability.ai/docs/integrations/blender/get-started">Stable Diffusion AI Art Generator Official Plugin Released for Blender</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2084" height="1024" loading="lazy" sizes="(max-width: 944px) 100vw, 944px" src="blender-stable-diffusion-944x1024.png" srcset="https://generalarcade.com/content/uploads/2023/03/blender-stable-diffusion-944x1024.png 944w, https://generalarcade.com/content/uploads/2023/03/blender-stable-diffusion-276x300.png 276w, https://generalarcade.com/content/uploads/2023/03/blender-stable-diffusion-768x833.png 768w, https://generalarcade.com/content/uploads/2023/03/blender-stable-diffusion.png 1199w" width="944"/></figure>
-<p>The extension is free and makes it much easier to experiment with projects.</p>
-<p><a href="https://store.steampowered.com/news/group/4145017/view/3645136992388208760">Valve has updated the rules and guidelines for obtaining keys</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2086" height="228" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="steam_keys-1024x228.jpg" srcset="https://generalarcade.com/content/uploads/2023/03/steam_keys-1024x228.jpg 1024w, https://generalarcade.com/content/uploads/2023/03/steam_keys-300x67.jpg 300w, https://generalarcade.com/content/uploads/2023/03/steam_keys-768x171.jpg 768w, https://generalarcade.com/content/uploads/2023/03/steam_keys.jpg 1280w" width="1024"/></figure>
-<p>Briefly:</p>
-<p>Maximum 2,500 Release State Override (beta) keys prior to release for crowdfunding purposes.</p>
-<p>Up to 5 thousand standard keys for distribution in other stores. Previously, they didn’t give out much either, but there were no explicit restrictions in the rules.</p>
-<p>Added text states that when processing requests for issuance, they look at different criteria: the level of interest of buyers on Steam, the number of keys already requested and activated, etc.</p>
-<p>Clarified about the sale in other places, so that “the deal was not better than for users inside Steam.”</p>
-<p><a href="https://www.gamesindustry.biz/playtika-no-longer-launching-or-developing-until-market-challenges-ease">Playtika has temporarily suspended the development of new games</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2088" height="521" loading="lazy" sizes="(max-width: 846px) 100vw, 846px" src="playtika-no-longer-launching-or-developing-until-market-challenges-ease.jpg" srcset="https://generalarcade.com/content/uploads/2023/03/playtika-no-longer-launching-or-developing-until-market-challenges-ease.jpg 846w, https://generalarcade.com/content/uploads/2023/03/playtika-no-longer-launching-or-developing-until-market-challenges-ease-300x185.jpg 300w, https://generalarcade.com/content/uploads/2023/03/playtika-no-longer-launching-or-developing-until-market-challenges-ease-768x473.jpg 768w" width="846"/></figure>
-<p>This would last until “until the payback for new games is economically viable”, the CEO said. </p>
-<p><a href="https://gamedev.rs/news/042/">Rust GameDev #42: January 2023</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2089" height="577" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="rust-1024x577.jpg" srcset="https://generalarcade.com/content/uploads/2023/03/rust-1024x577.jpg 1024w, https://generalarcade.com/content/uploads/2023/03/rust-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/03/rust-768x433.jpg 768w, https://generalarcade.com/content/uploads/2023/03/rust.jpg 1262w" width="1024"/></figure>
-<p>Another selection of gamedev from the Rust community.</p>
-<p><a href="https://store.steampowered.com/news/group/4145017/view/3645136992391096608">Valve Updated Steam Mature Content Survey and Pre-Release Checks</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2091" height="374" loading="lazy" sizes="(max-width: 704px) 100vw, 704px" src="Mature-Content-Survey.png" srcset="https://generalarcade.com/content/uploads/2023/03/Mature-Content-Survey.png 704w, https://generalarcade.com/content/uploads/2023/03/Mature-Content-Survey-300x159.png 300w" width="704"/></figure>
-<p>Updates should simplify the pre-release process and help customers better understand your game.</p>
-<h2 id="h-interesting-articles-videos">Interesting articles/videos</h2>
-<p><a href="https://medium.com/hypemasters/how-to-save-2-sec-loading-time-of-your-game-f53611bbea0a">How to reduce your game load time by 2 seconds</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2094" height="396" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="how-to-save-2-sec-loading-time-of-your-game-1024x396.png" srcset="https://generalarcade.com/content/uploads/2023/03/how-to-save-2-sec-loading-time-of-your-game-1024x396.png 1024w, https://generalarcade.com/content/uploads/2023/03/how-to-save-2-sec-loading-time-of-your-game-300x116.png 300w, https://generalarcade.com/content/uploads/2023/03/how-to-save-2-sec-loading-time-of-your-game-768x297.png 768w, https://generalarcade.com/content/uploads/2023/03/how-to-save-2-sec-loading-time-of-your-game-1280x495.png 1280w, https://generalarcade.com/content/uploads/2023/03/how-to-save-2-sec-loading-time-of-your-game.png 1500w" width="1024"/></figure>
-<p>Pretty simple little things, though helpful for your game.</p>
-<p><a href="https://gpuopen.com/learn/scorn-fsr2/">How EBB Software integrated the Unreal Engine plugin for FSR 2.1</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2096" height="570" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="scorn-fsr2-1024x570.png" srcset="https://generalarcade.com/content/uploads/2023/03/scorn-fsr2-1024x570.png 1024w, https://generalarcade.com/content/uploads/2023/03/scorn-fsr2-300x167.png 300w, https://generalarcade.com/content/uploads/2023/03/scorn-fsr2-768x427.png 768w, https://generalarcade.com/content/uploads/2023/03/scorn-fsr2.png 1201w" width="1024"/></figure>
-<p>Scorn developers shared the technical details of integrating the new AMD technology.</p>
-<p><a href="https://80.lv/articles/making-a-hunting-camp-in-a-dragon-skull-with-zbrush-unreal-engine/">Creating a hunting camp in a dragon skull with ZBrush and Unreal Engine</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2097" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="making-a-hunting-camp-in-a-dragon-skull-with-zbrush-unreal-engine-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/03/making-a-hunting-camp-in-a-dragon-skull-with-zbrush-unreal-engine-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/03/making-a-hunting-camp-in-a-dragon-skull-with-zbrush-unreal-engine-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/03/making-a-hunting-camp-in-a-dragon-skull-with-zbrush-unreal-engine-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/03/making-a-hunting-camp-in-a-dragon-skull-with-zbrush-unreal-engine-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/03/making-a-hunting-camp-in-a-dragon-skull-with-zbrush-unreal-engine-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/03/making-a-hunting-camp-in-a-dragon-skull-with-zbrush-unreal-engine.jpg 1920w" width="1024"/></figure>
-<p>Antonio Bravo spoke about the Hunting Camp project, showed how the dragon’s head was created, and talked about setting up the lighting.</p>
-<p><a href="https://blog.unity.com/engine-platform/inspecting-memory-with-the-new-memory-profiler-package">Keeping track of memory with the new Memory Profiler package</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2099" height="341" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="inspecting-memory-with-the-new-memory-profiler-package-1024x341.jpg" srcset="https://generalarcade.com/content/uploads/2023/03/inspecting-memory-with-the-new-memory-profiler-package-1024x341.jpg 1024w, https://generalarcade.com/content/uploads/2023/03/inspecting-memory-with-the-new-memory-profiler-package-300x100.jpg 300w, https://generalarcade.com/content/uploads/2023/03/inspecting-memory-with-the-new-memory-profiler-package-768x256.jpg 768w, https://generalarcade.com/content/uploads/2023/03/inspecting-memory-with-the-new-memory-profiler-package.jpg 1230w" width="1024"/></figure>
-<p>In the post, the Unity team covered five key workarounds in the new Memory Profiler package that you can use to diagnose and investigate memory-related issues in your game.</p>
-<p><a href="https://80.lv/articles/tips-on-landing-a-job-from-techland/">Job Search Tips from Techland</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2101" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="tips-on-landing-a-job-from-techland-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/03/tips-on-landing-a-job-from-techland-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/03/tips-on-landing-a-job-from-techland-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/03/tips-on-landing-a-job-from-techland-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/03/tips-on-landing-a-job-from-techland-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/03/tips-on-landing-a-job-from-techland-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/03/tips-on-landing-a-job-from-techland.jpg 1920w" width="1024"/></figure>
-<p>Techland’s chief recruiter Michal Penkala explained how to deal with losing a job, shared some portfolio building tips to help you find a new one faster, and gave tips for artists looking to join Techland.</p>
-<p><a href="https://www.unrealengine.com/en-US/spotlights/preserving-european-royal-heritage-with-realitycapture-and-unreal-engine">Preserving European Royal Heritage with RealityCapture and Unreal Engine</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2102" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="preserving-european-royal-heritage-with-realitycapture-and-unreal-engine-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/03/preserving-european-royal-heritage-with-realitycapture-and-unreal-engine-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/03/preserving-european-royal-heritage-with-realitycapture-and-unreal-engine-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/03/preserving-european-royal-heritage-with-realitycapture-and-unreal-engine-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/03/preserving-european-royal-heritage-with-realitycapture-and-unreal-engine-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/03/preserving-european-royal-heritage-with-realitycapture-and-unreal-engine-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/03/preserving-european-royal-heritage-with-realitycapture-and-unreal-engine.jpg 1920w" width="1024"/></figure>
-<p>Organizations like Artzenal in Slovakia, which provides a full range of digital art services from early 2D sketches to high-quality 3D content and character art, are embarking on cultural preservation projects to help preserve history.</p>
-<p><a href="https://www.gamedeveloper.com/road-to-igf-2023/how-against-the-storm-managed-to-mix-city-building-and-roguelite-play">How Against the Storm managed to combine urban development and roguelite</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2103" height="460" loading="lazy" sizes="(max-width: 818px) 100vw, 818px" src="how-against-the-storm-managed-to-mix-city-building-and-roguelite-play.png" srcset="https://generalarcade.com/content/uploads/2023/03/how-against-the-storm-managed-to-mix-city-building-and-roguelite-play.png 818w, https://generalarcade.com/content/uploads/2023/03/how-against-the-storm-managed-to-mix-city-building-and-roguelite-play-300x169.png 300w, https://generalarcade.com/content/uploads/2023/03/how-against-the-storm-managed-to-mix-city-building-and-roguelite-play-768x432.png 768w" width="818"/></figure>
-<p>The game combines elements of roguelite and city builder, inviting players to build and thrive despite the inevitable disasters.</p>
-<p><a href="https://developer.nvidia.com/blog/3d-content-interoperability-with-topology-free-modeling/">3D Content Compatibility with Non-Topology Modeling</a></p>
-<figure class="wp-block-image"><img alt="https://suvitruf.ru/wp-content/uploads/2023/03/3d-content-interoperability-with-topology-free-modeling.gif" src="3d-content-interoperability-with-topology-free-modeling.gif"/></figure>
-<p>Modern topology-based modeling software creates three-dimensional objects with a single level of detail. This makes them inoperable with the metaverse. Also, due to the topology creation process, 3D modeling is time consuming and has a high entry barrier to content creation.</p>
-<p><a href="https://howtomarketagame.com/2023/02/27/how-new-genres-are-invented/">How new genres are invented</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2105" height="600" loading="lazy" sizes="(max-width: 600px) 100vw, 600px" src="how-new-genres-are-invented.jpeg" srcset="https://generalarcade.com/content/uploads/2023/03/how-new-genres-are-invented.jpeg 600w, https://generalarcade.com/content/uploads/2023/03/how-new-genres-are-invented-300x300.jpeg 300w, https://generalarcade.com/content/uploads/2023/03/how-new-genres-are-invented-150x150.jpeg 150w" width="600"/></figure>
-<p>Some analytics with real examples.</p>
-<p><a href="https://youtu.be/SgqIPeIFAqA">Death of a Game: Gwent</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/SgqIPeIFAqA" title="Death of a Game: Gwent" width="560"></iframe></p>
-<p>Analysis of a standalone game from CDPR, which grew out of the Witcher 3 mini-game.</p>
-<p><a href="https://blog.unity.com/games/building-communication-into-a-puzzle-game">Communication as the heart of the puzzle game</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2107" height="341" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="building-communication-into-a-puzzle-game-1024x341.jpg" srcset="https://generalarcade.com/content/uploads/2023/03/building-communication-into-a-puzzle-game-1024x341.jpg 1024w, https://generalarcade.com/content/uploads/2023/03/building-communication-into-a-puzzle-game-300x100.jpg 300w, https://generalarcade.com/content/uploads/2023/03/building-communication-into-a-puzzle-game-768x256.jpg 768w, https://generalarcade.com/content/uploads/2023/03/building-communication-into-a-puzzle-game.jpg 1230w" width="1024"/></figure>
-<p>In the post, Eleven Puzzles Lead Game Designer Mairi Nolan talks about how the team has built communication on their latest release, Unsolved Case, and the importance of verbal interaction in a game.</p>
-<p><a href="https://www.deconstructoroffun.com/blog/2023/2/27/the-case-of-playrix-and-why-product-market-fit-is-a-moving-target">The Playrix case and why product-to-market fit is a moving target</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2108" height="481" loading="lazy" sizes="(max-width: 750px) 100vw, 750px" src="the-case-of-playrix-and-why-product-market-fit-is-a-moving-target.png" srcset="https://generalarcade.com/content/uploads/2023/03/the-case-of-playrix-and-why-product-market-fit-is-a-moving-target.png 750w, https://generalarcade.com/content/uploads/2023/03/the-case-of-playrix-and-why-product-market-fit-is-a-moving-target-300x192.png 300w" width="750"/></figure>
-<p><a href="https://80.lv/articles/working-culture-and-the-recruitment-process-at-sierra-division/">Work culture and hiring process at Sierra Division</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2112" height="462" loading="lazy" sizes="(max-width: 920px) 100vw, 920px" src="widen_920x0.jpg" srcset="https://generalarcade.com/content/uploads/2023/03/widen_920x0.jpg 920w, https://generalarcade.com/content/uploads/2023/03/widen_920x0-300x151.jpg 300w, https://generalarcade.com/content/uploads/2023/03/widen_920x0-768x386.jpg 768w" width="920"/></figure>
-<p>Jacob Norris talked about how the company determines which projects to work on, explained the workflow in the Sierra Division, and gave a number of useful tips for artists who want to start their journey in the studio.</p>
-<p>Color replacement</p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2113" height="421" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="color-swap-1024x421.png" srcset="https://generalarcade.com/content/uploads/2023/03/color-swap-1024x421.png 1024w, https://generalarcade.com/content/uploads/2023/03/color-swap-300x123.png 300w, https://generalarcade.com/content/uploads/2023/03/color-swap-768x316.png 768w, https://generalarcade.com/content/uploads/2023/03/color-swap.png 1135w" width="1024"/></figure>
-<p>This article provides an overview of various methods for adjusting object colors.</p>
-</div>
+![General Weekly #17](weekly17.jpg)
+
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+## Updates/releases/news
+
+[Godot 4.0 release](https://godotengine.org/article/whats-new-in-csharp-for-godot-4-0/)
+
+![](godot-4-0-sets-sail.png)
+
+After over 3 years of rebuilding from the ground up, a complete core overhaul and engine rewrite, 17 alphas, 17 betas and 6 release candidates, the team has finally released the much anticipated new version of Godot. You can read more about 4.0 in a separate post.
+
+[Stable Diffusion AI Art Generator Official Plugin Released for Blender](https://platform.stability.ai/docs/integrations/blender/get-started)
+
+![](blender-stable-diffusion-944x1024.png)
+
+The extension is free and makes it much easier to experiment with projects.
+
+[Valve has updated the rules and guidelines for obtaining keys](https://store.steampowered.com/news/group/4145017/view/3645136992388208760)
+
+![](steam\_keys-1024x228.jpg)
+
+Briefly:
+
+Maximum 2,500 Release State Override (beta) keys prior to release for crowdfunding purposes.
+
+Up to 5 thousand standard keys for distribution in other stores. Previously, they didn’t give out much either, but there were no explicit restrictions in the rules.
+
+Added text states that when processing requests for issuance, they look at different criteria: the level of interest of buyers on Steam, the number of keys already requested and activated, etc.
+
+Clarified about the sale in other places, so that “the deal was not better than for users inside Steam.”
+
+[Playtika has temporarily suspended the development of new games](https://www.gamesindustry.biz/playtika-no-longer-launching-or-developing-until-market-challenges-ease)
+
+![](playtika-no-longer-launching-or-developing-until-market-challenges-ease.jpg)
+
+This would last until “until the payback for new games is economically viable”, the CEO said.
+
+[Rust GameDev #42: January 2023](https://gamedev.rs/news/042/)
+
+![](rust-1024x577.jpg)
+
+Another selection of gamedev from the Rust community.
+
+[Valve Updated Steam Mature Content Survey and Pre-Release Checks](https://store.steampowered.com/news/group/4145017/view/3645136992391096608)
+
+![](Mature-Content-Survey.png)
+
+Updates should simplify the pre-release process and help customers better understand your game.
+
+## Interesting articles/videos
+
+[How to reduce your game load time by 2 seconds](https://medium.com/hypemasters/how-to-save-2-sec-loading-time-of-your-game-f53611bbea0a)
+
+![](how-to-save-2-sec-loading-time-of-your-game-1024x396.png)
+
+Pretty simple little things, though helpful for your game.
+
+[How EBB Software integrated the Unreal Engine plugin for FSR 2.1](https://gpuopen.com/learn/scorn-fsr2/)
+
+![](scorn-fsr2-1024x570.png)
+
+Scorn developers shared the technical details of integrating the new AMD technology.
+
+[Creating a hunting camp in a dragon skull with ZBrush and Unreal Engine](https://80.lv/articles/making-a-hunting-camp-in-a-dragon-skull-with-zbrush-unreal-engine/)
+
+![](making-a-hunting-camp-in-a-dragon-skull-with-zbrush-unreal-engine-1024x576.jpg)
+
+Antonio Bravo spoke about the Hunting Camp project, showed how the dragon’s head was created, and talked about setting up the lighting.
+
+[Keeping track of memory with the new Memory Profiler package](https://blog.unity.com/engine-platform/inspecting-memory-with-the-new-memory-profiler-package)
+
+![](inspecting-memory-with-the-new-memory-profiler-package-1024x341.jpg)
+
+In the post, the Unity team covered five key workarounds in the new Memory Profiler package that you can use to diagnose and investigate memory-related issues in your game.
+
+[Job Search Tips from Techland](https://80.lv/articles/tips-on-landing-a-job-from-techland/)
+
+![](tips-on-landing-a-job-from-techland-1024x576.jpg)
+
+Techland’s chief recruiter Michal Penkala explained how to deal with losing a job, shared some portfolio building tips to help you find a new one faster, and gave tips for artists looking to join Techland.
+
+[Preserving European Royal Heritage with RealityCapture and Unreal Engine](https://www.unrealengine.com/en-US/spotlights/preserving-european-royal-heritage-with-realitycapture-and-unreal-engine)
+
+![](preserving-european-royal-heritage-with-realitycapture-and-unreal-engine-1024x576.jpg)
+
+Organizations like Artzenal in Slovakia, which provides a full range of digital art services from early 2D sketches to high-quality 3D content and character art, are embarking on cultural preservation projects to help preserve history.
+
+[How Against the Storm managed to combine urban development and roguelite](https://www.gamedeveloper.com/road-to-igf-2023/how-against-the-storm-managed-to-mix-city-building-and-roguelite-play)
+
+![](how-against-the-storm-managed-to-mix-city-building-and-roguelite-play.png)
+
+The game combines elements of roguelite and city builder, inviting players to build and thrive despite the inevitable disasters.
+
+[3D Content Compatibility with Non-Topology Modeling](https://developer.nvidia.com/blog/3d-content-interoperability-with-topology-free-modeling/)
+
+![https://suvitruf.ru/wp-content/uploads/2023/03/3d-content-interoperability-with-topology-free-modeling.gif](3d-content-interoperability-with-topology-free-modeling.gif)
+
+Modern topology-based modeling software creates three-dimensional objects with a single level of detail. This makes them inoperable with the metaverse. Also, due to the topology creation process, 3D modeling is time consuming and has a high entry barrier to content creation.
+
+[How new genres are invented](https://howtomarketagame.com/2023/02/27/how-new-genres-are-invented/)
+
+![](how-new-genres-are-invented.jpeg)
+
+Some analytics with real examples.
+
+[Death of a Game: Gwent](https://youtu.be/SgqIPeIFAqA)
+
+{{< youtube "SgqIPeIFAqA" >}}
+
+Analysis of a standalone game from CDPR, which grew out of the Witcher 3 mini-game.
+
+[Communication as the heart of the puzzle game](https://blog.unity.com/games/building-communication-into-a-puzzle-game)
+
+![](building-communication-into-a-puzzle-game-1024x341.jpg)
+
+In the post, Eleven Puzzles Lead Game Designer Mairi Nolan talks about how the team has built communication on their latest release, Unsolved Case, and the importance of verbal interaction in a game.
+
+[The Playrix case and why product-to-market fit is a moving target](https://www.deconstructoroffun.com/blog/2023/2/27/the-case-of-playrix-and-why-product-market-fit-is-a-moving-target)
+
+![](the-case-of-playrix-and-why-product-market-fit-is-a-moving-target.png)
+
+[Work culture and hiring process at Sierra Division](https://80.lv/articles/working-culture-and-the-recruitment-process-at-sierra-division/)
+
+![](widen\_920x0.jpg)
+
+Jacob Norris talked about how the company determines which projects to work on, explained the workflow in the Sierra Division, and gave a number of useful tips for artists who want to start their journey in the studio.
+
+Color replacement
+
+![](color-swap-1024x421.png)
+
+This article provides an overview of various methods for adjusting object colors.

@@ -10,72 +10,132 @@ original_url: "https://generalarcade.com/general-weekly-10-11-01-22/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="General Weekly #10 11.01.22" class="mw-100" src="weekly010.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<h2 id="h-updates-releases-news">Updates/releases/news</h2>
-<p><a href="https://store.steampowered.com/news/group/4145017/view/3289340571611574691">Steam will change the display of game release dates</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1891" height="328" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="steam-release-date-1024x328.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/steam-release-date-1024x328.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/steam-release-date-300x96.jpg 300w, https://generalarcade.com/content/uploads/2022/11/steam-release-date-768x246.jpg 768w, https://generalarcade.com/content/uploads/2022/11/steam-release-date.jpg 1248w" width="1024"/></figure></div>
-<p>No more jokes. Developers will be able to choose one of 5 options:</p>
-<p>    Exact date. For example, “August 24, 2023”.</p>
-<p>    Month and year. For example “August 2023”.</p>
-<p>    quarter of the calendar year. For example, “Third quarter of 2023”.</p>
-<p>    Year. For example “2023”.</p>
-<p>    Without date. It will say Coming Soon.</p>
-<p>The changes will come into effect on January 1, 2023.</p>
-<p><a href="https://www.unrealengine.com/en-US/blog/presenting-the-winners-of-the-2022-epic-megajam">Epic MegaJam 2022 Winners Revealed</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1892" height="595" loading="lazy" sizes="(max-width: 648px) 100vw, 648px" src="presenting-the-winners-of-the-2022-epic-megajam.png" srcset="https://generalarcade.com/content/uploads/2022/11/presenting-the-winners-of-the-2022-epic-megajam.png 648w, https://generalarcade.com/content/uploads/2022/11/presenting-the-winners-of-the-2022-epic-megajam-300x275.png 300w" width="648"/></figure>
-<p>Among 525 projects and more than 3350 participants.</p>
-<p><a href="https://github.com/EricLengyel/Terathon-Math-Library">Terathon Math Library goes open source under MIT license</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1893" height="263" loading="lazy" sizes="(max-width: 585px) 100vw, 585px" src="terathon-container-math-c-libraries-open-sourced.png" srcset="https://generalarcade.com/content/uploads/2022/11/terathon-container-math-c-libraries-open-sourced.png 585w, https://generalarcade.com/content/uploads/2022/11/terathon-container-math-c-libraries-open-sourced-300x135.png 300w" width="585"/></figure>
-<p>The libraries used in C4Engine are now open to everyone.</p>
-<h2 id="h-interesting-articles-videos">Interesting articles/videos</h2>
-<p><a href="https://www.copetti.org/writings/consoles/wiiu/">Wii U architecture</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1896" height="664" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="wiiu-1024x664.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/wiiu-1024x664.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/wiiu-300x195.jpg 300w, https://generalarcade.com/content/uploads/2022/11/wiiu-768x498.jpg 768w, https://generalarcade.com/content/uploads/2022/11/wiiu.jpg 1200w" width="1024"/></figure>
-<p>Rodrigo Copetti, who has repeatedly pleased us with analyzes of the architectures of various consoles, this time wrote an extensive article about Wii U.</p>
-<p><a href="https://youtu.be/QKgTZWbwD1U">Godot in 100 seconds</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/QKgTZWbwD1U" title="Godot in 100 Seconds" width="560"></iframe></p>
-<p>Good video for those who want to try working with Godot. It gives a detailed revision of the main points and basic things.</p>
-<p><a href="https://blog.unity.com/games/recipe-behind-smash-hit-cult-of-the-lamb">Cult of the Lamb Hit Recipe</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1898" height="341" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="recipe-behind-smash-hit-cult-of-the-lamb-1024x341.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/recipe-behind-smash-hit-cult-of-the-lamb-1024x341.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/recipe-behind-smash-hit-cult-of-the-lamb-300x100.jpg 300w, https://generalarcade.com/content/uploads/2022/11/recipe-behind-smash-hit-cult-of-the-lamb-768x256.jpg 768w, https://generalarcade.com/content/uploads/2022/11/recipe-behind-smash-hit-cult-of-the-lamb.jpg 1230w" width="1024"/></figure>
-<p>The Unity team sat down with Jay Armstrong, Design Director and Lead Programmer at Massive Monster, to discuss how the team chose which genres to combine, what they did to balance the two-genre-in-one-game approach, and their top coping tips.</p>
-<p><a href="https://80.lv/articles/realistic-prop-creation-for-aaa-games-in-unreal-engine-5/">Creating Realistic AAA Props in Unreal Engine 5</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1899" height="509" loading="lazy" sizes="(max-width: 794px) 100vw, 794px" src="realistic-prop-creation-for-aaa-games-in-unreal-engine-5.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/realistic-prop-creation-for-aaa-games-in-unreal-engine-5.jpg 794w, https://generalarcade.com/content/uploads/2022/11/realistic-prop-creation-for-aaa-games-in-unreal-engine-5-300x192.jpg 300w, https://generalarcade.com/content/uploads/2022/11/realistic-prop-creation-for-aaa-games-in-unreal-engine-5-768x492.jpg 768w" width="794"/></figure>
-<p>Artist Shyamsagar S shared details on the Electric Generator project, explained how the props were modeled and textured, and demonstrated lighting and rendering processes in UE5.</p>
-<p><a href="https://blog.unity.com/technology/making-animationevent-safe-for-the-coreclr-garbage-collector">AnimationEvent and the CoreCLR garbage collector</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1902" height="341" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="making-animationevent-safe-for-the-coreclr-garbage-collector-1024x341.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/making-animationevent-safe-for-the-coreclr-garbage-collector-1024x341.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/making-animationevent-safe-for-the-coreclr-garbage-collector-300x100.jpg 300w, https://generalarcade.com/content/uploads/2022/11/making-animationevent-safe-for-the-coreclr-garbage-collector-768x256.jpg 768w, https://generalarcade.com/content/uploads/2022/11/making-animationevent-safe-for-the-coreclr-garbage-collector.jpg 1230w" width="1024"/></figure>
-<p>Unity is constantly trying to make existing code work with Microsoft’s .NET CoreCLR JIT runtime, which includes a high-performance, more advanced and efficient garbage collector (GC).</p>
-<p>The article briefly talked about some of the latest changes that the team has made to ensure the integration of the updated AnimationEvent with the advanced garbage collector.</p>
-<p><a href="https://howtomarketagame.com/2022/10/26/what-is-a-good-median-play-time-for-a-demo-benchmark/">A small analytical post about the median demo time</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1904" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="what-is-a-good-median-play-time-for-a-demo-benchmark-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/what-is-a-good-median-play-time-for-a-demo-benchmark-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/what-is-a-good-median-play-time-for-a-demo-benchmark-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/11/what-is-a-good-median-play-time-for-a-demo-benchmark-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/11/what-is-a-good-median-play-time-for-a-demo-benchmark.jpg 1280w" width="1024"/></figure>
-<p>Data from Steam Next Fest February 2022 and Steam Next Fest October 2022. Graphs and summary can be viewed.</p>
-<p><a href="https://www.unrealengine.com/en-US/developer-interviews/witchfire-is-a-first-person-roguelite-designed-for-those-who-don-t-like-roguelites">Witchfire is a first-person roguelite designed for those who don’t like roguelites</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1905" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="witchfire-is-a-first-person-roguelite-designed-for-those-who-don-t-like-roguelites-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/witchfire-is-a-first-person-roguelite-designed-for-those-who-don-t-like-roguelites-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/witchfire-is-a-first-person-roguelite-designed-for-those-who-don-t-like-roguelites-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/11/witchfire-is-a-first-person-roguelite-designed-for-those-who-don-t-like-roguelites-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/11/witchfire-is-a-first-person-roguelite-designed-for-those-who-don-t-like-roguelites-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2022/11/witchfire-is-a-first-person-roguelite-designed-for-those-who-don-t-like-roguelites-2048x1152.jpg 2048w, https://generalarcade.com/content/uploads/2022/11/witchfire-is-a-first-person-roguelite-designed-for-those-who-don-t-like-roguelites-1280x720.jpg 1280w" width="1024"/></figure>
-<p>To learn more about the development of the upcoming first-person shooter, the Unreal Engine team reached out to The Astronauts creative director and co-founder Adrian Chmelarz and asked him about the Witchfire development process, how the game uses photogrammetry to achieve stunning visuals, how the studio used the sound engine UE and more.</p>
-<p><a href="https://premortem.games/2022/10/26/lucas-pope-games-are-the-perfect-combination-of-everything-i-enjoy/">Lucas Pope: “Games are the perfect mix of everything I love”</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1907" height="462" loading="lazy" sizes="(max-width: 696px) 100vw, 696px" src="lucas-pope-games-are-the-perfect-combination-of-everything-i-enjoy.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/lucas-pope-games-are-the-perfect-combination-of-everything-i-enjoy.jpg 696w, https://generalarcade.com/content/uploads/2022/11/lucas-pope-games-are-the-perfect-combination-of-everything-i-enjoy-300x199.jpg 300w" width="696"/></figure>
-<p>A short interview to Premortem Games with the developer of the well-known Papers, Please.</p>
-<p><a href="https://anslo.medium.com/slow-roads-tl-dr-a664ac6bce40">Slow Roads will brighten up office days</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1908" height="703" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="slow-roads-1024x703.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/slow-roads-1024x703.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/slow-roads-300x206.jpg 300w, https://generalarcade.com/content/uploads/2022/11/slow-roads-768x527.jpg 768w, https://generalarcade.com/content/uploads/2022/11/slow-roads.jpg 1280w" width="1024"/></figure>
-<p>An experiment in the procedural generation of endless scenic landscapes, designed as a casual racing game. Works in the browser, the client side uses three.js.</p>
-<p>Key technical points are described in the article.</p>
-<p><a href="https://80.lv/articles/creating-a-leaf-generator-in-substance-3d-designer/">Creating a leaf generator in Substance 3D Designer</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1910" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="creating-a-leaf-generator-in-substance-3d-designer-1024x576.gif" srcset="https://generalarcade.com/content/uploads/2022/11/creating-a-leaf-generator-in-substance-3d-designer-1024x576.gif 1024w, https://generalarcade.com/content/uploads/2022/11/creating-a-leaf-generator-in-substance-3d-designer-300x169.gif 300w, https://generalarcade.com/content/uploads/2022/11/creating-a-leaf-generator-in-substance-3d-designer-768x432.gif 768w, https://generalarcade.com/content/uploads/2022/11/creating-a-leaf-generator-in-substance-3d-designer-1536x864.gif 1536w, https://generalarcade.com/content/uploads/2022/11/creating-a-leaf-generator-in-substance-3d-designer-1280x720.gif 1280w" width="1024"/></figure>
-<p>Sheref Atilla Gürbüz talked about the development of the leaf generator, showed which nodes were used, and demonstrated how colors are mixed to create realistic leaves.</p>
-<p><a href="https://80.lv/articles/paint-stroke-mask-adding-painterly-details-for-stylized-project-in-ue5/">Adding painterly detail to a stylized project in UE5</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1911" height="451" loading="lazy" sizes="(max-width: 691px) 100vw, 691px" src="paint-stroke-mask-adding-painterly-details-for-stylized-project-in-ue5.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/paint-stroke-mask-adding-painterly-details-for-stylized-project-in-ue5.jpg 691w, https://generalarcade.com/content/uploads/2022/11/paint-stroke-mask-adding-painterly-details-for-stylized-project-in-ue5-300x196.jpg 300w" width="691"/></figure>
-<p>Gyuvannu-Karlu Sozzi explained why they decided to create a paint stroke mask, explained how a painterly look is achieved in 2D and 3D, and also told about the creation process.</p>
-<p><a href="https://youtu.be/gsZiJeaMO48">How ray tracing works, and how to speed it up by x600</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/gsZiJeaMO48" title="How Ray Tracing (Modern CGI) Works And How To Do It 600x Faster" width="560"></iframe></p>
-<p>The video is a step-by-step guide to the basics of ray tracing, explains the basic concepts, and explains why ray tracing methods are computationally intensive.</p>
-<p>In addition, the ReSTIR method is considered, and how it can significantly reduce the required calculations.</p>
-<p><a href="https://ciechanow.ski/sound/">The nature of sound</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1913" height="377" loading="lazy" sizes="(max-width: 680px) 100vw, 680px" src="sound.png" srcset="https://generalarcade.com/content/uploads/2022/11/sound.png 680w, https://generalarcade.com/content/uploads/2022/11/sound-300x166.png 300w" width="680"/></figure>
-<p>The invisible and relentless sound just seems to exist, traveling through our surroundings to carry beautiful music or annoying noises. In this article the author explains what sound is, how it is created and distributed.</p>
-<p><a href="https://blog.unity.com/games/building-a-multiplayer-game-first-time-netcode-for-gameobjects">Creating the first multiplayer game with Netcode for GameObjects</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1914" height="341" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="building-a-multiplayer-game-first-time-netcode-for-gameobjects-1024x341.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/building-a-multiplayer-game-first-time-netcode-for-gameobjects-1024x341.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/building-a-multiplayer-game-first-time-netcode-for-gameobjects-300x100.jpg 300w, https://generalarcade.com/content/uploads/2022/11/building-a-multiplayer-game-first-time-netcode-for-gameobjects-768x256.jpg 768w, https://generalarcade.com/content/uploads/2022/11/building-a-multiplayer-game-first-time-netcode-for-gameobjects.jpg 1230w" width="1024"/></figure>
-<p>In this article, the author walks you through the development of Galactic Kittens, from prototype to stable, and how you can use this sample to start your own multi-user project.</p>
-<p><em>We thank <a href="https://suvitruf.ru">Andrei Apanasik</a> for writing the original post and allowing us to publish it on our blog in English.</em></p>
-</div>
+![General Weekly #10 11.01.22](weekly010.jpg)
+
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+## Updates/releases/news
+
+[Steam will change the display of game release dates](https://store.steampowered.com/news/group/4145017/view/3289340571611574691)
+
+![](steam-release-date-1024x328.jpg)
+
+No more jokes. Developers will be able to choose one of 5 options:
+
+    Exact date. For example, “August 24, 2023”.
+
+    Month and year. For example “August 2023”.
+
+    quarter of the calendar year. For example, “Third quarter of 2023”.
+
+    Year. For example “2023”.
+
+    Without date. It will say Coming Soon.
+
+The changes will come into effect on January 1, 2023.
+
+[Epic MegaJam 2022 Winners Revealed](https://www.unrealengine.com/en-US/blog/presenting-the-winners-of-the-2022-epic-megajam)
+
+![](presenting-the-winners-of-the-2022-epic-megajam.png)
+
+Among 525 projects and more than 3350 participants.
+
+[Terathon Math Library goes open source under MIT license](https://github.com/EricLengyel/Terathon-Math-Library)
+
+![](terathon-container-math-c-libraries-open-sourced.png)
+
+The libraries used in C4Engine are now open to everyone.
+
+## Interesting articles/videos
+
+[Wii U architecture](https://www.copetti.org/writings/consoles/wiiu/)
+
+![](wiiu-1024x664.jpg)
+
+Rodrigo Copetti, who has repeatedly pleased us with analyzes of the architectures of various consoles, this time wrote an extensive article about Wii U.
+
+[Godot in 100 seconds](https://youtu.be/QKgTZWbwD1U)
+
+{{< youtube "QKgTZWbwD1U" >}}
+
+Good video for those who want to try working with Godot. It gives a detailed revision of the main points and basic things.
+
+[Cult of the Lamb Hit Recipe](https://blog.unity.com/games/recipe-behind-smash-hit-cult-of-the-lamb)
+
+![](recipe-behind-smash-hit-cult-of-the-lamb-1024x341.jpg)
+
+The Unity team sat down with Jay Armstrong, Design Director and Lead Programmer at Massive Monster, to discuss how the team chose which genres to combine, what they did to balance the two-genre-in-one-game approach, and their top coping tips.
+
+[Creating Realistic AAA Props in Unreal Engine 5](https://80.lv/articles/realistic-prop-creation-for-aaa-games-in-unreal-engine-5/)
+
+![](realistic-prop-creation-for-aaa-games-in-unreal-engine-5.jpg)
+
+Artist Shyamsagar S shared details on the Electric Generator project, explained how the props were modeled and textured, and demonstrated lighting and rendering processes in UE5.
+
+[AnimationEvent and the CoreCLR garbage collector](https://blog.unity.com/technology/making-animationevent-safe-for-the-coreclr-garbage-collector)
+
+![](making-animationevent-safe-for-the-coreclr-garbage-collector-1024x341.jpg)
+
+Unity is constantly trying to make existing code work with Microsoft’s .NET CoreCLR JIT runtime, which includes a high-performance, more advanced and efficient garbage collector (GC).
+
+The article briefly talked about some of the latest changes that the team has made to ensure the integration of the updated AnimationEvent with the advanced garbage collector.
+
+[A small analytical post about the median demo time](https://howtomarketagame.com/2022/10/26/what-is-a-good-median-play-time-for-a-demo-benchmark/)
+
+![](what-is-a-good-median-play-time-for-a-demo-benchmark-1024x576.jpg)
+
+Data from Steam Next Fest February 2022 and Steam Next Fest October 2022. Graphs and summary can be viewed.
+
+[Witchfire is a first-person roguelite designed for those who don’t like roguelites](https://www.unrealengine.com/en-US/developer-interviews/witchfire-is-a-first-person-roguelite-designed-for-those-who-don-t-like-roguelites)
+
+![](witchfire-is-a-first-person-roguelite-designed-for-those-who-don-t-like-roguelites-1024x576.jpg)
+
+To learn more about the development of the upcoming first-person shooter, the Unreal Engine team reached out to The Astronauts creative director and co-founder Adrian Chmelarz and asked him about the Witchfire development process, how the game uses photogrammetry to achieve stunning visuals, how the studio used the sound engine UE and more.
+
+[Lucas Pope: “Games are the perfect mix of everything I love”](https://premortem.games/2022/10/26/lucas-pope-games-are-the-perfect-combination-of-everything-i-enjoy/)
+
+![](lucas-pope-games-are-the-perfect-combination-of-everything-i-enjoy.jpg)
+
+A short interview to Premortem Games with the developer of the well-known Papers, Please.
+
+[Slow Roads will brighten up office days](https://anslo.medium.com/slow-roads-tl-dr-a664ac6bce40)
+
+![](slow-roads-1024x703.jpg)
+
+An experiment in the procedural generation of endless scenic landscapes, designed as a casual racing game. Works in the browser, the client side uses three.js.
+
+Key technical points are described in the article.
+
+[Creating a leaf generator in Substance 3D Designer](https://80.lv/articles/creating-a-leaf-generator-in-substance-3d-designer/)
+
+![](creating-a-leaf-generator-in-substance-3d-designer-1024x576.gif)
+
+Sheref Atilla Gürbüz talked about the development of the leaf generator, showed which nodes were used, and demonstrated how colors are mixed to create realistic leaves.
+
+[Adding painterly detail to a stylized project in UE5](https://80.lv/articles/paint-stroke-mask-adding-painterly-details-for-stylized-project-in-ue5/)
+
+![](paint-stroke-mask-adding-painterly-details-for-stylized-project-in-ue5.jpg)
+
+Gyuvannu-Karlu Sozzi explained why they decided to create a paint stroke mask, explained how a painterly look is achieved in 2D and 3D, and also told about the creation process.
+
+[How ray tracing works, and how to speed it up by x600](https://youtu.be/gsZiJeaMO48)
+
+{{< youtube "gsZiJeaMO48" >}}
+
+The video is a step-by-step guide to the basics of ray tracing, explains the basic concepts, and explains why ray tracing methods are computationally intensive.
+
+In addition, the ReSTIR method is considered, and how it can significantly reduce the required calculations.
+
+[The nature of sound](https://ciechanow.ski/sound/)
+
+![](sound.png)
+
+The invisible and relentless sound just seems to exist, traveling through our surroundings to carry beautiful music or annoying noises. In this article the author explains what sound is, how it is created and distributed.
+
+[Creating the first multiplayer game with Netcode for GameObjects](https://blog.unity.com/games/building-a-multiplayer-game-first-time-netcode-for-gameobjects)
+
+![](building-a-multiplayer-game-first-time-netcode-for-gameobjects-1024x341.jpg)
+
+In this article, the author walks you through the development of Galactic Kittens, from prototype to stable, and how you can use this sample to start your own multi-user project.
+
+*We thank [Andrei Apanasik](https://suvitruf.ru) for writing the original post and allowing us to publish it on our blog in English.*

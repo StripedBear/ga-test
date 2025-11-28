@@ -14,77 +14,140 @@ original_url: "https://generalarcade.com/general-weekly-1-06-01-22/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="General Weekly #1 06.01.22" class="mw-100" src="weekly.jpg"/>
-</div>
-<div class="mb-6">
-<p>News: Character Creator 4 and iClone 8, Phoenix 5.0 have been released, the Construct Animate beta has become available.</p>
-<p>Interesting things: Elden Ring rendering analysis, Z-Anatomy 3D reconstruction of the human body, the psychology of losing, Unreal Engine 5 goes all-in with dynamic global illumination and Lumen.</p>
-<h2 id="h-updates-releases-news">Updates/releases/news:</h2>
-<p>Character Creator 4 and iClone 8 are released.</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/EKRpdxmZ9PM" title="YouTube video player" width="560">The team has also unveiled the highly anticipated iClone 8, a new and improved version of the real-time 3D animation tool for movies.</iframe></p>
-<p>An <a href="https://manual.reallusion.com/Character-Creator-4/Content/ENU/4.0/01_Welcome/Welcome.htm">updated version of Character Creator</a> will connect industry-leading pipelines to a single system for 3D character creation, rigging, asset management and interactive design.</p>
-<p>The team has also unveiled the <a href="https://manual.reallusion.com/iClone-8/Content/ENU/8.0/01-Welcome/Welcome.htm">highly anticipated iClone 8</a>, a new and improved version of the real-time 3D animation tool for movies.</p>
-<p>TressFX 5.0 is available as a patch for Unreal Engine.</p>
-<p>The latest version of the TressFX UE patch, which provides high-quality simulation and rendering of realistic hair and fur using the GPU, <a href="https://gpuopen.com/learn/tressfx5/">works</a> on Unreal Engine 4.26 and 4.27.</p>
-<p>Phoenix 5.0 release.</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/qJgMr58UtQE" title="YouTube video player" width="560"></iframe></p>
-<p>The update introduces Thruster force and Axis Lock controls for scene objects affected by simulations, new options for controlling foam patterns created by fluid simulations, and a new voxel shader.</p>
-<p>About the <a href="https://docs.chaos.com/display/PHX4MAYA/5.00.00">update for Maya</a> and for <a href="https://docs.chaos.com/display/PHX4MAX/5.00.00">3ds Max</a>.</p>
-<p>Construct Animate beta is now available.</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/I7u0d3ay_Nc" title="YouTube video player" width="560"></iframe></p>
-<p>The creators of the Construct 3 game engine <a href="https://www.construct.net/en/blogs/construct-official-blog-1/announcing-new-product-beta-1589">have released</a> a beta version of a new product, Construct Animate, which is a version of Construct 3 specifically designed to create 2D animations that can be exported as web apps, ads, or videos.</p>
-<h2 id="h-interesting-articles-and-videos">Interesting articles and videos</h2>
-<p>Parsing the rendering of Elden Ring.</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1535" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="EldenRing-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/EldenRing-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/EldenRing-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/06/EldenRing-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/06/EldenRing-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2022/06/EldenRing-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2022/06/EldenRing.jpg 1920w" width="1024"/></figure></div>
-<p><a href="http://www.mamoniem.com/behind-the-pretty-frames-elden-ring/">Very good article about the game.</a></p>
-<p>The psychology of losing.</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/N5HQaVy85s0" title="YouTube video player" width="560"></iframe></p>
-<p>Losing is not fun. We admire the winners, the losers are forgotten over time. Losing happens on numerous occasions in our lives, but the response to those losses is different. What is the psychology of losing? How do we react to failure on a cognitive level, and does our personality influence how we recover if we do.</p>
-<p>How to become an animator in gamedev: instructions for those who want to animate in Spine.</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1537" height="672" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="kak-stat-animatorom-v-geymdeve-instrukcii-dlya-teh-kto-hochet-animirovat-v-spine-1024x672.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/kak-stat-animatorom-v-geymdeve-instrukcii-dlya-teh-kto-hochet-animirovat-v-spine-1024x672.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/kak-stat-animatorom-v-geymdeve-instrukcii-dlya-teh-kto-hochet-animirovat-v-spine-300x197.jpg 300w, https://generalarcade.com/content/uploads/2022/06/kak-stat-animatorom-v-geymdeve-instrukcii-dlya-teh-kto-hochet-animirovat-v-spine-768x504.jpg 768w, https://generalarcade.com/content/uploads/2022/06/kak-stat-animatorom-v-geymdeve-instrukcii-dlya-teh-kto-hochet-animirovat-v-spine-1536x1007.jpg 1536w, https://generalarcade.com/content/uploads/2022/06/kak-stat-animatorom-v-geymdeve-instrukcii-dlya-teh-kto-hochet-animirovat-v-spine-1280x839.jpg 1280w, https://generalarcade.com/content/uploads/2022/06/kak-stat-animatorom-v-geymdeve-instrukcii-dlya-teh-kto-hochet-animirovat-v-spine.jpg 1569w" width="1024"/></figure></div>
-<p><a href="https://dtf.ru/gamedev/1206693-kak-stat-animatorom-v-geymdeve-instrukcii-dlya-teh-kto-hochet-animirovat-v-spine">Smirnov School tells</a> you what Spine is, how to use it, and what animation skills you need to earn money.</p>
-<p>CD-Rom emulator for SonyPlaystation, which has been written for over ten years. Part 3.</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1538" height="673" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="sony-emu-3-1024x673.png" srcset="https://generalarcade.com/content/uploads/2022/06/sony-emu-3-1024x673.png 1024w, https://generalarcade.com/content/uploads/2022/06/sony-emu-3-300x197.png 300w, https://generalarcade.com/content/uploads/2022/06/sony-emu-3-768x504.png 768w, https://generalarcade.com/content/uploads/2022/06/sony-emu-3.png 1142w" width="1024"/></figure></div>
-<p><a href="https://habr.com/ru/post/666296/">In this part</a>, the author redid everything twice, solved the SENS mystery, and along the way also solved a bunch of different small, but necessary issues.</p>
-<p>CD-Rom emulator for SonyPlaystation, which has been written for over ten years. Part 4.</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1539" height="669" loading="lazy" sizes="(max-width: 1017px) 100vw, 1017px" src="sony-emu-4.jpeg" srcset="https://generalarcade.com/content/uploads/2022/06/sony-emu-4.jpeg 1017w, https://generalarcade.com/content/uploads/2022/06/sony-emu-4-300x197.jpeg 300w, https://generalarcade.com/content/uploads/2022/06/sony-emu-4-768x505.jpeg 768w" width="1017"/></figure></div>
-<p><a href="https://habr.com/ru/post/666976/">In the last part</a>, the author achieved a stable TOC reading. And the unstable, buggy, but, nevertheless, launch of games. And also he figured out what SENS is, and how exactly the prefix performs positioning using carriage control commands. It remains to implement a module for SENS emulation. And to solve small, but important trifles.</p>
-<p>Creating a Fantasy Medieval City in Unreal Engine 5 and Blender</p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1540" height="560" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="creating-a-fantasy-medieval-city-in-unreal-engine-5-blender-1024x560.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/creating-a-fantasy-medieval-city-in-unreal-engine-5-blender-1024x560.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/creating-a-fantasy-medieval-city-in-unreal-engine-5-blender-300x164.jpg 300w, https://generalarcade.com/content/uploads/2022/06/creating-a-fantasy-medieval-city-in-unreal-engine-5-blender-768x420.jpg 768w, https://generalarcade.com/content/uploads/2022/06/creating-a-fantasy-medieval-city-in-unreal-engine-5-blender-1536x840.jpg 1536w, https://generalarcade.com/content/uploads/2022/06/creating-a-fantasy-medieval-city-in-unreal-engine-5-blender-2048x1120.jpg 2048w, https://generalarcade.com/content/uploads/2022/06/creating-a-fantasy-medieval-city-in-unreal-engine-5-blender-1280x700.jpg 1280w" width="1024"/></figure>
-<p>Fabian Kraus <a href="https://80.lv/articles/creating-a-fantasy-medieval-city-in-unreal-engine-5-blender/">shared the story</a> behind the Medieval City project, why Unreal Engine is the perfect toolkit for level design needs, and explained how using different shapes helps guide players.</p>
-<p>Gears of War could have come out without multiplayer.</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/VnM93LeCrL8" title="YouTube video player" width="560"></iframe></p>
-<p>The fact that the original Gears of War could have been released on the Xbox 360 without multiplayer was revealed to Ars Technica by lead level designer Lee Perry as part of the War Stories series.</p>
-<p>Epic Games could not make the battles really fun for a long time, so discussions about the fate of the online component lasted almost until the release of the game.</p>
-<p>Hardspace: Shipbreaker Developer Experience in Early Access</p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1542" height="460" loading="lazy" sizes="(max-width: 823px) 100vw, 823px" src="hardspace-shipbreaker-is-taking-flight-here-s-what-its-devs-learned-in-early-access.png" srcset="https://generalarcade.com/content/uploads/2022/06/hardspace-shipbreaker-is-taking-flight-here-s-what-its-devs-learned-in-early-access.png 823w, https://generalarcade.com/content/uploads/2022/06/hardspace-shipbreaker-is-taking-flight-here-s-what-its-devs-learned-in-early-access-300x168.png 300w, https://generalarcade.com/content/uploads/2022/06/hardspace-shipbreaker-is-taking-flight-here-s-what-its-devs-learned-in-early-access-768x429.png 768w" width="823"/></figure>
-<p>What has Blackbird Interactive learned from working on Hardspace: Shipbreaker for two years? Lead Producer Jessica Klein and Game Director Elliot Hudson <a href="https://www.gamedeveloper.com/pc/hardspace-shipbreaker-is-taking-flight-here-s-what-its-devs-learned-in-early-access">shared some key takeaways and explained</a> how their gaming community has helped them get through this difficult time.</p>
-<p>How to draw a metal texture: step by step tutorial</p>
-<p><iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/8vniQj61XSE" title="YouTube video player" width="560"></iframe></p>
-<p>Korean artist Chimmugsonyeo shows how to paint realistic metal textures, one of the most common textures in painting.</p>
-<p>Unreal Engine 5 goes all-in with Dynamic Global Illumination and Lumen.</p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1544" height="587" loading="lazy" sizes="(max-width: 780px) 100vw, 780px" src="Lumen.png" srcset="https://generalarcade.com/content/uploads/2022/06/Lumen.png 780w, https://generalarcade.com/content/uploads/2022/06/Lumen-300x226.png 300w, https://generalarcade.com/content/uploads/2022/06/Lumen-768x578.png 768w" width="780"/></figure>
-<p>The engineers working on Lumen <a href="https://www.unrealengine.com/en-US/tech-blog/unreal-engine-5-goes-all-in-on-dynamic-global-illumination-with-lumen">reviewed</a> the system’s features and gave an overview of the technical details.</p>
-<p>Speculations and myths about DirectStorage.</p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1546" height="527" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="directstorage-1024x527.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/directstorage-1024x527.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/directstorage-300x154.jpg 300w, https://generalarcade.com/content/uploads/2022/06/directstorage-768x395.jpg 768w, https://generalarcade.com/content/uploads/2022/06/directstorage-1280x658.jpg 1280w, https://generalarcade.com/content/uploads/2022/06/directstorage.jpg 1495w" width="1024"/></figure>
-<p><a href="https://www.yosoygames.com.ar/wp/2022/05/directstorage-speculations-myths/">The article explains</a> what the DirectStorage API allows on a PC, shows what processes can be accelerated using the API, and what are the limitations of the API.</p>
-<p>An introduction to hair and fur in Houdini 19</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/p4yUNgy5HSA" title="YouTube video player" width="560"></iframe></p>
-<p>CFX artist Jonathan Kutzer has created a guide aimed at fully describing the process of working with fur/hair in Houdini 19, including but not limited to: handling geometry for pipeline and scene setup, working with specific tools, modifiers, fur generation, material setting.</p>
-<p>UNIGINE 2 technologies: water system</p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1547" height="513" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="UNIGINE-water-1024x513.jpeg" srcset="https://generalarcade.com/content/uploads/2022/06/UNIGINE-water-1024x513.jpeg 1024w, https://generalarcade.com/content/uploads/2022/06/UNIGINE-water-300x150.jpeg 300w, https://generalarcade.com/content/uploads/2022/06/UNIGINE-water-768x385.jpeg 768w, https://generalarcade.com/content/uploads/2022/06/UNIGINE-water-1536x770.jpeg 1536w, https://generalarcade.com/content/uploads/2022/06/UNIGINE-water-1280x642.jpeg 1280w, https://generalarcade.com/content/uploads/2022/06/UNIGINE-water.jpeg 1600w" width="1024"/></figure>
-<p>Since version 2.2, UNIGINE <a href="https://habr.com/ru/company/unigine/blog/668174/">allows</a> you to visualize realistic water with complex behavior and support for two-way interaction with solids, as well to create various types of water basins: oceans, seas, lakes. In 2.15.1 on large bodies of water, you can create waves using wave layers, Beaufort presets or manually, and provide smooth transitions between different surface conditions. At the same time, there is no visible tiling at a long distance.</p>
-<p>Comparison of GPU texture compression algorithms.</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/3H-HGlsC0NY" title="YouTube video player" width="560"></iframe></p>
-<p></p>
-<p>Jeff Russell gave a talk at Marmoset on GPU Texture Compression. The presentation covers the basics of BC1-7 schemes, as well as some of the strategies and rationale for working with these formats.</p>
-<p>Improved API performance: Variable Rate Shading</p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1548" height="562" loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" src="advanced-api-performance-variable-rate-shading.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/advanced-api-performance-variable-rate-shading.jpg 1000w, https://generalarcade.com/content/uploads/2022/06/advanced-api-performance-variable-rate-shading-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/06/advanced-api-performance-variable-rate-shading-768x432.jpg 768w" width="1000"/></figure>
-<p><a href="https://developer.nvidia.com/blog/advanced-api-performance-variable-rate-shading/">This article</a> provides a brief overview of the available VRS modes, giving performance tips on how it affects hardware limitations.</p>
-<p>Additionally, some guidance is provided on which workloads can benefit from using VRS.</p>
-<h2 id="h-miscellaneous">Miscellaneous</h2>
-<p>Artists behind Horizon Forbidden West share a bunch of new behind-the-scenes renders.</p>
-<p><a href="https://www.artstation.com/karakter">One</a>. <a href="https://www.artstation.com/user-8966">Two</a>. <a href="https://www.artstation.com/danielguti">Three</a>. <a href="https://www.artstation.com/arno">Four</a>. <a href="https://www.artstation.com/mashein">Five</a>. <a href="https://www.artstation.com/lexisflex73">Six</a>. <a href="https://www.artstation.com/jeroenheemskerk">Seven</a>.</p>
-<p>We thank <a href="https://suvitruf.ru">Andrei Apanasik</a> for writing the original post and allowing us to publish it on our blog in English.</p>
-</div>
+![General Weekly #1 06.01.22](weekly.jpg)
+
+News: Character Creator 4 and iClone 8, Phoenix 5.0 have been released, the Construct Animate beta has become available.
+
+Interesting things: Elden Ring rendering analysis, Z-Anatomy 3D reconstruction of the human body, the psychology of losing, Unreal Engine 5 goes all-in with dynamic global illumination and Lumen.
+
+## Updates/releases/news:
+
+Character Creator 4 and iClone 8 are released.
+
+{{< youtube "EKRpdxmZ9PM" >}}
+
+An [updated version of Character Creator](https://manual.reallusion.com/Character-Creator-4/Content/ENU/4.0/01_Welcome/Welcome.htm) will connect industry-leading pipelines to a single system for 3D character creation, rigging, asset management and interactive design.
+
+The team has also unveiled the [highly anticipated iClone 8](https://manual.reallusion.com/iClone-8/Content/ENU/8.0/01-Welcome/Welcome.htm), a new and improved version of the real-time 3D animation tool for movies.
+
+TressFX 5.0 is available as a patch for Unreal Engine.
+
+The latest version of the TressFX UE patch, which provides high-quality simulation and rendering of realistic hair and fur using the GPU, [works](https://gpuopen.com/learn/tressfx5/) on Unreal Engine 4.26 and 4.27.
+
+Phoenix 5.0 release.
+
+{{< youtube "qJgMr58UtQE" >}}
+
+The update introduces Thruster force and Axis Lock controls for scene objects affected by simulations, new options for controlling foam patterns created by fluid simulations, and a new voxel shader.
+
+About the [update for Maya](https://docs.chaos.com/display/PHX4MAYA/5.00.00) and for [3ds Max](https://docs.chaos.com/display/PHX4MAX/5.00.00).
+
+Construct Animate beta is now available.
+
+{{< youtube "I7u0d3ay\_Nc" >}}
+
+The creators of the Construct 3 game engine [have released](https://www.construct.net/en/blogs/construct-official-blog-1/announcing-new-product-beta-1589) a beta version of a new product, Construct Animate, which is a version of Construct 3 specifically designed to create 2D animations that can be exported as web apps, ads, or videos.
+
+## Interesting articles and videos
+
+Parsing the rendering of Elden Ring.
+
+![](EldenRing-1024x576.jpg)
+
+[Very good article about the game.](http://www.mamoniem.com/behind-the-pretty-frames-elden-ring/)
+
+The psychology of losing.
+
+{{< youtube "N5HQaVy85s0" >}}
+
+Losing is not fun. We admire the winners, the losers are forgotten over time. Losing happens on numerous occasions in our lives, but the response to those losses is different. What is the psychology of losing? How do we react to failure on a cognitive level, and does our personality influence how we recover if we do.
+
+How to become an animator in gamedev: instructions for those who want to animate in Spine.
+
+![](kak-stat-animatorom-v-geymdeve-instrukcii-dlya-teh-kto-hochet-animirovat-v-spine-1024x672.jpg)
+
+[Smirnov School tells](https://dtf.ru/gamedev/1206693-kak-stat-animatorom-v-geymdeve-instrukcii-dlya-teh-kto-hochet-animirovat-v-spine) you what Spine is, how to use it, and what animation skills you need to earn money.
+
+CD-Rom emulator for SonyPlaystation, which has been written for over ten years. Part 3.
+
+![](sony-emu-3-1024x673.png)
+
+[In this part](https://habr.com/ru/post/666296/), the author redid everything twice, solved the SENS mystery, and along the way also solved a bunch of different small, but necessary issues.
+
+CD-Rom emulator for SonyPlaystation, which has been written for over ten years. Part 4.
+
+![](sony-emu-4.jpeg)
+
+[In the last part](https://habr.com/ru/post/666976/), the author achieved a stable TOC reading. And the unstable, buggy, but, nevertheless, launch of games. And also he figured out what SENS is, and how exactly the prefix performs positioning using carriage control commands. It remains to implement a module for SENS emulation. And to solve small, but important trifles.
+
+Creating a Fantasy Medieval City in Unreal Engine 5 and Blender
+
+![](creating-a-fantasy-medieval-city-in-unreal-engine-5-blender-1024x560.jpg)
+
+Fabian Kraus [shared the story](https://80.lv/articles/creating-a-fantasy-medieval-city-in-unreal-engine-5-blender/) behind the Medieval City project, why Unreal Engine is the perfect toolkit for level design needs, and explained how using different shapes helps guide players.
+
+Gears of War could have come out without multiplayer.
+
+{{< youtube "VnM93LeCrL8" >}}
+
+The fact that the original Gears of War could have been released on the Xbox 360 without multiplayer was revealed to Ars Technica by lead level designer Lee Perry as part of the War Stories series.
+
+Epic Games could not make the battles really fun for a long time, so discussions about the fate of the online component lasted almost until the release of the game.
+
+Hardspace: Shipbreaker Developer Experience in Early Access
+
+![](hardspace-shipbreaker-is-taking-flight-here-s-what-its-devs-learned-in-early-access.png)
+
+What has Blackbird Interactive learned from working on Hardspace: Shipbreaker for two years? Lead Producer Jessica Klein and Game Director Elliot Hudson [shared some key takeaways and explained](https://www.gamedeveloper.com/pc/hardspace-shipbreaker-is-taking-flight-here-s-what-its-devs-learned-in-early-access) how their gaming community has helped them get through this difficult time.
+
+How to draw a metal texture: step by step tutorial
+
+{{< youtube "8vniQj61XSE" >}}
+
+Korean artist Chimmugsonyeo shows how to paint realistic metal textures, one of the most common textures in painting.
+
+Unreal Engine 5 goes all-in with Dynamic Global Illumination and Lumen.
+
+![](Lumen.png)
+
+The engineers working on Lumen [reviewed](https://www.unrealengine.com/en-US/tech-blog/unreal-engine-5-goes-all-in-on-dynamic-global-illumination-with-lumen) the system’s features and gave an overview of the technical details.
+
+Speculations and myths about DirectStorage.
+
+![](directstorage-1024x527.jpg)
+
+[The article explains](https://www.yosoygames.com.ar/wp/2022/05/directstorage-speculations-myths/) what the DirectStorage API allows on a PC, shows what processes can be accelerated using the API, and what are the limitations of the API.
+
+An introduction to hair and fur in Houdini 19
+
+{{< youtube "p4yUNgy5HSA" >}}
+
+CFX artist Jonathan Kutzer has created a guide aimed at fully describing the process of working with fur/hair in Houdini 19, including but not limited to: handling geometry for pipeline and scene setup, working with specific tools, modifiers, fur generation, material setting.
+
+UNIGINE 2 technologies: water system
+
+![](UNIGINE-water-1024x513.jpeg)
+
+Since version 2.2, UNIGINE [allows](https://habr.com/ru/company/unigine/blog/668174/) you to visualize realistic water with complex behavior and support for two-way interaction with solids, as well to create various types of water basins: oceans, seas, lakes. In 2.15.1 on large bodies of water, you can create waves using wave layers, Beaufort presets or manually, and provide smooth transitions between different surface conditions. At the same time, there is no visible tiling at a long distance.
+
+Comparison of GPU texture compression algorithms.
+
+{{< youtube "3H-HGlsC0NY" >}}
+
+Jeff Russell gave a talk at Marmoset on GPU Texture Compression. The presentation covers the basics of BC1-7 schemes, as well as some of the strategies and rationale for working with these formats.
+
+Improved API performance: Variable Rate Shading
+
+![](advanced-api-performance-variable-rate-shading.jpg)
+
+[This article](https://developer.nvidia.com/blog/advanced-api-performance-variable-rate-shading/) provides a brief overview of the available VRS modes, giving performance tips on how it affects hardware limitations.
+
+Additionally, some guidance is provided on which workloads can benefit from using VRS.
+
+## Miscellaneous
+
+Artists behind Horizon Forbidden West share a bunch of new behind-the-scenes renders.
+
+[One](https://www.artstation.com/karakter). [Two](https://www.artstation.com/user-8966). [Three](https://www.artstation.com/danielguti). [Four](https://www.artstation.com/arno). [Five](https://www.artstation.com/mashein). [Six](https://www.artstation.com/lexisflex73). [Seven](https://www.artstation.com/jeroenheemskerk).
+
+We thank [Andrei Apanasik](https://suvitruf.ru) for writing the original post and allowing us to publish it on our blog in English.

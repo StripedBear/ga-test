@@ -10,48 +10,82 @@ original_url: "https://generalarcade.com/devsday-34/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="DEVsday #34" class="mw-100" src="devsday34.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p><a href="https://github.com/id-Software/quake2-rerelease-dll">Quake II Remastered Sources Now Available on GitHub</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2593" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="quake2-rerelease-dll-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/08/quake2-rerelease-dll-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/08/quake2-rerelease-dll-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/08/quake2-rerelease-dll-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/08/quake2-rerelease-dll.jpg 1099w" width="1024"/></figure>
-<p>Including Quake 2 code 64.</p>
-<p><a href="https://dtf.ru/gameindustry/2022902-nintendo-hochet-zapatentovat-mehaniki-iz-tears-of-the-kingdom-vklyuchaya-perehod-vo-vremya-bystrogo-peremeshcheniya">Punch Club 2: Fast Forward made $1.4 million in 18 days</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2617" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="punchclub2fastforwardlaunchtrailer-ign-blogroll-1689947234109-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/08/punchclub2fastforwardlaunchtrailer-ign-blogroll-1689947234109-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/08/punchclub2fastforwardlaunchtrailer-ign-blogroll-1689947234109-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/08/punchclub2fastforwardlaunchtrailer-ign-blogroll-1689947234109-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/08/punchclub2fastforwardlaunchtrailer-ign-blogroll-1689947234109.jpg 1280w" width="1024"/></figure>
-<p>$1.4m gross in 18 days. The median time in the game is 10 hours. The release had 100k wishlists (the original had 10k).</p>
-<p><a href="https://80lv.info/grants">80lv compiled a list of state funds, IT and game development hubs</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2597" height="284" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="grants-1024x284.png" srcset="https://generalarcade.com/content/uploads/2023/08/grants-1024x284.png 1024w, https://generalarcade.com/content/uploads/2023/08/grants-300x83.png 300w, https://generalarcade.com/content/uploads/2023/08/grants-768x213.png 768w, https://generalarcade.com/content/uploads/2023/08/grants-1536x426.png 1536w, https://generalarcade.com/content/uploads/2023/08/grants-1280x355.png 1280w, https://generalarcade.com/content/uploads/2023/08/grants.png 1659w" width="1024"/></figure>
-<p>Treat this as an opportunity to evaluate the local market, find expertise and build new connections. At the F2P Campus, for example, we talked to one of the creators of Assassins.</p>
-<p><a href="https://www.unrealengine.com/en-US/developer-interviews/why-avalanche-worked-to-deliver-a-hogwarts-game-with-soul">How Avalanche put the soul into Hogwarts Legacy</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2598" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="why-avalanche-worked-to-deliver-a-hogwarts-game-with-soul-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/08/why-avalanche-worked-to-deliver-a-hogwarts-game-with-soul-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/08/why-avalanche-worked-to-deliver-a-hogwarts-game-with-soul-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/08/why-avalanche-worked-to-deliver-a-hogwarts-game-with-soul-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/08/why-avalanche-worked-to-deliver-a-hogwarts-game-with-soul-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/08/why-avalanche-worked-to-deliver-a-hogwarts-game-with-soul-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/08/why-avalanche-worked-to-deliver-a-hogwarts-game-with-soul.jpg 1920w" width="1024"/></figure>
-<p>The Unreal Engine team sat down with the developers at Avalanche Software to find out how they applied the lessons they learned while working on Disney Infinity and 25 to Life to create such a huge open world.</p>
-<p><a href="https://www.unrealengine.com/en-US/developer-interviews/how-keelworks-moved-from-animation-to-game-dev-to-create-cygni-all-guns-blazing">How KeelWorks moved from animation to game development to create CYGNI: All Guns Blazing</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2601" height="481" loading="lazy" sizes="(max-width: 743px) 100vw, 743px" src="how-keelworks-moved-from-animation-to-game-dev-to-create-cygni-all-guns-blazing.png" srcset="https://generalarcade.com/content/uploads/2023/08/how-keelworks-moved-from-animation-to-game-dev-to-create-cygni-all-guns-blazing.png 743w, https://generalarcade.com/content/uploads/2023/08/how-keelworks-moved-from-animation-to-game-dev-to-create-cygni-all-guns-blazing-300x194.png 300w" width="743"/></figure>
-<p>The Unreal Engine team spoke with KeelWorks about the development of the first project, the transition from animation to game development, and how the two Epic MegaGrants played a “vital role” in the team’s journey.</p>
-<p><a href="https://howtomarketagame.com/2023/08/07/how-to-get-wishlists-using-twitter-game-aggregators/">How to Increase Wishlists with Twitter Aggregators</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2603" height="420" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="how-to-get-wishlists-using-twitter-game-aggregators-1024x420.png" srcset="https://generalarcade.com/content/uploads/2023/08/how-to-get-wishlists-using-twitter-game-aggregators-1024x420.png 1024w, https://generalarcade.com/content/uploads/2023/08/how-to-get-wishlists-using-twitter-game-aggregators-300x123.png 300w, https://generalarcade.com/content/uploads/2023/08/how-to-get-wishlists-using-twitter-game-aggregators-768x315.png 768w, https://generalarcade.com/content/uploads/2023/08/how-to-get-wishlists-using-twitter-game-aggregators-1280x525.png 1280w, https://generalarcade.com/content/uploads/2023/08/how-to-get-wishlists-using-twitter-game-aggregators.png 1331w" width="1024"/></figure>
-<p>An example of a specific game where tweets from such an account did a good job of boosting the number of additions to the Steam doing lists.</p>
-<p><a href="https://youtu.be/hr-D-wtK0Ew">Dark Pictures: Season 1 – 4 games in 4 years: audio systems for narrative horror</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hr-D-wtK0Ew" title="'Dark Pictures: Season 1': 4 games in 4 years: Audio Systems for Narrative Horror" width="560"></iframe></p>
-<p>Barney Pratt of Supermassive Games talks about some of the technical systems, creativity and solutions that have brought award-winning quality. The video focuses on believable character sound, interactive mixing, musical direction, and spatial audio.</p>
-<p><a href="https://www.gamedeveloper.com/production/deep-dive-how-the-developers-of-meet-your-maker-made-a-first-of-its-kind-game-with-a-no-crunch-policy">How the developers of Meet Your Maker created a unique experience with a no-crunch policy</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2608" height="458" loading="lazy" sizes="(max-width: 818px) 100vw, 818px" src="deep-dive-how-the-developers-of-meet-your-maker-made-a-first-of-its-kind-game-with-a-no-crunch-policy.png" srcset="https://generalarcade.com/content/uploads/2023/08/deep-dive-how-the-developers-of-meet-your-maker-made-a-first-of-its-kind-game-with-a-no-crunch-policy.png 818w, https://generalarcade.com/content/uploads/2023/08/deep-dive-how-the-developers-of-meet-your-maker-made-a-first-of-its-kind-game-with-a-no-crunch-policy-300x168.png 300w, https://generalarcade.com/content/uploads/2023/08/deep-dive-how-the-developers-of-meet-your-maker-made-a-first-of-its-kind-game-with-a-no-crunch-policy-768x430.png 768w" width="818"/></figure>
-<p>Behavior Interactive Senior Producer Julien Tolschuk-Jalbert and Senior Creative Director Ashley Pannell explain why not crunching is a value to start with managers.</p>
-<p><a href="https://medium.com/@raphaelhorion/using-decals-to-drive-object-shaders-and-post-processing-252805232748">Using decals for shaders and post-processing</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2610" height="360" loading="lazy" sizes="(max-width: 640px) 100vw, 640px" src="0-yUGb6SZdfoWKgG0_.png" srcset="https://generalarcade.com/content/uploads/2023/08/0-yUGb6SZdfoWKgG0_.png 640w, https://generalarcade.com/content/uploads/2023/08/0-yUGb6SZdfoWKgG0_-300x169.png 300w" width="640"/></figure>
-<p>This post introduces the idea of using decals to control post-processing and object-level effects.</p>
-<p><a href="https://phoboslab.org/log/2023/08/rewriting-wipeout">Rewritten wipEout</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2620" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="rewriting-wipeout-1024x576.png" srcset="https://generalarcade.com/content/uploads/2023/08/rewriting-wipeout-1024x576.png 1024w, https://generalarcade.com/content/uploads/2023/08/rewriting-wipeout-300x169.png 300w, https://generalarcade.com/content/uploads/2023/08/rewriting-wipeout-768x432.png 768w, https://generalarcade.com/content/uploads/2023/08/rewriting-wipeout.png 1280w" width="1024"/></figure>
-<p>In 2022, the source code of the game leaked to the network. The author of the article has completely revised them, and it compiles under Windows, Linux, macOS and WASM.</p>
-<p><a href="https://80.lv/articles/insights-on-indie-game-publishing-from-kasedo-games/">Insights about publishing indie games</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2612" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="insights-on-indie-game-publishing-from-kasedo-games-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/08/insights-on-indie-game-publishing-from-kasedo-games-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/08/insights-on-indie-game-publishing-from-kasedo-games-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/08/insights-on-indie-game-publishing-from-kasedo-games-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/08/insights-on-indie-game-publishing-from-kasedo-games-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/08/insights-on-indie-game-publishing-from-kasedo-games-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/08/insights-on-indie-game-publishing-from-kasedo-games.jpg 1920w" width="1024"/></figure>
-<p>Jonathan Hales of Kasedo Games discussed the key elements of a publisher-developer partnership, laid out initial criteria for developers, and shed light on the support independent developers can expect from Kasedo Games.</p>
-<p><a href="http://www.jp.square-enix.com/tech/library/pdf/2023_FFXVIShadowTechPaper.pdf">Working with Shadows in Final Fantasy XVI</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2613" height="590" loading="lazy" sizes="(max-width: 799px) 100vw, 799px" src="2023_FFXVIShadowTechPaper.png" srcset="https://generalarcade.com/content/uploads/2023/08/2023_FFXVIShadowTechPaper.png 799w, https://generalarcade.com/content/uploads/2023/08/2023_FFXVIShadowTechPaper-300x222.png 300w, https://generalarcade.com/content/uploads/2023/08/2023_FFXVIShadowTechPaper-768x567.png 768w" width="799"/></figure>
-<p>An implementation of Tiled Deferred Shadow is presented, with performance measurements and quality results.</p>
-<p><a href="https://youtu.be/vfMhgSTVrNs">Vampire Survivors: Flexible Community Management</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/vfMhgSTVrNs" title="Surviving 'Vampire Survivors': Agile Community Management" width="560"></iframe></p>
-<p>Beth Molloy, speaking at GDC 2023, talks about how, as the community manager of the indie hit Vampire Survivors, she managed a community of millions of players with no experience in the field.</p>
-</div>
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+[Quake II Remastered Sources Now Available on GitHub](https://github.com/id-Software/quake2-rerelease-dll)
+
+![](quake2-rerelease-dll-1024x576.jpg)
+
+Including Quake 2 code 64.
+
+[Punch Club 2: Fast Forward made $1.4 million in 18 days](https://dtf.ru/gameindustry/2022902-nintendo-hochet-zapatentovat-mehaniki-iz-tears-of-the-kingdom-vklyuchaya-perehod-vo-vremya-bystrogo-peremeshcheniya)
+
+![](punchclub2fastforwardlaunchtrailer-ign-blogroll-1689947234109-1024x576.jpg)
+
+$1.4m gross in 18 days. The median time in the game is 10 hours. The release had 100k wishlists (the original had 10k).
+
+[80lv compiled a list of state funds, IT and game development hubs](https://80lv.info/grants)
+
+![](grants-1024x284.png)
+
+Treat this as an opportunity to evaluate the local market, find expertise and build new connections. At the F2P Campus, for example, we talked to one of the creators of Assassins.
+
+[How Avalanche put the soul into Hogwarts Legacy](https://www.unrealengine.com/en-US/developer-interviews/why-avalanche-worked-to-deliver-a-hogwarts-game-with-soul)
+
+![](why-avalanche-worked-to-deliver-a-hogwarts-game-with-soul-1024x576.jpg)
+
+The Unreal Engine team sat down with the developers at Avalanche Software to find out how they applied the lessons they learned while working on Disney Infinity and 25 to Life to create such a huge open world.
+
+[How KeelWorks moved from animation to game development to create CYGNI: All Guns Blazing](https://www.unrealengine.com/en-US/developer-interviews/how-keelworks-moved-from-animation-to-game-dev-to-create-cygni-all-guns-blazing)
+
+![](how-keelworks-moved-from-animation-to-game-dev-to-create-cygni-all-guns-blazing.png)
+
+The Unreal Engine team spoke with KeelWorks about the development of the first project, the transition from animation to game development, and how the two Epic MegaGrants played a “vital role” in the team’s journey.
+
+[How to Increase Wishlists with Twitter Aggregators](https://howtomarketagame.com/2023/08/07/how-to-get-wishlists-using-twitter-game-aggregators/)
+
+![](how-to-get-wishlists-using-twitter-game-aggregators-1024x420.png)
+
+An example of a specific game where tweets from such an account did a good job of boosting the number of additions to the Steam doing lists.
+
+[Dark Pictures: Season 1 – 4 games in 4 years: audio systems for narrative horror](https://youtu.be/hr-D-wtK0Ew)
+
+{{< youtube "https://youtu.be/hr-D-wtK0Ew" >}}
+
+Barney Pratt of Supermassive Games talks about some of the technical systems, creativity and solutions that have brought award-winning quality. The video focuses on believable character sound, interactive mixing, musical direction, and spatial audio.
+
+[How the developers of Meet Your Maker created a unique experience with a no-crunch policy](https://www.gamedeveloper.com/production/deep-dive-how-the-developers-of-meet-your-maker-made-a-first-of-its-kind-game-with-a-no-crunch-policy)
+
+![](deep-dive-how-the-developers-of-meet-your-maker-made-a-first-of-its-kind-game-with-a-no-crunch-policy.png)
+
+Behavior Interactive Senior Producer Julien Tolschuk-Jalbert and Senior Creative Director Ashley Pannell explain why not crunching is a value to start with managers.
+
+[Using decals for shaders and post-processing](https://medium.com/@raphaelhorion/using-decals-to-drive-object-shaders-and-post-processing-252805232748)
+
+![](0-yUGb6SZdfoWKgG0\_.png)
+
+This post introduces the idea of using decals to control post-processing and object-level effects.
+
+[Rewritten wipEout](https://phoboslab.org/log/2023/08/rewriting-wipeout)
+
+![](rewriting-wipeout-1024x576.png)
+
+In 2022, the source code of the game leaked to the network. The author of the article has completely revised them, and it compiles under Windows, Linux, macOS and WASM.
+
+[Insights about publishing indie games](https://80.lv/articles/insights-on-indie-game-publishing-from-kasedo-games/)
+
+![](insights-on-indie-game-publishing-from-kasedo-games-1024x576.jpg)
+
+Jonathan Hales of Kasedo Games discussed the key elements of a publisher-developer partnership, laid out initial criteria for developers, and shed light on the support independent developers can expect from Kasedo Games.
+
+[Working with Shadows in Final Fantasy XVI](http://www.jp.square-enix.com/tech/library/pdf/2023_FFXVIShadowTechPaper.pdf)
+
+![](2023\_FFXVIShadowTechPaper.png)
+
+An implementation of Tiled Deferred Shadow is presented, with performance measurements and quality results.
+
+[Vampire Survivors: Flexible Community Management](https://youtu.be/vfMhgSTVrNs)
+
+{{< youtube "https://youtu.be/vfMhgSTVrNs" >}}
+
+Beth Molloy, speaking at GDC 2023, talks about how, as the community manager of the indie hit Vampire Survivors, she managed a community of millions of players with no experience in the field.

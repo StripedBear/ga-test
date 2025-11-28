@@ -10,51 +10,88 @@ original_url: "https://generalarcade.com/devsday-37/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="DEVsday #37" class="mw-100" src="devsday37.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p><a href="https://blog.unity.com/news/plan-pricing-and-packaging-updates">Unpleasant situation with Unity</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2668" height="341" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="09-2023_Blog_Hero-image_Penguin_Option-3-1230x410-1-1024x341.jpg" srcset="https://generalarcade.com/content/uploads/2023/09/09-2023_Blog_Hero-image_Penguin_Option-3-1230x410-1-1024x341.jpg 1024w, https://generalarcade.com/content/uploads/2023/09/09-2023_Blog_Hero-image_Penguin_Option-3-1230x410-1-300x100.jpg 300w, https://generalarcade.com/content/uploads/2023/09/09-2023_Blog_Hero-image_Penguin_Option-3-1230x410-1-768x256.jpg 768w, https://generalarcade.com/content/uploads/2023/09/09-2023_Blog_Hero-image_Penguin_Option-3-1230x410-1.jpg 1230w" width="1024"/></figure>
-<p>The hottest news of this week. On September 12, without any warning, the company announced that it would now charge a certain amount per number of installations.</p>
-<p><a href="https://techcrunch.com/2023/09/08/market-intelligence-firm-sensor-tower-conducts-layoffs-several-execs-out/">There have been layoffs at Sensor Tower. Among those fired are top managers</a></p>
-<figure class="wp-block-image size-large"><img alt="market-intelligence-firm-sensor-tower-conducts-layoffs-several-execs-out" class="wp-image-3249" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Market-intelligence-firm-Sensor-Tower-conducts-layoffs-several-execs-out-1.jpg" srcset="https://generalarcade.com/content/uploads/2023/09/Market-intelligence-firm-Sensor-Tower-conducts-layoffs-several-execs-out-1.jpg 1024w, https://generalarcade.com/content/uploads/2023/09/Market-intelligence-firm-Sensor-Tower-conducts-layoffs-several-execs-out-1-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/09/Market-intelligence-firm-Sensor-Tower-conducts-layoffs-several-execs-out-1-768x432.jpg 768w" width="1024"/></figure>
-<p>TechCrunch reports that more than 40 people have lost their jobs.</p>
-<p><a href="https://godotengine.org/article/godot-developer-fund/">Godot launches funding initiative to fuel long-term growth</a></p>
-<figure class="wp-block-image size-large"><img alt="godot-developer-fund" class="wp-image-3251" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Introducing-the-new-Godot-Development-Fund-1.jpg" srcset="https://generalarcade.com/content/uploads/2023/09/Introducing-the-new-Godot-Development-Fund-1.jpg 1024w, https://generalarcade.com/content/uploads/2023/09/Introducing-the-new-Godot-Development-Fund-1-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/09/Introducing-the-new-Godot-Development-Fund-1-768x432.jpg 768w" width="1024"/></figure>
-<p>The development fund was launched in July and has already accepted many new and old sponsors, but the team needs to take funding to a new level to maintain the current pace of development, and increase it with new employees.</p>
-<p><a href="https://youtu.be/wbem5qrH5ow">Procreate unveils new 2D animation app for iPad</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/wbem5qrH5ow" title="Introducing: Procreate Dreams" width="559"></iframe></p>
-<p>A new animation application designed to create breathtaking hand-drawn animations and dynamic motion graphics.</p>
-<p><a href="https://youtu.be/GHZZffgRvkw">Roblox introduced new AI tools</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/GHZZffgRvkw" title="Roblox Assistant" width="559"></iframe></p>
-<p>Assistant, simplified avatar creation and voice chat moderation.</p>
-<p><a href="https://80.lv/articles/choosing-defold-for-steam-games-production-the-story-of-luden-io/">Choosing Defold for creating games: the story of Luden.io</a></p>
-<figure class="wp-block-image size-large"><img alt="Choosing Defold for Steam Games Production: The Story of Luden.io" class="wp-image-3253" height="379" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Choosing-Defold-for-Steam-Games-Production-The-Story-of-Luden.io_.jpg" srcset="https://generalarcade.com/content/uploads/2023/09/Choosing-Defold-for-Steam-Games-Production-The-Story-of-Luden.io_.jpg 1024w, https://generalarcade.com/content/uploads/2023/09/Choosing-Defold-for-Steam-Games-Production-The-Story-of-Luden.io_-300x111.jpg 300w, https://generalarcade.com/content/uploads/2023/09/Choosing-Defold-for-Steam-Games-Production-The-Story-of-Luden.io_-768x284.jpg 768w" width="1024"/></figure>
-<p>CEO of Luden.io Oleg Chumakov shared the history of his company and relations with Defold.</p>
-<p><a href="https://80.lv/articles/impact-of-concept-art-on-the-character-creation-pipeline/">The influence of concept art on the character creation process</a></p>
-<figure class="wp-block-image size-large"><img alt="Impact of Concept Art on the Character Creation Pipeline" class="wp-image-3255" height="518" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Impact-of-Concept-Art-on-the-Character-Creation-Pipeline.jpg" srcset="https://generalarcade.com/content/uploads/2023/09/Impact-of-Concept-Art-on-the-Character-Creation-Pipeline.jpg 1024w, https://generalarcade.com/content/uploads/2023/09/Impact-of-Concept-Art-on-the-Character-Creation-Pipeline-300x152.jpg 300w, https://generalarcade.com/content/uploads/2023/09/Impact-of-Concept-Art-on-the-Character-Creation-Pipeline-768x389.jpg 768w" width="1024"/></figure>
-<p>Character artist Jef Bernaers talks about his thesis written at the Breda University of Applied Sciences on the influence of concept art on character creation.</p>
-<p><a href="https://80.lv/articles/behind-the-last-case-of-benedict-fox-developing-art-environments-gameplay/">Behind The Last Case of Benedict Fox</a></p>
-<figure class="wp-block-image size-large"><img alt="Behind The Last Case of Benedict Fox: Developing Art, Environments &amp; Gameplay" class="wp-image-3257" height="518" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Behind-The-Last-Case-of-Benedict-Fox-Developing-Art-Environments-Gameplay.jpg" srcset="https://generalarcade.com/content/uploads/2023/09/Behind-The-Last-Case-of-Benedict-Fox-Developing-Art-Environments-Gameplay.jpg 1024w, https://generalarcade.com/content/uploads/2023/09/Behind-The-Last-Case-of-Benedict-Fox-Developing-Art-Environments-Gameplay-300x152.jpg 300w, https://generalarcade.com/content/uploads/2023/09/Behind-The-Last-Case-of-Benedict-Fox-Developing-Art-Environments-Gameplay-768x389.jpg 768w" width="1024"/></figure>
-<p>The Plot Twist team talked about developing The Last Case of Benedict Fox, finding an art style for the game, and working on lighting in Unity.</p>
-<p><a href="https://howtomarketagame.com/2023/09/11/three-inspiring-marketing-success-stories/">Three inspiring stories of marketing success</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2683" height="381" loading="lazy" sizes="(max-width: 883px) 100vw, 883px" src="three-inspiring-marketing-success-stories.png" srcset="https://generalarcade.com/content/uploads/2023/09/three-inspiring-marketing-success-stories.png 883w, https://generalarcade.com/content/uploads/2023/09/three-inspiring-marketing-success-stories-300x129.png 300w, https://generalarcade.com/content/uploads/2023/09/three-inspiring-marketing-success-stories-768x331.png 768w" width="883"/></figure>
-<p>The post showcases 3 games and 3 marketing campaigns that have achieved tremendous success in terms of wishlist and sales. The best part is that these are all games of small teams with a modest track record.</p>
-<p><a href="https://youtu.be/TdWFzpgnljs">How to make a good 2D camera</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/TdWFzpgnljs" title="How to Make a Good 2D Camera" width="559"></iframe></p>
-<p>Are you making a 2D game? Then you will need to work on the camera. But there’s more to it than just following the main character. The video gives five tips on how to make your camera better.</p>
-<p><a href="https://80.lv/articles/mastering-realism-how-to-create-props-environments-for-aaa-games/">Mastering realism: how to create props and environments for AAA games</a></p>
-<figure class="wp-block-image size-large"><img alt="Mastering Realism: How To Create Props &amp; Environments for AAA Games" class="wp-image-3259" height="518" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Mastering-Realism-How-To-Create-Props-Environments-for-AAA-Games.jpg" srcset="https://generalarcade.com/content/uploads/2023/09/Mastering-Realism-How-To-Create-Props-Environments-for-AAA-Games.jpg 1024w, https://generalarcade.com/content/uploads/2023/09/Mastering-Realism-How-To-Create-Props-Environments-for-AAA-Games-300x152.jpg 300w, https://generalarcade.com/content/uploads/2023/09/Mastering-Realism-How-To-Create-Props-Environments-for-AAA-Games-768x389.jpg 768w" width="1024"/></figure>
-<p>The Kevuru Games team returned to 80 Level to talk about the behind-the-scenes creation of environments and game props.</p>
-<p><a href="https://youtu.be/yPfagLeUa7k">Trying to simulate the entire ocean</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/yPfagLeUa7k" title="I Tried Simulating The Entire Ocean" width="559"></iframe></p>
-<p>The video discusses ocean modeling and shading. Theory, mathematics and practical implementation are considered.</p>
-<p><a href="https://www.deconstructoroffun.com/blog/2023/9/12/product-mindset-why-does-your-team-need-it-and-is-it-worth-cultivating">Product thinking: why does your team need it and is it worth developing?</a></p>
-<figure class="wp-block-image size-large"><img alt="Product Mindset: Why Does Your Team Need It, and Is It Worth Cultivating?" class="wp-image-3261" height="626" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Product-Mindset-Why-Does-Your-Team-Need-It-and-Is-It-Worth-Cultivating-1.jpg" srcset="https://generalarcade.com/content/uploads/2023/09/Product-Mindset-Why-Does-Your-Team-Need-It-and-Is-It-Worth-Cultivating-1.jpg 1024w, https://generalarcade.com/content/uploads/2023/09/Product-Mindset-Why-Does-Your-Team-Need-It-and-Is-It-Worth-Cultivating-1-300x183.jpg 300w, https://generalarcade.com/content/uploads/2023/09/Product-Mindset-Why-Does-Your-Team-Need-It-and-Is-It-Worth-Cultivating-1-768x470.jpg 768w" width="1024"/></figure>
-<p>We can all agree that great ideas come from great teams. What follows this belief is the misconception that all you have to do is build an amazing team and then just step aside and let them do what they do best.</p>
-<p><a href="https://youtu.be/BZKGFZyWeKc">How Fortnite designers created their own tools</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/BZKGFZyWeKc" title="How 'Fortnite' Designers Made Their Own Tools" width="559"></iframe></p>
-<p>In a keynote from Tools Summit 2023, the developers explain the benefits of their designer-focused methodology, and how anyone who can create user interfaces in Unreal has the skills to create powerful editing and asset management tools and eliminate inefficiencies in their own workflows.</p>
-</div>
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+[Unpleasant situation with Unity](https://blog.unity.com/news/plan-pricing-and-packaging-updates)
+
+![](09-2023\_Blog\_Hero-image\_Penguin\_Option-3-1230x410-1-1024x341.jpg)
+
+The hottest news of this week. On September 12, without any warning, the company announced that it would now charge a certain amount per number of installations.
+
+[There have been layoffs at Sensor Tower. Among those fired are top managers](https://techcrunch.com/2023/09/08/market-intelligence-firm-sensor-tower-conducts-layoffs-several-execs-out/)
+
+![market-intelligence-firm-sensor-tower-conducts-layoffs-several-execs-out](Market-intelligence-firm-Sensor-Tower-conducts-layoffs-several-execs-out-1.jpg)
+
+TechCrunch reports that more than 40 people have lost their jobs.
+
+[Godot launches funding initiative to fuel long-term growth](https://godotengine.org/article/godot-developer-fund/)
+
+![godot-developer-fund](Introducing-the-new-Godot-Development-Fund-1.jpg)
+
+The development fund was launched in July and has already accepted many new and old sponsors, but the team needs to take funding to a new level to maintain the current pace of development, and increase it with new employees.
+
+[Procreate unveils new 2D animation app for iPad](https://youtu.be/wbem5qrH5ow)
+
+{{< youtube "https://youtu.be/wbem5qrH5ow" >}}
+
+A new animation application designed to create breathtaking hand-drawn animations and dynamic motion graphics.
+
+[Roblox introduced new AI tools](https://youtu.be/GHZZffgRvkw)
+
+{{< youtube "https://youtu.be/GHZZffgRvkw" >}}
+
+Assistant, simplified avatar creation and voice chat moderation.
+
+[Choosing Defold for creating games: the story of Luden.io](https://80.lv/articles/choosing-defold-for-steam-games-production-the-story-of-luden-io/)
+
+![Choosing Defold for Steam Games Production: The Story of Luden.io](Choosing-Defold-for-Steam-Games-Production-The-Story-of-Luden.io\_.jpg)
+
+CEO of Luden.io Oleg Chumakov shared the history of his company and relations with Defold.
+
+[The influence of concept art on the character creation process](https://80.lv/articles/impact-of-concept-art-on-the-character-creation-pipeline/)
+
+![Impact of Concept Art on the Character Creation Pipeline](Impact-of-Concept-Art-on-the-Character-Creation-Pipeline.jpg)
+
+Character artist Jef Bernaers talks about his thesis written at the Breda University of Applied Sciences on the influence of concept art on character creation.
+
+[Behind The Last Case of Benedict Fox](https://80.lv/articles/behind-the-last-case-of-benedict-fox-developing-art-environments-gameplay/)
+
+![Behind The Last Case of Benedict Fox: Developing Art, Environments & Gameplay](Behind-The-Last-Case-of-Benedict-Fox-Developing-Art-Environments-Gameplay.jpg)
+
+The Plot Twist team talked about developing The Last Case of Benedict Fox, finding an art style for the game, and working on lighting in Unity.
+
+[Three inspiring stories of marketing success](https://howtomarketagame.com/2023/09/11/three-inspiring-marketing-success-stories/)
+
+![](three-inspiring-marketing-success-stories.png)
+
+The post showcases 3 games and 3 marketing campaigns that have achieved tremendous success in terms of wishlist and sales. The best part is that these are all games of small teams with a modest track record.
+
+[How to make a good 2D camera](https://youtu.be/TdWFzpgnljs)
+
+{{< youtube "https://youtu.be/TdWFzpgnljs" >}}
+
+Are you making a 2D game? Then you will need to work on the camera. But there’s more to it than just following the main character. The video gives five tips on how to make your camera better.
+
+[Mastering realism: how to create props and environments for AAA games](https://80.lv/articles/mastering-realism-how-to-create-props-environments-for-aaa-games/)
+
+![Mastering Realism: How To Create Props & Environments for AAA Games](Mastering-Realism-How-To-Create-Props-Environments-for-AAA-Games.jpg)
+
+The Kevuru Games team returned to 80 Level to talk about the behind-the-scenes creation of environments and game props.
+
+[Trying to simulate the entire ocean](https://youtu.be/yPfagLeUa7k)
+
+{{< youtube "https://youtu.be/yPfagLeUa7k" >}}
+
+The video discusses ocean modeling and shading. Theory, mathematics and practical implementation are considered.
+
+[Product thinking: why does your team need it and is it worth developing?](https://www.deconstructoroffun.com/blog/2023/9/12/product-mindset-why-does-your-team-need-it-and-is-it-worth-cultivating)
+
+![Product Mindset: Why Does Your Team Need It, and Is It Worth Cultivating?](Product-Mindset-Why-Does-Your-Team-Need-It-and-Is-It-Worth-Cultivating-1.jpg)
+
+We can all agree that great ideas come from great teams. What follows this belief is the misconception that all you have to do is build an amazing team and then just step aside and let them do what they do best.
+
+[How Fortnite designers created their own tools](https://youtu.be/BZKGFZyWeKc)
+
+{{< youtube "https://youtu.be/BZKGFZyWeKc" >}}
+
+In a keynote from Tools Summit 2023, the developers explain the benefits of their designer-focused methodology, and how anyone who can create user interfaces in Unreal has the skills to create powerful editing and asset management tools and eliminate inefficiencies in their own workflows.

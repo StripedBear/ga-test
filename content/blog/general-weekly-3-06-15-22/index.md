@@ -12,151 +12,292 @@ original_url: "https://generalarcade.com/general-weekly-3-06-15-22/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="General Weekly #3 06.15.22" class="mw-100" src="weekly-2.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p>In the news: probabilistic programming language MarkovJunior, Blender 3.2 released, Epic Games updated the MetaHuman editor, adding mesh imports and additional face animations, Rusty Jam 2 and Houdini Game Jam 2022 game jams.</p>
-<p>Of interest: an excellent article about the architecture of the Xbox 360, the re-creation of Lilith from the Diablo IV trailer in Maya and ZBrush, the technical post-mortem “Remember …” by Ice-Pick Lodge, quaternions for dummies.</p>
-<h2 id="h-updates-releases-news">Updates/releases/news</h2>
-<p><p>Blender 3.2 released</p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/TnX4_BcFY54" title="YouTube video player" width="560"></iframe></p>
-<p>    EEVEE Shader Improvements</p>
-<p>    WebP support</p>
-<p>    Improved in multithreading</p>
-<p>    New Experimental OBJ Importer</p>
-<p>    UI improvements</p>
-<p>    Reduced memory consumption by nodes</p>
-<p>    New Curve Pen tool for drawing and editing curves, and a radically updated set of 3D drawing tools</p>
-<p>    Many changes and improvements to the Cycles renderer</p>
-<p>Epic Games updated the MetaHuman editor with mesh imports and additional face animations…</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/Aa2r9nbt6SA" title="YouTube video player" width="560"></iframe></p>
-<p><a href="https://www.unrealengine.com/en-US/blog/new-release-brings-mesh-to-metahuman-to-unreal-engine-and-much-more">…as well as presets for lights, looped animations for testing, and compatibility with Unreal Engine 5’s internal tools.</a></p>
-<p>Unity has created a new codestyle repository.</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1611" height="495" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="unity-codestyle-1024x495.png" srcset="https://generalarcade.com/content/uploads/2022/06/unity-codestyle-1024x495.png 1024w, https://generalarcade.com/content/uploads/2022/06/unity-codestyle-300x145.png 300w, https://generalarcade.com/content/uploads/2022/06/unity-codestyle-768x371.png 768w, https://generalarcade.com/content/uploads/2022/06/unity-codestyle.png 1201w" width="1024"/></figure></div>
-<p>You can look <a href="https://github.com/UnityTechnologies/SolKorCSharpReference/blob/main/CSharpReference.cs">at Github</a>.</p>
-<p>Unity has decided to shut down Unity Answers and will redirect to the Unity Forums.</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1612" height="538" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="unity-1024x538.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/unity-1024x538.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/unity-300x158.jpg 300w, https://generalarcade.com/content/uploads/2022/06/unity-768x403.jpg 768w, https://generalarcade.com/content/uploads/2022/06/unity.jpg 1200w" width="1024"/></figure></div>
-<p>At the same time, they <a href="https://forum.unity.com/threads/unity-answers-shutdown.1293360/">write that</a>:</p>
-<p>    The functionality of Forums falls short of Answers.</p>
-<p>    Migration of all existing answers will most likely not be.</p>
-<p>Rusty Jam 2</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1614" height="852" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="rustyjam-02-1024x852.png" srcset="https://generalarcade.com/content/uploads/2022/06/rustyjam-02-1024x852.png 1024w, https://generalarcade.com/content/uploads/2022/06/rustyjam-02-300x250.png 300w, https://generalarcade.com/content/uploads/2022/06/rustyjam-02-768x639.png 768w, https://generalarcade.com/content/uploads/2022/06/rustyjam-02-1280x1065.png 1280w, https://generalarcade.com/content/uploads/2022/06/rustyjam-02.png 1456w" width="1024"/></figure></div>
-<p>Applications are <a href="https://gamedev.rs/blog/rustyjam-02/">accepted</a> from 18 to 26 June. Voting for entries will begin immediately after the end of the jam and will be a week-long.</p>
-<p>Houdini Game Jam 2022</p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1616" height="460" loading="lazy" sizes="(max-width: 889px) 100vw, 889px" src="houdini-game-jam-2022.png" srcset="https://generalarcade.com/content/uploads/2022/06/houdini-game-jam-2022.png 889w, https://generalarcade.com/content/uploads/2022/06/houdini-game-jam-2022-300x155.png 300w, https://generalarcade.com/content/uploads/2022/06/houdini-game-jam-2022-768x397.png 768w" width="889"/></figure>
-<p>It will be held for one week from 17 to 24 June 2022. Theme <a href="https://www.sidefx.com/community-main-menu/contests-jams/houdini-game-jam-2022/">will be revealed</a> on the SideFX Twitch channel on June 17 at 11:00 AM PT. Creators will have one week to create their games and submit them to the Houdini Game Jam ITCH.IO page by 5:00 pm PT on June 24th.</p>
-<p>MeshSync now supports Blender nodes right in the Unity editor.</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1617" height="514" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="GeometryNodesMove-1024x514.gif" srcset="https://generalarcade.com/content/uploads/2022/06/GeometryNodesMove-1024x514.gif 1024w, https://generalarcade.com/content/uploads/2022/06/GeometryNodesMove-300x151.gif 300w, https://generalarcade.com/content/uploads/2022/06/GeometryNodesMove-768x386.gif 768w, https://generalarcade.com/content/uploads/2022/06/GeometryNodesMove-1536x771.gif 1536w, https://generalarcade.com/content/uploads/2022/06/GeometryNodesMove-2048x1028.gif 2048w, https://generalarcade.com/content/uploads/2022/06/GeometryNodesMove-1280x643.gif 1280w" width="1024"/></figure></div>
-<p><a href="https://docs.unity3d.com/Packages/com.unity.meshsync@0.13/manual/GeometryNodes.html">You can control</a> the rendering and transformation of the instance world by modifying the generated game object.</p>
-<p>Rust GameDev #34: May 2022</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1618" height="664" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="raymarch_ferris_3d-1024x664.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/raymarch_ferris_3d-1024x664.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/raymarch_ferris_3d-300x195.jpg 300w, https://generalarcade.com/content/uploads/2022/06/raymarch_ferris_3d-768x498.jpg 768w, https://generalarcade.com/content/uploads/2022/06/raymarch_ferris_3d-1536x996.jpg 1536w, https://generalarcade.com/content/uploads/2022/06/raymarch_ferris_3d-1280x830.jpg 1280w, https://generalarcade.com/content/uploads/2022/06/raymarch_ferris_3d.jpg 1579w" width="1024"/></figure></div>
-<p><a href="https://gamedev.rs/news/034/">May 2022 news</a> from the community of game developers on Rasta.</p>
-<p>ProRender 3.4 for Blender and Maya released</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1619" height="413" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="latest-updates-to-radeon-prorender-plug-ins-1024x413.png" srcset="https://generalarcade.com/content/uploads/2022/06/latest-updates-to-radeon-prorender-plug-ins-1024x413.png 1024w, https://generalarcade.com/content/uploads/2022/06/latest-updates-to-radeon-prorender-plug-ins-300x121.png 300w, https://generalarcade.com/content/uploads/2022/06/latest-updates-to-radeon-prorender-plug-ins-768x309.png 768w, https://generalarcade.com/content/uploads/2022/06/latest-updates-to-radeon-prorender-plug-ins-1536x619.png 1536w, https://generalarcade.com/content/uploads/2022/06/latest-updates-to-radeon-prorender-plug-ins-1280x516.png 1280w, https://generalarcade.com/content/uploads/2022/06/latest-updates-to-radeon-prorender-plug-ins.png 1961w" width="1024"/></figure></div>
-<p><a href="https://gpuopen.com/learn/latest-updates-to-radeon-prorender-plug-ins/">The updates</a> add new settings for managing fog and atmosphere, as well as the ability to override shadow settings on objects.</p>
-<p>Mesh rendering system for Unity.</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/P7mUuCSAX0A" title="YouTube video player" width="560"></iframe></p>
-<p>The system <a href="https://www.indiegogo.com/projects/the-unity-improver-nano-tech/coming_soon">supports</a> HDRP/URP and is similar to Nanite in UE5.</p>
-<p>Making Games for Everyone: The New Unity Learn Course on Accessibility.</p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1621" height="538" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="creating-games-for-everyone-introducing-unity-learns-new-accessibility-course-1024x538.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/creating-games-for-everyone-introducing-unity-learns-new-accessibility-course-1024x538.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/creating-games-for-everyone-introducing-unity-learns-new-accessibility-course-300x158.jpg 300w, https://generalarcade.com/content/uploads/2022/06/creating-games-for-everyone-introducing-unity-learns-new-accessibility-course-768x403.jpg 768w, https://generalarcade.com/content/uploads/2022/06/creating-games-for-everyone-introducing-unity-learns-new-accessibility-course.jpg 1200w" width="1024"/></figure>
-<p>Practical Game Accessibility <a href="https://blog.unity.com/games/creating-games-for-everyone-introducing-unity-learns-new-accessibility-course">is a new free online course</a> to help you prioritize accessibility when creating your game with an inclusive approach to design.</p>
-<h2 id="h-interesting-articles-videos">Interesting articles/videos</h2>
-<p><a href="https://alextardif.com/DX12Tutorial.html">A Gentle Introduction to D3D12.</a></p>
-<p>According to the author, “This guide is meant to jump-start your understanding of DirectX 12. Modern graphics APIs like DirectX 12 can be intimidating to learn at first, and there are few resources that make use of relevant evolutions from the last few years”.</p>
-<p><a href="https://www.copetti.org/writings/consoles/xbox-360/">Excellent article about the architecture of the Xbox 360.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1623" height="799" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="xbox-360-1024x799.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/xbox-360-1024x799.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/xbox-360-300x234.jpg 300w, https://generalarcade.com/content/uploads/2022/06/xbox-360-768x599.jpg 768w, https://generalarcade.com/content/uploads/2022/06/xbox-360-1280x999.jpg 1280w, https://generalarcade.com/content/uploads/2022/06/xbox-360.jpg 1428w" width="1024"/></figure></div>
-<p>The new installment in the console architecture series will provide additional insight into early 2000s technologies, with a focus on the emerging “multi-core” processor and the unorthodox symbiosis between the components that allowed engineers to solve seemingly unsolvable. problems.</p>
-<p><a href="https://youtu.be/IW5i9DjKT3U">Another report on testing in game development.</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/IW5i9DjKT3U" title="YouTube video player" width="560"></iframe></p>
-<p>Although, in general, nothing new, it will not be worse if you fix the main theses.</p>
-<p>    Some testing is better than none at all.</p>
-<p>    The profit from the tests will not be visible immediately.</p>
-<p>    Making things public purely for the sake of testing is bad.</p>
-<p>    You need to test at the place of logic: assertions, etc.</p>
-<p>    Stress tests are cool. Helps to catch edge cases due to mass character.</p>
-<p>    If you feel that maintaining tests takes too many resources, try changing the granularity.</p>
-<p><a href="https://newsletter.gamediscover.co/p/how-v-rising-reached-1-million-sales">How V Rising managed to collect over a million players in a week.</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1625" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="V-Rising-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/V-Rising-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/V-Rising-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/06/V-Rising-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/06/V-Rising.jpg 1200w" width="1024"/></figure>
-<p>GameDiscoverCo talked to the developers and tried to figure out how they did it and whether it is possible to repeat this success.</p>
-<p><a href="https://youtu.be/9S_I-qD7fus">Some details about the creation of The Matrix Awakens tech demo on Unreal Engine 5.</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/9S_I-qD7fus" title="YouTube video player" width="560"></iframe></p>
-<p>You can also read the <a href="https://www.unrealengine.com/en-US/spotlights/behind-the-scenes-on-the-matrix-awakens-an-unreal-engine-5-experience">article on the Epic blog</a>.</p>
-<p><a href="https://80.lv/articles/creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d/">Creating a realistic portrait of Jinx in ZBrush, Maya, and Substance 3D</a>.</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1627" height="1024" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d-1024x1024.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d-1024x1024.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d-300x300.jpg 300w, https://generalarcade.com/content/uploads/2022/06/creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d-150x150.jpg 150w, https://generalarcade.com/content/uploads/2022/06/creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d-768x768.jpg 768w, https://generalarcade.com/content/uploads/2022/06/creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d-1536x1536.jpg 1536w, https://generalarcade.com/content/uploads/2022/06/creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d-1280x1280.jpg 1280w, https://generalarcade.com/content/uploads/2022/06/creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d.jpg 1920w" width="1024"/></figure></div>
-<p>Character artist Joshua Gou/Wu shared a detailed description of the Jinx project, explained how her face and outfit were created and discussed the texturing and lighting processes.</p>
-<p><a href="https://youtu.be/MUDveGZIRaM">NVIDIA Renders Millions of Lights.</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/MUDveGZIRaM" title="YouTube video player" width="560"></iframe></p>
-<p>The video explains the ReSTIR method and shows comparison between the previous methods.</p>
-<p>Additionally, it is shown how it interacts with upscaling techniques.</p>
-<p><a href="https://habr.com/ru/post/670438/">Quaternions for dummies.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1628" height="640" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Quaternion-1024x640.png" srcset="https://generalarcade.com/content/uploads/2022/06/Quaternion-1024x640.png 1024w, https://generalarcade.com/content/uploads/2022/06/Quaternion-300x188.png 300w, https://generalarcade.com/content/uploads/2022/06/Quaternion-768x480.png 768w, https://generalarcade.com/content/uploads/2022/06/Quaternion-1536x960.png 1536w, https://generalarcade.com/content/uploads/2022/06/Quaternion-1280x800.png 1280w, https://generalarcade.com/content/uploads/2022/06/Quaternion.png 1600w" width="1024"/></figure></div>
-<p>In the article, using a specific example, the features of using various methods for rotating a 3D object in space are considered. In particular, the application of Euler angles and quaternions is compared.</p>
-<p><a href="https://www.unrealengine.com/en-US/spotlights/dneg-creates-the-matrix-resurrections-dojo-scene-with-unreal-engine">A small breakdown of how the dojo scene was created for The Matrix Resurrections using the Unreal Engine.</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/HygVE6I9LxM" title="YouTube video player" width="560"></iframe></p>
-<p>More in the text.</p>
-<p><a href="https://www.deconstructoroffun.com/blog/2022/6/4/battle-passes-analysis">Battle Pass: Everything you need to know and more.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1630" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="battle-passes-analysis-1024x576.jpeg" srcset="https://generalarcade.com/content/uploads/2022/06/battle-passes-analysis-1024x576.jpeg 1024w, https://generalarcade.com/content/uploads/2022/06/battle-passes-analysis-300x169.jpeg 300w, https://generalarcade.com/content/uploads/2022/06/battle-passes-analysis-768x432.jpeg 768w, https://generalarcade.com/content/uploads/2022/06/battle-passes-analysis.jpeg 1280w" width="1024"/></figure></div>
-<p>Battle Passes were first introduced in Valve’s Dota 2 and Team Fortress 2 and then popularized by Fortnite (which still has one of the most advanced and ever-improving designs ever). But they have long ceased to be exclusive to mid-core games and are now present in an ever-growing number of genres.</p>
-<p><a href="https://youtu.be/z5sjwqUten0">A good report about the open-source game Space Station 13.</a></p>
-<p><iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/z5sjwqUten0" title="YouTube video player" width="560"></iframe></p>
-<p>Discussed the pros/cons of developing an open-source game and talked about interacting with the community.</p>
-<p><a href="https://www.gamedeveloper.com/design/deep-dive-cook-serve-forever-and-difficulty-levels">Deep Dive: Evolving User Interface and Difficulty Levels in Cook Serve Forever.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1631" height="436" loading="lazy" sizes="(max-width: 774px) 100vw, 774px" src="deep-dive-cook-serve-forever-and-difficulty-levels.png" srcset="https://generalarcade.com/content/uploads/2022/06/deep-dive-cook-serve-forever-and-difficulty-levels.png 774w, https://generalarcade.com/content/uploads/2022/06/deep-dive-cook-serve-forever-and-difficulty-levels-300x169.png 300w, https://generalarcade.com/content/uploads/2022/06/deep-dive-cook-serve-forever-and-difficulty-levels-768x433.png 768w" width="774"/></figure></div>
-<p>Creative Director David Galindo talks about how the Cook Serve Delicious franchise is opening itself up to a whole new audience of players in Cook Serve Forever.</p>
-<p><a href="https://80.lv/articles/working-culture-and-the-recruiting-process-at-the-molasses-flood/">Work culture and hiring process at The Molasses Flood.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1632" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="working-culture-and-the-recruiting-process-at-the-molasses-flood-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/working-culture-and-the-recruiting-process-at-the-molasses-flood-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/working-culture-and-the-recruiting-process-at-the-molasses-flood-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/06/working-culture-and-the-recruiting-process-at-the-molasses-flood-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/06/working-culture-and-the-recruiting-process-at-the-molasses-flood-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2022/06/working-culture-and-the-recruiting-process-at-the-molasses-flood-2048x1152.jpg 2048w, https://generalarcade.com/content/uploads/2022/06/working-culture-and-the-recruiting-process-at-the-molasses-flood-1280x720.jpg 1280w" width="1024"/></figure></div>
-<p>Forrest Dowling from The Molasses Flood studio spoke about the organization of work in the company, explained the hiring process, and talked about the company’s approach to training and burnout management.</p>
-<p><a href="https://habr.com/ru/company/pixonic/blog/669858/">Advanced level design: movie techniques in games, core loops, and silhouettes.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1635" height="549" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="level-design-1024x549.png" srcset="https://generalarcade.com/content/uploads/2022/06/level-design-1024x549.png 1024w, https://generalarcade.com/content/uploads/2022/06/level-design-300x161.png 300w, https://generalarcade.com/content/uploads/2022/06/level-design-768x412.png 768w, https://generalarcade.com/content/uploads/2022/06/level-design-1536x824.png 1536w, https://generalarcade.com/content/uploads/2022/06/level-design-1280x686.png 1280w, https://generalarcade.com/content/uploads/2022/06/level-design.png 1600w" width="1024"/></figure></div>
-<p>In a new article, the guys from Pixonic deduced several rules of level design, originating from movie techniques, talked about calculating metrics, working with cor-loop, as well as such seemingly simple things as silhouette and color.</p>
-<p><a href="https://www.unrealengine.com/en-US/developer-interviews/ghostwire-taps-into-the-charm-of-tokyo-to-deliver-a-compelling-experience">Ghostwire uses the charm of Tokyo to bring an unforgettable user experience.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1636" height="540" loading="lazy" sizes="(max-width: 960px) 100vw, 960px" src="ghostwire-taps-into-the-charm-of-tokyo-to-deliver-a-compelling-experience.png" srcset="https://generalarcade.com/content/uploads/2022/06/ghostwire-taps-into-the-charm-of-tokyo-to-deliver-a-compelling-experience.png 960w, https://generalarcade.com/content/uploads/2022/06/ghostwire-taps-into-the-charm-of-tokyo-to-deliver-a-compelling-experience-300x169.png 300w, https://generalarcade.com/content/uploads/2022/06/ghostwire-taps-into-the-charm-of-tokyo-to-deliver-a-compelling-experience-768x432.png 768w" width="960"/></figure></div>
-<p>Epic Games spoke with the team about the studio’s transition from id Tech to Unreal Engine, how the developers created an action game shrouded in horror but adventure, and the studio’s hopes for future technology.</p>
-<p><a href="http://c0de517e.blogspot.com/2022/06/real-time-rendering-past-present-and.html">Real-time rendering – past, present, and likely future.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1637" height="494" loading="lazy" sizes="(max-width: 879px) 100vw, 879px" src="real-time-rendering-past-present-and.png" srcset="https://generalarcade.com/content/uploads/2022/06/real-time-rendering-past-present-and.png 879w, https://generalarcade.com/content/uploads/2022/06/real-time-rendering-past-present-and-300x169.png 300w, https://generalarcade.com/content/uploads/2022/06/real-time-rendering-past-present-and-768x432.png 768w" width="879"/></figure></div>
-<p>This presentation was a keynote at a private company event but may be helpful.</p>
-<p><a href="https://dtf.ru/gamedev/1215676-consistent-protiv-rendezvous-chem-otlichayutsya-podhody-dlya-heshirovaniya-dannyh-na-servere">Consistent versus Rendezvous – what is the difference between approaches for hashing data on the server.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1638" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="consistent-protiv-rendezvous-chem-otlichayutsya-podhody-dlya-heshirovaniya-dannyh-na-servere.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/consistent-protiv-rendezvous-chem-otlichayutsya-podhody-dlya-heshirovaniya-dannyh-na-servere.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/consistent-protiv-rendezvous-chem-otlichayutsya-podhody-dlya-heshirovaniya-dannyh-na-servere-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/06/consistent-protiv-rendezvous-chem-otlichayutsya-podhody-dlya-heshirovaniya-dannyh-na-servere-768x432.jpg 768w" width="1024"/></figure></div>
-<p>We redistribute the load on the servers and prevent the entire data storage system from collapsing.</p>
-<p><a href="https://youtu.be/fSbBsXbjxPo">Tutorial for beginners on working with lighting in Unreal Engine.</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/fSbBsXbjxPo" title="YouTube video player" width="560"></iframe></p>
-<p>William Faucher, a creator of educational content for artists and CGSpectrum mentor, has posted a new video demonstrating how light works in real life and how to implement this photorealistic effect in your projects.</p>
-<p><a href="https://blog.unity.com/games/updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render-pipeline">Updated to 2021 LTS: A Complete Guide to Lighting in the High Definition Render Pipeline.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1639" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render-pipeline-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render-pipeline-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render-pipeline-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/06/updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render-pipeline-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/06/updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render-pipeline-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2022/06/updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render-pipeline-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2022/06/updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render-pipeline.jpg 1920w" width="1024"/></figure></div>
-<p>The book was created and published late last year to showcase HDRP’s physical lighting capabilities for creating high-quality lighting effects in games. The Unity team received positive feedback from users and has since updated the guide having included the key features of Unity 2021 LTS.</p>
-<p><a href="https://dtf.ru/mobile/1210051-istoriya-glu-mobile-kakogo-razrabotchika-priobrela-electronic-arts-za-2-4-milliarda">The history of Glu Mobile: which developer was acquired by Electronic Arts for $2.4 billion.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1640" height="570" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="istoriya-glu-mobile-kakogo-razrabotchika-priobrela-electronic-arts-za-2-4-milliarda-1024x570.png" srcset="https://generalarcade.com/content/uploads/2022/06/istoriya-glu-mobile-kakogo-razrabotchika-priobrela-electronic-arts-za-2-4-milliarda-1024x570.png 1024w, https://generalarcade.com/content/uploads/2022/06/istoriya-glu-mobile-kakogo-razrabotchika-priobrela-electronic-arts-za-2-4-milliarda-300x167.png 300w, https://generalarcade.com/content/uploads/2022/06/istoriya-glu-mobile-kakogo-razrabotchika-priobrela-electronic-arts-za-2-4-milliarda-768x427.png 768w, https://generalarcade.com/content/uploads/2022/06/istoriya-glu-mobile-kakogo-razrabotchika-priobrela-electronic-arts-za-2-4-milliarda-1536x854.png 1536w, https://generalarcade.com/content/uploads/2022/06/istoriya-glu-mobile-kakogo-razrabotchika-priobrela-electronic-arts-za-2-4-milliarda-1280x712.png 1280w, https://generalarcade.com/content/uploads/2022/06/istoriya-glu-mobile-kakogo-razrabotchika-priobrela-electronic-arts-za-2-4-milliarda.png 1600w" width="1024"/></figure></div>
-<p>The first mobile online game, how publishers made money on Java games, the progenitor of Pokemon Go – all this and much more in a great material about a mobile company from San Francisco.</p>
-<p><a href="https://youtu.be/njRSYEe0Rfk">Why does a 3D artist need mathematics: recording a stream with Davyd Vidiger</a>.</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/njRSYEe0Rfk" title="YouTube video player" width="560"></iframe></p>
-<p>The lead technical artist from UNIGINE spun vectors and spaces to talk about real problems using mathematics in 3D graphics.</p>
-<p><a href="https://blog.unity.com/games/growth-and-monetization-report-five-insights-to-help-you-achieve-scale-for-your-mobile-game">Unity Reveals Several Business Ideas for Mobile Game Developers.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1641" height="629" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="growth-and-monetization-report-five-insights-to-help-you-achieve-scale-for-your-mobile-game-1024x629.jpg" srcset="https://generalarcade.com/content/uploads/2022/06/growth-and-monetization-report-five-insights-to-help-you-achieve-scale-for-your-mobile-game-1024x629.jpg 1024w, https://generalarcade.com/content/uploads/2022/06/growth-and-monetization-report-five-insights-to-help-you-achieve-scale-for-your-mobile-game-300x184.jpg 300w, https://generalarcade.com/content/uploads/2022/06/growth-and-monetization-report-five-insights-to-help-you-achieve-scale-for-your-mobile-game-768x472.jpg 768w, https://generalarcade.com/content/uploads/2022/06/growth-and-monetization-report-five-insights-to-help-you-achieve-scale-for-your-mobile-game.jpg 1200w" width="1024"/></figure></div>
-<p>In its first mobile analytics report, the Unity team delved into growth and monetization trends to offer guidance on how to approach topics such as sub-genre selection, soft launches, ad creatives, monetization mixes, ad implementation, and even benchmarking tests.</p>
-<p><a href="https://80.lv/articles/creating-a-short-film-entirely-in-unreal-engine/">A short film entirely created in Unreal Engine.</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/Kiey9JYy250" title="YouTube video player" width="560"></iframe></p>
-<p>Loic Scalbert talked about working on the Seeker project, shared how character animation was created, and talked about what makes Unreal Engine a great tool for filmmaking.</p>
-<p><a href="https://www.gamedeveloper.com/blogs/rewards-system-for-serious-games---how-a-revised-design-can-aid-in-their-development">Game reward system – how updated design can help in development.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1642" height="406" loading="lazy" sizes="(max-width: 817px) 100vw, 817px" src="rewards-system-for-serious-games-how-a-revised-design-can-aid-in-their-development.png" srcset="https://generalarcade.com/content/uploads/2022/06/rewards-system-for-serious-games-how-a-revised-design-can-aid-in-their-development.png 817w, https://generalarcade.com/content/uploads/2022/06/rewards-system-for-serious-games-how-a-revised-design-can-aid-in-their-development-300x149.png 300w, https://generalarcade.com/content/uploads/2022/06/rewards-system-for-serious-games-how-a-revised-design-can-aid-in-their-development-768x382.png 768w" width="817"/></figure></div>
-<p>How can the reward system help their development? The article explores the reward system for recreational games, makes changes to it and highlights areas for improvement in educational games.</p>
-<p><a href="https://youtu.be/DQW8m16m1L4">Magic Bridge Tutorial in Houdini and Unreal Engine.</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/DQW8m16m1L4" title="YouTube video player" width="560"></iframe></p>
-<p>Tutorial creator and Houdini artist Simon Verstraete has released a new video on how to create a magic bridge with a formation effect using Houdini and Unreal Engine. This is just the first part of a two-part tutorial on working with Houdini. In the near future, Simon plans to release a second part devoted to working with the Unreal Engine.</p>
-<p><a href="https://youtu.be/JeUuk-g_Qws">How the episode Jibaro from Netflix’s Love, Death+Robots was created.</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/JeUuk-g_Qws" title="YouTube video player" width="560"></iframe></p>
-<p>Director Alberto Mielgo shared “behind the scenes” of the project.</p>
-<p><a href="https://80.lv/articles/creating-voxel-style-games-with-rpg-in-a-box/">Creating voxel games with RPG in a Box.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1643" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="creating-voxel-style-games-with-rpg-in-a-box-1024x576.jpeg" srcset="https://generalarcade.com/content/uploads/2022/06/creating-voxel-style-games-with-rpg-in-a-box-1024x576.jpeg 1024w, https://generalarcade.com/content/uploads/2022/06/creating-voxel-style-games-with-rpg-in-a-box-300x169.jpeg 300w, https://generalarcade.com/content/uploads/2022/06/creating-voxel-style-games-with-rpg-in-a-box-768x432.jpeg 768w, https://generalarcade.com/content/uploads/2022/06/creating-voxel-style-games-with-rpg-in-a-box.jpeg 1280w" width="1024"/></figure></div>
-<p>Justin Arnold spoke about the features of the RPG in a Box tool, explained why the system uses voxels and shared his plan for the program.</p>
-<p><a href="https://github.com/EmbarkStudios/kajiya/blob/main/docs/gi-overview.md">A new global lighting system in the Kajiya engine.</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/_1g-XhlI_5A" title="YouTube video player" width="560"></iframe></p>
-<p>Tomasz Stochastic demonstrated the new Kajiya global illumination system and spoke in detail about it.</p>
-<p><a href="https://80.lv/articles/recreating-gothic-architecture-in-substance-3d-unreal-engine-5/">Recreating Gothic architecture in Substance 3D and Unreal Engine 5.</a></p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img alt="" class="wp-image-1644" height="659" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="recreating-gothic-architecture-in-substance-3d-unreal-engine-5-1024x659.jpeg" srcset="https://generalarcade.com/content/uploads/2022/06/recreating-gothic-architecture-in-substance-3d-unreal-engine-5-1024x659.jpeg 1024w, https://generalarcade.com/content/uploads/2022/06/recreating-gothic-architecture-in-substance-3d-unreal-engine-5-300x193.jpeg 300w, https://generalarcade.com/content/uploads/2022/06/recreating-gothic-architecture-in-substance-3d-unreal-engine-5-768x494.jpeg 768w, https://generalarcade.com/content/uploads/2022/06/recreating-gothic-architecture-in-substance-3d-unreal-engine-5-1536x988.jpeg 1536w, https://generalarcade.com/content/uploads/2022/06/recreating-gothic-architecture-in-substance-3d-unreal-engine-5-1280x824.jpeg 1280w, https://generalarcade.com/content/uploads/2022/06/recreating-gothic-architecture-in-substance-3d-unreal-engine-5.jpeg 1641w" width="1024"/></figure></div>
-<p>Mika Kuwilsky talked about working on the Gothic Architecture project, shared the lighting setup, and explained how to solve the problem of repeating sections.</p>
-<p><a href="https://youtu.be/__dSLc7-Cpo">How to turn a 2D fractal into 3D.</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/__dSLc7-Cpo" title="YouTube video player" width="560"></iframe></p>
-<p>The video shows several ways to do this.</p>
-<p><em>We thank <a href="https://suvitruf.ru">Andrei Apanasik</a> for writing the original post and allowing us to publish it on our blog in English.</em></p>
-</div>
+![General Weekly #3 06.15.22](weekly-2.jpg)
+
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+In the news: probabilistic programming language MarkovJunior, Blender 3.2 released, Epic Games updated the MetaHuman editor, adding mesh imports and additional face animations, Rusty Jam 2 and Houdini Game Jam 2022 game jams.
+
+Of interest: an excellent article about the architecture of the Xbox 360, the re-creation of Lilith from the Diablo IV trailer in Maya and ZBrush, the technical post-mortem “Remember …” by Ice-Pick Lodge, quaternions for dummies.
+
+## Updates/releases/news
+
+Blender 3.2 released
+
+{{< youtube "TnX4\_BcFY54" >}}
+
+    EEVEE Shader Improvements
+
+    WebP support
+
+    Improved in multithreading
+
+    New Experimental OBJ Importer
+
+    UI improvements
+
+    Reduced memory consumption by nodes
+
+    New Curve Pen tool for drawing and editing curves, and a radically updated set of 3D drawing tools
+
+    Many changes and improvements to the Cycles renderer
+
+Epic Games updated the MetaHuman editor with mesh imports and additional face animations…
+
+{{< youtube "Aa2r9nbt6SA" >}}
+
+[…as well as presets for lights, looped animations for testing, and compatibility with Unreal Engine 5’s internal tools.](https://www.unrealengine.com/en-US/blog/new-release-brings-mesh-to-metahuman-to-unreal-engine-and-much-more)
+
+Unity has created a new codestyle repository.
+
+![](unity-codestyle-1024x495.png)
+
+You can look [at Github](https://github.com/UnityTechnologies/SolKorCSharpReference/blob/main/CSharpReference.cs).
+
+Unity has decided to shut down Unity Answers and will redirect to the Unity Forums.
+
+![](unity-1024x538.jpg)
+
+At the same time, they [write that](https://forum.unity.com/threads/unity-answers-shutdown.1293360/):
+
+    The functionality of Forums falls short of Answers.
+
+    Migration of all existing answers will most likely not be.
+
+Rusty Jam 2
+
+![](rustyjam-02-1024x852.png)
+
+Applications are [accepted](https://gamedev.rs/blog/rustyjam-02/) from 18 to 26 June. Voting for entries will begin immediately after the end of the jam and will be a week-long.
+
+Houdini Game Jam 2022
+
+![](houdini-game-jam-2022.png)
+
+It will be held for one week from 17 to 24 June 2022. Theme [will be revealed](https://www.sidefx.com/community-main-menu/contests-jams/houdini-game-jam-2022/) on the SideFX Twitch channel on June 17 at 11:00 AM PT. Creators will have one week to create their games and submit them to the Houdini Game Jam ITCH.IO page by 5:00 pm PT on June 24th.
+
+MeshSync now supports Blender nodes right in the Unity editor.
+
+![](GeometryNodesMove-1024x514.gif)
+
+[You can control](https://docs.unity3d.com/Packages/com.unity.meshsync@0.13/manual/GeometryNodes.html) the rendering and transformation of the instance world by modifying the generated game object.
+
+Rust GameDev #34: May 2022
+
+![](raymarch\_ferris\_3d-1024x664.jpg)
+
+[May 2022 news](https://gamedev.rs/news/034/) from the community of game developers on Rasta.
+
+ProRender 3.4 for Blender and Maya released
+
+![](latest-updates-to-radeon-prorender-plug-ins-1024x413.png)
+
+[The updates](https://gpuopen.com/learn/latest-updates-to-radeon-prorender-plug-ins/) add new settings for managing fog and atmosphere, as well as the ability to override shadow settings on objects.
+
+Mesh rendering system for Unity.
+
+{{< youtube "P7mUuCSAX0A" >}}
+
+The system [supports](https://www.indiegogo.com/projects/the-unity-improver-nano-tech/coming_soon) HDRP/URP and is similar to Nanite in UE5.
+
+Making Games for Everyone: The New Unity Learn Course on Accessibility.
+
+![](creating-games-for-everyone-introducing-unity-learns-new-accessibility-course-1024x538.jpg)
+
+Practical Game Accessibility [is a new free online course](https://blog.unity.com/games/creating-games-for-everyone-introducing-unity-learns-new-accessibility-course) to help you prioritize accessibility when creating your game with an inclusive approach to design.
+
+## Interesting articles/videos
+
+[A Gentle Introduction to D3D12.](https://alextardif.com/DX12Tutorial.html)
+
+According to the author, “This guide is meant to jump-start your understanding of DirectX 12. Modern graphics APIs like DirectX 12 can be intimidating to learn at first, and there are few resources that make use of relevant evolutions from the last few years”.
+
+[Excellent article about the architecture of the Xbox 360.](https://www.copetti.org/writings/consoles/xbox-360/)
+
+![](xbox-360-1024x799.jpg)
+
+The new installment in the console architecture series will provide additional insight into early 2000s technologies, with a focus on the emerging “multi-core” processor and the unorthodox symbiosis between the components that allowed engineers to solve seemingly unsolvable. problems.
+
+[Another report on testing in game development.](https://youtu.be/IW5i9DjKT3U)
+
+{{< youtube "IW5i9DjKT3U" >}}
+
+Although, in general, nothing new, it will not be worse if you fix the main theses.
+
+    Some testing is better than none at all.
+
+    The profit from the tests will not be visible immediately.
+
+    Making things public purely for the sake of testing is bad.
+
+    You need to test at the place of logic: assertions, etc.
+
+    Stress tests are cool. Helps to catch edge cases due to mass character.
+
+    If you feel that maintaining tests takes too many resources, try changing the granularity.
+
+[How V Rising managed to collect over a million players in a week.](https://newsletter.gamediscover.co/p/how-v-rising-reached-1-million-sales)
+
+![](V-Rising-1024x576.jpg)
+
+GameDiscoverCo talked to the developers and tried to figure out how they did it and whether it is possible to repeat this success.
+
+[Some details about the creation of The Matrix Awakens tech demo on Unreal Engine 5.](https://youtu.be/9S_I-qD7fus)
+
+{{< youtube "9S\_I-qD7fus" >}}
+
+You can also read the [article on the Epic blog](https://www.unrealengine.com/en-US/spotlights/behind-the-scenes-on-the-matrix-awakens-an-unreal-engine-5-experience).
+
+[Creating a realistic portrait of Jinx in ZBrush, Maya, and Substance 3D](https://80.lv/articles/creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d/).
+
+![](creating-a-realistic-portrait-of-jinx-in-zbrush-maya-substance-3d-1024x1024.jpg)
+
+Character artist Joshua Gou/Wu shared a detailed description of the Jinx project, explained how her face and outfit were created and discussed the texturing and lighting processes.
+
+[NVIDIA Renders Millions of Lights.](https://youtu.be/MUDveGZIRaM)
+
+{{< youtube "MUDveGZIRaM" >}}
+
+The video explains the ReSTIR method and shows comparison between the previous methods.
+
+Additionally, it is shown how it interacts with upscaling techniques.
+
+[Quaternions for dummies.](https://habr.com/ru/post/670438/)
+
+![](Quaternion-1024x640.png)
+
+In the article, using a specific example, the features of using various methods for rotating a 3D object in space are considered. In particular, the application of Euler angles and quaternions is compared.
+
+[A small breakdown of how the dojo scene was created for The Matrix Resurrections using the Unreal Engine.](https://www.unrealengine.com/en-US/spotlights/dneg-creates-the-matrix-resurrections-dojo-scene-with-unreal-engine)
+
+{{< youtube "HygVE6I9LxM" >}}
+
+More in the text.
+
+[Battle Pass: Everything you need to know and more.](https://www.deconstructoroffun.com/blog/2022/6/4/battle-passes-analysis)
+
+![](battle-passes-analysis-1024x576.jpeg)
+
+Battle Passes were first introduced in Valve’s Dota 2 and Team Fortress 2 and then popularized by Fortnite (which still has one of the most advanced and ever-improving designs ever). But they have long ceased to be exclusive to mid-core games and are now present in an ever-growing number of genres.
+
+[A good report about the open-source game Space Station 13.](https://youtu.be/z5sjwqUten0)
+
+{{< youtube "z5sjwqUten0" >}}
+
+Discussed the pros/cons of developing an open-source game and talked about interacting with the community.
+
+[Deep Dive: Evolving User Interface and Difficulty Levels in Cook Serve Forever.](https://www.gamedeveloper.com/design/deep-dive-cook-serve-forever-and-difficulty-levels)
+
+![](deep-dive-cook-serve-forever-and-difficulty-levels.png)
+
+Creative Director David Galindo talks about how the Cook Serve Delicious franchise is opening itself up to a whole new audience of players in Cook Serve Forever.
+
+[Work culture and hiring process at The Molasses Flood.](https://80.lv/articles/working-culture-and-the-recruiting-process-at-the-molasses-flood/)
+
+![](working-culture-and-the-recruiting-process-at-the-molasses-flood-1024x576.jpg)
+
+Forrest Dowling from The Molasses Flood studio spoke about the organization of work in the company, explained the hiring process, and talked about the company’s approach to training and burnout management.
+
+[Advanced level design: movie techniques in games, core loops, and silhouettes.](https://habr.com/ru/company/pixonic/blog/669858/)
+
+![](level-design-1024x549.png)
+
+In a new article, the guys from Pixonic deduced several rules of level design, originating from movie techniques, talked about calculating metrics, working with cor-loop, as well as such seemingly simple things as silhouette and color.
+
+[Ghostwire uses the charm of Tokyo to bring an unforgettable user experience.](https://www.unrealengine.com/en-US/developer-interviews/ghostwire-taps-into-the-charm-of-tokyo-to-deliver-a-compelling-experience)
+
+![](ghostwire-taps-into-the-charm-of-tokyo-to-deliver-a-compelling-experience.png)
+
+Epic Games spoke with the team about the studio’s transition from id Tech to Unreal Engine, how the developers created an action game shrouded in horror but adventure, and the studio’s hopes for future technology.
+
+[Real-time rendering – past, present, and likely future.](http://c0de517e.blogspot.com/2022/06/real-time-rendering-past-present-and.html)
+
+![](real-time-rendering-past-present-and.png)
+
+This presentation was a keynote at a private company event but may be helpful.
+
+[Consistent versus Rendezvous – what is the difference between approaches for hashing data on the server.](https://dtf.ru/gamedev/1215676-consistent-protiv-rendezvous-chem-otlichayutsya-podhody-dlya-heshirovaniya-dannyh-na-servere)
+
+![](consistent-protiv-rendezvous-chem-otlichayutsya-podhody-dlya-heshirovaniya-dannyh-na-servere.jpg)
+
+We redistribute the load on the servers and prevent the entire data storage system from collapsing.
+
+[Tutorial for beginners on working with lighting in Unreal Engine.](https://youtu.be/fSbBsXbjxPo)
+
+{{< youtube "fSbBsXbjxPo" >}}
+
+William Faucher, a creator of educational content for artists and CGSpectrum mentor, has posted a new video demonstrating how light works in real life and how to implement this photorealistic effect in your projects.
+
+[Updated to 2021 LTS: A Complete Guide to Lighting in the High Definition Render Pipeline.](https://blog.unity.com/games/updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render-pipeline)
+
+![](updated-for-2021-lts-the-definitive-guide-to-lighting-in-the-high-definition-render-pipeline-1024x576.jpg)
+
+The book was created and published late last year to showcase HDRP’s physical lighting capabilities for creating high-quality lighting effects in games. The Unity team received positive feedback from users and has since updated the guide having included the key features of Unity 2021 LTS.
+
+[The history of Glu Mobile: which developer was acquired by Electronic Arts for $2.4 billion.](https://dtf.ru/mobile/1210051-istoriya-glu-mobile-kakogo-razrabotchika-priobrela-electronic-arts-za-2-4-milliarda)
+
+![](istoriya-glu-mobile-kakogo-razrabotchika-priobrela-electronic-arts-za-2-4-milliarda-1024x570.png)
+
+The first mobile online game, how publishers made money on Java games, the progenitor of Pokemon Go – all this and much more in a great material about a mobile company from San Francisco.
+
+[Why does a 3D artist need mathematics: recording a stream with Davyd Vidiger](https://youtu.be/njRSYEe0Rfk).
+
+{{< youtube "njRSYEe0Rfk" >}}
+
+The lead technical artist from UNIGINE spun vectors and spaces to talk about real problems using mathematics in 3D graphics.
+
+[Unity Reveals Several Business Ideas for Mobile Game Developers.](https://blog.unity.com/games/growth-and-monetization-report-five-insights-to-help-you-achieve-scale-for-your-mobile-game)
+
+![](growth-and-monetization-report-five-insights-to-help-you-achieve-scale-for-your-mobile-game-1024x629.jpg)
+
+In its first mobile analytics report, the Unity team delved into growth and monetization trends to offer guidance on how to approach topics such as sub-genre selection, soft launches, ad creatives, monetization mixes, ad implementation, and even benchmarking tests.
+
+[A short film entirely created in Unreal Engine.](https://80.lv/articles/creating-a-short-film-entirely-in-unreal-engine/)
+
+{{< youtube "Kiey9JYy250" >}}
+
+Loic Scalbert talked about working on the Seeker project, shared how character animation was created, and talked about what makes Unreal Engine a great tool for filmmaking.
+
+[Game reward system – how updated design can help in development.](https://www.gamedeveloper.com/blogs/rewards-system-for-serious-games---how-a-revised-design-can-aid-in-their-development)
+
+![](rewards-system-for-serious-games-how-a-revised-design-can-aid-in-their-development.png)
+
+How can the reward system help their development? The article explores the reward system for recreational games, makes changes to it and highlights areas for improvement in educational games.
+
+[Magic Bridge Tutorial in Houdini and Unreal Engine.](https://youtu.be/DQW8m16m1L4)
+
+{{< youtube "DQW8m16m1L4" >}}
+
+Tutorial creator and Houdini artist Simon Verstraete has released a new video on how to create a magic bridge with a formation effect using Houdini and Unreal Engine. This is just the first part of a two-part tutorial on working with Houdini. In the near future, Simon plans to release a second part devoted to working with the Unreal Engine.
+
+[How the episode Jibaro from Netflix’s Love, Death+Robots was created.](https://youtu.be/JeUuk-g_Qws)
+
+{{< youtube "JeUuk-g\_Qws" >}}
+
+Director Alberto Mielgo shared “behind the scenes” of the project.
+
+[Creating voxel games with RPG in a Box.](https://80.lv/articles/creating-voxel-style-games-with-rpg-in-a-box/)
+
+![](creating-voxel-style-games-with-rpg-in-a-box-1024x576.jpeg)
+
+Justin Arnold spoke about the features of the RPG in a Box tool, explained why the system uses voxels and shared his plan for the program.
+
+[A new global lighting system in the Kajiya engine.](https://github.com/EmbarkStudios/kajiya/blob/main/docs/gi-overview.md)
+
+{{< youtube "\_1g-XhlI\_5A" >}}
+
+Tomasz Stochastic demonstrated the new Kajiya global illumination system and spoke in detail about it.
+
+[Recreating Gothic architecture in Substance 3D and Unreal Engine 5.](https://80.lv/articles/recreating-gothic-architecture-in-substance-3d-unreal-engine-5/)
+
+![](recreating-gothic-architecture-in-substance-3d-unreal-engine-5-1024x659.jpeg)
+
+Mika Kuwilsky talked about working on the Gothic Architecture project, shared the lighting setup, and explained how to solve the problem of repeating sections.
+
+[How to turn a 2D fractal into 3D.](https://youtu.be/__dSLc7-Cpo)
+
+{{< youtube "\_\_dSLc7-Cpo" >}}
+
+The video shows several ways to do this.
+
+*We thank [Andrei Apanasik](https://suvitruf.ru) for writing the original post and allowing us to publish it on our blog in English.*

@@ -10,45 +10,76 @@ original_url: "https://generalarcade.com/devsday-32/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="DEVsday #32" class="mw-100" src="devsday32.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p><a href="https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK">AMD releases FidelityFX SDK 1.0</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2539" height="500" loading="lazy" sizes="(max-width: 500px) 100vw, 500px" src="fidelityfx-sdk-available-now.jpg" srcset="https://generalarcade.com/content/uploads/2023/07/fidelityfx-sdk-available-now.jpg 500w, https://generalarcade.com/content/uploads/2023/07/fidelityfx-sdk-available-now-300x300.jpg 300w, https://generalarcade.com/content/uploads/2023/07/fidelityfx-sdk-available-now-150x150.jpg 150w" width="500"/></figure>
-<p>In addition to past technologies, 1.0 added Blur, Depth of Field and Lens Effects.</p>
-<p><a href="https://flaxengine.com/blog/flax-1-6-released/">Flax Engine 1.6</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2541" height="559" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="flax-1-6-released.png" srcset="https://generalarcade.com/content/uploads/2023/07/flax-1-6-released.png 1024w, https://generalarcade.com/content/uploads/2023/07/flax-1-6-released-300x164.png 300w, https://generalarcade.com/content/uploads/2023/07/flax-1-6-released-768x419.png 768w" width="1024"/></figure>
-<p>.NET 7 and C# 11, moved from PhysX 4.1 to PhysX 5.1, iOS support, and a bunch of other new features.</p>
-<p><a href="https://youtu.be/7KKCWGN2fBs">Noclip set to rescue archive with a decade of video game history</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/7KKCWGN2fBs" title="We Found &amp; Saved 10 YEARS of Lost Video Game History" width="560"></iframe></p>
-<p>The team collected a large number of previously undigitized videocassettes and discs from ten years ago with trailers, interviews, gameplay, documentaries and a video game conference, most of which were being prepared for disposal. They took the initiative to digitize the entire collected archive.</p>
-<p><a href="https://android-developers.googleblog.com/2023/07/new-blockchain-based-content-opportunities-google-play.html">Google Play updated the rules for blockchain applications</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2542" height="306" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="new-blockchain-based-content-opportunities-google-play-1024x306.png" srcset="https://generalarcade.com/content/uploads/2023/07/new-blockchain-based-content-opportunities-google-play-1024x306.png 1024w, https://generalarcade.com/content/uploads/2023/07/new-blockchain-based-content-opportunities-google-play-300x90.png 300w, https://generalarcade.com/content/uploads/2023/07/new-blockchain-based-content-opportunities-google-play-768x229.png 768w, https://generalarcade.com/content/uploads/2023/07/new-blockchain-based-content-opportunities-google-play-1536x459.png 1536w, https://generalarcade.com/content/uploads/2023/07/new-blockchain-based-content-opportunities-google-play-1280x382.png 1280w, https://generalarcade.com/content/uploads/2023/07/new-blockchain-based-content-opportunities-google-play.png 1600w" width="1024"/></figure>
-<p>In accordance with Google Play’s gambling policy, apps that do not qualify to participate in gambling cannot accept money for a chance to win assets with an unknown real monetary value, including NFTs. For example, developers should not offer purchases if the value of NFTs received by users is not clear at the time of purchase.</p>
-<p><a href="https://bevyengine.org/news/bevy-0-11/">Bevy 0.11</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2544" height="498" loading="lazy" sizes="(max-width: 913px) 100vw, 913px" src="bevy-0-11.png" srcset="https://generalarcade.com/content/uploads/2023/07/bevy-0-11.png 913w, https://generalarcade.com/content/uploads/2023/07/bevy-0-11-300x164.png 300w, https://generalarcade.com/content/uploads/2023/07/bevy-0-11-768x419.png 768w" width="913"/></figure>
-<p>4 months after the last release, a new version of the Rust engine was released. Added TAA, as well as SSAO, and many more.</p>
-<p><a href="https://www.unrealengine.com/en-US/developer-interviews/why-a-team-of-nine-switched-to-unreal-engine-to-deliver-visually-stunning-action-game-strayed-lights">Why a team of 9 switched to Unreal Engine to create Strayed Lights</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2546" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="why-a-team-of-nine-switched-to-unreal-engine-to-deliver-visually-stunning-action-game-strayed-lights-1024x576.png" srcset="https://generalarcade.com/content/uploads/2023/07/why-a-team-of-nine-switched-to-unreal-engine-to-deliver-visually-stunning-action-game-strayed-lights-1024x576.png 1024w, https://generalarcade.com/content/uploads/2023/07/why-a-team-of-nine-switched-to-unreal-engine-to-deliver-visually-stunning-action-game-strayed-lights-300x169.png 300w, https://generalarcade.com/content/uploads/2023/07/why-a-team-of-nine-switched-to-unreal-engine-to-deliver-visually-stunning-action-game-strayed-lights-768x432.png 768w, https://generalarcade.com/content/uploads/2023/07/why-a-team-of-nine-switched-to-unreal-engine-to-deliver-visually-stunning-action-game-strayed-lights-1536x864.png 1536w, https://generalarcade.com/content/uploads/2023/07/why-a-team-of-nine-switched-to-unreal-engine-to-deliver-visually-stunning-action-game-strayed-lights-2048x1152.png 2048w, https://generalarcade.com/content/uploads/2023/07/why-a-team-of-nine-switched-to-unreal-engine-to-deliver-visually-stunning-action-game-strayed-lights-1280x720.png 1280w" width="1024"/></figure>
-<p>The Unreal Engine team spoke with Embers Game Director and Co-Founder Maxim Philipp about how a small group managed to create such a massive game, as well as advice they would give to other indie developers looking to create a work of art.</p>
-<p><a href="https://80.lv/articles/making-a-ghibli-inspired-mountain-village-in-unreal-engine-5/">Creating a Ghibli style mountain village in Unreal Engine 5</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2548" height="559" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="making-a-ghibli-inspired-mountain-village-in-unreal-engine-5-1024x559.jpeg" srcset="https://generalarcade.com/content/uploads/2023/07/making-a-ghibli-inspired-mountain-village-in-unreal-engine-5-1024x559.jpeg 1024w, https://generalarcade.com/content/uploads/2023/07/making-a-ghibli-inspired-mountain-village-in-unreal-engine-5-300x164.jpeg 300w, https://generalarcade.com/content/uploads/2023/07/making-a-ghibli-inspired-mountain-village-in-unreal-engine-5-768x420.jpeg 768w, https://generalarcade.com/content/uploads/2023/07/making-a-ghibli-inspired-mountain-village-in-unreal-engine-5-1536x839.jpeg 1536w, https://generalarcade.com/content/uploads/2023/07/making-a-ghibli-inspired-mountain-village-in-unreal-engine-5-1280x699.jpeg 1280w, https://generalarcade.com/content/uploads/2023/07/making-a-ghibli-inspired-mountain-village-in-unreal-engine-5.jpeg 1920w" width="1024"/></figure>
-<p>Lara D’Adda talked about working on the Stylized Mountain Village project, explained how the NPR buildings were modeled and textured, and discussed the rendering pipeline.</p>
-<p><a href="https://youtu.be/fkEG55gFqrA">The Secret of Into the Breach’s AI</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/fkEG55gFqrA" title="The Secret of Into the Breach's AI: Power in Simplicity | AI and Games #72" width="560"></iframe></p>
-<p>Power in Simplicity! The game is more about puzzles, not strategic thinking. There should be no such situations when it becomes not just difficult, but almost impossible to pass some level.</p>
-<p><a href="https://youtu.be/8ov00DFQ5gg">The making of IMMORTALITY</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/8ov00DFQ5gg" title="The Making of IMMORTALITY - Noclip Documentary" width="560"></iframe></p>
-<p>New documentary from Noclip about creating interactive cinema.</p>
-<p><a href="https://newsletter.gamediscover.co/p/in-depth-inside-chinas-hidden-game">Inside China’s “hidden” game console market</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2549" height="477" loading="lazy" sizes="(max-width: 704px) 100vw, 704px" src="in-depth-inside-chinas-hidden-game.jpg" srcset="https://generalarcade.com/content/uploads/2023/07/in-depth-inside-chinas-hidden-game.jpg 704w, https://generalarcade.com/content/uploads/2023/07/in-depth-inside-chinas-hidden-game-300x203.jpg 300w" width="704"/></figure>
-<p>Some analytics from gamediscover and Niko Partners.</p>
-<p><a href="https://youtu.be/ZQqxwp0CO-w">7 days of indie developer</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/ZQqxwp0CO-w" title="7 Days of INDIE GAME DEV - Walk In My Shoes" width="560"></iframe></p>
-<p>Work-life balance, a little hatred for unity, and more.</p>
-<p><a href="https://youtu.be/ZiHH_BvjoGk">Creating roads with Unity Spline</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/ZiHH_BvjoGk" title="Building Roads Procedurally Using Unity's Spline Package" width="560"></iframe></p>
-<p>Video tutorial on how to create a road network using the spline system.</p>
-</div>
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+[AMD releases FidelityFX SDK 1.0](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)
+
+![](fidelityfx-sdk-available-now.jpg)
+
+In addition to past technologies, 1.0 added Blur, Depth of Field and Lens Effects.
+
+[Flax Engine 1.6](https://flaxengine.com/blog/flax-1-6-released/)
+
+![](flax-1-6-released.png)
+
+.NET 7 and C# 11, moved from PhysX 4.1 to PhysX 5.1, iOS support, and a bunch of other new features.
+
+[Noclip set to rescue archive with a decade of video game history](https://youtu.be/7KKCWGN2fBs)
+
+{{< youtube "https://youtu.be/7KKCWGN2fBs" >}}
+
+The team collected a large number of previously undigitized videocassettes and discs from ten years ago with trailers, interviews, gameplay, documentaries and a video game conference, most of which were being prepared for disposal. They took the initiative to digitize the entire collected archive.
+
+[Google Play updated the rules for blockchain applications](https://android-developers.googleblog.com/2023/07/new-blockchain-based-content-opportunities-google-play.html)
+
+![](new-blockchain-based-content-opportunities-google-play-1024x306.png)
+
+In accordance with Google Play’s gambling policy, apps that do not qualify to participate in gambling cannot accept money for a chance to win assets with an unknown real monetary value, including NFTs. For example, developers should not offer purchases if the value of NFTs received by users is not clear at the time of purchase.
+
+[Bevy 0.11](https://bevyengine.org/news/bevy-0-11/)
+
+![](bevy-0-11.png)
+
+4 months after the last release, a new version of the Rust engine was released. Added TAA, as well as SSAO, and many more.
+
+[Why a team of 9 switched to Unreal Engine to create Strayed Lights](https://www.unrealengine.com/en-US/developer-interviews/why-a-team-of-nine-switched-to-unreal-engine-to-deliver-visually-stunning-action-game-strayed-lights)
+
+![](why-a-team-of-nine-switched-to-unreal-engine-to-deliver-visually-stunning-action-game-strayed-lights-1024x576.png)
+
+The Unreal Engine team spoke with Embers Game Director and Co-Founder Maxim Philipp about how a small group managed to create such a massive game, as well as advice they would give to other indie developers looking to create a work of art.
+
+[Creating a Ghibli style mountain village in Unreal Engine 5](https://80.lv/articles/making-a-ghibli-inspired-mountain-village-in-unreal-engine-5/)
+
+![](making-a-ghibli-inspired-mountain-village-in-unreal-engine-5-1024x559.jpeg)
+
+Lara D’Adda talked about working on the Stylized Mountain Village project, explained how the NPR buildings were modeled and textured, and discussed the rendering pipeline.
+
+[The Secret of Into the Breach’s AI](https://youtu.be/fkEG55gFqrA)
+
+{{< youtube "https://youtu.be/fkEG55gFqrA" >}}
+
+Power in Simplicity! The game is more about puzzles, not strategic thinking. There should be no such situations when it becomes not just difficult, but almost impossible to pass some level.
+
+[The making of IMMORTALITY](https://youtu.be/8ov00DFQ5gg)
+
+{{< youtube "https://youtu.be/8ov00DFQ5gg" >}}
+
+New documentary from Noclip about creating interactive cinema.
+
+[Inside China’s “hidden” game console market](https://newsletter.gamediscover.co/p/in-depth-inside-chinas-hidden-game)
+
+![](in-depth-inside-chinas-hidden-game.jpg)
+
+Some analytics from gamediscover and Niko Partners.
+
+[7 days of indie developer](https://youtu.be/ZQqxwp0CO-w)
+
+{{< youtube "https://youtu.be/ZQqxwp0CO-w" >}}
+
+Work-life balance, a little hatred for unity, and more.
+
+[Creating roads with Unity Spline](https://youtu.be/ZiHH_BvjoGk)
+
+{{< youtube "https://youtu.be/ZiHH_BvjoGk" >}}
+
+Video tutorial on how to create a road network using the spline system.

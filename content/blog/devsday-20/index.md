@@ -9,45 +9,76 @@ original_url: "https://generalarcade.com/devsday-20/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="DEVsday #20" class="mw-100" src="devsday20.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p><a href="https://docs.indreams.me/en-US/whats-happening/news/dreams-support-update">Dreams Active Support Ends September 1st</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2183" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="aktivnaya-podderzhka-dreams-zakonchitsya-1-sentyabrya-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/04/aktivnaya-podderzhka-dreams-zakonchitsya-1-sentyabrya-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/04/aktivnaya-podderzhka-dreams-zakonchitsya-1-sentyabrya-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/04/aktivnaya-podderzhka-dreams-zakonchitsya-1-sentyabrya-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/04/aktivnaya-podderzhka-dreams-zakonchitsya-1-sentyabrya.jpg 1280w" width="1024"/></figure>
-<p>Players will be able to continue downloading other people’s levels and create their own, but some of the features will not be released, multiplayer, for example. There will be no PS5/PSVR2 versions either.</p>
-<p><a href="https://www.nvidia.com/en-us/geforce/news/rtx-remix-runtime-open-source-download/">NVIDIA releases RTX Remix source code under MIT license</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2185" height="538" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="rtx-remix-1024x538.jpg" srcset="https://generalarcade.com/content/uploads/2023/04/rtx-remix-1024x538.jpg 1024w, https://generalarcade.com/content/uploads/2023/04/rtx-remix-300x158.jpg 300w, https://generalarcade.com/content/uploads/2023/04/rtx-remix-768x403.jpg 768w, https://generalarcade.com/content/uploads/2023/04/rtx-remix-1536x806.jpg 1536w, https://generalarcade.com/content/uploads/2023/04/rtx-remix-2048x1075.jpg 2048w, https://generalarcade.com/content/uploads/2023/04/rtx-remix-1280x672.jpg 1280w" width="1024"/></figure>
-<p>This tool allows you to remaster classic games on DirectX 8 and 9. RTX Remix captures the game scene and replaces assets during playback, introducing RTX technologies into the game: path tracing, DLSS 3 and Reflex. There is also an AI-tool that allows you to improve the textures and all that.</p>
-<p><a href="https://80.lv/articles/working-on-oasis-demo-reel-using-unreal-engine-substance-3d/">Working on Oasis demo created with Unreal Engine and Substance 3D</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2188" height="459" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="643420501eda6-1024x459.jpg" srcset="https://generalarcade.com/content/uploads/2023/04/643420501eda6-1024x459.jpg 1024w, https://generalarcade.com/content/uploads/2023/04/643420501eda6-300x135.jpg 300w, https://generalarcade.com/content/uploads/2023/04/643420501eda6-768x344.jpg 768w, https://generalarcade.com/content/uploads/2023/04/643420501eda6-1536x689.jpg 1536w, https://generalarcade.com/content/uploads/2023/04/643420501eda6-1280x574.jpg 1280w, https://generalarcade.com/content/uploads/2023/04/643420501eda6.jpg 1920w" width="1024"/></figure>
-<p>Hanson Wang talked about the Oasis project, showed approaches to help speed up and organize work, and explained how materials are created.</p>
-<p><a href="https://www.gamedeveloper.com/business/six-lessons-from-the-making-of-zoo-tycoon">6 Lessons Learned From Creating Zoo Tycoon</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2189" height="383" loading="lazy" sizes="(max-width: 817px) 100vw, 817px" src="six-lessons-from-the-making-of-zoo-tycoon.png" srcset="https://generalarcade.com/content/uploads/2023/04/six-lessons-from-the-making-of-zoo-tycoon.png 817w, https://generalarcade.com/content/uploads/2023/04/six-lessons-from-the-making-of-zoo-tycoon-300x141.png 300w, https://generalarcade.com/content/uploads/2023/04/six-lessons-from-the-making-of-zoo-tycoon-768x360.png 768w" width="817"/></figure>
-<p>Hank Howey reveals some key business lessons for developers.</p>
-<p><a href="https://howtomarketagame.com/2023/04/10/the-games-that-you-like-probably-arent-the-ones-that-sell-well/">The games you like are probably not the ones that sell well on Steam</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2191" height="563" loading="lazy" sizes="(max-width: 1000px) 100vw, 1000px" src="the-games-that-you-like-probably-arent-the-ones-that-sell-well.png" srcset="https://generalarcade.com/content/uploads/2023/04/the-games-that-you-like-probably-arent-the-ones-that-sell-well.png 1000w, https://generalarcade.com/content/uploads/2023/04/the-games-that-you-like-probably-arent-the-ones-that-sell-well-300x169.png 300w, https://generalarcade.com/content/uploads/2023/04/the-games-that-you-like-probably-arent-the-ones-that-sell-well-768x432.png 768w" width="1000"/></figure>
-<p>Most indie developers don’t do market research when making a game they’re passionate about and really enjoy. Unfortunately, the average indie game makes less than $5,000. So the “do what you like” advice doesn’t seem to work very well.</p>
-<p><a href="http://www.zyanidelab.com/world-space-path-resampling/">World Space Path Resampling</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2193" height="615" loading="lazy" sizes="(max-width: 1001px) 100vw, 1001px" src="world-space-path-resampling.png" srcset="https://generalarcade.com/content/uploads/2023/04/world-space-path-resampling.png 1001w, https://generalarcade.com/content/uploads/2023/04/world-space-path-resampling-300x184.png 300w, https://generalarcade.com/content/uploads/2023/04/world-space-path-resampling-768x472.png 768w" width="1001"/></figure>
-<p>Light tends to be strongly reflected. Real time path tracing can be very tricky, we are limited by the number of rays per pixel and of course we need high quality noise free samples. Also high FPS. In fact, we want everything and quickly. Can we improve the quality of our indirect reflections?</p>
-<p><a href="https://www.gamesindustry.biz/five-tips-to-building-developer-publisher-relations">Five tips for working with a publisher</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2194" height="673" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="five-tips-to-building-developer-publisher-relations-1024x673.jpg" srcset="https://generalarcade.com/content/uploads/2023/04/five-tips-to-building-developer-publisher-relations-1024x673.jpg 1024w, https://generalarcade.com/content/uploads/2023/04/five-tips-to-building-developer-publisher-relations-300x197.jpg 300w, https://generalarcade.com/content/uploads/2023/04/five-tips-to-building-developer-publisher-relations-768x505.jpg 768w, https://generalarcade.com/content/uploads/2023/04/five-tips-to-building-developer-publisher-relations-1536x1010.jpg 1536w, https://generalarcade.com/content/uploads/2023/04/five-tips-to-building-developer-publisher-relations-1280x842.jpg 1280w, https://generalarcade.com/content/uploads/2023/04/five-tips-to-building-developer-publisher-relations.jpg 1848w" width="1024"/></figure>
-<p>Playstack’s Harvey Elliott shares tips on what studios should look out for and how to make sure those relationships work.</p>
-<p><a href="https://80.lv/articles/the-creative-and-technical-aspects-of-developing-schim/">Creative and technical aspects of SCHiM development</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2196" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="the-creative-and-technical-aspects-of-developing-schim-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/04/the-creative-and-technical-aspects-of-developing-schim-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/04/the-creative-and-technical-aspects-of-developing-schim-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/04/the-creative-and-technical-aspects-of-developing-schim-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/04/the-creative-and-technical-aspects-of-developing-schim-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/04/the-creative-and-technical-aspects-of-developing-schim-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/04/the-creative-and-technical-aspects-of-developing-schim.jpg 1920w" width="1024"/></figure>
-<p>Ewood van der Werf talked about the advantages and disadvantages of indie game development and talked about creating SCHiM’s art style, level design and challenge balance.</p>
-<p><a href="https://gpuopen.com/learn/amd-lab-notes/amd-lab-notes-profilers-README">Introduction to AMD hardware profiling tools</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2197" height="299" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="amd-lab-notes-profilers-README-1024x299.png" srcset="https://generalarcade.com/content/uploads/2023/04/amd-lab-notes-profilers-README-1024x299.png 1024w, https://generalarcade.com/content/uploads/2023/04/amd-lab-notes-profilers-README-300x88.png 300w, https://generalarcade.com/content/uploads/2023/04/amd-lab-notes-profilers-README-768x224.png 768w, https://generalarcade.com/content/uploads/2023/04/amd-lab-notes-profilers-README-1536x448.png 1536w, https://generalarcade.com/content/uploads/2023/04/amd-lab-notes-profilers-README-2048x598.png 2048w, https://generalarcade.com/content/uploads/2023/04/amd-lab-notes-profilers-README-1280x373.png 1280w" width="1024"/></figure>
-<p>A series on different profiling tools, as well as a guide on why a developer might use one tool over another.</p>
-<p><a href="https://80.lv/articles/developing-a-next-gen-water-rendering-solution-for-games/">Developing a Water Rendering Solution</a></p>
-<figure class="wp-block-image"><img alt="" src="642c2135a1749.gif"/></figure>
-<p>Zhenyu Mao and Kui Wu from LIGHTSPEED STUDIO talked about the Photon Water System, discussing their motivations, production process and challenges they faced, and discussed the strengths of the system, including physics support for gameplay programmers and physically based underwater volumetric lighting.</p>
-<p><a href="https://godotengine.org/article/d3d12-adventures-in-shaderland/">Direct3D 12: Shaderland Adventures</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2199" height="521" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="d3d12-adventures-in-shaderland.jpg" srcset="https://generalarcade.com/content/uploads/2023/04/d3d12-adventures-in-shaderland.jpg 800w, https://generalarcade.com/content/uploads/2023/04/d3d12-adventures-in-shaderland-300x195.jpg 300w, https://generalarcade.com/content/uploads/2023/04/d3d12-adventures-in-shaderland-768x500.jpg 768w" width="800"/></figure>
-<p>In the article, the author decided to tell how he encountered some problems related to various aspects of the shaders.</p>
-<p><a href="https://terathon.com/gdc23_lengyel.pdf">Projective geometric algebra</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2201" height="742" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="gdc23_lengyel-1024x742.png" srcset="https://generalarcade.com/content/uploads/2023/04/gdc23_lengyel-1024x742.png 1024w, https://generalarcade.com/content/uploads/2023/04/gdc23_lengyel-300x217.png 300w, https://generalarcade.com/content/uploads/2023/04/gdc23_lengyel-768x557.png 768w, https://generalarcade.com/content/uploads/2023/04/gdc23_lengyel.png 1254w" width="1024"/></figure>
-<p>Slides from the GDC report on geometric algebra. The presentation covers the basic building blocks of algebra and how it relates to the concepts of other algebras.</p>
-</div>
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+[Dreams Active Support Ends September 1st](https://docs.indreams.me/en-US/whats-happening/news/dreams-support-update)
+
+![](aktivnaya-podderzhka-dreams-zakonchitsya-1-sentyabrya-1024x576.jpg)
+
+Players will be able to continue downloading other people’s levels and create their own, but some of the features will not be released, multiplayer, for example. There will be no PS5/PSVR2 versions either.
+
+[NVIDIA releases RTX Remix source code under MIT license](https://www.nvidia.com/en-us/geforce/news/rtx-remix-runtime-open-source-download/)
+
+![](rtx-remix-1024x538.jpg)
+
+This tool allows you to remaster classic games on DirectX 8 and 9. RTX Remix captures the game scene and replaces assets during playback, introducing RTX technologies into the game: path tracing, DLSS 3 and Reflex. There is also an AI-tool that allows you to improve the textures and all that.
+
+[Working on Oasis demo created with Unreal Engine and Substance 3D](https://80.lv/articles/working-on-oasis-demo-reel-using-unreal-engine-substance-3d/)
+
+![](643420501eda6-1024x459.jpg)
+
+Hanson Wang talked about the Oasis project, showed approaches to help speed up and organize work, and explained how materials are created.
+
+[6 Lessons Learned From Creating Zoo Tycoon](https://www.gamedeveloper.com/business/six-lessons-from-the-making-of-zoo-tycoon)
+
+![](six-lessons-from-the-making-of-zoo-tycoon.png)
+
+Hank Howey reveals some key business lessons for developers.
+
+[The games you like are probably not the ones that sell well on Steam](https://howtomarketagame.com/2023/04/10/the-games-that-you-like-probably-arent-the-ones-that-sell-well/)
+
+![](the-games-that-you-like-probably-arent-the-ones-that-sell-well.png)
+
+Most indie developers don’t do market research when making a game they’re passionate about and really enjoy. Unfortunately, the average indie game makes less than $5,000. So the “do what you like” advice doesn’t seem to work very well.
+
+[World Space Path Resampling](http://www.zyanidelab.com/world-space-path-resampling/)
+
+![](world-space-path-resampling.png)
+
+Light tends to be strongly reflected. Real time path tracing can be very tricky, we are limited by the number of rays per pixel and of course we need high quality noise free samples. Also high FPS. In fact, we want everything and quickly. Can we improve the quality of our indirect reflections?
+
+[Five tips for working with a publisher](https://www.gamesindustry.biz/five-tips-to-building-developer-publisher-relations)
+
+![](five-tips-to-building-developer-publisher-relations-1024x673.jpg)
+
+Playstack’s Harvey Elliott shares tips on what studios should look out for and how to make sure those relationships work.
+
+[Creative and technical aspects of SCHiM development](https://80.lv/articles/the-creative-and-technical-aspects-of-developing-schim/)
+
+![](the-creative-and-technical-aspects-of-developing-schim-1024x576.jpg)
+
+Ewood van der Werf talked about the advantages and disadvantages of indie game development and talked about creating SCHiM’s art style, level design and challenge balance.
+
+[Introduction to AMD hardware profiling tools](https://gpuopen.com/learn/amd-lab-notes/amd-lab-notes-profilers-README)
+
+![](amd-lab-notes-profilers-README-1024x299.png)
+
+A series on different profiling tools, as well as a guide on why a developer might use one tool over another.
+
+[Developing a Water Rendering Solution](https://80.lv/articles/developing-a-next-gen-water-rendering-solution-for-games/)
+
+![](642c2135a1749.gif)
+
+Zhenyu Mao and Kui Wu from LIGHTSPEED STUDIO talked about the Photon Water System, discussing their motivations, production process and challenges they faced, and discussed the strengths of the system, including physics support for gameplay programmers and physically based underwater volumetric lighting.
+
+[Direct3D 12: Shaderland Adventures](https://godotengine.org/article/d3d12-adventures-in-shaderland/)
+
+![](d3d12-adventures-in-shaderland.jpg)
+
+In the article, the author decided to tell how he encountered some problems related to various aspects of the shaders.
+
+[Projective geometric algebra](https://terathon.com/gdc23_lengyel.pdf)
+
+![](gdc23\_lengyel-1024x742.png)
+
+Slides from the GDC report on geometric algebra. The presentation covers the basic building blocks of algebra and how it relates to the concepts of other algebras.

@@ -10,65 +10,118 @@ original_url: "https://generalarcade.com/general-weekly-11-11-08-22/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="General Weekly #11 11.08.22" class="mw-100" src="weekly11.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<h2 id="h-updates-releases-news">Updates/releases/news</h2>
-<p><a href="https://dtf.ru/life/1430918-pogib-andrey-krank-kuzmin">Andrey “KranK” Kuzmin died</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1922" height="845" loading="lazy" sizes="(max-width: 882px) 100vw, 882px" src="pogib-andrey-krank-kuzmin.png" srcset="https://generalarcade.com/content/uploads/2022/11/pogib-andrey-krank-kuzmin.png 882w, https://generalarcade.com/content/uploads/2022/11/pogib-andrey-krank-kuzmin-300x287.png 300w, https://generalarcade.com/content/uploads/2022/11/pogib-andrey-krank-kuzmin-768x736.png 768w" width="882"/></figure>
-<p>Founder of K-D LAB and KranX Productions, game designer of the Vangers and the first part of the Perimeter. Thanks to Andrey, many have found their way into game development (including Nikolai Dybovsky).</p>
-<p><a href="https://github.com/godot-rust/gdextension">GDExtension for Rust</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1924" height="453" loading="lazy" sizes="(max-width: 604px) 100vw, 604px" src="gdextension.png" srcset="https://generalarcade.com/content/uploads/2022/11/gdextension.png 604w, https://generalarcade.com/content/uploads/2022/11/gdextension-300x225.png 300w" width="604"/></figure>
-<p>Allows you to use Rust while working with Godot 4. The extension is still at an early stage of development, but you can already play around.</p>
-<p><a href="https://godotengine.org/article/godots-graduation-godot-moves-to-a-new-foundation">Godot leaves the Software Freedom Conservancy and forms an independent organization Godot Foundation</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1925" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="godots-graduation-godot-moves-to-a-new-foundation-1024x576.png" srcset="https://generalarcade.com/content/uploads/2022/11/godots-graduation-godot-moves-to-a-new-foundation-1024x576.png 1024w, https://generalarcade.com/content/uploads/2022/11/godots-graduation-godot-moves-to-a-new-foundation-300x169.png 300w, https://generalarcade.com/content/uploads/2022/11/godots-graduation-godot-moves-to-a-new-foundation-768x432.png 768w, https://generalarcade.com/content/uploads/2022/11/godots-graduation-godot-moves-to-a-new-foundation-1536x864.png 1536w, https://generalarcade.com/content/uploads/2022/11/godots-graduation-godot-moves-to-a-new-foundation-1280x720.png 1280w, https://generalarcade.com/content/uploads/2022/11/godots-graduation-godot-moves-to-a-new-foundation.png 1920w" width="1024"/></figure>
-<p>In the Netherlands (in the same place as Blender). This will help in many ways in identifying the engine as a product, also it will come handy in many organizational issues (selling merchandise, selling user content, etc.).</p>
-<p><a href="https://unity.com/demos/enemies">Enemies tech demo released on Unity and Digital human package updated</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1927" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="unity-enemies-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/unity-enemies-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/unity-enemies-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/11/unity-enemies-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/11/unity-enemies.jpg 1280w" width="1024"/></figure>
-<p>The best moments from this very cinematic demo have now migrated to the package. Key areas of improvement: skin and eyes. The whole thing is already available on <a href="https://github.com/Unity-Technologies/com.unity.demoteam.digital-human">GitHub</a>.</p>
-<p><a href="https://github.blog/2022-11-01-game-off-2022-theme-announcement/">On Github, there is now an annual game jam lasting a month (from November 1 to December 1)</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1929" height="538" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="game-off-2022-theme-announcement-1024x538.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/game-off-2022-theme-announcement-1024x538.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/game-off-2022-theme-announcement-300x158.jpg 300w, https://generalarcade.com/content/uploads/2022/11/game-off-2022-theme-announcement-768x403.jpg 768w, https://generalarcade.com/content/uploads/2022/11/game-off-2022-theme-announcement.jpg 1200w" width="1024"/></figure>
-<p>This time the theme is cliché.</p>
-<p><a href="https://defold.com//2022/10/18/Defold-1-3-7/">Defold 1.3.7</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1930" height="538" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="defold-1024x538.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/defold-1024x538.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/defold-300x158.jpg 300w, https://generalarcade.com/content/uploads/2022/11/defold-768x403.jpg 768w, https://generalarcade.com/content/uploads/2022/11/defold.jpg 1200w" width="1024"/></figure>
-<p>Added frustum culling for labels, added Slice9 support for sprites and more.</p>
-<h2 id="h-interesting-articles-videos">Interesting articles/videos</h2>
-<p><a href="https://youtu.be/rM5RKkVnxf0">Great documentary about The Callisto Protocol</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/rM5RKkVnxf0" title="Mastering Horror | The Callisto Protocol Docuseries: Episode 2" width="560"></iframe></p>
-<p>Invited for extras authors of The Walking Dead and The Friday 13th.</p>
-<p><a href="https://www.reddit.com/r/gamedev/comments/yj11kz/i_successfully_pitched_a_game_to_raw_fury_heres/">The developer of My Work is Not Yet Done successfully pitched the game to the publisher Raw Fury and decided to share the details on Reddit</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1933" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="i_successfully_pitched_a_game_to_raw_fury_heres-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/i_successfully_pitched_a_game_to_raw_fury_heres-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/i_successfully_pitched_a_game_to_raw_fury_heres-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/11/i_successfully_pitched_a_game_to_raw_fury_heres-768x432.jpg 768w, https://generalarcade.com/content/uploads/2022/11/i_successfully_pitched_a_game_to_raw_fury_heres-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2022/11/i_successfully_pitched_a_game_to_raw_fury_heres-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2022/11/i_successfully_pitched_a_game_to_raw_fury_heres.jpg 1920w" width="1024"/></figure>
-<p><a href="https://store.steampowered.com/app/1207690/My_Work_Is_Not_Yet_Done/">Steam page</a>. Pitch deck in <a href="https://docs.google.com/document/d/189KJ3IcxRvf6gE9xs8u1_e6RJ3zkWr3XAVYC-WoCbpM/edit">Google Docs</a>.</p>
-<p><a href="https://80.lv/articles/designing-a-scene-with-horror-vibes-in-unreal-engine-5/">Creating a scene with horror elements in Unreal Engine 5</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1936" height="539" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="designing-a-scene-with-horror-vibes-in-unreal-engine-5-1024x539.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/designing-a-scene-with-horror-vibes-in-unreal-engine-5-1024x539.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/designing-a-scene-with-horror-vibes-in-unreal-engine-5-300x158.jpg 300w, https://generalarcade.com/content/uploads/2022/11/designing-a-scene-with-horror-vibes-in-unreal-engine-5-768x404.jpg 768w, https://generalarcade.com/content/uploads/2022/11/designing-a-scene-with-horror-vibes-in-unreal-engine-5-1536x809.jpg 1536w, https://generalarcade.com/content/uploads/2022/11/designing-a-scene-with-horror-vibes-in-unreal-engine-5-1280x674.jpg 1280w, https://generalarcade.com/content/uploads/2022/11/designing-a-scene-with-horror-vibes-in-unreal-engine-5.jpg 1920w" width="1024"/></figure>
-<p>Artist Justin Hien talked about the production process for the Forest Home environment, explained how the scene assets were modeled and textured, and discussed lighting setup in UE5.</p>
-<p><a href="https://www.gamedeveloper.com/design/rewriting-the-horrors-of-mental-health-representation-in-games">Demonstration of mental health in games</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1937" height="456" loading="lazy" sizes="(max-width: 817px) 100vw, 817px" src="rewriting-the-horrors-of-mental-health-representation-in-games.png" srcset="https://generalarcade.com/content/uploads/2022/11/rewriting-the-horrors-of-mental-health-representation-in-games.png 817w, https://generalarcade.com/content/uploads/2022/11/rewriting-the-horrors-of-mental-health-representation-in-games-300x167.png 300w, https://generalarcade.com/content/uploads/2022/11/rewriting-the-horrors-of-mental-health-representation-in-games-768x429.png 768w" width="817"/></figure>
-<p>Take a look at how developers are trying to use mental disorders as a source of horror in video games.</p>
-<p><a href="https://felipepepe.medium.com/roblox-is-a-mud-the-history-of-virtual-worlds-muds-mmorpgs-12e41c4cb9b">ROBLOX is MUD: the history of MUDs, virtual worlds and MMORPGs</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1938" height="631" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="roblox-is-a-mud-the-history-of-virtual-worlds-muds-mmorpgs-1024x631.jpeg" srcset="https://generalarcade.com/content/uploads/2022/11/roblox-is-a-mud-the-history-of-virtual-worlds-muds-mmorpgs-1024x631.jpeg 1024w, https://generalarcade.com/content/uploads/2022/11/roblox-is-a-mud-the-history-of-virtual-worlds-muds-mmorpgs-300x185.jpeg 300w, https://generalarcade.com/content/uploads/2022/11/roblox-is-a-mud-the-history-of-virtual-worlds-muds-mmorpgs-768x473.jpeg 768w, https://generalarcade.com/content/uploads/2022/11/roblox-is-a-mud-the-history-of-virtual-worlds-muds-mmorpgs-1536x946.jpeg 1536w, https://generalarcade.com/content/uploads/2022/11/roblox-is-a-mud-the-history-of-virtual-worlds-muds-mmorpgs-1280x789.jpeg 1280w, https://generalarcade.com/content/uploads/2022/11/roblox-is-a-mud-the-history-of-virtual-worlds-muds-mmorpgs.jpeg 1706w" width="1024"/></figure>
-<p>A lot has already been written about the history of virtual worlds, but most of the texts are usually devoted to MMORPGs. It would take a very large book to tell this story in detail, so this article has been written as a general timeline of what happened, the key names, and where you can get more information about it.</p>
-<p><a href="https://youtu.be/H7pbEKZmYj0">Animated world of Ratchet and Clank: Rift Apart</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/H7pbEKZmYj0" title="The Animated World of 'Ratchet and Clank: Rift Apart'" width="560"></iframe></p>
-<p>In a session with Animation Summit 2022, Lindsey Thompson of Insomniac Games discusses the process and inspiration for animating cinematics and gameplay for Ratchet and Clank: Rift Apart.</p>
-<p><a href="https://newsletter.gamediscover.co/p/how-the-long-dark-scaled-to-10-million">How The Long Dark scaled to 10 million players – and what’s next</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1940" height="450" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="how-the-long-dark-scaled-to-10-million.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/how-the-long-dark-scaled-to-10-million.jpg 800w, https://generalarcade.com/content/uploads/2022/11/how-the-long-dark-scaled-to-10-million-300x169.jpg 300w, https://generalarcade.com/content/uploads/2022/11/how-the-long-dark-scaled-to-10-million-768x432.jpg 768w" width="800"/></figure>
-<p>Hinterland founder and creative director Rafael van Lierop announced 10 million LTD and 1 million MAU. GameDiscoverCo decided to figure out what the success is.</p>
-<p><a href="https://80.lv/articles/creating-a-real-time-female-character-in-zbrush-ue5-substance-3d/">Creating a female character in ZBrush, UE5 and Substance 3D Painter</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1942" height="566" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="--------------2022-11-09-133741-1024x566.png" srcset="https://generalarcade.com/content/uploads/2022/11/Снимок-экрана-2022-11-09-133741-1024x566.png 1024w, https://generalarcade.com/content/uploads/2022/11/Снимок-экрана-2022-11-09-133741-300x166.png 300w, https://generalarcade.com/content/uploads/2022/11/Снимок-экрана-2022-11-09-133741-768x425.png 768w, https://generalarcade.com/content/uploads/2022/11/Снимок-экрана-2022-11-09-133741-1536x850.png 1536w, https://generalarcade.com/content/uploads/2022/11/Снимок-экрана-2022-11-09-133741-1280x708.png 1280w, https://generalarcade.com/content/uploads/2022/11/Снимок-экрана-2022-11-09-133741.png 1638w" width="1024"/></figure>
-<p>Zoe Brening spoke about working on the Kuna Nuka project, explaining in detail the sculpting and texturing processes, and also talked about what she learned at the Think Tank training center.</p>
-<p><a href="https://defold.com//2022/11/02/Performance-optimizations-in-Lands-of-Blight/">Performance optimizations in Lands of Blight</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1944" height="590" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Performance-optimizations-in-Lands-of-Blight-1024x590.jpeg" srcset="https://generalarcade.com/content/uploads/2022/11/Performance-optimizations-in-Lands-of-Blight-1024x590.jpeg 1024w, https://generalarcade.com/content/uploads/2022/11/Performance-optimizations-in-Lands-of-Blight-300x173.jpeg 300w, https://generalarcade.com/content/uploads/2022/11/Performance-optimizations-in-Lands-of-Blight-768x442.jpeg 768w, https://generalarcade.com/content/uploads/2022/11/Performance-optimizations-in-Lands-of-Blight.jpeg 1280w" width="1024"/></figure>
-<p>In the post, d954mas shared his experience of optimizing Defold to run on a mobile browser with stable FPS and over 1000 enemies.</p>
-<p><a href="https://youtu.be/GtRo-eF8-TE">Rust for creating helper tools</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/GtRo-eF8-TE" title="The Rust Programming Language for Game Tooling" width="560"></iframe></p>
-<p>In a keynote from GDC 2021, Treyarch’s Dan Olson explores the opportunities and challenges that Rust can bring to the game tool programmer and explores how Rust can be a powerful addition to the arsenal.</p>
-<p><a href="https://www.gamedeveloper.com/design/deep-dive-roadwarden">How Diverse Narrative is Designed in Roadwarden</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1945" height="455" loading="lazy" sizes="(max-width: 819px) 100vw, 819px" src="deep-dive-roadwarden.png" srcset="https://generalarcade.com/content/uploads/2022/11/deep-dive-roadwarden.png 819w, https://generalarcade.com/content/uploads/2022/11/deep-dive-roadwarden-300x167.png 300w, https://generalarcade.com/content/uploads/2022/11/deep-dive-roadwarden-768x427.png 768w" width="819"/></figure>
-<p>The class, dialogue, and reputation system of this role-playing game was necessary to create meaningful events.</p>
-<p><a href="https://gameworldobserver.com/2022/11/02/assassins-creed-3-animation-development-ubisoft-jonathan-cooper">How the Assassin’s Creed III Animation Team Raised the Bar 10 Years Ago Despite Hardware Limitations</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-1947" height="538" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="ac-3-animation-1024x538.jpg" srcset="https://generalarcade.com/content/uploads/2022/11/ac-3-animation-1024x538.jpg 1024w, https://generalarcade.com/content/uploads/2022/11/ac-3-animation-300x158.jpg 300w, https://generalarcade.com/content/uploads/2022/11/ac-3-animation-768x403.jpg 768w, https://generalarcade.com/content/uploads/2022/11/ac-3-animation.jpg 1200w" width="1024"/></figure>
-<p>Jonathan Cooper recalled how the Ubisoft Montreal team created animation for the game. The developers have done an excellent job, from the rebuilt combat system to the ragdoll physics, making the project look impressive even after 10 years.</p>
-</div>
+![General Weekly #11 11.08.22](weekly11.jpg)
+
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+## Updates/releases/news
+
+[Andrey “KranK” Kuzmin died](https://dtf.ru/life/1430918-pogib-andrey-krank-kuzmin)
+
+![](pogib-andrey-krank-kuzmin.png)
+
+Founder of K-D LAB and KranX Productions, game designer of the Vangers and the first part of the Perimeter. Thanks to Andrey, many have found their way into game development (including Nikolai Dybovsky).
+
+[GDExtension for Rust](https://github.com/godot-rust/gdextension)
+
+![](gdextension.png)
+
+Allows you to use Rust while working with Godot 4. The extension is still at an early stage of development, but you can already play around.
+
+[Godot leaves the Software Freedom Conservancy and forms an independent organization Godot Foundation](https://godotengine.org/article/godots-graduation-godot-moves-to-a-new-foundation)
+
+![](godots-graduation-godot-moves-to-a-new-foundation-1024x576.png)
+
+In the Netherlands (in the same place as Blender). This will help in many ways in identifying the engine as a product, also it will come handy in many organizational issues (selling merchandise, selling user content, etc.).
+
+[Enemies tech demo released on Unity and Digital human package updated](https://unity.com/demos/enemies)
+
+![](unity-enemies-1024x576.jpg)
+
+The best moments from this very cinematic demo have now migrated to the package. Key areas of improvement: skin and eyes. The whole thing is already available on [GitHub](https://github.com/Unity-Technologies/com.unity.demoteam.digital-human).
+
+[On Github, there is now an annual game jam lasting a month (from November 1 to December 1)](https://github.blog/2022-11-01-game-off-2022-theme-announcement/)
+
+![](game-off-2022-theme-announcement-1024x538.jpg)
+
+This time the theme is cliché.
+
+[Defold 1.3.7](https://defold.com//2022/10/18/Defold-1-3-7/)
+
+![](defold-1024x538.jpg)
+
+Added frustum culling for labels, added Slice9 support for sprites and more.
+
+## Interesting articles/videos
+
+[Great documentary about The Callisto Protocol](https://youtu.be/rM5RKkVnxf0)
+
+{{< youtube "rM5RKkVnxf0" >}}
+
+Invited for extras authors of The Walking Dead and The Friday 13th.
+
+[The developer of My Work is Not Yet Done successfully pitched the game to the publisher Raw Fury and decided to share the details on Reddit](https://www.reddit.com/r/gamedev/comments/yj11kz/i_successfully_pitched_a_game_to_raw_fury_heres/)
+
+![](i\_successfully\_pitched\_a\_game\_to\_raw\_fury\_heres-1024x576.jpg)
+
+[Steam page](https://store.steampowered.com/app/1207690/My_Work_Is_Not_Yet_Done/). Pitch deck in [Google Docs](https://docs.google.com/document/d/189KJ3IcxRvf6gE9xs8u1_e6RJ3zkWr3XAVYC-WoCbpM/edit).
+
+[Creating a scene with horror elements in Unreal Engine 5](https://80.lv/articles/designing-a-scene-with-horror-vibes-in-unreal-engine-5/)
+
+![](designing-a-scene-with-horror-vibes-in-unreal-engine-5-1024x539.jpg)
+
+Artist Justin Hien talked about the production process for the Forest Home environment, explained how the scene assets were modeled and textured, and discussed lighting setup in UE5.
+
+[Demonstration of mental health in games](https://www.gamedeveloper.com/design/rewriting-the-horrors-of-mental-health-representation-in-games)
+
+![](rewriting-the-horrors-of-mental-health-representation-in-games.png)
+
+Take a look at how developers are trying to use mental disorders as a source of horror in video games.
+
+[ROBLOX is MUD: the history of MUDs, virtual worlds and MMORPGs](https://felipepepe.medium.com/roblox-is-a-mud-the-history-of-virtual-worlds-muds-mmorpgs-12e41c4cb9b)
+
+![](roblox-is-a-mud-the-history-of-virtual-worlds-muds-mmorpgs-1024x631.jpeg)
+
+A lot has already been written about the history of virtual worlds, but most of the texts are usually devoted to MMORPGs. It would take a very large book to tell this story in detail, so this article has been written as a general timeline of what happened, the key names, and where you can get more information about it.
+
+[Animated world of Ratchet and Clank: Rift Apart](https://youtu.be/H7pbEKZmYj0)
+
+{{< youtube "H7pbEKZmYj0" >}}
+
+In a session with Animation Summit 2022, Lindsey Thompson of Insomniac Games discusses the process and inspiration for animating cinematics and gameplay for Ratchet and Clank: Rift Apart.
+
+[How The Long Dark scaled to 10 million players – and what’s next](https://newsletter.gamediscover.co/p/how-the-long-dark-scaled-to-10-million)
+
+![](how-the-long-dark-scaled-to-10-million.jpg)
+
+Hinterland founder and creative director Rafael van Lierop announced 10 million LTD and 1 million MAU. GameDiscoverCo decided to figure out what the success is.
+
+[Creating a female character in ZBrush, UE5 and Substance 3D Painter](https://80.lv/articles/creating-a-real-time-female-character-in-zbrush-ue5-substance-3d/)
+
+![](--------------2022-11-09-133741-1024x566.png)
+
+Zoe Brening spoke about working on the Kuna Nuka project, explaining in detail the sculpting and texturing processes, and also talked about what she learned at the Think Tank training center.
+
+[Performance optimizations in Lands of Blight](https://defold.com//2022/11/02/Performance-optimizations-in-Lands-of-Blight/)
+
+![](Performance-optimizations-in-Lands-of-Blight-1024x590.jpeg)
+
+In the post, d954mas shared his experience of optimizing Defold to run on a mobile browser with stable FPS and over 1000 enemies.
+
+[Rust for creating helper tools](https://youtu.be/GtRo-eF8-TE)
+
+{{< youtube "GtRo-eF8-TE" >}}
+
+In a keynote from GDC 2021, Treyarch’s Dan Olson explores the opportunities and challenges that Rust can bring to the game tool programmer and explores how Rust can be a powerful addition to the arsenal.
+
+[How Diverse Narrative is Designed in Roadwarden](https://www.gamedeveloper.com/design/deep-dive-roadwarden)
+
+![](deep-dive-roadwarden.png)
+
+The class, dialogue, and reputation system of this role-playing game was necessary to create meaningful events.
+
+[How the Assassin’s Creed III Animation Team Raised the Bar 10 Years Ago Despite Hardware Limitations](https://gameworldobserver.com/2022/11/02/assassins-creed-3-animation-development-ubisoft-jonathan-cooper)
+
+![](ac-3-animation-1024x538.jpg)
+
+Jonathan Cooper recalled how the Ubisoft Montreal team created animation for the game. The developers have done an excellent job, from the rebuilt combat system to the ragdoll physics, making the project look impressive even after 10 years.

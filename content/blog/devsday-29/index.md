@@ -10,58 +10,100 @@ original_url: "https://generalarcade.com/devsday-29/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="DEVsday #29" class="mw-100" src="devsday29.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p><a href="https://www.unrealengine.com/en-US/blog/realityscan-is-now-available-for-android-devices">RealityScan is now available not only on iOS, but also on Android</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/EpQX27bxRew" title="RealityScan Is Now Also Available for Android" width="560"></iframe></p>
-<p>It allows you to create high-quality 3D models of objects from several pictures from your phone.</p>
-<p><a href="https://www.unrealengine.com/en-US/electric-dreams-environment">Epic Games has released a sample project Electric Dreams Environment</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/6JUfisUhm68" title="Deep Dive into the Electric Dreams Project | Inside Unreal" width="560"></iframe></p>
-<p>Earlier this year, Epic Games showed a demo and new engine features at GDC, and now everyone can poke the project.</p>
-<p><a href="https://defold.com//2023/06/19/Defold-adds-support-for-Sony-PlayStation/">Defold now supports Sony PlayStation 4</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2458" height="538" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="defold-ps4-1024x538.jpg" srcset="https://generalarcade.com/content/uploads/2023/06/defold-ps4-1024x538.jpg 1024w, https://generalarcade.com/content/uploads/2023/06/defold-ps4-300x158.jpg 300w, https://generalarcade.com/content/uploads/2023/06/defold-ps4-768x403.jpg 768w, https://generalarcade.com/content/uploads/2023/06/defold-ps4.jpg 1200w" width="1024"/></figure>
-<p>Basic access to the necessary tools and documentation will be provided free of charge, while full access to the source code is available at a paid membership level.</p>
-<p><a href="https://github.blog/2023-06-21-gamedev-js-2023/">Results of the Open Source Contest with Gamedev.js Jam 2023</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2460" height="538" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="ezgif-4-60648f4c1f-1024x538.jpg" srcset="https://generalarcade.com/content/uploads/2023/06/ezgif-4-60648f4c1f-1024x538.jpg 1024w, https://generalarcade.com/content/uploads/2023/06/ezgif-4-60648f4c1f-300x158.jpg 300w, https://generalarcade.com/content/uploads/2023/06/ezgif-4-60648f4c1f-768x403.jpg 768w, https://generalarcade.com/content/uploads/2023/06/ezgif-4-60648f4c1f.jpg 1200w" width="1024"/></figure>
-<p>The article mentions 13 games. All sources are included.</p>
-<p><a href="https://youtu.be/lk--if_7J9g">Documentary about Blasphemous</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/lk--if_7J9g" title="Landing Blasphemous: The making of Blasphemous 1 (Full Documentary)" width="560"></iframe></p>
-<p>Very interesting and informative video about the game and the people who made it.</p>
-<p><a href="https://80.lv/articles/recreating-phoenix-from-harry-potter-with-zbrush-ornatrix-substance-3d-painter/">Recreating the Phoenix from Harry Potter in ZBrush, Ornatrix and Substance 3D Painter</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2462" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="recreating-phoenix-from-harry-potter-with-zbrush-ornatrix-substance-3d-painter-1024x576.jpeg" srcset="https://generalarcade.com/content/uploads/2023/06/recreating-phoenix-from-harry-potter-with-zbrush-ornatrix-substance-3d-painter-1024x576.jpeg 1024w, https://generalarcade.com/content/uploads/2023/06/recreating-phoenix-from-harry-potter-with-zbrush-ornatrix-substance-3d-painter-300x169.jpeg 300w, https://generalarcade.com/content/uploads/2023/06/recreating-phoenix-from-harry-potter-with-zbrush-ornatrix-substance-3d-painter-768x432.jpeg 768w, https://generalarcade.com/content/uploads/2023/06/recreating-phoenix-from-harry-potter-with-zbrush-ornatrix-substance-3d-painter-1536x864.jpeg 1536w, https://generalarcade.com/content/uploads/2023/06/recreating-phoenix-from-harry-potter-with-zbrush-ornatrix-substance-3d-painter-1280x720.jpeg 1280w, https://generalarcade.com/content/uploads/2023/06/recreating-phoenix-from-harry-potter-with-zbrush-ornatrix-substance-3d-painter.jpeg 1920w" width="1024"/></figure>
-<p>Ramon Tapia spoke about the Phoenix project, explained how grooming is done in Ornatrix, and showed the texturing process.</p>
-<p><a href="https://80.lv/articles/crossroads-making-a-stylized-scene-in-maya-substance-3d-painter-ue5/">Creating a stylized scene in Maya, Substance 3D Painter and UE5</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2464" height="623" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="crossroads-making-a-stylized-scene-in-maya-substance-3d-painter-ue5-1024x623.jpg" srcset="https://generalarcade.com/content/uploads/2023/06/crossroads-making-a-stylized-scene-in-maya-substance-3d-painter-ue5-1024x623.jpg 1024w, https://generalarcade.com/content/uploads/2023/06/crossroads-making-a-stylized-scene-in-maya-substance-3d-painter-ue5-300x183.jpg 300w, https://generalarcade.com/content/uploads/2023/06/crossroads-making-a-stylized-scene-in-maya-substance-3d-painter-ue5-768x468.jpg 768w, https://generalarcade.com/content/uploads/2023/06/crossroads-making-a-stylized-scene-in-maya-substance-3d-painter-ue5-1280x779.jpg 1280w, https://generalarcade.com/content/uploads/2023/06/crossroads-making-a-stylized-scene-in-maya-substance-3d-painter-ue5.jpg 1511w" width="1024"/></figure>
-<p>Zaldom spoke about the creation of a new Crossroads project and talked about the stages of creating a stylized scene in Maya, Substance 3D and Unreal Engine 5.</p>
-<p><a href="https://www.gamesindustry.biz/how-to-market-console-and-pc-games-in-a-mobile-world">How to promote console and PC games in the mobile world</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2465" height="587" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="how-to-market-console-and-pc-games-in-a-mobile-world-1024x587.png" srcset="https://generalarcade.com/content/uploads/2023/06/how-to-market-console-and-pc-games-in-a-mobile-world-1024x587.png 1024w, https://generalarcade.com/content/uploads/2023/06/how-to-market-console-and-pc-games-in-a-mobile-world-300x172.png 300w, https://generalarcade.com/content/uploads/2023/06/how-to-market-console-and-pc-games-in-a-mobile-world-768x441.png 768w, https://generalarcade.com/content/uploads/2023/06/how-to-market-console-and-pc-games-in-a-mobile-world-1280x734.png 1280w, https://generalarcade.com/content/uploads/2023/06/how-to-market-console-and-pc-games-in-a-mobile-world.png 1393w" width="1024"/></figure>
-<p>AppsFlyer talked about the rise of cross-platform gaming and why it’s adding console and desktop support to its marketing tools.</p>
-<p><a href="https://premortem.games/2023/06/20/solo-dev-ansdor-loves-his-total-creative-control-i-dont-like-too-much-planning/">Indie developer ansdor on creative control</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2466" height="392" loading="lazy" sizes="(max-width: 696px) 100vw, 696px" src="solo-dev-ansdor-loves-his-total-creative-control-i-dont-like-too-much-planning.png" srcset="https://generalarcade.com/content/uploads/2023/06/solo-dev-ansdor-loves-his-total-creative-control-i-dont-like-too-much-planning.png 696w, https://generalarcade.com/content/uploads/2023/06/solo-dev-ansdor-loves-his-total-creative-control-i-dont-like-too-much-planning-300x169.png 300w" width="696"/></figure>
-<p>A Brazilian game developer shares his experience of entering the industry and not being able to work for anyone.</p>
-<p><a href="https://newsletter.gamediscover.co/p/why-your-steam-follower-to-wishlist">Why is the ratio between the number of followers and those who added the game to the wishlist important?</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2468" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="why-your-steam-follower-to-wishlist-1024x576.png" srcset="https://generalarcade.com/content/uploads/2023/06/why-your-steam-follower-to-wishlist-1024x576.png 1024w, https://generalarcade.com/content/uploads/2023/06/why-your-steam-follower-to-wishlist-300x169.png 300w, https://generalarcade.com/content/uploads/2023/06/why-your-steam-follower-to-wishlist-768x432.png 768w, https://generalarcade.com/content/uploads/2023/06/why-your-steam-follower-to-wishlist-1536x864.png 1536w, https://generalarcade.com/content/uploads/2023/06/why-your-steam-follower-to-wishlist-1280x720.png 1280w, https://generalarcade.com/content/uploads/2023/06/why-your-steam-follower-to-wishlist.png 1920w" width="1024"/></figure>
-<p>You can get a general idea of the popularity of an unreleased Steam game from its top wishlist ranking, you can see the exact number of subscribers for each game, and sites like SteamDB have good historical subscriber charts. Not all games convert equally. But gamediscover.co still thinks that subscribers are very “indicative” of the general interest.</p>
-<p><a href="https://80.lv/articles/the-working-culture-and-hiring-practices-at-rockfish-games/">Work Culture and Recruitment Practices at ROCKFISH Games</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2469" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="the-working-culture-and-hiring-practices-at-rockfish-games-1024x576.jpeg" srcset="https://generalarcade.com/content/uploads/2023/06/the-working-culture-and-hiring-practices-at-rockfish-games-1024x576.jpeg 1024w, https://generalarcade.com/content/uploads/2023/06/the-working-culture-and-hiring-practices-at-rockfish-games-300x169.jpeg 300w, https://generalarcade.com/content/uploads/2023/06/the-working-culture-and-hiring-practices-at-rockfish-games-768x432.jpeg 768w, https://generalarcade.com/content/uploads/2023/06/the-working-culture-and-hiring-practices-at-rockfish-games-1536x864.jpeg 1536w, https://generalarcade.com/content/uploads/2023/06/the-working-culture-and-hiring-practices-at-rockfish-games-1280x720.jpeg 1280w, https://generalarcade.com/content/uploads/2023/06/the-working-culture-and-hiring-practices-at-rockfish-games.jpeg 1920w" width="1024"/></figure>
-<p>Michael Schade, CEO of the studio, spoke about the organization of the company and approaches to hiring, discussed the role of independence in culture and talked about the features of the game development market in Hamburg.</p>
-<p><a href="https://news.blizzard.com/en-us/diablo4/23964183/peeling-back-the-varnish-the-graphics-of-diablo-iv">About Diablo IV graphics</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2470" height="343" loading="lazy" sizes="(max-width: 617px) 100vw, 617px" src="-----------.png" srcset="https://generalarcade.com/content/uploads/2023/06/изображение.png 617w, https://generalarcade.com/content/uploads/2023/06/изображение-300x167.png 300w" width="617"/></figure>
-<p>The developers have written a high-level overview of topics related to Diablo IV’s graphical techniques.</p>
-<p><a href="https://80.lv/articles/insights-on-game-localization-from-ark-one-studios/">A look at game localization from Ark One Studios</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2471" height="683" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="insights-on-game-localization-from-ark-one-studios-1024x683.jpg" srcset="https://generalarcade.com/content/uploads/2023/06/insights-on-game-localization-from-ark-one-studios-1024x683.jpg 1024w, https://generalarcade.com/content/uploads/2023/06/insights-on-game-localization-from-ark-one-studios-300x200.jpg 300w, https://generalarcade.com/content/uploads/2023/06/insights-on-game-localization-from-ark-one-studios-768x512.jpg 768w, https://generalarcade.com/content/uploads/2023/06/insights-on-game-localization-from-ark-one-studios-1536x1024.jpg 1536w, https://generalarcade.com/content/uploads/2023/06/insights-on-game-localization-from-ark-one-studios-1280x853.jpg 1280w, https://generalarcade.com/content/uploads/2023/06/insights-on-game-localization-from-ark-one-studios.jpg 2048w" width="1024"/></figure>
-<p>The studio’s general manager, Christian Modesto, spoke about the organization of work, explained how they hire new employees, and discussed the challenges of the video game localization industry.</p>
-<p><a href="https://youtu.be/Fwh-fzhREOU">Modernization of rendering in Supercell</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/Fwh-fzhREOU" title="Modernizing Rendering at Supercell" width="560"></iframe></p>
-<p>In a GDC 2023 talk, Timo Heinapurola talked about the process of implementing a new rendering framework at Supercell and walked through the stages of modifying their existing games.</p>
-<p><a href="https://enginearchitecture.realtimerendering.com/downloads/reac2023_modern_mobile_rendering_at_hypehype.pdf">Modern mobile rendering</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2474" height="454" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="reac2023_modern_mobile_rendering_at_hypehype-1024x454.png" srcset="https://generalarcade.com/content/uploads/2023/06/reac2023_modern_mobile_rendering_at_hypehype-1024x454.png 1024w, https://generalarcade.com/content/uploads/2023/06/reac2023_modern_mobile_rendering_at_hypehype-300x133.png 300w, https://generalarcade.com/content/uploads/2023/06/reac2023_modern_mobile_rendering_at_hypehype-768x340.png 768w, https://generalarcade.com/content/uploads/2023/06/reac2023_modern_mobile_rendering_at_hypehype.png 1115w" width="1024"/></figure>
-<p>In the presentation, the author explains how he developed a new rendering architecture focused on mobile hardware.</p>
-<p><a href="https://enginearchitecture.realtimerendering.com/downloads/reac2023_dunia_shader_pipeline.pdf">Far Cry Dunia Engine Shader Pipeline</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2475" height="387" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="reac2023_dunia_shader_pipeline-1024x387.png" srcset="https://generalarcade.com/content/uploads/2023/06/reac2023_dunia_shader_pipeline-1024x387.png 1024w, https://generalarcade.com/content/uploads/2023/06/reac2023_dunia_shader_pipeline-300x113.png 300w, https://generalarcade.com/content/uploads/2023/06/reac2023_dunia_shader_pipeline-768x290.png 768w, https://generalarcade.com/content/uploads/2023/06/reac2023_dunia_shader_pipeline.png 1133w" width="1024"/></figure>
-<p>A report on the history of the development of the Far Cry shader system. It is shown how the architecture has been improved many times for the transition to D3D12.</p>
-<p></p>
-</div>
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+[RealityScan is now available not only on iOS, but also on Android](https://www.unrealengine.com/en-US/blog/realityscan-is-now-available-for-android-devices)
+
+{{< youtube "https://www.youtube.com/watch?v=EpQX27bxRew" >}}
+
+It allows you to create high-quality 3D models of objects from several pictures from your phone.
+
+[Epic Games has released a sample project Electric Dreams Environment](https://www.unrealengine.com/en-US/electric-dreams-environment)
+
+{{< youtube "https://www.youtube.com/watch?v=6JUfisUhm68" >}}
+
+Earlier this year, Epic Games showed a demo and new engine features at GDC, and now everyone can poke the project.
+
+[Defold now supports Sony PlayStation 4](https://defold.com//2023/06/19/Defold-adds-support-for-Sony-PlayStation/)
+
+![](defold-ps4-1024x538.jpg)
+
+Basic access to the necessary tools and documentation will be provided free of charge, while full access to the source code is available at a paid membership level.
+
+[Results of the Open Source Contest with Gamedev.js Jam 2023](https://github.blog/2023-06-21-gamedev-js-2023/)
+
+![](ezgif-4-60648f4c1f-1024x538.jpg)
+
+The article mentions 13 games. All sources are included.
+
+[Documentary about Blasphemous](https://youtu.be/lk--if_7J9g)
+
+{{< youtube "https://youtu.be/lk--if_7J9g" >}}
+
+Very interesting and informative video about the game and the people who made it.
+
+[Recreating the Phoenix from Harry Potter in ZBrush, Ornatrix and Substance 3D Painter](https://80.lv/articles/recreating-phoenix-from-harry-potter-with-zbrush-ornatrix-substance-3d-painter/)
+
+![](recreating-phoenix-from-harry-potter-with-zbrush-ornatrix-substance-3d-painter-1024x576.jpeg)
+
+Ramon Tapia spoke about the Phoenix project, explained how grooming is done in Ornatrix, and showed the texturing process.
+
+[Creating a stylized scene in Maya, Substance 3D Painter and UE5](https://80.lv/articles/crossroads-making-a-stylized-scene-in-maya-substance-3d-painter-ue5/)
+
+![](crossroads-making-a-stylized-scene-in-maya-substance-3d-painter-ue5-1024x623.jpg)
+
+Zaldom spoke about the creation of a new Crossroads project and talked about the stages of creating a stylized scene in Maya, Substance 3D and Unreal Engine 5.
+
+[How to promote console and PC games in the mobile world](https://www.gamesindustry.biz/how-to-market-console-and-pc-games-in-a-mobile-world)
+
+![](how-to-market-console-and-pc-games-in-a-mobile-world-1024x587.png)
+
+AppsFlyer talked about the rise of cross-platform gaming and why it’s adding console and desktop support to its marketing tools.
+
+[Indie developer ansdor on creative control](https://premortem.games/2023/06/20/solo-dev-ansdor-loves-his-total-creative-control-i-dont-like-too-much-planning/)
+
+![](solo-dev-ansdor-loves-his-total-creative-control-i-dont-like-too-much-planning.png)
+
+A Brazilian game developer shares his experience of entering the industry and not being able to work for anyone.
+
+[Why is the ratio between the number of followers and those who added the game to the wishlist important?](https://newsletter.gamediscover.co/p/why-your-steam-follower-to-wishlist)
+
+![](why-your-steam-follower-to-wishlist-1024x576.png)
+
+You can get a general idea of the popularity of an unreleased Steam game from its top wishlist ranking, you can see the exact number of subscribers for each game, and sites like SteamDB have good historical subscriber charts. Not all games convert equally. But gamediscover.co still thinks that subscribers are very “indicative” of the general interest.
+
+[Work Culture and Recruitment Practices at ROCKFISH Games](https://80.lv/articles/the-working-culture-and-hiring-practices-at-rockfish-games/)
+
+![](the-working-culture-and-hiring-practices-at-rockfish-games-1024x576.jpeg)
+
+Michael Schade, CEO of the studio, spoke about the organization of the company and approaches to hiring, discussed the role of independence in culture and talked about the features of the game development market in Hamburg.
+
+[About Diablo IV graphics](https://news.blizzard.com/en-us/diablo4/23964183/peeling-back-the-varnish-the-graphics-of-diablo-iv)
+
+![](-----------.png)
+
+The developers have written a high-level overview of topics related to Diablo IV’s graphical techniques.
+
+[A look at game localization from Ark One Studios](https://80.lv/articles/insights-on-game-localization-from-ark-one-studios/)
+
+![](insights-on-game-localization-from-ark-one-studios-1024x683.jpg)
+
+The studio’s general manager, Christian Modesto, spoke about the organization of work, explained how they hire new employees, and discussed the challenges of the video game localization industry.
+
+[Modernization of rendering in Supercell](https://youtu.be/Fwh-fzhREOU)
+
+{{< youtube "https://youtu.be/Fwh-fzhREOU" >}}
+
+In a GDC 2023 talk, Timo Heinapurola talked about the process of implementing a new rendering framework at Supercell and walked through the stages of modifying their existing games.
+
+[Modern mobile rendering](https://enginearchitecture.realtimerendering.com/downloads/reac2023_modern_mobile_rendering_at_hypehype.pdf)
+
+![](reac2023\_modern\_mobile\_rendering\_at\_hypehype-1024x454.png)
+
+In the presentation, the author explains how he developed a new rendering architecture focused on mobile hardware.
+
+[Far Cry Dunia Engine Shader Pipeline](https://enginearchitecture.realtimerendering.com/downloads/reac2023_dunia_shader_pipeline.pdf)
+
+![](reac2023\_dunia\_shader\_pipeline-1024x387.png)
+
+A report on the history of the development of the Far Cry shader system. It is shown how the architecture has been improved many times for the transition to D3D12.

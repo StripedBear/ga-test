@@ -10,51 +10,88 @@ original_url: "https://generalarcade.com/devsday-38/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="DEVsday #38" class="mw-100" src="devsday38.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p><a href="https://blog.roblox.com/2023/10/future-work-together-roblox/">Roblox made employees choose between working in the office and quitting</a></p>
-<figure class="wp-block-image size-large"><img alt="roblox" class="wp-image-3229" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Untitled-design-1.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/Untitled-design-1.jpg 1024w, https://generalarcade.com/content/uploads/2023/10/Untitled-design-1-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/10/Untitled-design-1-768x432.jpg 768w" width="1024"/></figure>
-<p>Roblox management wants employees to return to the office. The company’s CEO announced that starting next year they will have to come to the office at least three times a week – from Tuesday to Thursday. Those who do not agree will have to look for another job.</p>
-<p><a href="https://store.epicgames.com/en-US/features/now-on-epic">Epic Games offered no commission to developers for releasing old games in its store</a></p>
-<figure class="wp-block-image size-large"><img alt="Epic Games news" class="wp-image-3231" height="518" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Epic-Games-1.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/Epic-Games-1.jpg 1024w, https://generalarcade.com/content/uploads/2023/10/Epic-Games-1-300x152.jpg 300w, https://generalarcade.com/content/uploads/2023/10/Epic-Games-1-768x389.jpg 768w" width="1024"/></figure>
-<p>The terms will apply for the first 6 months, then Epic will take 12% as before.</p>
-<p><a href="https://www.theesa.com/news/global-report-reveals-positive-benefits-of-video-gameplay/">Video games make more than half of gamers feel happier; games are an outlet for them</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2716" height="960" loading="lazy" sizes="(max-width: 640px) 100vw, 640px" src="issledovanie-blagodarya-videoigram-bol-she-poloviny-gejmerov-chuvstvuet-sebya-schastlivee.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/issledovanie-blagodarya-videoigram-bol-she-poloviny-gejmerov-chuvstvuet-sebya-schastlivee.jpg 640w, https://generalarcade.com/content/uploads/2023/10/issledovanie-blagodarya-videoigram-bol-she-poloviny-gejmerov-chuvstvuet-sebya-schastlivee-200x300.jpg 200w" width="640"/></figure>
-<p>The American Entertainment Software Association decided to find out what motivates people to play video games. 64% of gamers said that for them games are an outlet from everyday life. For 63% of gamers, games help them feel happier.</p>
-<p><a href="https://www.windowscentral.com/gaming/minecraft/minecraft-crosses-300-million-copies-sold-as-it-prepares-to-celebrate-its-15th-anniversary">Minecraft sales reach 300 million copies</a></p>
-<figure class="wp-block-image size-large"><img alt="mincraft-news-100-m-copies" class="wp-image-3233" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="mincraft-news.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/mincraft-news.jpg 1024w, https://generalarcade.com/content/uploads/2023/10/mincraft-news-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/10/mincraft-news-768x432.jpg 768w" width="1024"/></figure>
-<p>In terms of sales, it is 100 million ahead of the game in second place.</p>
-<p><a href="https://youtu.be/pvOqTunOQB8">How Nintendo created Link’s Ultrahand</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/pvOqTunOQB8" title="How Nintendo Designed Ultrahand" width="559"></iframe></p>
-<p>Video with an analysis of the mechanics and how the world itself is designed to this ability.</p>
-<p><a href="https://www.gamedeveloper.com/design/deep-dive-windy-meadow">Postmortem Windy Meadow</a></p>
-<figure class="wp-block-image size-large"><img alt="Postmortem Windy Meadow" class="wp-image-3235" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Postmortem-Windy-Meadow.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/Postmortem-Windy-Meadow.jpg 1024w, https://generalarcade.com/content/uploads/2023/10/Postmortem-Windy-Meadow-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/10/Postmortem-Windy-Meadow-768x432.jpg 768w" width="1024"/></figure>
-<p>A good longread on Gamasutra with an analysis of the game.</p>
-<p><a href="https://www.gamedeveloper.com/design/deep-dive-designing-the-narrative-for-multiple-middles-and-multiple-heroes-in-saltsea-chronicles">Creating a Narrative with Multiple Climaxes and Multiple Characters in Saltsea Chronicles</a></p>
-<figure class="wp-block-image size-large"><img alt="Deep Dive: Designing a narrative for multiple middles and multiple heroes in Saltsea Chronicles" class="wp-image-3237" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Deep-Dive-Designing-a-narrative-for-multiple-middles-and-multiple-heroes-in-Saltsea-Chronicles.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/Deep-Dive-Designing-a-narrative-for-multiple-middles-and-multiple-heroes-in-Saltsea-Chronicles.jpg 1024w, https://generalarcade.com/content/uploads/2023/10/Deep-Dive-Designing-a-narrative-for-multiple-middles-and-multiple-heroes-in-Saltsea-Chronicles-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/10/Deep-Dive-Designing-a-narrative-for-multiple-middles-and-multiple-heroes-in-Saltsea-Chronicles-768x432.jpg 768w" width="1024"/></figure>
-<p>The goal was not to create a character or even a series of characters, but rather a community.</p>
-<p><a href="https://80.lv/articles/santa-monica-s-senior-programmer-on-how-god-of-war-ragnar-k-s-snow-system-was-made/">How the God of War Ragnarok snow system was created</a></p>
-<figure class="wp-block-image size-large"><img alt="Santa Monica's Senior Programmer on How God of War Ragnarök's Snow System Was Made" class="wp-image-3239" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Santa-Monicas-Senior-Programmer-on-How-God-of-War-Ragnaro-ks-Snow-System-Was-Made.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/Santa-Monicas-Senior-Programmer-on-How-God-of-War-Ragnaröks-Snow-System-Was-Made.jpg 1024w, https://generalarcade.com/content/uploads/2023/10/Santa-Monicas-Senior-Programmer-on-How-God-of-War-Ragnaröks-Snow-System-Was-Made-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/10/Santa-Monicas-Senior-Programmer-on-How-God-of-War-Ragnaröks-Snow-System-Was-Made-768x432.jpg 768w" width="1024"/></figure>
-<p>Paolo Surricchio, rendering master at Santa Monica Studios, explained why the team redesigned the snow system for God of War Ragnarök, shared details about the creation, and talked about optimizing snow for PS4 and PS5.</p>
-<p><a href="https://howtomarketagame.com/2023/10/16/what-does-it-take-to-get-in-the-discovery-queue/">What do you need to get into the Discovery queue?</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2723" height="363" loading="lazy" sizes="(max-width: 523px) 100vw, 523px" src="what-does-it-take-to-get-in-the-discovery-queue.png" srcset="https://generalarcade.com/content/uploads/2023/10/what-does-it-take-to-get-in-the-discovery-queue.png 523w, https://generalarcade.com/content/uploads/2023/10/what-does-it-take-to-get-in-the-discovery-queue-300x208.png 300w" width="523"/></figure>
-<p>Let’s figure it out together with howtomarketagame.</p>
-<p><a href="https://www.unrealengine.com/en-US/developer-interviews/inside-croteam-s-transition-from-in-house-tech-to-ue5-for-the-talos-principle-2">About Croteam’s transition from proprietary technologies to UE5 for The Talos Principle 2</a></p>
-<figure class="wp-block-image size-large"><img alt="Inside Croteam's transition from in-house tech to UE5 for The Talos Principle 2" class="wp-image-3241" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Inside-Croteams-transition-from-in-house-tech-to-UE5-for-The-Talos-Principle-2-1.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/Inside-Croteams-transition-from-in-house-tech-to-UE5-for-The-Talos-Principle-2-1.jpg 1024w, https://generalarcade.com/content/uploads/2023/10/Inside-Croteams-transition-from-in-house-tech-to-UE5-for-The-Talos-Principle-2-1-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/10/Inside-Croteams-transition-from-in-house-tech-to-UE5-for-The-Talos-Principle-2-1-768x432.jpg 768w" width="1024"/></figure>
-<p>The Unreal Engine team spoke with Chief Creative Officer Davor Hunski and Lead Programmer Goran Adrinek about the reasons for the engine change, why the team is unlikely to ever return to its own technology, and some of the inspiration behind puzzle game The Talos Principal 2, and its deep philosophical roots.</p>
-<p><a href="https://80.lv/articles/learn-how-to-texture-abandoned-corridor-in-substance-3d-painter/">How to Texture an Abandoned Corridor in Substance 3D Painter</a></p>
-<figure class="wp-block-image size-large"><img alt="Learn How to Texture Abandoned Corridor in Substance 3D Painter" class="wp-image-3243" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Learn-How-to-Texture-Abandoned-Corridor-in-Substance-3D-Painter.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/Learn-How-to-Texture-Abandoned-Corridor-in-Substance-3D-Painter.jpg 1024w, https://generalarcade.com/content/uploads/2023/10/Learn-How-to-Texture-Abandoned-Corridor-in-Substance-3D-Painter-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/10/Learn-How-to-Texture-Abandoned-Corridor-in-Substance-3D-Painter-768x432.jpg 768w" width="1024"/></figure>
-<p>Rahul Sonawane explained how he developed the Silent Corridor project, showed how he created the dust, and explained the texturing process in Substance 3D Painter.</p>
-<p><a href="https://80.lv/articles/busting-gamedev-myths-unreal-engine-is-difficult-to-learn/">Busting GameDev Myths: Unreal Engine is Difficult to Learn</a></p>
-<figure class="wp-block-image size-large"><img alt="Busting GameDev Myths: Unreal Engine is Difficult to Learn" class="wp-image-3245" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="Busting-GameDev-Myths-Unreal-Engine-is-Difficult-to-Learn-1.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/Busting-GameDev-Myths-Unreal-Engine-is-Difficult-to-Learn-1.jpg 1024w, https://generalarcade.com/content/uploads/2023/10/Busting-GameDev-Myths-Unreal-Engine-is-Difficult-to-Learn-1-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/10/Busting-GameDev-Myths-Unreal-Engine-is-Difficult-to-Learn-1-768x432.jpg 768w" width="1024"/></figure>
-<p>Aspiring environment artist Lily Lee shared more about the Harujinja project, showing how easy it is for a beginner to get started with Unreal Engine 5.</p>
-<p><a href="https://newsletter.gamediscover.co/p/steam-deck-everything-you-were-afraid">Steam Deck: how many units have already been sold</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2730" height="419" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="steam-deck-everything-you-were-afraid.jpg" srcset="https://generalarcade.com/content/uploads/2023/10/steam-deck-everything-you-were-afraid.jpg 800w, https://generalarcade.com/content/uploads/2023/10/steam-deck-everything-you-were-afraid-300x157.jpg 300w, https://generalarcade.com/content/uploads/2023/10/steam-deck-everything-you-were-afraid-768x402.jpg 768w" width="800"/></figure>
-<p>There are no official data, but if you believe the leaks, then there are already more than 1 million.</p>
-<p><a href="https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8">Best Grid Shader (Yet)</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2732" height="273" loading="lazy" sizes="(max-width: 586px) 100vw, 586px" src="gridshader.png" srcset="https://generalarcade.com/content/uploads/2023/10/gridshader.png 586w, https://generalarcade.com/content/uploads/2023/10/gridshader-300x140.png 300w" width="586"/></figure>
-<p>A good article describing the problem and solutions.</p>
-</div>
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+[Roblox made employees choose between working in the office and quitting](https://blog.roblox.com/2023/10/future-work-together-roblox/)
+
+![roblox](Untitled-design-1.jpg)
+
+Roblox management wants employees to return to the office. The company’s CEO announced that starting next year they will have to come to the office at least three times a week – from Tuesday to Thursday. Those who do not agree will have to look for another job.
+
+[Epic Games offered no commission to developers for releasing old games in its store](https://store.epicgames.com/en-US/features/now-on-epic)
+
+![Epic Games news](Epic-Games-1.jpg)
+
+The terms will apply for the first 6 months, then Epic will take 12% as before.
+
+[Video games make more than half of gamers feel happier; games are an outlet for them](https://www.theesa.com/news/global-report-reveals-positive-benefits-of-video-gameplay/)
+
+![](issledovanie-blagodarya-videoigram-bol-she-poloviny-gejmerov-chuvstvuet-sebya-schastlivee.jpg)
+
+The American Entertainment Software Association decided to find out what motivates people to play video games. 64% of gamers said that for them games are an outlet from everyday life. For 63% of gamers, games help them feel happier.
+
+[Minecraft sales reach 300 million copies](https://www.windowscentral.com/gaming/minecraft/minecraft-crosses-300-million-copies-sold-as-it-prepares-to-celebrate-its-15th-anniversary)
+
+![mincraft-news-100-m-copies](mincraft-news.jpg)
+
+In terms of sales, it is 100 million ahead of the game in second place.
+
+[How Nintendo created Link’s Ultrahand](https://youtu.be/pvOqTunOQB8)
+
+{{< youtube "https://www.youtube.com/watch?v=pvOqTunOQB8" >}}
+
+Video with an analysis of the mechanics and how the world itself is designed to this ability.
+
+[Postmortem Windy Meadow](https://www.gamedeveloper.com/design/deep-dive-windy-meadow)
+
+![Postmortem Windy Meadow](Postmortem-Windy-Meadow.jpg)
+
+A good longread on Gamasutra with an analysis of the game.
+
+[Creating a Narrative with Multiple Climaxes and Multiple Characters in Saltsea Chronicles](https://www.gamedeveloper.com/design/deep-dive-designing-the-narrative-for-multiple-middles-and-multiple-heroes-in-saltsea-chronicles)
+
+![Deep Dive: Designing a narrative for multiple middles and multiple heroes in Saltsea Chronicles](Deep-Dive-Designing-a-narrative-for-multiple-middles-and-multiple-heroes-in-Saltsea-Chronicles.jpg)
+
+The goal was not to create a character or even a series of characters, but rather a community.
+
+[How the God of War Ragnarok snow system was created](https://80.lv/articles/santa-monica-s-senior-programmer-on-how-god-of-war-ragnar-k-s-snow-system-was-made/)
+
+![Santa Monica's Senior Programmer on How God of War Ragnarök's Snow System Was Made](Santa-Monicas-Senior-Programmer-on-How-God-of-War-Ragnaro-ks-Snow-System-Was-Made.jpg)
+
+Paolo Surricchio, rendering master at Santa Monica Studios, explained why the team redesigned the snow system for God of War Ragnarök, shared details about the creation, and talked about optimizing snow for PS4 and PS5.
+
+[What do you need to get into the Discovery queue?](https://howtomarketagame.com/2023/10/16/what-does-it-take-to-get-in-the-discovery-queue/)
+
+![](what-does-it-take-to-get-in-the-discovery-queue.png)
+
+Let’s figure it out together with howtomarketagame.
+
+[About Croteam’s transition from proprietary technologies to UE5 for The Talos Principle 2](https://www.unrealengine.com/en-US/developer-interviews/inside-croteam-s-transition-from-in-house-tech-to-ue5-for-the-talos-principle-2)
+
+![Inside Croteam's transition from in-house tech to UE5 for The Talos Principle 2](Inside-Croteams-transition-from-in-house-tech-to-UE5-for-The-Talos-Principle-2-1.jpg)
+
+The Unreal Engine team spoke with Chief Creative Officer Davor Hunski and Lead Programmer Goran Adrinek about the reasons for the engine change, why the team is unlikely to ever return to its own technology, and some of the inspiration behind puzzle game The Talos Principal 2, and its deep philosophical roots.
+
+[How to Texture an Abandoned Corridor in Substance 3D Painter](https://80.lv/articles/learn-how-to-texture-abandoned-corridor-in-substance-3d-painter/)
+
+![Learn How to Texture Abandoned Corridor in Substance 3D Painter](Learn-How-to-Texture-Abandoned-Corridor-in-Substance-3D-Painter.jpg)
+
+Rahul Sonawane explained how he developed the Silent Corridor project, showed how he created the dust, and explained the texturing process in Substance 3D Painter.
+
+[Busting GameDev Myths: Unreal Engine is Difficult to Learn](https://80.lv/articles/busting-gamedev-myths-unreal-engine-is-difficult-to-learn/)
+
+![Busting GameDev Myths: Unreal Engine is Difficult to Learn](Busting-GameDev-Myths-Unreal-Engine-is-Difficult-to-Learn-1.jpg)
+
+Aspiring environment artist Lily Lee shared more about the Harujinja project, showing how easy it is for a beginner to get started with Unreal Engine 5.
+
+[Steam Deck: how many units have already been sold](https://newsletter.gamediscover.co/p/steam-deck-everything-you-were-afraid)
+
+![](steam-deck-everything-you-were-afraid.jpg)
+
+There are no official data, but if you believe the leaks, then there are already more than 1 million.
+
+[Best Grid Shader (Yet)](https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8)
+
+![](gridshader.png)
+
+A good article describing the problem and solutions.

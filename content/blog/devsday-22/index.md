@@ -10,45 +10,76 @@ original_url: "https://generalarcade.com/devsday-22/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="DEVsday #22" class="mw-100" src="devsday22.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p><a href="https://www.videogameschronicle.com/news/the-uk-regulator-has-blocked-microsofts-acquisition-of-activision/">British antitrust regulator blocks Microsoft’s deal with Activision Blizzard</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2228" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="britanskiy-antimonopolnyy-regulyator-zablokiroval-sdelku-microsoft-s-activision-blizzard-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/05/britanskiy-antimonopolnyy-regulyator-zablokiroval-sdelku-microsoft-s-activision-blizzard-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/05/britanskiy-antimonopolnyy-regulyator-zablokiroval-sdelku-microsoft-s-activision-blizzard-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/05/britanskiy-antimonopolnyy-regulyator-zablokiroval-sdelku-microsoft-s-activision-blizzard-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/05/britanskiy-antimonopolnyy-regulyator-zablokiroval-sdelku-microsoft-s-activision-blizzard-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/05/britanskiy-antimonopolnyy-regulyator-zablokiroval-sdelku-microsoft-s-activision-blizzard-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/05/britanskiy-antimonopolnyy-regulyator-zablokiroval-sdelku-microsoft-s-activision-blizzard.jpg 1920w" width="1024"/></figure>
-<p>About how Microsoft could thwart competition in the nascent cloud market with Xbox Game Pass subscription services. The company is going to appeal.</p>
-<p><a href="Honkai: Star Rail surpasses Genshin Impact in first-day mobile revenue">Honkai: Star Rail surpasses Genshin Impact in first-day mobile revenue</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2229" height="554" loading="lazy" sizes="(max-width: 986px) 100vw, 986px" src="Honkai.png" srcset="https://generalarcade.com/content/uploads/2023/05/Honkai.png 986w, https://generalarcade.com/content/uploads/2023/05/Honkai-300x169.png 300w, https://generalarcade.com/content/uploads/2023/05/Honkai-768x432.png 768w" width="986"/></figure>
-<p>Only on mobile devices in a day from the moment of release the game earned over 5 million dollars. And over 20 million downloads.</p>
-<p><a href="https://www.alawar.com/">Alawar will close its playground with games</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2231" height="400" loading="lazy" sizes="(max-width: 977px) 100vw, 977px" src="alawar.png" srcset="https://generalarcade.com/content/uploads/2023/05/alawar.png 977w, https://generalarcade.com/content/uploads/2023/05/alawar-300x123.png 300w, https://generalarcade.com/content/uploads/2023/05/alawar-768x314.png 768w" width="977"/></figure>
-<p>20 years after launch. You can play on the site and download games from it until the end of May. Activation keys will also work until closing.</p>
-<p><a href="https://steamdb.info/stats/mostwished/">Unrecord wishlisted by Over 600k Steam Users</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2232" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="600k-players-wishlisted-unrecord-on-steam-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/05/600k-players-wishlisted-unrecord-on-steam-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/05/600k-players-wishlisted-unrecord-on-steam-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/05/600k-players-wishlisted-unrecord-on-steam-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/05/600k-players-wishlisted-unrecord-on-steam-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/05/600k-players-wishlisted-unrecord-on-steam-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/05/600k-players-wishlisted-unrecord-on-steam.jpg 1920w" width="1024"/></figure>
-<p>In just a week, the game got to the 22nd place of the top.</p>
-<p><a href="https://gpuopen.com/learn/rmv-1-6-improved-device-config-info-expanded-resource-details/">Radeon Memory Visualizer 1.6</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2233" height="563" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="rmv-1-6-improved-device-config-info-expanded-resource-details-1024x563.png" srcset="https://generalarcade.com/content/uploads/2023/05/rmv-1-6-improved-device-config-info-expanded-resource-details-1024x563.png 1024w, https://generalarcade.com/content/uploads/2023/05/rmv-1-6-improved-device-config-info-expanded-resource-details-300x165.png 300w, https://generalarcade.com/content/uploads/2023/05/rmv-1-6-improved-device-config-info-expanded-resource-details-768x422.png 768w, https://generalarcade.com/content/uploads/2023/05/rmv-1-6-improved-device-config-info-expanded-resource-details.png 1213w" width="1024"/></figure>
-<p>And improved device collection information with an expanded resource discovery panel.</p>
-<p><a href="https://www.gdcvault.com/play/1029384/-TUNIC-This-Was-Here">How Tunic was built on mystery</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2234" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="tunic-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/05/tunic-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/05/tunic-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/05/tunic-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/05/tunic-1536x864.jpg 1536w, https://generalarcade.com/content/uploads/2023/05/tunic-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/05/tunic.jpg 1920w" width="1024"/></figure>
-<p>Andrew Shouldice, developer of Tunic, talks at the GDC about the discovery of mysterious and significant secrets.</p>
-<p><a href="https://youtu.be/6YhkkyXydNI">Unsolved mysteries of Tetris by creator Alexey Pajitnov and designer Henk Rogers</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/6YhkkyXydNI" title="Unsolved Tetris Mysteries With Creator Alexy Pajitnov &amp; Designer Henk Rogers | Ars Technica" width="560"></iframe></p>
-<p>Alexey Pajitnov and Henk Rogers were not so recognizable to the general public. However, the situation began to change with the release of the film. In the latest video from Ars Technica, Pajitnov and Rogers return to the origins of the game.</p>
-<p><a href="https://premortem.games/2023/04/28/want-to-make-a-great-game-trailer-optimize-it-for-social-media/">Want to make a great game trailer? Optimize it for social networks</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2236" height="521" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="want-to-make-a-great-game-trailer-optimize-it-for-social-media-1024x521.png" srcset="https://generalarcade.com/content/uploads/2023/05/want-to-make-a-great-game-trailer-optimize-it-for-social-media-1024x521.png 1024w, https://generalarcade.com/content/uploads/2023/05/want-to-make-a-great-game-trailer-optimize-it-for-social-media-300x153.png 300w, https://generalarcade.com/content/uploads/2023/05/want-to-make-a-great-game-trailer-optimize-it-for-social-media-768x391.png 768w, https://generalarcade.com/content/uploads/2023/05/want-to-make-a-great-game-trailer-optimize-it-for-social-media-1280x652.png 1280w, https://generalarcade.com/content/uploads/2023/05/want-to-make-a-great-game-trailer-optimize-it-for-social-media.png 1328w" width="1024"/></figure>
-<p>Even if Twitter disappears completely, these still apply to other platforms where users scroll through the feed quite quickly.</p>
-<p><a href="https://youtu.be/07err3i5MPk"> Death of the Game: Unreal Tournament</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/07err3i5MPk" title="Death of a Game: Unreal Tournament" width="560"></iframe></p>
-<p>Retrospective of the legendary game.</p>
-<p><a href="https://howtomarketagame.com/2023/04/25/what-if-steam-didnt-take-30/">What if Steam didn’t charge 30% commission</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2237" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="what-if-steam-didnt-take-30-1024x576.png" srcset="https://generalarcade.com/content/uploads/2023/05/what-if-steam-didnt-take-30-1024x576.png 1024w, https://generalarcade.com/content/uploads/2023/05/what-if-steam-didnt-take-30-300x169.png 300w, https://generalarcade.com/content/uploads/2023/05/what-if-steam-didnt-take-30-768x432.png 768w, https://generalarcade.com/content/uploads/2023/05/what-if-steam-didnt-take-30-1536x864.png 1536w, https://generalarcade.com/content/uploads/2023/05/what-if-steam-didnt-take-30-1280x720.png 1280w, https://generalarcade.com/content/uploads/2023/05/what-if-steam-didnt-take-30.png 1920w" width="1024"/></figure>
-<p>Even at 30% Steam as a platform gives more than any other platform at the moment.</p>
-<p><a href="https://youtu.be/4bOsJSRk0i8">Why Halo Infinite bots look more like humans</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/4bOsJSRk0i8" title="Why Halo Infinite's Bots Play More Like Humans | AI and Games #71" width="560"></iframe></p>
-<p>A solid analysis of how AI works in the game.</p>
-<p><a href="https://twitter.com/jon_NoCode/status/1652246041595375618">A funny story from the developer Stories Untold. Players complained that they got stuck on a black screen when launching Episode 1</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2239" height="690" loading="lazy" sizes="(max-width: 900px) 100vw, 900px" src="bsod.jpg" srcset="https://generalarcade.com/content/uploads/2023/05/bsod.jpg 900w, https://generalarcade.com/content/uploads/2023/05/bsod-300x230.jpg 300w, https://generalarcade.com/content/uploads/2023/05/bsod-768x589.jpg 768w" width="900"/></figure>
-<p>It turned out that they had a pirated assembly of Windows, where there were either curved or completely cut out codecs for video playback. The developers of the middleware/library that was used in the game did not even provide for such a case, since such codecs come immediately with the installation of the system.</p>
-</div>
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+[British antitrust regulator blocks Microsoft’s deal with Activision Blizzard](https://www.videogameschronicle.com/news/the-uk-regulator-has-blocked-microsofts-acquisition-of-activision/)
+
+![](britanskiy-antimonopolnyy-regulyator-zablokiroval-sdelku-microsoft-s-activision-blizzard-1024x576.jpg)
+
+About how Microsoft could thwart competition in the nascent cloud market with Xbox Game Pass subscription services. The company is going to appeal.
+
+<Honkai: Star Rail surpasses Genshin Impact in first-day mobile revenue>
+
+![](Honkai.png)
+
+Only on mobile devices in a day from the moment of release the game earned over 5 million dollars. And over 20 million downloads.
+
+[Alawar will close its playground with games](https://www.alawar.com/)
+
+![](alawar.png)
+
+20 years after launch. You can play on the site and download games from it until the end of May. Activation keys will also work until closing.
+
+[Unrecord wishlisted by Over 600k Steam Users](https://steamdb.info/stats/mostwished/)
+
+![](600k-players-wishlisted-unrecord-on-steam-1024x576.jpg)
+
+In just a week, the game got to the 22nd place of the top.
+
+[Radeon Memory Visualizer 1.6](https://gpuopen.com/learn/rmv-1-6-improved-device-config-info-expanded-resource-details/)
+
+![](rmv-1-6-improved-device-config-info-expanded-resource-details-1024x563.png)
+
+And improved device collection information with an expanded resource discovery panel.
+
+[How Tunic was built on mystery](https://www.gdcvault.com/play/1029384/-TUNIC-This-Was-Here)
+
+![](tunic-1024x576.jpg)
+
+Andrew Shouldice, developer of Tunic, talks at the GDC about the discovery of mysterious and significant secrets.
+
+[Unsolved mysteries of Tetris by creator Alexey Pajitnov and designer Henk Rogers](https://youtu.be/6YhkkyXydNI)
+
+{{< youtube "https://youtu.be/6YhkkyXydNI" >}}
+
+Alexey Pajitnov and Henk Rogers were not so recognizable to the general public. However, the situation began to change with the release of the film. In the latest video from Ars Technica, Pajitnov and Rogers return to the origins of the game.
+
+[Want to make a great game trailer? Optimize it for social networks](https://premortem.games/2023/04/28/want-to-make-a-great-game-trailer-optimize-it-for-social-media/)
+
+![](want-to-make-a-great-game-trailer-optimize-it-for-social-media-1024x521.png)
+
+Even if Twitter disappears completely, these still apply to other platforms where users scroll through the feed quite quickly.
+
+[Death of the Game: Unreal Tournament](https://youtu.be/07err3i5MPk)
+
+{{< youtube "https://youtu.be/07err3i5MPk" >}}
+
+Retrospective of the legendary game.
+
+[What if Steam didn’t charge 30% commission](https://howtomarketagame.com/2023/04/25/what-if-steam-didnt-take-30/)
+
+![](what-if-steam-didnt-take-30-1024x576.png)
+
+Even at 30% Steam as a platform gives more than any other platform at the moment.
+
+[Why Halo Infinite bots look more like humans](https://youtu.be/4bOsJSRk0i8)
+
+{{< youtube "https://youtu.be/4bOsJSRk0i8" >}}
+
+A solid analysis of how AI works in the game.
+
+[A funny story from the developer Stories Untold. Players complained that they got stuck on a black screen when launching Episode 1](https://twitter.com/jon_NoCode/status/1652246041595375618)
+
+![](bsod.jpg)
+
+It turned out that they had a pirated assembly of Windows, where there were either curved or completely cut out codecs for video playback. The developers of the middleware/library that was used in the game did not even provide for such a case, since such codecs come immediately with the installation of the system.

@@ -10,57 +10,100 @@ original_url: "https://generalarcade.com/devsday-25/"
 draft: false
 ---
 
-<div class="pb-5 text-center">
-<img alt="DEVsday #25" class="mw-100" src="devsday25.jpg"/>
-</div>
-<div class="mb-6">
-<p><em>The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.</em></p>
-<p><a href="https://www.bloomberg.com/news/articles/2023-05-24/microsoft-appeals-uk-s-decision-to-block-activision-mega-deal">Microsoft files appeal against UK deal ban with Activision Blizzard</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2353" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="microsoft-appeals-uk-s-decision-to-block-activision-mega-deal-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/05/microsoft-appeals-uk-s-decision-to-block-activision-mega-deal-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/05/microsoft-appeals-uk-s-decision-to-block-activision-mega-deal-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/05/microsoft-appeals-uk-s-decision-to-block-activision-mega-deal-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/05/microsoft-appeals-uk-s-decision-to-block-activision-mega-deal.jpg 1280w" width="1024"/></figure>
-<p>The British antitrust regulator blocked Microsoft’s $69 billion deal with Activision Blizzard at the end of April 2023. The company has filed an appeal in response. It can take up to 9 months to review.</p>
-<p><a href="https://blog.unity.com/engine-platform/unity-2022-lts-is-coming-in-june">Unity 2022 LTS Coming in June</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2354" height="341" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="unity-2022-lts-is-coming-in-june-1024x341.jpg" srcset="https://generalarcade.com/content/uploads/2023/05/unity-2022-lts-is-coming-in-june-1024x341.jpg 1024w, https://generalarcade.com/content/uploads/2023/05/unity-2022-lts-is-coming-in-june-300x100.jpg 300w, https://generalarcade.com/content/uploads/2023/05/unity-2022-lts-is-coming-in-june-768x256.jpg 768w, https://generalarcade.com/content/uploads/2023/05/unity-2022-lts-is-coming-in-june.jpg 1230w" width="1024"/></figure>
-<p>DOTS, multiplayer services, immersive HD environments with HDRP, quality lighting and enhanced visuals (even on mobile), DirectX 12 and more.</p>
-<p><a href="https://archive.org/details/1999_Game_Developers_Conference_Audio">Jason Scott digitized over 90 tapes from the 1999 Game Developers Conference</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2355" height="512" loading="lazy" sizes="(max-width: 890px) 100vw, 890px" src="dzheyson-skott-ocifroval-bolee-90-kasset-s-konferencii-razrabotchikov-igr-1999-goda.png" srcset="https://generalarcade.com/content/uploads/2023/05/dzheyson-skott-ocifroval-bolee-90-kasset-s-konferencii-razrabotchikov-igr-1999-goda.png 890w, https://generalarcade.com/content/uploads/2023/05/dzheyson-skott-ocifroval-bolee-90-kasset-s-konferencii-razrabotchikov-igr-1999-goda-300x173.png 300w, https://generalarcade.com/content/uploads/2023/05/dzheyson-skott-ocifroval-bolee-90-kasset-s-konferencii-razrabotchikov-igr-1999-goda-768x442.png 768w" width="890"/></figure>
-<p>70+ hours of presentations!</p>
-<p><a href="https://www.appsflyer.com/product-news/measurement/pc-console-solution/">AppsFlyer analytics now on PC and consoles</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2357" height="370" loading="lazy" sizes="(max-width: 670px) 100vw, 670px" src="pc-console-solution.png" srcset="https://generalarcade.com/content/uploads/2023/05/pc-console-solution.png 670w, https://generalarcade.com/content/uploads/2023/05/pc-console-solution-300x166.png 300w" width="670"/></figure>
-<p>Analytics supported on Steam, Epic, Xbox, PlayStation, Nintendo Switch and Meta Quest, cross-platform attribution and more.</p>
-<p><a href="https://youtu.be/3GLH25M0L5E">15 profitable games and 6 failures: Paradox Interactive statistics for 10 years</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/3GLH25M0L5E" title="Paradox Interactive | PDX Deep Dive" width="560"></iframe></p>
-<p>Pillars of Eternity and Shadowrun Trilogy went to zero. Dungeonland, War of the Vikings, Warlock 2, Knights of Pen &amp; Paper 2, Imperator: Rome and Empire of Sin failed. Succeeded: Cities in Motion 2, Empire, March of the Eagles, The Showdown Effect, Leviathan: Warships, Magicka 2, Tyranny, Steel Division: Normandy 44, Surviving Mars, BattleTech, Prison Architect, Age of Wonders: Planetfall, Surviving the Aftermath , Victoria 3, and Age of Wonders 4. It’s worth adding that Europa Universalis IV, Cities: Skylines, Hearts of Iron IV, Stellaris, and Crusader Kings III are “endless games” that are still supported today.</p>
-<p><a href="https://youtu.be/VyQgWh-XAxs">Cut bonus, crunches and conflict with Interplay management: Tim Kane on leaving the Fallout 2 team</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/VyQgWh-XAxs" title="Listening To My Stories With Nuance" width="560"></iframe></p>
-<p>In the last video, Tim Kaine spoke about the conflict with Brian Fargo and about leaving the Fallout 2 development team. The release of the first part had to be postponed, because there was a floating bug. Tim and another employee had been fixing it for over a week. And when they fixed it, Brian Fargo tried to get the name of the one who was to blame for the bug. Tim didn’t give out the employee’s name. That very bug bug Fargo put on Kane himself, since he “did not give out the employee.”</p>
-<p><a href="https://youtu.be/3Q5Cuh2kOQo">“There is no such thing as a perfect game”: Mark Darra on the development of Baldur’s Gate</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/3Q5Cuh2kOQo" title="Baldur's Gate - Memories and Lessons" width="560"></iframe></p>
-<p>And if you’re writing your own scripting language for a game, then rest assured that it will be used for things you didn’t even plan. Very informative and interesting text.</p>
-<p><a href="https://blog.unity.com/engine-platform/accessing-texture-data-efficiently">Efficient Access to Texture Data</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2360" height="301" loading="lazy" sizes="(max-width: 621px) 100vw, 621px" src="accessing-texture-data-efficiently.png" srcset="https://generalarcade.com/content/uploads/2023/05/accessing-texture-data-efficiently.png 621w, https://generalarcade.com/content/uploads/2023/05/accessing-texture-data-efficiently-300x145.png 300w" width="621"/></figure>
-<p>Unity has published an article on the company blog about working with textures in the engine and the best ways to process pixels.</p>
-<p><a href="https://youtu.be/9Yomqk0C6kE">Valve’s “secret weapon”</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/9Yomqk0C6kE" title="Valve's &quot;Secret Weapon&quot;" width="560"></iframe></p>
-<p>An analysis of Valve’s approach to developing their games, which consists in constant playtests. Teams hold them every week, which allows you to change the game even in the early stages of development. For example, in the original version of HL2, the player only gets a gravity gun towards the end of the game. Playtests have shown that players really liked the mechanic, so in the release version we get these weapons in the early stages of the game.</p>
-<p><a href="https://www.kodeco.com/38238361-unreal-engine-5-ui-tutorial">Tutorial on working with UI in Unreal Engine 5</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2364" height="358" loading="lazy" src="unreal-engine-5-ui-tutorial.gif" width="640"/></figure>
-<p>Creating a HUD, displaying it and updating the displayed data.</p>
-<p><a href="https://www.deconstructoroffun.com/blog/2023/5/23/marvel-snap-the-definitive-deconstruction">Marvel Snap – The Definitive Deconstruction</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2365" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="marvel-snap-the-definitive-deconstruction-1024x576.jpg" srcset="https://generalarcade.com/content/uploads/2023/05/marvel-snap-the-definitive-deconstruction-1024x576.jpg 1024w, https://generalarcade.com/content/uploads/2023/05/marvel-snap-the-definitive-deconstruction-300x169.jpg 300w, https://generalarcade.com/content/uploads/2023/05/marvel-snap-the-definitive-deconstruction-768x432.jpg 768w, https://generalarcade.com/content/uploads/2023/05/marvel-snap-the-definitive-deconstruction-1280x720.jpg 1280w, https://generalarcade.com/content/uploads/2023/05/marvel-snap-the-definitive-deconstruction.jpg 1500w" width="1024"/></figure>
-<p>DeconstructorOfFun did a huge breakdown of the game. The mechanics, game cycle and economy of the game are considered in more detail.</p>
-<p><a href="https://80.lv/articles/blizzard-s-senior-artist-on-her-artistic-journey-landing-a-job-at-a-aaa-studio/">A Blizzard artist on her creative journey and getting a job at an AAA studio</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2366" height="548" loading="lazy" sizes="(max-width: 920px) 100vw, 920px" src="blizzard-s-senior-artist-on-her-artistic-journey-landing-a-job-at-a-aaa-studio.jpg" srcset="https://generalarcade.com/content/uploads/2023/05/blizzard-s-senior-artist-on-her-artistic-journey-landing-a-job-at-a-aaa-studio.jpg 920w, https://generalarcade.com/content/uploads/2023/05/blizzard-s-senior-artist-on-her-artistic-journey-landing-a-job-at-a-aaa-studio-300x179.jpg 300w, https://generalarcade.com/content/uploads/2023/05/blizzard-s-senior-artist-on-her-artistic-journey-landing-a-job-at-a-aaa-studio-768x457.jpg 768w" width="920"/></figure>
-<p>Environment artist Molly Warner talked about her creative journey, her first projects and workflows when creating environments, explained the benefits of Unreal Engine and shared some tips on how to get a job in an AAA studio.</p>
-<p><a href="https://newsletter.gamediscover.co/p/steam-publisher-sales-how-does-having">Steam Publisher Sale</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2367" height="295" loading="lazy" sizes="(max-width: 584px) 100vw, 584px" src="steam-publisher-sales-how-does-having.jpg" srcset="https://generalarcade.com/content/uploads/2023/05/steam-publisher-sales-how-does-having.jpg 584w, https://generalarcade.com/content/uploads/2023/05/steam-publisher-sales-how-does-having-300x152.jpg 300w" width="584"/></figure>
-<p>Some interesting facts about the release of Dwarf Fortress, Boyfriend Dungeon and other games of the publisher on Steam.</p>
-<p><a href="https://youtu.be/lL6A_MC1E2Y">How Unexplored 2 creates entire fantasy worlds from scratch</a></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/lL6A_MC1E2Y" title="How Unexplored 2 Generates Entire Fantasy Worlds from Scratch | Artifacts #1" width="560"></iframe></p>
-<p>Unexplored at maximum speed. In the new game, not just random generation of rooms, but of the whole world, events of regeneration of plots after death. The world creation logic is based on declarative rules and graphs. But the key to all this is the cyclical nature of generation.</p>
-<p><a href="https://80.lv/articles/call-of-duty-and-dead-space-art-producer-game-art-production-from-the-inside/">Creating game art for Call of Duty and Dead Space from the inside</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2369" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="call-of-duty-and-dead-space-art-producer-game-art-production-from-the-inside-1024x576.jpeg" srcset="https://generalarcade.com/content/uploads/2023/05/call-of-duty-and-dead-space-art-producer-game-art-production-from-the-inside-1024x576.jpeg 1024w, https://generalarcade.com/content/uploads/2023/05/call-of-duty-and-dead-space-art-producer-game-art-production-from-the-inside-300x169.jpeg 300w, https://generalarcade.com/content/uploads/2023/05/call-of-duty-and-dead-space-art-producer-game-art-production-from-the-inside-768x432.jpeg 768w, https://generalarcade.com/content/uploads/2023/05/call-of-duty-and-dead-space-art-producer-game-art-production-from-the-inside-1536x864.jpeg 1536w, https://generalarcade.com/content/uploads/2023/05/call-of-duty-and-dead-space-art-producer-game-art-production-from-the-inside-2048x1152.jpeg 2048w, https://generalarcade.com/content/uploads/2023/05/call-of-duty-and-dead-space-art-producer-game-art-production-from-the-inside-1280x720.jpeg 1280w" width="1024"/></figure>
-<p>Ksenia Taranets, lead art producer at Room 8, spoke about the role of an art producer in game projects and its features.</p>
-<p><a href="https://blog.42yeah.is/rendering/2023/05/13/photon-mapping.html">How photon mapping works</a></p>
-<figure class="wp-block-image size-large"><img alt="" class="wp-image-2371" height="477" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="photon-mapping-1024x477.png" srcset="https://generalarcade.com/content/uploads/2023/05/photon-mapping-1024x477.png 1024w, https://generalarcade.com/content/uploads/2023/05/photon-mapping-300x140.png 300w, https://generalarcade.com/content/uploads/2023/05/photon-mapping-768x358.png 768w, https://generalarcade.com/content/uploads/2023/05/photon-mapping-1536x715.png 1536w, https://generalarcade.com/content/uploads/2023/05/photon-mapping-1280x596.png 1280w, https://generalarcade.com/content/uploads/2023/05/photon-mapping.png 1920w" width="1024"/></figure>
-<p>The caustic is a remarkable phenomenon, but huge powers are needed to realize a physically reliable effect. This is hard to achieve with ray/path tracing. This article discusses the problems with ray counting in ray tracing methods, and also shows how photon mapping aims to reduce the number of rays.</p>
-</div>
+*The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
+
+[Microsoft files appeal against UK deal ban with Activision Blizzard](https://www.bloomberg.com/news/articles/2023-05-24/microsoft-appeals-uk-s-decision-to-block-activision-mega-deal)
+
+![](microsoft-appeals-uk-s-decision-to-block-activision-mega-deal-1024x576.jpg)
+
+The British antitrust regulator blocked Microsoft’s $69 billion deal with Activision Blizzard at the end of April 2023. The company has filed an appeal in response. It can take up to 9 months to review.
+
+[Unity 2022 LTS Coming in June](https://blog.unity.com/engine-platform/unity-2022-lts-is-coming-in-june)
+
+![](unity-2022-lts-is-coming-in-june-1024x341.jpg)
+
+DOTS, multiplayer services, immersive HD environments with HDRP, quality lighting and enhanced visuals (even on mobile), DirectX 12 and more.
+
+[Jason Scott digitized over 90 tapes from the 1999 Game Developers Conference](https://archive.org/details/1999_Game_Developers_Conference_Audio)
+
+![](dzheyson-skott-ocifroval-bolee-90-kasset-s-konferencii-razrabotchikov-igr-1999-goda.png)
+
+70+ hours of presentations!
+
+[AppsFlyer analytics now on PC and consoles](https://www.appsflyer.com/product-news/measurement/pc-console-solution/)
+
+![](pc-console-solution.png)
+
+Analytics supported on Steam, Epic, Xbox, PlayStation, Nintendo Switch and Meta Quest, cross-platform attribution and more.
+
+[15 profitable games and 6 failures: Paradox Interactive statistics for 10 years](https://youtu.be/3GLH25M0L5E)
+
+{{< youtube "https://youtu.be/3GLH25M0L5E" >}}
+
+Pillars of Eternity and Shadowrun Trilogy went to zero. Dungeonland, War of the Vikings, Warlock 2, Knights of Pen & Paper 2, Imperator: Rome and Empire of Sin failed. Succeeded: Cities in Motion 2, Empire, March of the Eagles, The Showdown Effect, Leviathan: Warships, Magicka 2, Tyranny, Steel Division: Normandy 44, Surviving Mars, BattleTech, Prison Architect, Age of Wonders: Planetfall, Surviving the Aftermath , Victoria 3, and Age of Wonders 4. It’s worth adding that Europa Universalis IV, Cities: Skylines, Hearts of Iron IV, Stellaris, and Crusader Kings III are “endless games” that are still supported today.
+
+[Cut bonus, crunches and conflict with Interplay management: Tim Kane on leaving the Fallout 2 team](https://youtu.be/VyQgWh-XAxs)
+
+{{< youtube "https://youtu.be/VyQgWh-XAxs" >}}
+
+In the last video, Tim Kaine spoke about the conflict with Brian Fargo and about leaving the Fallout 2 development team. The release of the first part had to be postponed, because there was a floating bug. Tim and another employee had been fixing it for over a week. And when they fixed it, Brian Fargo tried to get the name of the one who was to blame for the bug. Tim didn’t give out the employee’s name. That very bug bug Fargo put on Kane himself, since he “did not give out the employee.”
+
+[“There is no such thing as a perfect game”: Mark Darra on the development of Baldur’s Gate](https://youtu.be/3Q5Cuh2kOQo)
+
+{{< youtube "https://youtu.be/3Q5Cuh2kOQo" >}}
+
+And if you’re writing your own scripting language for a game, then rest assured that it will be used for things you didn’t even plan. Very informative and interesting text.
+
+[Efficient Access to Texture Data](https://blog.unity.com/engine-platform/accessing-texture-data-efficiently)
+
+![](accessing-texture-data-efficiently.png)
+
+Unity has published an article on the company blog about working with textures in the engine and the best ways to process pixels.
+
+[Valve’s “secret weapon”](https://youtu.be/9Yomqk0C6kE)
+
+{{< youtube "https://youtu.be/9Yomqk0C6kE" >}}
+
+An analysis of Valve’s approach to developing their games, which consists in constant playtests. Teams hold them every week, which allows you to change the game even in the early stages of development. For example, in the original version of HL2, the player only gets a gravity gun towards the end of the game. Playtests have shown that players really liked the mechanic, so in the release version we get these weapons in the early stages of the game.
+
+[Tutorial on working with UI in Unreal Engine 5](https://www.kodeco.com/38238361-unreal-engine-5-ui-tutorial)
+
+![](unreal-engine-5-ui-tutorial.gif)
+
+Creating a HUD, displaying it and updating the displayed data.
+
+[Marvel Snap – The Definitive Deconstruction](https://www.deconstructoroffun.com/blog/2023/5/23/marvel-snap-the-definitive-deconstruction)
+
+![](marvel-snap-the-definitive-deconstruction-1024x576.jpg)
+
+DeconstructorOfFun did a huge breakdown of the game. The mechanics, game cycle and economy of the game are considered in more detail.
+
+[A Blizzard artist on her creative journey and getting a job at an AAA studio](https://80.lv/articles/blizzard-s-senior-artist-on-her-artistic-journey-landing-a-job-at-a-aaa-studio/)
+
+![](blizzard-s-senior-artist-on-her-artistic-journey-landing-a-job-at-a-aaa-studio.jpg)
+
+Environment artist Molly Warner talked about her creative journey, her first projects and workflows when creating environments, explained the benefits of Unreal Engine and shared some tips on how to get a job in an AAA studio.
+
+[Steam Publisher Sale](https://newsletter.gamediscover.co/p/steam-publisher-sales-how-does-having)
+
+![](steam-publisher-sales-how-does-having.jpg)
+
+Some interesting facts about the release of Dwarf Fortress, Boyfriend Dungeon and other games of the publisher on Steam.
+
+[How Unexplored 2 creates entire fantasy worlds from scratch](https://youtu.be/lL6A_MC1E2Y)
+
+{{< youtube "https://youtu.be/lL6A_MC1E2Y" >}}
+
+Unexplored at maximum speed. In the new game, not just random generation of rooms, but of the whole world, events of regeneration of plots after death. The world creation logic is based on declarative rules and graphs. But the key to all this is the cyclical nature of generation.
+
+[Creating game art for Call of Duty and Dead Space from the inside](https://80.lv/articles/call-of-duty-and-dead-space-art-producer-game-art-production-from-the-inside/)
+
+![](call-of-duty-and-dead-space-art-producer-game-art-production-from-the-inside-1024x576.jpeg)
+
+Ksenia Taranets, lead art producer at Room 8, spoke about the role of an art producer in game projects and its features.
+
+[How photon mapping works](https://blog.42yeah.is/rendering/2023/05/13/photon-mapping.html)
+
+![](photon-mapping-1024x477.png)
+
+The caustic is a remarkable phenomenon, but huge powers are needed to realize a physically reliable effect. This is hard to achieve with ray/path tracing. This article discusses the problems with ray counting in ray tracing methods, and also shows how photon mapping aims to reduce the number of rays.
