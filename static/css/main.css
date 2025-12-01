@@ -737,10 +737,11 @@ main + .site-footer {
 .post-item,
 .project-item {
   background: var(--bg-secondary);
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .post-item:hover,
 .project-item:hover {
@@ -1107,7 +1108,7 @@ main + .site-footer {
 
 .blog-categories-link {
   display: block;
-  padding: 10px 24px;
+  padding: 0px 24px;
   color: #ffffff;
   text-decoration: none;
   font-size: 0.9375rem;
@@ -1339,13 +1340,13 @@ main + .site-footer {
   padding: 0;
 }
 
-.projects-categories-item + .projects-categories-item {
+/*.projects-categories-item + .projects-categories-item {
   margin-top: 8px;
-}
+}*/
 
 .projects-categories-link {
   display: block;
-  padding: 12px 24px;
+/*  padding: 12px 24px;*/
   color: var(--text-primary);
   text-decoration: none;
   font-size: 1rem;
@@ -1386,7 +1387,7 @@ main + .site-footer {
   position: relative;
   width: 100%;
   display: block;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   overflow: hidden;
 }
 
@@ -1440,7 +1441,7 @@ main + .site-footer {
 .project-card__platforms {
   display: block;
   font-size: 0.75rem;
-  color: var(--text-secondary);
+  color: #e1acb9;
   margin-bottom: 6px;
 }
 
@@ -1682,7 +1683,7 @@ main + .site-footer {
 .project-image {
   max-width: 100%;
   height: auto;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
 }
 
 .project-highlighted {
