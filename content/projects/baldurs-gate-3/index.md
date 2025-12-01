@@ -1,6 +1,6 @@
 ﻿---
 title: "Baldurs Gate 3"
-weight: 997
+weight: 72
 platforms: ["OSX", "Steam", "Windows"]
 client: "Larian Studios"
 developer: "Larian Studios"

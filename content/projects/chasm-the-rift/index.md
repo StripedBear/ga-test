@@ -1,6 +1,6 @@
 ﻿---
 title: "Chasm: The Rift"
-weight: 1000
+weight: 53
 platforms: ["GOG Galaxy", "Nintendo Switch", "Playstation 4", "Playstation 5", "Steam", "Xbox One", "Xbox Series X"]
 client: "SNEG"
 developer: "Action Forms, General Arcade"

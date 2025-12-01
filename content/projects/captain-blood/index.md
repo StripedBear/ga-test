@@ -1,6 +1,6 @@
 ﻿---
 title: "Captain Blood"
-weight: 1000
+weight: 75
 platforms: ["DRM Free", "Epic Games Store", "Mac App Store", "Nintendo Switch", "OSX", "Playstation 4", "Playstation 5", "Steam", "Windows", "Xbox One", "Xbox Series X/S"]
 client: "SNEG"
 developer: "Seawolf Studio"

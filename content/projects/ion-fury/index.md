@@ -1,6 +1,6 @@
 ﻿---
 title: "Ion Fury"
-weight: 1000
+weight: 28
 platforms: ["Nintendo Switch", "Playstation 4", "Xbox One"]
 client: "3D Realms"
 developer: "VoidPoint"

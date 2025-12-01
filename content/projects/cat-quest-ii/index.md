@@ -1,6 +1,6 @@
 ﻿---
 title: "Cat Quest II"
-weight: 1000
+weight: 23
 platforms: ["Nintendo Switch", "Playstation 4", "Xbox One"]
 client: "The Gentlebros"
 developer: "The Gentlebros"

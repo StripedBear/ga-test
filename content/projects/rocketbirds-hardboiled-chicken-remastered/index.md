@@ -1,6 +1,6 @@
 ﻿---
 title: "Rocketbirds: Hardboiled Chicken (Remastered)"
-weight: 1000
+weight: 33
 platforms: ["Playstation 4"]
 client: "Ratloop Asia"
 developer: "General Arcade, Ratloop Asia"

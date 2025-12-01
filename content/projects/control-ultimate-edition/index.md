@@ -1,6 +1,6 @@
 ﻿---
 title: "CONTROL: Ultimate Edition"
-weight: 1000
+weight: 31
 platforms: ["DRM Free", "GOG Galaxy", "Windows"]
 client: "GOG"
 developer: "Remedy"

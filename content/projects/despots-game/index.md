@@ -1,6 +1,6 @@
 ﻿---
 title: "Despots Game"
-weight: 1000
+weight: 57
 platforms: ["Gamepass", "Nintendo Switch", "Playstation 4", "Playstation 5", "Xbox One", "Xbox Series X"]
 client: "tinyBuild"
 publisher: "tinyBuild"

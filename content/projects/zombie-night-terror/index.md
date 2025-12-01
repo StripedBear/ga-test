@@ -1,6 +1,6 @@
 ﻿---
 title: "Zombie Night Terror"
-weight: 1000
+weight: 12
 platforms: ["Mac App Store", "OSX"]
 client: "Good Shepherd Entertainment"
 developer: "NoClip"

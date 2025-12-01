@@ -1,6 +1,6 @@
 ﻿---
 title: "Tooth and Tail"
-weight: 1000
+weight: 15
 platforms: ["Cross Play", "GOG Galaxy", "OSX", "Playstation 4", "Steam", "Windows"]
 client: "GOG"
 developer: "Pocketwatch Games"

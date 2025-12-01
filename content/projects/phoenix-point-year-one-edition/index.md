@@ -1,6 +1,6 @@
 ﻿---
 title: "Phoenix Point: Year One Edition"
-weight: 1000
+weight: 34
 platforms: ["DRM Free", "GOG Galaxy", "Windows"]
 developer: "Snapshot Games"
 publisher: "Snapshot Games"

@@ -1,6 +1,6 @@
 ﻿---
 title: "Warhammer 40,000: Space Marine"
-weight: 1000
+weight: 51
 platforms: ["GOG Galaxy"]
 client: "GOG"
 developer: "Relic Entertainment"

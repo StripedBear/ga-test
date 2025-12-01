@@ -1,6 +1,6 @@
 ﻿---
 title: "Pathologic Classic HD"
-weight: 1000
+weight: 8
 platforms: ["GOG Galaxy", "Steam", "Windows"]
 client: "Good Shepherd Entertainment"
 developer: "Ice-pick Lodge"

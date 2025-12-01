@@ -1,6 +1,6 @@
 ﻿---
 title: "Warhammer 40,000: Dawn of War II  Grand Master Collection"
-weight: 1000
+weight: 64
 client: "GOG"
 developer: "Relic Entertainment"
 publisher: "SEGA"

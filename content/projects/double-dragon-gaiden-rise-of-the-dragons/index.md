@@ -1,6 +1,6 @@
 ﻿---
 title: "Double Dragon Gaiden: Rise Of The Dragons"
-weight: 1000
+weight: 65
 platforms: ["Steam"]
 client: "Secret Base"
 developer: "Secret Base"

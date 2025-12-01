@@ -1,6 +1,6 @@
 ﻿---
 title: "Dragons Dogma: Dark Arisen"
-weight: 1000
+weight: 16
 platforms: ["DRM Free", "GOG Galaxy", "Windows"]
 client: "Capcom, GOG"
 developer: "Capcom"

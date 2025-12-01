@@ -1,6 +1,6 @@
 ﻿---
 title: "ENDLESS™ Space 2"
-weight: 1000
+weight: 61
 platforms: ["GOG Galaxy"]
 client: "GOG"
 developer: "AMPLITUDE Studios"

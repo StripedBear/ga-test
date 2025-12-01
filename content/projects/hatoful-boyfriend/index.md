@@ -1,6 +1,6 @@
 ﻿---
 title: "Hatoful Boyfriend"
-weight: 1000
+weight: 10
 platforms: ["Android", "iOS"]
 client: "Devolver Digital"
 developer: "Media Tonic"

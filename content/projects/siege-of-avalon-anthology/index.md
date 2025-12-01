@@ -1,6 +1,6 @@
 ﻿---
 title: "Siege of Avalon: Anthology"
-weight: 1000
+weight: 36
 platforms: ["GOG Galaxy", "Steam", "Windows"]
 client: "SNEG"
 developer: "Digital Tome"

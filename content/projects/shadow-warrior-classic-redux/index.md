@@ -1,6 +1,6 @@
 ﻿---
 title: "Shadow Warrior Classic Redux"
-weight: 1000
+weight: 2
 platforms: ["Android", "GOG Galaxy", "iOS", "Linux", "OSX", "Steam", "Windows"]
 client: "Devolver Digital"
 developer: "3D Realms, General Arcade"

@@ -1,6 +1,6 @@
 ﻿---
 title: "Gigantic: Rampage Edition"
-weight: 1000
+weight: 71
 platforms: ["Cross Play", "Playstation 4", "Playstation 5", "Xbox One", "Xbox Series X"]
 client: "Abstraction Games"
 developer: "Abstraction Games"

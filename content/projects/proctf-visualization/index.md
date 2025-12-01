@@ -1,6 +1,6 @@
 ﻿---
 title: "ProCTF Visualization"
-weight: 1000
+weight: 25
 platforms: ["Windows"]
 client: "Hack In the box"
 featured_image: "featured.png"

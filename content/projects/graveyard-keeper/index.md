@@ -1,6 +1,6 @@
 ﻿---
 title: "Graveyard Keeper"
-weight: 1000
+weight: 37
 platforms: ["Nintendo Switch", "Playstation 4", "Xbox One"]
 client: "tinyBuild"
 developer: "Lazy Bear Games"

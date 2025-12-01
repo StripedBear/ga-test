@@ -1,6 +1,6 @@
 ﻿---
 title: "Dungeons  Dragons: Gold Box Classics, Silver Box Classics and more"
-weight: 1000
+weight: 45
 platforms: ["Steam"]
 client: "SNEG"
 developer: "Cyberlore Studios, DreamForge Intertainment, General Arcade, MicroMagic, Stormfront Studios, Strategic Simulations, Westwood Associates"

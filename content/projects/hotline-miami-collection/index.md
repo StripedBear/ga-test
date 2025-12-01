@@ -1,6 +1,6 @@
 ﻿---
 title: "Hotline Miami Collection"
-weight: 993
+weight: 67
 platforms: ["Playstation 5", "Xbox Series X"]
 client: "Devolver Digital"
 developer: "Dennaton Games"

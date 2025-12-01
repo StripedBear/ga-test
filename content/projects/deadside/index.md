@@ -1,6 +1,6 @@
 ﻿---
 title: "DEADSIDE"
-weight: 1000
+weight: 56
 platforms: ["Steam", "Windows"]
 client: "tinyBuild"
 developer: "Bad Pixel"

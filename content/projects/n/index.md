@@ -1,6 +1,6 @@
 ﻿---
 title: "N++"
-weight: 992
+weight: 66
 platforms: ["Nintendo Switch", "Playstation 4", "Xbox One", "Xbox Series X"]
 client: "Metanet Software Inc."
 developer: "Metanet Software Inc."

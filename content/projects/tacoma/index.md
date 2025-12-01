@@ -1,6 +1,6 @@
 ﻿---
 title: "Tacoma"
-weight: 1000
+weight: 18
 platforms: ["Mac App Store", "OSX"]
 client: "Fullbright"
 developer: "Fullbright"

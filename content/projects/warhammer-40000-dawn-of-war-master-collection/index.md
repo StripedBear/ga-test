@@ -1,6 +1,6 @@
 ﻿---
 title: "Warhammer 40,000: Dawn of War  Master Collection"
-weight: 1000
+weight: 59
 platforms: ["GOG Galaxy"]
 client: "GOG"
 developer: "Relic Entertainment"

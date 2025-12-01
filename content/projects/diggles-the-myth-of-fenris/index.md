@@ -1,6 +1,6 @@
 ﻿---
 title: "Diggles: The Myth of Fenris"
-weight: 1000
+weight: 33
 platforms: ["DRM Free", "GOG Galaxy", "Steam", "Windows"]
 client: "SNEG"
 developer: "General Arcade, SEK GmbH"

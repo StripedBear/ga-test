@@ -1,6 +1,6 @@
 ﻿---
 title: "Wild Bastards"
-weight: 999
+weight: 74
 platforms: ["Nintendo Switch", "Playstation 5", "Xbox Series X/S"]
 client: "Blue Manchu"
 developer: "Blue Manchu"

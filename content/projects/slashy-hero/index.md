@@ -1,6 +1,6 @@
 ﻿---
 title: "Slashy Hero"
-weight: 1000
+weight: 11
 platforms: ["Steam", "Windows"]
 client: "Kongregate, The Gentlebros"
 developer: "General Arcade, The Gentlebros"

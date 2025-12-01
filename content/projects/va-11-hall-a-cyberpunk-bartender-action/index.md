@@ -1,6 +1,6 @@
 ﻿---
 title: "VA-11 Hall-A: Cyberpunk Bartender Action"
-weight: 1000
+weight: 21
 platforms: ["Nintendo Switch", "Playstation 4"]
 client: "Ysbryd Games"
 developer: "SUKEBAN GAMES"

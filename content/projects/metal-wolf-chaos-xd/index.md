@@ -1,6 +1,6 @@
 ﻿---
 title: "Metal Wolf Chaos XD"
-weight: 1000
+weight: 24
 platforms: ["DRM Free", "GOG Galaxy", "Playstation 4", "Windows", "Xbox One"]
 client: "Devolver Digital, From Software"
 developer: "From Software, General Arcade"

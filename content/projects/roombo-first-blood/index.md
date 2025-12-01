@@ -1,6 +1,6 @@
 ﻿---
 title: "Roombo: First Blood"
-weight: 1000
+weight: 35
 platforms: ["Xbox One"]
 client: "Samurai Punk"
 developer: "Samurai Punk"

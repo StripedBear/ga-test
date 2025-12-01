@@ -1,6 +1,6 @@
 ﻿---
 title: "Nidhogg 2"
-weight: 1000
+weight: 29
 platforms: ["Xbox One"]
 client: "Messhof"
 developer: "Messhof"

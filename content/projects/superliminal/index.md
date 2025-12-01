@@ -1,6 +1,6 @@
 ﻿---
 title: "Superliminal"
-weight: 1000
+weight: 32
 platforms: ["DRM Free", "Epic Games Store", "GOG Galaxy", "Linux", "Windows"]
 client: "Pillow Castle"
 developer: "Pillow Castle"

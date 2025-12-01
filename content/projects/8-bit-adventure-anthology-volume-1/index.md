@@ -1,6 +1,6 @@
 ﻿---
 title: "8-bit Adventure Anthology: Volume 1"
-weight: 1000
+weight: 17
 platforms: ["DRM Free", "Linux", "OSX", "Playstation 4", "Windows", "Xbox One"]
 client: "Abstraction Games"
 developer: "General Arcade, ICOM Simulations"

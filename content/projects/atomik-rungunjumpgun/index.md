@@ -1,6 +1,6 @@
 ﻿---
 title: "ATOMIK: RunGunJumpGun"
-weight: 1000
+weight: 14
 platforms: ["Apple TV"]
 client: "Good Shepherd Entertainment"
 developer: "ThirtyThree"

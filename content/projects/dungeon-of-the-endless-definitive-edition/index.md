@@ -1,6 +1,6 @@
 ﻿---
 title: "Dungeon of the ENDLESS™  Definitive Edition"
-weight: 1000
+weight: 62
 platforms: ["GOG Galaxy"]
 client: "GOG"
 developer: "AMPLITUDE Studios"

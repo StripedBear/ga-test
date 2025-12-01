@@ -1,6 +1,6 @@
 ﻿---
 title: "Deus Ex: Mankind Divided"
-weight: 1000
+weight: 27
 platforms: ["DRM Free", "GOG Galaxy", "Windows"]
 client: "GOG"
 developer: "Eidos Montreal"

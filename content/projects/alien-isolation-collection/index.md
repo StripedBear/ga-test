@@ -1,6 +1,6 @@
 ﻿---
 title: "Alien: Isolation Collection"
-weight: 1000
+weight: 49
 platforms: ["GOG Galaxy"]
 client: "GOG"
 developer: "Creative Assembly"

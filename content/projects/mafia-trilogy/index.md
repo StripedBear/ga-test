@@ -1,6 +1,6 @@
 ﻿---
 title: "Mafia Trilogy"
-weight: 1000
+weight: 51
 platforms: ["GOG Galaxy"]
 client: "GOG"
 developer: "Hangar 13"

@@ -1,6 +1,6 @@
 ﻿---
 title: "Marc Eckos Getting Up: Contents Under Pressure"
-weight: 1000
+weight: 3
 platforms: ["Steam", "Windows"]
 client: "Devolver Digital"
 developer: "The Collective"

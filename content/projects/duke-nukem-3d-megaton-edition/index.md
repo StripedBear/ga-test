@@ -1,6 +1,6 @@
 ﻿---
 title: "Duke Nukem 3D: Megaton Edition"
-weight: 1000
+weight: 1
 platforms: ["Linux", "OSX", "Steam", "Windows"]
 client: "Devolver Digital"
 developer: "3D Realms, General Arcade"

@@ -1,6 +1,6 @@
 ﻿---
 title: "Blade of Darkness"
-weight: 1000
+weight: 42
 platforms: ["GOG Galaxy", "Steam"]
 client: "SNEG"
 developer: "Fire Falcom, General Arcade, Rebel Act Studios"

@@ -27,7 +27,7 @@
 
 {{/* Projects grid - full width */}}
 <div class="projects-grid" id="projects-grid">
-  {{ range .Pages }}
+  {{ range sort .Pages "Weight" "desc" }}
   <article class="project-card" data-platforms="{{ range .Params.platforms }}{{ . | urlize }} {{ end }}">
     <a href="{{ .RelPermalink }}" class="project-card-link">
       {{/* Featured image */}}

@@ -1,6 +1,6 @@
 ﻿---
 title: "Gone Home"
-weight: 1000
+weight: 18
 platforms: ["DRM Free", "Linux", "Mac App Store", "OSX", "Windows"]
 client: "Fullbright"
 developer: "Fullbright"

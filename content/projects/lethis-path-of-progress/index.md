@@ -1,6 +1,6 @@
 ﻿---
 title: "Lethis  Path of Progress"
-weight: 1000
+weight: 48
 platforms: ["Playstation 5", "Xbox Series X"]
 client: "Plug In Digital"
 developer: "Triskell Interactive"

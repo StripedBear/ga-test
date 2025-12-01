@@ -1,6 +1,6 @@
 ﻿---
 title: "Just Cause 2  Complete Edition"
-weight: 1000
+weight: 44
 platforms: ["DRM Free", "GOG Galaxy", "Windows"]
 client: "GOG"
 developer: "Avalanche Studios"

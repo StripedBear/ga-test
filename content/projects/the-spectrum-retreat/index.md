@@ -1,6 +1,6 @@
 ﻿---
 title: "The Spectrum Retreat"
-weight: 1000
+weight: 38
 platforms: ["Epic Games Store", "Windows"]
 client: "RipStone"
 developer: "Dan Smith Studios"

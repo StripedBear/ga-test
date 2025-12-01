@@ -1,6 +1,6 @@
 ﻿---
 title: "Project Zomboid"
-weight: 1000
+weight: 26
 platforms: ["DRM Free", "GOG Galaxy", "Linux", "Steam", "Windows"]
 client: "The Indie Stone"
 developer: "The Indie Stone"

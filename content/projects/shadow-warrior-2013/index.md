@@ -1,6 +1,6 @@
 ﻿---
 title: "Shadow Warrior (2013)"
-weight: 1000
+weight: 9
 platforms: ["Mac App Store", "OSX"]
 client: "Devolver Digital"
 developer: "Fliying Wild Hog"

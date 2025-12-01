@@ -1,6 +1,6 @@
 ﻿---
 title: "Potion Craft: Alchemist Simulator"
-weight: 1000
+weight: 55
 platforms: ["Gamepass", "Nintendo Switch", "Windows", "Xbox Series X"]
 client: "tinyBuild"
 developer: "niceplay games"

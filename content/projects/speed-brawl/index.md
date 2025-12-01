@@ -1,6 +1,6 @@
 ﻿---
 title: "Speed Brawl"
-weight: 1000
+weight: 40
 platforms: ["Cross Play", "Epic Games Store", "GOG Galaxy", "Nintendo Switch", "Playstation 4", "Steam", "Windows", "Xbox One"]
 client: "Double Stallion Games"
 developer: "Double Stallion Games"

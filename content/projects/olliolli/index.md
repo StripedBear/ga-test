@@ -1,6 +1,6 @@
 ﻿---
 title: "OlliOlli"
-weight: 1000
+weight: 4
 platforms: ["DRM Free", "GOG Galaxy", "Linux", "OSX", "Steam", "Windows"]
 client: "Devolver Digital"
 developer: "Roll7"

@@ -1,6 +1,6 @@
 ﻿---
 title: "Darkest Dungeon"
-weight: 1000
+weight: 43
 platforms: ["Gamepass", "Windows"]
 client: "Red Hook Studios"
 developer: "Red Hook Studios"

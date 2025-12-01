@@ -1,6 +1,6 @@
 ﻿---
 title: "Stick It To The Man!"
-weight: 1000
+weight: 30
 platforms: ["Epic Games Store", "Windows"]
 client: "RipStone"
 developer: "Zoink"

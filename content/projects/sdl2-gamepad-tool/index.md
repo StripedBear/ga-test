@@ -1,6 +1,6 @@
 ﻿---
 title: "SDL2 Gamepad Tool"
-weight: 1000
+weight: 7
 platforms: ["Linux", "OSX", "Windows"]
 developer: "General Arcade"
 website: "https://generalarcade.com/gamepadtool/"

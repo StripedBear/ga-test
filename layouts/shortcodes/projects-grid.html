@@ -4,10 +4,13 @@
     <div class="projects-grid-home">
       {{ $projectsSection := $.Page.Site.GetPage "section" "projects" }}
       {{ if $projectsSection }}
-        {{ $projects := $projectsSection.Pages | first 9 }}
+        {{ $sorted := sort $projectsSection.Pages "Weight" "desc" }}
+        {{ $projects := first 9 $sorted }}
+
         {{ range $projects }}
           <article class="project-card" data-platforms="{{ range .Params.platforms }}{{ . | urlize }} {{ end }}">
             <a href="{{ .RelPermalink }}" class="project-card-link">
+              
               {{ $featuredImage := false }}
               {{ if .Params.featured_image }}
                 {{ $featuredImage = .Resources.Get .Params.featured_image }}

@@ -1,6 +1,6 @@
 ﻿---
 title: "Ironcast"
-weight: 1000
+weight: 39
 platforms: ["Epic Games Store", "Windows"]
 client: "RipStone"
 developer: "Dreadbit Games"

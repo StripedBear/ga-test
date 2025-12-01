@@ -1,6 +1,6 @@
 ﻿---
 title: "WORLD OF HORROR"
-weight: 1000
+weight: 68
 platforms: ["Nintendo Switch", "Playstation 4", "Playstation 5"]
 client: "Ysbryd Games"
 developer: "panstasz"

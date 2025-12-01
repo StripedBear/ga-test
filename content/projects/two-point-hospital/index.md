@@ -1,6 +1,6 @@
 ﻿---
 title: "Two Point Hospital"
-weight: 1000
+weight: 54
 platforms: ["GOG Galaxy"]
 client: "GOG"
 developer: "Two Point Studios"

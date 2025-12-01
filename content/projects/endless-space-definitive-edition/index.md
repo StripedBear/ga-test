@@ -1,6 +1,6 @@
 ﻿---
 title: "ENDLESS™ Space  Definitive Edition"
-weight: 1000
+weight: 60
 platforms: ["GOG Galaxy"]
 client: "GOG"
 developer: "AMPLITUDE Studios"

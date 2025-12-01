@@ -1,6 +1,6 @@
 ﻿---
 title: "Blitzkrieg Anthology"
-weight: 1000
+weight: 13
 platforms: ["DRM Free", "GOG Galaxy", "Windows"]
 client: "GOG"
 developer: "Nival Interactive"

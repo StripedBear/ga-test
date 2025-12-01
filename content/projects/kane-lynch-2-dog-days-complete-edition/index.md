@@ -1,6 +1,6 @@
 ﻿---
 title: "Kane  Lynch 2: Dog Days  Complete Edition"
-weight: 1000
+weight: 50
 platforms: ["GOG Galaxy"]
 client: "GOG"
 developer: "IO Interactive"

@@ -1,6 +1,6 @@
 ﻿---
 title: "Pitfall Planet"
-weight: 1000
+weight: 20
 platforms: ["Nintendo Switch"]
 client: "Abstraction Games"
 developer: "Bonfire Games"

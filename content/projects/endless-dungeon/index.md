@@ -1,6 +1,6 @@
 ﻿---
 title: "ENDLESS™ Dungeon"
-weight: 995
+weight: 70
 platforms: ["Cross Play", "Nintendo Switch", "Playstation 4", "Playstation 5", "Steam", "Xbox One", "Xbox Series X"]
 client: "Abstraction Games"
 developer: "AMPLITUDE Studios"

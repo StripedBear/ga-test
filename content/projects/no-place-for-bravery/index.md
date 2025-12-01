@@ -1,6 +1,6 @@
 ﻿---
 title: "No Place for Bravery"
-weight: 1000
+weight: 52
 platforms: ["Nintendo Switch"]
 client: "Ysbryd Games"
 developer: "Glitch Factory"

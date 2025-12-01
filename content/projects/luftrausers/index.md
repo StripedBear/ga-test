@@ -1,6 +1,6 @@
 ﻿---
 title: "Luftrausers"
-weight: 1000
+weight: 5
 platforms: ["Android"]
 client: "Devolver Digital"
 developer: "Vlambeer"

@@ -1,6 +1,6 @@
 ﻿---
 title: "STAR WARS™: Bounty Hunter™"
-weight: 998
+weight: 73
 platforms: ["Nintendo Switch", "Playstation 4", "Playstation 5", "Steam", "Windows", "Xbox One", "Xbox Series X/S"]
 client: "Aspyr"
 developer: "Lucasfilm Games"

@@ -1,6 +1,6 @@
 ﻿---
 title: "Shadowgate"
-weight: 1000
+weight: 19
 platforms: ["Nintendo Switch", "Playstation 4", "Xbox One"]
 client: "Abstraction Games"
 developer: "Zojoi"
