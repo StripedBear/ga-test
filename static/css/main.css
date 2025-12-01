@@ -1177,10 +1177,10 @@ main + .site-footer {
 }
 
 .c-dd-nav__list {
-  list-style: none;
+  /*list-style: none;*/
   margin: 0;
   padding: 20px 0;
-  display: none;
+  /*display: none;*/
   position: relative;
   background: linear-gradient(to bottom, #25283b 0%, rgba(37, 40, 59, 0.85) 87%, rgba(37, 40, 59, 0.85) 100%);
   max-height: 360px;
@@ -1203,10 +1203,10 @@ main + .site-footer {
   }
 }
 
-.c-dd-nav.open .c-dd-nav__list,
+/*.c-dd-nav.open .c-dd-nav__list,
 .c-dd-nav--open .c-dd-nav__list {
   display: block;
-}
+}*/
 
 .c-dd-nav__list li + li {
   margin-top: 8px;
@@ -1217,6 +1217,21 @@ main + .site-footer {
     margin-top: 12px;
   }
 }
+
+/* Исходное состояние — меню скрыто */
+.c-dd-nav__list {
+  opacity: 0;
+  transform: translateY(-12px);
+  pointer-events: none;
+  transition: opacity .25s ease, transform .25s ease;
+}
+
+.c-dd-nav.c-dd-nav--open .c-dd-nav__list {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
 
 .c-dd-nav a {
   color: #ffffff;
@@ -1440,7 +1455,7 @@ main + .site-footer {
 
 .project-card__platforms {
   display: block;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: #e1acb9;
   margin-bottom: 6px;
 }
@@ -1454,7 +1469,7 @@ main + .site-footer {
 .project-card__title {
   color: var(--text-primary);
   margin: 0;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.4;
   z-index: 1;
@@ -1462,7 +1477,7 @@ main + .site-footer {
 
 @media (min-width: 768px) {
   .project-card__title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 

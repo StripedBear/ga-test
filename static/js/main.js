@@ -90,7 +90,7 @@
     // Toggle dropdown
     categoryToggle.addEventListener('click', function(e) {
       e.stopPropagation();
-      categoryDropdown.classList.toggle('open');
+      categoryDropdown.classList.toggle('c-dd-nav--open');
     });
     
     // Close dropdown when clicking outside
@@ -188,16 +188,15 @@
   
   if (projectsCategoryDropdown && projectsCategoryToggle) {
     // Toggle dropdown
-    projectsCategoryToggle.addEventListener('click', function(e) {
+        projectsCategoryToggle.addEventListener('click', function(e) {
       e.preventDefault();
-      projectsCategoryDropdown.classList.toggle('open');
       projectsCategoryDropdown.classList.toggle('c-dd-nav--open');
     });
+
     
     // Close dropdown when clicking outside
     document.addEventListener('click', function(e) {
       if (!projectsCategoryDropdown.contains(e.target)) {
-        projectsCategoryDropdown.classList.remove('open');
         projectsCategoryDropdown.classList.remove('c-dd-nav--open');
       }
     });
