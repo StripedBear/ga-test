@@ -11,8 +11,6 @@ original_url: "https://generalarcade.com/book-of-the-month-game-programming-patt
 draft: false
 ---
 
-![Book of the Month. Game Programming Patterns](Game-Programming-Patterns.jpg)
-
 *The General Arcade library has hundreds of different books about video games and game development. Each month we cover the best of them, which will be useful for developers and/or inquisitive readers.*
 
 It’s good when your teacher is smart. It’s even better when your teacher is experienced. [Robert Nystrom](https://twitter.com/munificentbob) has been programming for more than twenty years, and he has something to tell about it.

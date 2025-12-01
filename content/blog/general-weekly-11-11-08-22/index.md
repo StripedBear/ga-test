@@ -10,8 +10,6 @@ original_url: "https://generalarcade.com/general-weekly-11-11-08-22/"
 draft: false
 ---
 
-![General Weekly #11 11.08.22](weekly11.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
@@ -56,7 +54,7 @@ Added frustum culling for labels, added Slice9 support for sprites and more.
 
 [Great documentary about The Callisto Protocol](https://youtu.be/rM5RKkVnxf0)
 
-{{< youtube "rM5RKkVnxf0" >}}
+{{< youtube "(https://youtu.be/rM5RKkVnxf0" >}}
 
 Invited for extras authors of The Walking Dead and The Friday 13th.
 
@@ -86,7 +84,7 @@ A lot has already been written about the history of virtual worlds, but most of 
 
 [Animated world of Ratchet and Clank: Rift Apart](https://youtu.be/H7pbEKZmYj0)
 
-{{< youtube "H7pbEKZmYj0" >}}
+{{< youtube "https://youtu.be/H7pbEKZmYj0" >}}
 
 In a session with Animation Summit 2022, Lindsey Thompson of Insomniac Games discusses the process and inspiration for animating cinematics and gameplay for Ratchet and Clank: Rift Apart.
 
@@ -110,7 +108,7 @@ In the post, d954mas shared his experience of optimizing Defold to run on a mobi
 
 [Rust for creating helper tools](https://youtu.be/GtRo-eF8-TE)
 
-{{< youtube "GtRo-eF8-TE" >}}
+{{< youtube "https://youtu.be/GtRo-eF8-TE" >}}
 
 In a keynote from GDC 2021, Treyarch’s Dan Olson explores the opportunities and challenges that Rust can bring to the game tool programmer and explores how Rust can be a powerful addition to the arsenal.
 

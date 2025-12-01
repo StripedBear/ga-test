@@ -16,8 +16,6 @@ original_url: "https://generalarcade.com/the-devolver-digital-publisher-sale-is-
 draft: false
 ---
 
-![The Devolver Digital Publisher Sale is live](devolver-1.jpg)
-
 Yes, [Devolver Digital Publisher Sale](http://store.steampowered.com/sale/devolver) is live! A large catalog of indie games with big discounts will be waiting for you until May 16!
 
 The sale also includes games that our team has worked on:

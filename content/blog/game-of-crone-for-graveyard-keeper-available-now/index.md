@@ -13,13 +13,11 @@ original_url: "https://generalarcade.com/game-of-crone-for-graveyard-keeper-avai
 draft: false
 ---
 
-![Game of Crone for Graveyard Keeper available now!](GKDLC.jpg)
-
 What the true caretakers of medieval cemeteries were eagerly awaiting has come true! Game Of Crone, a full-fledged add-on to the most unrealistic simulator of the life of these glorious hard workers Graveyard Keeper released on all the platforms!
 
 In the original Graveyard Keeper and in the Game Of Crone expansion, you are invited to live the unremarkable life of a graveyard keeper. You’ll have to burn witches for the joy of the crowd, intimidate the residents of neighboring villages, use… available resources instead of wasting money on buying meat for hot dogs during the fair… Well, everything is as usual – a sheer routine and nothing more.
 
-{{< youtube "C70ilwmFqVQ" >}}
+{{< youtube "https://www.youtube.com/watch?v=C70ilwmFqVQ" >}}
 
 General Arcade has gone to great lengths to help tinyBuild with bringing fully featured version of the game and DLC to Xbox One, PlayStation 4 and Nintendo Switch. So now we can confidently declare that you can play Graveyard Keeper and Game Of Crone on any platform you like!
 

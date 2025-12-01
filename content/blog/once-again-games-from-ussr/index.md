@@ -17,15 +17,13 @@ original_url: "https://generalarcade.com/once-again-games-from-ussr/"
 draft: false
 ---
 
-![Once again, games from USSR](disco.jpg)
-
 We are very glad that the articles on our website don’t go missing, and the fact that we get feedback from our readers is always a pleasure. This is the fifth time that we look at the most notable games created in the territory of the former Soviet Union, and this article is slightly different from those before.
 
 The fact is that all the games included in this part of our anthology are those about which our readers asked, “Why did you forget about this game?” Of course, we would have remembered about some of them ourselves, but it’s not in our rules to appropriate other people’s merits. So this article was written entirely “at your requests”!
 
 The first game that we couldn’t miss in any way is Disco Elysium. This RPG was developed and released by the Estonian studio ZA/UM and was released in October 2019. The creation of the Estonian programmers received extremely high marks from both critics and players – the RPG fans especially noted the narrative and dialogues.
 
-{{< youtube "UWWA1jnI5N4" >}}
+{{< youtube "https://www.youtube.com/watch?v=UWWA1jnI5N4" >}}
 
 Disco Elysium also got several very prestigious awards from various organizations and publications, which looks quite logical once you take a look at the general reaction of the gaming community around the world, and was even named the best game of 2019. Another thing that ZA/UM could never complain about is the sales, since a little more than a year after release, the number of sold copies reached a million.
 
@@ -39,7 +37,7 @@ The second game on today’s list is Loop Hero, an incredible retro game from th
 
 An unusual mix turned out in terms of genre as well: Loop Hero is a roguelike game that managed to organically accommodate various elements of RPG, collectible card game and even a city-planning simulator. The game world is a looped path on which there is a bonfire, and the protagonist walks along this path completely independently, fighting against monsters that come his way.
 
-{{< youtube "G37bO9vg8RY" >}}
+{{< youtube "https://www.youtube.com/watch?v=G37bO9vg8RY" >}}
 
 The developers also approached the role of the player in an original way. The fact is that you cannot influence the actions of the hero, but you can change the world around him, making the life of protagonist easier or throwing him new tests to make him stronger. In general, the game received positive reviews from critics, but they were far from the audience’s reaction – players who needed something non-standard showered the Four Quarters and their creation with flowers and laudatory odes.
 
@@ -51,7 +49,7 @@ Another game that should never be overlooked is Planet Alcatraz, released by 1C 
 
 The protagonist of Planet Alcatraz is a fighter of the “Ghoul” reconnaissance and sabotage group, a Space Marine named Boar. The game takes place on the prison-type planet Matrosskaya Tishina, all the inhabitants of which are criminals who were exiled there for life for grave crimes. The goal is to control a sabotage group, consisting at the beginning of one, and then of several characters, to complete the task given at the beginning of the game – to find and destroy the spaceship under construction, on which the convicts want to escape from the planet.
 
-{{< youtube "ULog4APcoSc" >}}
+{{< youtube "https://www.youtube.com/watch?v=ULog4APcoSc" >}}
 
 By the way, there is one very interesting fact about this game. As we have already noted, Planet Alcatraz was based on the book “Dungeon orderlies”, the first version of which was released back in 1999. And one of the episodic characters of this very book (Grand Admiral Cookie, to be more precise) was written off from **Alexander “Cookie” Kurikh**, who was a professional Quake player back in the days, and now, by the will of fate, works for **General Arcade**, and also writes this article… And at the same time he also loves to brag.
 
@@ -67,7 +65,7 @@ Curiously, “Truckers 2”, one might say, was released twice. After the origin
 
 Well, since we are talking about auto-simulators, let’s continue. Next in line is UAZ Racing 4×4, a sporty off-road vehicle driving simulator on rough terrain from Avalon Style Entertainment. In fact, the game has a fairly simple arcade physics, which almost doesn’t reflect the real behavior of the car, but the players didn’t like it less because of this – although the critics, in turn, drove through the realism of UAZ more than once.
 
-{{< youtube "2dLDOVwvVxE" >}}
+{{< youtube "https://www.youtube.com/watch?v=2dLDOVwvVxE" >}}
 
 Talking about the pluses, many noted how the car damage model and the financial scheme used by the authors were implemented. Money to repair your steel horse can be earned in races, and in addition to repairing this same money is spent on installing additional equipment and improving the engine, transmission, roll cages, winches and other things.
 

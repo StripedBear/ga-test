@@ -10,8 +10,6 @@ original_url: "https://generalarcade.com/general-weekly-15/"
 draft: false
 ---
 
-![General Weekly #15](weekly.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

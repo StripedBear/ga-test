@@ -13,8 +13,6 @@ original_url: "https://generalarcade.com/virtual-mars-on-ue5-for-nasa/"
 draft: false
 ---
 
-![Virtual Mars on UE5… for NASA](marsblog.jpg)
-
 The crossover we deserve — [NASA has created a “virtual Mars” on Unreal Engine 5](https://www.nasa.gov/help-nasa-develop-vr-for-mars-missions).
 
 Sounds like an idea for a game, but no, this is serious. The XOSS MarsXR virtual environment allows astronauts to create the conditions humanity will experience on Mars in the future. In virtual reality (but at the same time being on Earth) scientists will study the red planet, its weather, “sights” and their impact on Earth technology.

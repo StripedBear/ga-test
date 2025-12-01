@@ -12,13 +12,13 @@ original_url: "https://generalarcade.com/real-time-rendering-fourth-edition/"
 draft: false
 ---
 
-![Real-Time Rendering, Fourth Edition](rtr.jpg)
 
 As the next book that will be really useful for developers, we’d like to recommend Real-Time Rendering, Fourth Edition. This is a collective work, and each of those who contributed to writing a hand has reached quite decent heights in the computer industry. Actually, one can already write a separate article about each of them!
 
-Tomas Akenine-Möller, for example, is a professor of computer science with a specialization in computer graphics and image processing at the Faculty of Computer Science at Lund University in Sweden, and the founder and mastermind of the Lund University Graphics Group (or simply LUGG). Since 2016, he has been working for the benefit of NVIDIA Research after moving there from the research department of Intel.
 
-![](TomasWASP4ALL-1024x686-1.png)
+![Real-Time Rendering, Fourth Edition](rtr.jpg)
+
+Tomas Akenine-Möller, for example, is a professor of computer science with a specialization in computer graphics and image processing at the Faculty of Computer Science at Lund University in Sweden, and the founder and mastermind of the Lund University Graphics Group (or simply LUGG). Since 2016, he has been working for the benefit of NVIDIA Research after moving there from the research department of Intel.
 
 Another one who also works for NVIDIA is a software engineer and computer graphics expert Eric Haines, who at the time of writing the book focused on interactive ray tracing. Haines is the co-founder of Journal of Graphics Tools and Journal of Computer Graphics Techniques, and the creator and lecturer of the Udacity MOOC Interactive 3D Graphics courses.
 

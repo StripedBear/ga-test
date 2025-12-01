@@ -10,8 +10,6 @@ original_url: "https://generalarcade.com/general-weekly-10-11-01-22/"
 draft: false
 ---
 
-![General Weekly #10 11.01.22](weekly010.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
@@ -56,7 +54,7 @@ Rodrigo Copetti, who has repeatedly pleased us with analyzes of the architecture
 
 [Godot in 100 seconds](https://youtu.be/QKgTZWbwD1U)
 
-{{< youtube "QKgTZWbwD1U" >}}
+{{< youtube "https://youtu.be/QKgTZWbwD1U" >}}
 
 Good video for those who want to try working with Godot. It gives a detailed revision of the main points and basic things.
 
@@ -120,7 +118,7 @@ Gyuvannu-Karlu Sozzi explained why they decided to create a paint stroke mask, e
 
 [How ray tracing works, and how to speed it up by x600](https://youtu.be/gsZiJeaMO48)
 
-{{< youtube "gsZiJeaMO48" >}}
+{{< youtube "https://youtu.be/gsZiJeaMO48" >}}
 
 The video is a step-by-step guide to the basics of ray tracing, explains the basic concepts, and explains why ray tracing methods are computationally intensive.
 

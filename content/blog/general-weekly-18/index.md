@@ -10,15 +10,13 @@ original_url: "https://generalarcade.com/general-weekly-18/"
 draft: false
 ---
 
-![General Weekly #18](weekly18.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
 
 [DreamWorks released MoonRay renderer](https://github.com/dreamworksanimation/openmoonray)
 
-{{< youtube "RgVbXwfCy3w" >}}
+{{< youtube "https://www.youtube.com/watch?v=RgVbXwfCy3w" >}}
 
 It was used in the production of, for example, The Bad Guys, How to Train Your Dragon: The Hidden World, Puss in Boots: The Last Wish and other projects. Available on [Github](https://github.com/dreamworksanimation/openmoonray).
 
@@ -42,7 +40,7 @@ Epic Games offered Godot Engine a place on the Epic Games Store. You can now use
 
 [EmberGen 1.0](https://forums.jangafx.com/t/embergen-1-0-has-been-released-release-notes/1456)
 
-{{< youtube "EJgA0LLq5TM" >}}
+{{< youtube "https://www.youtube.com/watch?v=EJgA0LLq5TM" >}}
 
 JangaFX has released EmberGen 1.0, the highly anticipated first official, production-ready version of their real-time fluid simulator for game development, visual effects, and motion graphics.
 
@@ -74,7 +72,7 @@ David Oroian, Weapons and Hard Surface Artist at AMC Ro Studio, walked through t
 
 [Making a Vampire Survivors-style game for Playdate](https://youtu.be/WIUOk2YIoWk)
 
-{{< youtube "WIUOk2YIoWk" >}}
+{{< youtube "https://youtu.be/WIUOk2YIoWk" >}}
 
 The project took almost 3 months to create.
 

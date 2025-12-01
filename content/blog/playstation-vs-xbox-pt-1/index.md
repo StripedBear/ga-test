@@ -15,8 +15,6 @@ original_url: "https://generalarcade.com/playstation-vs-xbox-pt-1/"
 draft: false
 ---
 
-![PlayStation vs Xbox, pt.1](xboxps1.jpg)
-
 Nowadays, the “war” between game consoles from Sony and Microsoft became common thing for everyone, and fans of this or that company are eagerly awaiting what exclusives will be announced in new season. But let’s figure out, how did it all start.
 
 The first Sony PlayStation was introduced in Japan on December 3, 1994, but Sony’s journey into the game console world began several years earlier. Super Nintendo Entertainment System, which appeared in November 1990, used Sony SPC700 sound processor. By the way, it was originally an initiative from Sony, or more precisely, Ken Kutaragi, founder of Sony Computer Entertainment and then CEO of the company.

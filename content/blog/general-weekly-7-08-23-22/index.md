@@ -10,8 +10,6 @@ original_url: "https://generalarcade.com/general-weekly-7-08-23-22/"
 draft: false
 ---
 
-![General Weekly #7 08.23.22](weekly7.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
@@ -24,19 +22,19 @@ And they said that such a takeover “does not meet the interests of Unity’s s
 
 [Articy:Draft 3.2 and New Features for Interactive Storytelling](https://www.articy.com/en/whats-new-in-articydraft/)
 
-{{< youtube "Oo-jFO46120" >}}
+{{< youtube "https://www.youtube.com/watch?v=Oo-jFO46120" >}}
 
 The articy:draft narrative design tool has received an update that adds new features for faster and more productive interactive storytelling.
 
 [FluidNinja LIVE for Unreal Engine added caustics](https://kynolin.itch.io/fluidninja-live-17-demo)
 
-{{< youtube "sdqVjyabVt4" >}}
+{{< youtube "https://www.youtube.com/watch?v=sdqVjyabVt4" >}}
 
 The new version adds caustics and a few minor improvements for Unreal Engine 5.
 
 [Cocos Creator 3.6 released](https://www.cocos.com/en/major-improvements-in-development-come-with-cocos-creator-3-6)
 
-{{< youtube "Jy0SOq211cA" >}}
+{{< youtube "https://www.youtube.com/watch?v=Jy0SOq211cA" >}}
 
 There are several new graphical features, user interface improvements and the ability to test your game right in the editor.
 
@@ -46,7 +44,7 @@ The update contains over 350 unique resources, high-quality and smart materials,
 
 [Fyrox 0.27 released](https://fyrox.rs/blog/post/feature-highlights-0-27/)
 
-{{< youtube "RuoLInE34dM" >}}
+{{< youtube "https://www.youtube.com/watch?v=RuoLInE34dM" >}}
 
 The open source game engine based on Rust has released a new version with many changes.
 
@@ -64,7 +62,7 @@ Animators, programmers, designers, and other graphics professionals and enthusia
 
 [The House of The Dev Podcast S2E2: Darren Korb – When a rock musician writes the soundtrack](https://youtu.be/nWtQxYVXQ8Q)
 
-{{< youtube "nWtQxYVXQ8Q" >}}
+{{< youtube "https://youtu.be/nWtQxYVXQ8Q" >}}
 
 Rafael Colantonio and Petr Salnikov talk about music with Darren Korb, composer and director of audio at Supergiant Games (Hades, Transistor, Pyre, Bastion).
 
@@ -74,7 +72,7 @@ Elliott Wang talked about the Ebon Fang project, explained how the wings were cr
 
 [A retrospective of the museum scene in The Last of Us Part II](https://youtu.be/bE_WP56XUF4)
 
-{{< youtube "bE\_WP56XUF4" >}}
+{{< youtube "https://youtu.be/bE_WP56XUF4" >}}
 
 In a keynote from Game Narrative Summit 2022, Obsidian’s Evan Hill talked about creating a scene with dinosaurs that players will remember, talked about the pace and tricks in development.
 
@@ -86,7 +84,7 @@ A post about failed attempts/methods and paths to solutions presented at SIGGRAP
 
 [Secrets of Great Controls for Platforming in Unity](https://youtu.be/KKGdDBFcu0Q)
 
-{{< youtube "KKGdDBFcu0Q" >}}
+{{< youtube "https://youtu.be/KKGdDBFcu0Q" >}}
 
 Platformers are defined by their movement. Whether it’s the thrill of Super Meat Boy or the elegant combat of Hollow Knight. The author of the channel shared his approach to movement in platform games (in Unity 2D) and how it can be applied to improve your own games.
 

@@ -14,8 +14,6 @@ original_url: "https://generalarcade.com/playstation-vs-xbox-pt-2/"
 draft: false
 ---
 
-![PlayStation vs Xbox, pt.2](xboxps2-1.jpg)
-
 The beginning of the second stage of the confrontation between Sony and Microsoft on the game consoles market can be roughly called 2005, when Xbox 360 was presented on MTV. And if the previous generation, along with Bill Gates, was represented by Dwayne “The Rock” Johnson, this time Microsoft attracted the famous Hollywood actor Elijah Wood. And shortly after that, major presentation of the new console took place at E3.
 
 Many experts are sure that it was this move by Microsoft that forced Sony to start developing PlayStation 3. PS2 was still selling well at that time, and it would seem that nothing boded ill, but the announcement of the imminent release of Xbox 360 was also a signal that Microsoft can get around them.

@@ -13,8 +13,6 @@ original_url: "https://generalarcade.com/3d-movie-maker-from-1995-is-now-open-so
 draft: false
 ---
 
-![3D Movie Maker From 1995 Is Now Open Source](3dmaker.jpg)
-
 Twitter user [foone](https://twitter.com/Foone) has posted some exciting news! [Jeremy Elliot San](https://twitter.com/aerobatic), better known as Jez, (former CEO of [Argonaut Games](https://en.wikipedia.org/wiki/Argonaut_Games)) gave permission to publish the source code for the BR (Blazing Render) Engine), which was used in projects like 3D Movie Maker, Croc: Legend of the Gobbos and the first two Carmageddon games.
 
 The story began when foone tweeted asking Microsoft to publish the source code of 3D Movie Maker so that the program and its code could be improvable and extensible. Jez himself got in touch and stated that the rights to BRender belong to him, and that he would be happy to make the source codes publicly available, but he did not have it anymore. Foone responded Jez, that they could coordinate him with whoever had the source code. Microsoft’s [Scott Hanselman](https://twitter.com/shanselman) also volunteered to help.

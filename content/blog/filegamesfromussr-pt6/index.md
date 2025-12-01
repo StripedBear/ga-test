@@ -16,13 +16,11 @@ original_url: "https://generalarcade.com/filegamesfromussr-pt6/"
 draft: false
 ---
 
-![File:GamesFromUSSR/pt6](ussr6.jpg)
-
 Choosing the topic of video games that stand out for some specific feature (in our case, geography!) opens an endless world and unlimited springboard for content! Likewise with our series of articles about games created in the territory of the former USSR. Considering that new games appear continuously, we’ll never be able to describe all of them. But in our case, the process is important, not the final result!
 
 And that means it’s time for another article in the mentioned series. This time we’d like to start it with a story about an interesting new indie project called illWill – don’t confuse it with the Lake of Tears’ eighth studio album. The illWill we’re talking about is a first-person shooter, which its creator describes as “the mix of Doom, Quake, Blood and Serious Sam with some bits of madness”. And by the way, this is not a mistype: it is the creator, not the creators. Only one person is working on the project, [Slava Bushuev](https://gamejolt.com/@slava_bushuev).
 
-{{< youtube "ptf\_kqc2\_MQ" >}}
+{{< youtube "https://www.youtube.com/watch?v=ptf_kqc2_MQ" >}}
 
 However, it is unlikely that you would have thought so after trying the demo if you hadn’t had the information in advance… The game turns out to be of really high quality, and this is especially noticeable against the background of a huge number of retro shooters that have flooded the market lately.
 
@@ -38,7 +36,7 @@ Frankly speaking, it was not without a fly in the ointment. If you believe the s
 
 Another game that seems to be worth paying attention to is [Evade The Light](https://store.steampowered.com/app/1601870/Evade_The_Light/) from the Azerbaijani studio [AzDimension](https://azdimension.az/). This is also a first-person shooter, but a shooter of a completely different type. And if the main thing in illWill is a hunting shotgun with a good old shot, the authors of Evade The Light promise to captivate their players with a well-thought-out plot.
 
-{{< youtube "GL8k2We-9Qc" >}}
+{{< youtube "https://www.youtube.com/watch?v=GL8k2We-9Qc" >}}
 
 The action takes place in Azerbaijan in the near future. In one of the sparsely populated mountain regions of the country, a paranormal incident occurred, which not only affected all living things in the region but also turned all human ideas about the laws of nature… General panic was avoided, but the government didn’t achieve great success in studying the anomaly – all the scientists sent to the scene of the incident simply disappeared without a trace!
 
@@ -108,7 +106,7 @@ Seen from the outside, the game is very reminiscent of ULTRAKILL from New Blood 
 
 As for the gameplay, Force Reboot is very different from its more famous colleague and differs mainly due to the unusual setting that the player is offered with each new map. It is not limited to the new guns: you will be offered to change the speed, gravity, physics, and even the size of opponents! By the way, it is much more difficult to kick smaller enemies than evil cyborgs of normal size…
 
-{{< youtube "xAZV0nJo7vU" >}}
+{{< youtube "https://www.youtube.com/watch?v=xAZV0nJo7vU" >}}
 
 Force Reboot doesn’t claim to revolutionize the gaming industry and doesn’t offer us something extraordinary or unseen before. But at the same time, it is damn addictive, and once you sit down to play this shooter, you risk not coming to your senses for several hours!
 

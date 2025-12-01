@@ -10,15 +10,13 @@ original_url: "https://generalarcade.com/general-weekly-12/"
 draft: false
 ---
 
-![General Weekly #12](weekly.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
 
 [An almost two-hour documentary about the history of Crystal Dynamics](https://youtu.be/DsByUubJkk8)
 
-{{< youtube "DsByUubJkk8" >}}
+{{< youtube "https://youtu.be/DsByUubJkk8" >}}
 
 [Rollback in netcode and other multi-user solutions](https://twitter.com/munosnail/status/1595470325814546433)
 
@@ -28,7 +26,7 @@ An excellent thread with an analysis of various solutions for multiplayer games.
 
 [Physically accurate rendering](https://youtu.be/XK_p2MxGBQs)
 
-{{< youtube "XK\_p2MxGBQs" >}}
+{{< youtube "https://youtu.be/XK_p2MxGBQs" >}}
 
 The video provides an overview of the physically accurate shading model on a physical basis. Discusses the Cooke-Torrance, Schlick GGX, and Fresnel BRDF models.
 
@@ -36,7 +34,7 @@ There is both a theoretical overview and an implementation in GLSL.
 
 [Mark Darr’s Game Development Channel](https://youtu.be/qabZM40_bN4)
 
-{{< youtube "qabZM40\_bN4" >}}
+{{< youtube "https://youtu.be/qabZM40_bN4" >}}
 
 Mark Darra, former Dragon Age producer and BioWare veteran, needs no introduction. It turned out that he has a very interesting channel!
 
@@ -48,7 +46,7 @@ An overview of GDeflate compression on the GPU. The influence of the intermediat
 
 [Glen Scofield answers questions about the Callisto Protocol.](https://youtu.be/TEXdJU9ZUX8)
 
-{{< youtube "TEXdJU9ZUX8" >}}
+{{< youtube "Thttps://youtu.be/TEXdJU9ZUX8" >}}
 
 [How to engage players with effective UI and game design](https://blog.unity.com/games/how-to-immerse-your-players-through-effective-ui-and-game-design)
 
@@ -64,7 +62,7 @@ Max Schwuger showed how he created a simulation of carbonated water, told how th
 
 [DOTS: Scaling MonoBehaviour and GameObjects](https://youtu.be/RhU8NZtgYp0)
 
-{{< youtube "RhU8NZtgYp0" >}}
+{{< youtube "https://youtu.be/RhU8NZtgYp0" >}}
 
 The video shows how the popular game Indus Battle Royale uses its DOTS-based GenericLOD to scale conventional GameObject-based systems for animations, rigs, assets, and visual effects.
 
@@ -76,7 +74,7 @@ Taking on such an ambitious project as an indie developer knew he needed the rig
 
 [How to implement a Great Jump for a Platformer](https://youtu.be/2S3g8CgBG1g)
 
-{{< youtube "2S3g8CgBG1g" >}}
+{{< youtube "https://youtu.be/2S3g8CgBG1g" >}}
 
 In the Game Design Guide, the author shares tips and tricks you can use to improve Unity 2D’s jumps and movement, such as coyote time, double jumps, and more.
 
@@ -94,7 +92,7 @@ Don’t try to sell a product (your game); instead, try to tell his story – th
 
 [From Weapons to Wizards: Transforming Aesthetics and Modularity in Tiny Tina’s Wonderlands](https://youtu.be/k5EFEV1sfgM)
 
-{{< youtube "k5EFEV1sfgM" >}}
+{{< youtube "https://youtu.be/k5EFEV1sfgM" >}}
 
 In a session with Audio Summit 2022, Gearbox Software’s Joshua Davidson illustrates how the soundscape has been aesthetically transformed into a fantasy aesthetic to bring Tiny Tina’s Wonderlands sound world to life.
 

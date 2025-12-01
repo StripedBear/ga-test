@@ -10,8 +10,6 @@ original_url: "https://generalarcade.com/general-weekly-14/"
 draft: false
 ---
 
-![General Weekly #14](weekly14.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
@@ -38,7 +36,7 @@ More than 600 pages about the model of the Code of the Shader RDNA 3, about the 
 
 [Zbrush 2023 came out](https://youtu.be/cP4iQ9ju3Lk)
 
-{{< youtube "cP4iQ9ju3Lk" >}}
+{{< youtube "https://youtu.be/cP4iQ9ju3Lk" >}}
 
 It is updated with new and improved sculpture tools, includes two new options for Zremesher and integrates Redshift Bridge.
 
@@ -76,7 +74,7 @@ The developers of the Eternal Mist tactical strategy talk about how they decided
 
 [How Gloomwood combines Survival Horror and Immersive Sim](https://youtu.be/BRsWvtJSm0U)
 
-{{< youtube "BRsWvtJSm0U" >}}
+{{< youtube "https://youtu.be/BRsWvtJSm0U" >}}
 
 Another good documentary from NoClip.
 
@@ -88,7 +86,7 @@ The analysis of the success of Vampire Survivors and the emergence of a new genr
 
 [A new look at the romantic-sexual story of the narrative](https://youtu.be/vlyH_NAs3f0)
 
-{{< youtube "vlyH\_NAs3f0" >}}
+{{< youtube "https://youtu.be/vlyH_NAs3f0" >}}
 
 In the report with the GDC 2022, Michelle Clough from Talespinners is immersed in a new framework for writing and developing romantic/sexual content in games with a similar structure, but more flexibility and greater weight of the character/narrative than “Kindness Coins”.
 

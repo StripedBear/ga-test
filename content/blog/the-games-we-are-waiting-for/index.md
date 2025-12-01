@@ -22,15 +22,13 @@ original_url: "https://generalarcade.com/the-games-we-are-waiting-for/"
 draft: false
 ---
 
-![The games we are waiting for](videogames.jpg)
-
 Nowadays, almost everyone, to one degree or another, plays video games. And it goes without saying that many are waiting for some releases – well, or dream of some series to continue. And of course, people in the gaming industry are even more affected by this! So today we would like to talk about those games that we would like to play.
 
 —
 
 For me, the most expected game is definitely Forza Horizon 5. Generally, I’m not too fond of racing games, but I love Forza Horizon 4. It’s very relaxing. You can just roam around the map and ignore races. And after what Microsoft showed at the E3 event, I was even more excited about the next game in that series. I hope it plays as good as it looks 🙂
 
-{{< youtube "FYH9n37B7Yw" >}}
+{{< youtube "https://www.youtube.com/watch?v=FYH9n37B7Yw" >}}
 
 *Gennadii, The Mastermind*
 
@@ -112,7 +110,7 @@ By the way, these hunting scenes added life to the game world and made me very h
 
 Perhaps the only game I’m really looking forward to right now is the new part of BioShock. And by the way, I belong to a rather small part of the fans of this series – I only got acquainted with it starting from the third part, and therefore the iron gait of Big Daddies causes much less nostalgia than “Let the circle be unbroken” performed by Elizabeth or Booker’s phrase “I am not I’m afraid of God, I’m afraid of you”.
 
-{{< youtube "J\_gEzOZKyE4" >}}
+{{< youtube "https://www.youtube.com/watch?v=J_gEzOZKyE4" >}}
 
 Moreover, when after BioShock Infinite I tried to play the first two parts, neither of it impress me at all (don’t throw stones at me!)… And so I would really like a new BioShock game to be made in the same style as BioShock Infinite. I suppose when the game promised back in 2019 will finally be realeased, I will have to forget about sleep for a while 😉
 

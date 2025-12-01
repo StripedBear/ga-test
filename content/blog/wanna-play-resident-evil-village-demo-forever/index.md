@@ -13,8 +13,6 @@ original_url: "https://generalarcade.com/wanna-play-resident-evil-village-demo-f
 draft: false
 ---
 
-![Wanna play Resident Evil Village demo forever?..](village.jpg)
-
 A long awaited and critically acclaimed Resident Evil Village is finally here. Set a few years after the horrifying events in the critically acclaimed Resident Evil 7 biohazard, the all-new storyline begins with Ethan Winters and his wife Mia living peacefully in a new location, free from their past nightmares. Just as they are building their new life together, tragedy befalls them once again.
 
 A free demo of this fine product is over and the servers are no longer reachable (yes, the demo was not playable without performing a one-time online authentication). We, of course, tried the demo out when it was just released and it was really a kickass, we liked it a lot. Sadly, we couldn’t try it anymore due to the servers not reachable. Thankfully, we still had the downloaded game files from Steam, so we decided to make it running again, even though the task might seem impossible or “almost” impossible. It was a nice challenge for us and we would like to split the article into two parts: server authorization bypass and extending the demo play time by freezing or resetting the in-game timer.

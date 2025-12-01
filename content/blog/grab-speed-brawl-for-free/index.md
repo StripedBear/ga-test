@@ -11,13 +11,11 @@ original_url: "https://generalarcade.com/grab-speed-brawl-for-free/"
 draft: false
 ---
 
-![Grab Speed Brawl for free!](speedbrawl2.jpg)
-
 Good news for everyone who likes good games and loves geting ’em for free! Speed Brawl from Double Stallion Games is going to be released on Epic Games Store really soon, and if you’ll be fast enough, you won’t have to pay for it!
 
 The game will be absolutelly free from August 5th to August 12th, so [don’t miss your chance](https://www.epicgames.com/store/en-US/p/speed-brawl)!
 
-{{< youtube "mVCV5OjLisw" >}}
+{{< youtube "https://www.youtube.com/watch?v=mVCV5OjLisw" >}}
 
 Speed Brawl is a 2D combat-racer about moving fast and hitting hard! Maintain your momentum, build your combos, and unleash powerful special moves. Find your own fighting style, and assemble the finest team of brawlers ever seen. Then do it all again faster… faster… FASTER!!!
 

@@ -9,8 +9,6 @@ original_url: "https://generalarcade.com/general-weekly-6-08-11-22/"
 draft: false
 ---
 
-![General Weekly #6 08.11.22](weekly6.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 In the news: The Machinery game engine is no longer supported, and the developers ask customers to remove the sources and binaries, 9 months of development and now Godot 3.5 has been released, DreamWorks plans to release the MoonRay renderer under the Apache 2.0 license by the end of the year.
@@ -89,7 +87,7 @@ The update adds a new Roots tool for creating outer roots, a Surround panel for 
 
 BagaPie V7 released
 
-{{< youtube "uK7t\_qDjm\_0" >}}
+{{< youtube "https://www.youtube.com/watch?v=uK7t_qDjm_0" >}}
 
 The update adds new procedural generators for fences, cables, tiles, and metal siding.
 
@@ -103,7 +101,7 @@ The developer of the AnKi 3D engine decided to rewrite the port of it for Androi
 
 5 hours of enjoying concentrated John Carmack
 
-{{< youtube "I845O57ZSy4" >}}
+{{< youtube "https://www.youtube.com/watch?v=I845O57ZSy4" >}}
 
 [Creating a Snow Gnome in ZBrush, Maya, and Arnold](https://80.lv/articles/making-a-snow-dwarf-in-zbrush-maya-arnold/)
 

@@ -12,8 +12,6 @@ original_url: "https://generalarcade.com/ready-to-fall-into-the-hole/"
 draft: false
 ---
 
-![Ready to fall into the Hole?](hole-site.jpg)
-
 It’s time for Ludum Dare (Latin for “give a game”), speed game development competition, which was first held by Geoff Howland back in 2002. There are certain rules for Ludum Dare: you have three days to create a well-functioning game, the theme is picked beforehand, etc. Quality multiplied by speed, one might say.
 
 And just like before, [we decided to take a shot](https://ldjam.com/)… The theme picked this time was “Delay the inevitable” – in other words, a game where you got into unexpected, unpleasant and difficult circumstances and you got to get out of it. Basically, this idea suits any game. So, after long and painful brainstorms, we agreed on the actual concept.

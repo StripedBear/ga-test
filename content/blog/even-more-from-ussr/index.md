@@ -18,8 +18,6 @@ original_url: "https://generalarcade.com/even-more-from-ussr/"
 draft: false
 ---
 
-![Even more from USSR](ussr4.jpg)
-
 The video game industry in the countries of the former Soviet Union looks quite strong, and we’d like to continue talking about those games that got the titles of world wide hits as well as those that you may well have missed, although they are undoubtedly worthy of attention.
 
 But obscurity is definitely not something that Rage of Mages can be accused of. The series dates back to 1998 when the original game was released. The events of the first game take place in Allod Umoyr, a mysterious place that doesn’t belong to any of the Empires of the game world and is shrouded in mystery… No one has ever returned from there, and of course, this only encourages adventure seekers of all stripes and the curious ones! And it is to this mysterious place that you will have to go as one of the four characters that you are offered to choose from.
@@ -30,7 +28,7 @@ Rage of Mages became one of the first Russian games to gain popularity all over 
 
 Eight games were released under the Rage of Mages brand overall, including free games as well as multiplayer ones and mobile. Interesting fact is that Cloud Pirates, which was released in 2016, was developed by a separate studio called Allods Team, and not Nival, which gave life to the series as such.
 
-{{< youtube "FBVI12Eq1pA" >}}
+{{< youtube "https://www.youtube.com/watch?v=FBVI12Eq1pA" >}}
 
 Another game that we would like to recall today is Space Rangers, released in 2002. The game didn’t become as popular as Rage of Mages, but it found its fans around the whole world anyway. The game belongs to the not so popular genre of “epic games”, but at the same time it has elements of RPG, turn-based strategy, text quest and even arcade.
 
@@ -42,7 +40,7 @@ Interesting fact: many call the starting point of work on Space Rangers the rele
 
 The development of Space Rangers wasn’t notably covered in mass media, so the release of the game came as a surprise to many. And judging by the reaction of users and critics, a pleasant surprise! The game received very high marks and acquired, if not a million, but certainly a damn close-knit fan club! Elemental Games failed to repeat the success with the release of Space Rangers 2: Rise of the Dominators in 2004, but the dilogy is still considered very successful, and it definitely got its share of success and stavas.
 
-{{< youtube "i5\_s4a\_l5A4" >}}
+{{< youtube "https://www.youtube.com/watch?v=i5_s4a_l5A4" >}}
 
 By the way, there is Space Rangers HD: A War Apart [in Steam](https://store.steampowered.com/app/214730/Space_Rangers_HD_A_War_Apart/) at the moment. The game was released in 2013, so if you want to check this crazy mix of genres, it will be the best way to do it.
 
@@ -64,7 +62,7 @@ After the bankruptcy of The 3DO Company and the closure of New World Computing, 
 
 But King’s Bounty II seems to have other plans. The game was officially announced on August 14, 2019 on the eve of gamescom, and its development began two years earlier. Initially, the release was planned for 2020, but due to various delays, everything had to be postponed to August 24, 2021. The style of King’s Bounty II is significantly different from previous games in the series, and this time we will have something much more realistic. The developers motivated this by the fact that they want to do something “more mature”. And judging by the published information, the work done so far is much more than serious. With a clear focus on global popularity.
 
-{{< youtube "w8tr\_0tLvps" >}}
+{{< youtube "https://www.youtube.com/watch?v=w8tr_0tLvps" >}}
 
 Of course, we cannot guarantee that everything will work out for 1C… But the fact that many fans of the series are waiting for King’s Bounty II can be asserted with complete confidence!
 
@@ -78,7 +76,7 @@ And the last game for today is Blitzkrieg from Nival Interactive. The plot of th
 
 An excellent evidence of the popularity of Blitzkrieg is the fact that a large number of add-ons came out to it, and most importantly, a huge number of games that were created on the Blitzkrieg engine. Games and add-ons created on the basis of Blitzkrieg number in dozens, and each has consistently stood out among other developments with a recognizable “face” of the creation of Nival Interactive.
 
-{{< youtube "sNYnaEg4V\_A" >}}
+{{< youtube "https://www.youtube.com/watch?v=sNYnaEg4V_A" >}}
 
 General Arcade worked on [Blitzkrieg Anthology](https://generalarcade.com/project/blitzkrieg/), by the way. Our software engineer needed three months and such tech stack as Custom engine and C++ to implement GOG Galaxy Crossplay support (i.e. online multiplayer between GOG and Steam).
 

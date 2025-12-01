@@ -10,8 +10,6 @@ original_url: "https://generalarcade.com/general-weekly-13/"
 draft: false
 ---
 
-![General Weekly #13](weekly13.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
@@ -30,7 +28,7 @@ The updates reveal MetaHumans’ “DNA” – sets of parameters that define 3D
 
 [RealityScan is now free to download on iOS](https://youtu.be/fXLOMOWWBJQ)
 
-{{< youtube "fXLOMOWWBJQ" >}}
+{{< youtube "https://youtu.be/fXLOMOWWBJQ" >}}
 
 RealityScan is a 3D scanning app for mobile devices from Epic Games that turns photos into high-quality 3D models.
 
@@ -56,7 +54,7 @@ Last year, Unity released a set of virtual production and cinematography tools, 
 
 [Todd Howard on the Lex Friedman Podcast](https://youtu.be/H9AAnV59ddE)
 
-{{< youtube "H9AAnV59ddE" >}}
+{{< youtube "https://youtu.be/H9AAnV59ddE" >}}
 
 The game designer regrets a little that he did not start developing the sixth part of TES earlier.
 
@@ -68,7 +66,7 @@ Only 10% of developers on Steam have earned more than $100,000 in gross revenue.
 
 [A Blow from the West: Wind Simulation in Ghost of Tsushima](https://youtu.be/d61_o4CGQd8)
 
-{{< youtube "d61\_o4CGQd8" >}}
+{{< youtube "https://youtu.be/d61_o4CGQd8" >}}
 
 In a GDC 2021 talk, Bill Rockenbeck of Sucker Punch Productions gives a lot of tips and tricks to make simulations fast and believable while making the most of the Playstation’s GPU.
 
@@ -98,7 +96,7 @@ Lessons learned from building a tiny adventure game with Unity and Yarn Spinner.
 
 [Creating Enemies: The Evolution of Digital Humans Continues with Ziva](https://youtu.be/AFo7KLk1eNE)
 
-{{< youtube "AFo7KLk1eNE" >}}
+{{< youtube "https://youtu.be/AFo7KLk1eNE" >}}
 
 Unity talks about the evolution and development of its tools.
 
@@ -110,7 +108,7 @@ A story from GameDiscoverCo based on three different pieces of content: a conver
 
 [How The Callisto Protocol Animations Came to Life with Motion Capture](https://youtu.be/iZXLLIihMTs)
 
-{{< youtube "iZXLLIihMTs" >}}
+{{< youtube "https://youtu.be/iZXLLIihMTs" >}}
 
 Lead Designer Benjamin Wurlod talks about the basic principles of the game.
 

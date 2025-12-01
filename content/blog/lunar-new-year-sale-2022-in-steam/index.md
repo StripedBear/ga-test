@@ -27,8 +27,6 @@ original_url: "https://generalarcade.com/lunar-new-year-sale-2022-in-steam/"
 draft: false
 ---
 
-![Lunar New Year Sale 2022 in Steam](lunar2022.jpg)
-
 Steam Lunar New Year Sale 2022 is in full swing until February 3rd, giving everyone the opportunity to purchase a variety of games at incredible discounts! Many games that were ported and optimized by the General Arcade team also made it to the list…
 
 A little tour of Steam low price territory during the Lunar New Year Sale 2022! After all, saving is not superfluous, right?

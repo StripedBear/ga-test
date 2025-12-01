@@ -13,8 +13,6 @@ original_url: "https://generalarcade.com/general-weekly-8-09-27-22/"
 draft: false
 ---
 
-![General Weekly #8 09.27.22](weekly008.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
@@ -43,7 +41,7 @@ The new fund focuses on games with “interesting concepts”. Games created in 
 
 [Nekki releases Cascadeur 2022.2](https://cascadeur.com/help/category/193)
 
-{{< youtube "4IQV\_6rc3Q0" >}}
+{{< youtube "https://www.youtube.com/watch?v=4IQV_6rc3Q0" >}}
 
 The update adds a new type of global rotation kinematics, support for weapons in the Quick Rigging tool, and further expands the AutoPosing tool.
 
@@ -53,7 +51,7 @@ A new pack of interesting things from the gamedev community.
 
 [Blogger Videogamedunkey founded his own publishing house BIGMODE – it will release “high-quality” indie games.](https://bigmode.com/)
 
-{{< youtube "PEt27Jgp8gs" >}}
+{{< youtube "https://www.youtube.com/watch?v=PEt27Jgp8gs" >}}
 
 Jason Gastrow and his wife Leah Gastrow, will “deep dive into projects” they want to work with within the BIGMODE publishing house.
 
@@ -75,7 +73,7 @@ After 16 months of a soft launch, Supercell’s Clash Quest has not met its busi
 
 [The best “worst” mechanics in games](https://docs.google.com/document/d/1SewltJLsZUYmd6nSrKoyYQhVyOpG5f8FqxMsy3Y9D4U)
 
-{{< youtube "lxwgQbtuD6U" >}}
+{{< youtube "https://www.youtube.com/watch?v=lxwgQbtuD6U" >}}
 
 Yes, we are talking about timers. A document with links to materials used in the creation of the video.
 
@@ -93,7 +91,7 @@ The developers have presented all the work on Global Illumination in UE5 to date
 
 [Interview with the developer of Cult of the Lamb by Noclip](https://www.youtube.com/watch?v=c9rvKdQkAIk&feature=emb_imp_woyt)
 
-{{< youtube "c9rvKdQkAIk" >}}
+{{< youtube "https://www.youtube.com/watch?v=c9rvKdQkAIk&feature=emb_imp_woyt" >}}
 
 Danny spoke to Massive Monsters’ Jay Armstrong about the history of the studio and the design behind their indie hit.
 

@@ -12,8 +12,6 @@ original_url: "https://generalarcade.com/back-to-the-roots-of-dungeons-dragons/"
 draft: false
 ---
 
-![Back to the roots of Dungeons & Dragons](dnd.jpg)
-
 Dungeons & Dragons Gold Box Classics has finally been [released on Steam](https://store.steampowered.com/bundle/24494/Gold_Box_Classics/) bringing to life many of D&D’s most iconic monsters, heroes, and villains!
 
 The Forgotten Realms world of Dungeons & Dragons has been home to many a hero and imagination since its publication, producing adventures and stories to be retold and enjoyed for years to come.

@@ -13,11 +13,9 @@ original_url: "https://generalarcade.com/the-spectrum-retreat-coming-to-egs/"
 draft: false
 ---
 
-![The Spectrum Retreat coming to EGS](spectrum-header.jpg)
-
 The Spectrum Retreat [arrives to Epic Games Store](https://www.epicgames.com/store/en-US/p/the-spectrum-retreat?lang=en-US) on July 1st! This enthralling first person puzzle game was developed by Dan Smith and originally released back in 2018.
 
-{{< youtube "5FEY23DJxUc" >}}
+{{< youtube "https://www.youtube.com/watch?v=5FEY23DJxUc" >}}
 
 Everything take place in the near future, when you wake up in Penrose hotel – a rather cozy, but very incomprehensible and strange place. You are treated like a VIP, but there is one thing… you can’t remember why you are such an important guest!
 

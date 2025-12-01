@@ -13,8 +13,6 @@ original_url: "https://generalarcade.com/chasm-the-rift-demo-is-out-now/"
 draft: false
 ---
 
-![Chasm: The Rift Demo is OUT NOW!](FdQ8lAKWQAAipgd.png)
-
 Having its roots in 1997, Chasm: The Rift is one of the most thrilling and innovative FPS from this era and the first Eastern European boomer shooter ever made.
 
 #### GAME FEATURES

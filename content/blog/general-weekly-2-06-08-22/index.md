@@ -12,8 +12,6 @@ original_url: "https://generalarcade.com/general-weekly-2-06-08-22/"
 draft: false
 ---
 
-![General Weekly #2 06.08.22](weekly-1.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 News: USD Hydra plugin for Blender version 1.1, Epic Games has introduced the Unreal Educator Accelerator.
@@ -24,7 +22,7 @@ Interesting things: a series of guides from Quixel, behind the scenes of TUNIC, 
 
 AMD Releases USD Hydra Plugin for Blender Version 1.1
 
-{{< youtube "T7l8rVUvMbs" >}}
+{{< youtube "https://www.youtube.com/watch?v=T7l8rVUvMbs" >}}
 
 [The update](https://github.com/GPUOpen-LibrariesAndSDKs/BlenderUSDHydraAddon/releases/tag/v1.1.1) adds support for linking and exporting animated USD files, and enables rendering in RenderMan along with the USD native hdStorm renderer and AMD’s own Radeon ProRender.
 
@@ -74,7 +72,7 @@ Recently, the Riot Esports Tech Team [has been working](https://lolesports.com/a
 
 Quixel released a series of tutorials describing the process of creating Ninety Days in Unreal Engine 5
 
-{{< youtube "qELcbxazq2g" >}}
+{{< youtube "https://www.youtube.com/watch?v=qELcbxazq2g" >}}
 
 The tutorials show the workflows behind some of the environments and have a specific theme that the artists focus on while sharing some tips and tricks related to artwork.
 
@@ -106,7 +104,7 @@ The author spent a lot of time refactoring one project, which, judging by the st
 
 How can you influence perception through sound design?
 
-{{< youtube "8w\_wL\_oowTg" >}}
+{{< youtube "https://www.youtube.com/watch?v=8w_wL_oowTg" >}}
 
 Alexander Khilko, who has been working as an audio designer for 4 years at Wargaming, where he and his colleagues create the sound picture of a game about tanks played by tens of millions of people, shared a [presentation about sound design](https://dtf.ru/gamedev/1215059-kakim-obrazom-mozhno-vliyat-na-vospriyatie-cherez-saund-dizayn).
 
@@ -118,7 +116,7 @@ GameDiscoverCo [shared a study](https://newsletter.gamediscover.co/p/which-platf
 
 Creating a Ghibli Island in Blender, UE5 and Substance 3D.
 
-{{< youtube "6fvZjE72dgA" >}}
+{{< youtube "https://www.youtube.com/watch?v=6fvZjE72dgA" >}}
 
 Ariel Adasme [shared a detailed description](https://80.lv/articles/creating-a-ghibli-inspired-island-in-blender-ue5-substance-3d/) of the Island of the Néfeles project, talked about the stylized approach to texturing, and talked about the challenges associated with creating water.
 
@@ -132,7 +130,7 @@ He had to create three games before he understood these simple but important pri
 
 Scorn developers talked about the creation of weapons.
 
-{{< youtube "eL2UZLQmCE4" >}}
+{{< youtube "https://www.youtube.com/watch?v=eL2UZLQmCE4" >}}
 
 Ebb Software [shared](https://www.kickstarter.com/projects/1777595379/scorn-part-1-of-2-dasein/posts/3517340) how weapons in the upcoming Scorn horror game go from concept to completion, revealed the main themes of Scorn, and explained what role weapons play in the game.
 
@@ -150,7 +148,7 @@ The Unity team continues to [publish content](https://blog.unity.com/technology/
 
 Building an army of frogs in UE5 with Niagara
 
-{{< youtube "\_uL6myuQUY0" >}}
+{{< youtube "https://www.youtube.com/watch?v=_uL6myuQUY0" >}}
 
 A new informative guide has been released on the CodeLikeMe channel on how to use Unreal’s Niagara in a non-standard way.
 
@@ -168,7 +166,7 @@ Accelerate Ray Tracing with Software VRS.
 
 The biggest problem with Death Stranding? Teach AI to walk.
 
-{{< youtube "oOdaUUHRcJI" >}}
+{{< youtube "https://www.youtube.com/watch?v=oOdaUUHRcJI" >}}
 
 The game presents a rich and complex environment for players to navigate, and this leads to the biggest problem that the developers of Kojima Productions had to face. How do you teach an AI to walk in a game that breaks so many conventions about how you move around the world?
 

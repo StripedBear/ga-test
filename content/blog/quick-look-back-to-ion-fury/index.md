@@ -11,8 +11,6 @@ original_url: "https://generalarcade.com/quick-look-back-to-ion-fury/"
 draft: false
 ---
 
-![Quick look back to Ion Fury](ionfury-1.jpg)
-
 When guys from 3D Realms contacted us back in 2019 and offered to work with Ion Fury, it didn’t take much time from us to agree. The game is really great, so we got extremely excited after their proposition! We worked with BUILD engine before (Shadow Warrior port to iOS in 2012 and Duke Nukem 3D: Megaton Edition along with Shadow Warrior Classic Redux in 2013), so we expected quite clear and straightforward work. Looks like we really underestimated the project…
 
 Several points made everything much harder than we thought: Eduke32 specific features like limit removal, true room over room, CON scripting, etc. Levels in the game have much more detailed geometry than any other BUILD game.
@@ -63,7 +61,7 @@ The first pass was also causing the same amount of vertex processing as renderin
 
 The last, but not the least was sound playback. Surprisingly, it caused performance issues as well – most of the sound effects were vorbis-encoded and once again it caused high CPU load when lots of them were played simultaneously. Some might say that decoding compressed sound is not a difficult task, but when you’ve got several dozens of effects at the same time, it really makes a difference – especially on consoles. Big number of small files caused long startup time as well.
 
-{{< youtube "RqOf9Z1F4dk" >}}
+{{< youtube "https://www.youtube.com/watch?v=RqOf9Z1F4dk" >}}
 
 The way to solve both problems was uncompressing all the vorbis files and merging them into one big file, which was loading at the same time with other game initialization procedures.
 

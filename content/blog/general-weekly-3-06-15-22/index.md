@@ -12,8 +12,6 @@ original_url: "https://generalarcade.com/general-weekly-3-06-15-22/"
 draft: false
 ---
 
-![General Weekly #3 06.15.22](weekly-2.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 In the news: probabilistic programming language MarkovJunior, Blender 3.2 released, Epic Games updated the MetaHuman editor, adding mesh imports and additional face animations, Rusty Jam 2 and Houdini Game Jam 2022 game jams.
@@ -24,27 +22,7 @@ Of interest: an excellent article about the architecture of the Xbox 360, the re
 
 Blender 3.2 released
 
-{{< youtube "TnX4\_BcFY54" >}}
-
-    EEVEE Shader Improvements
-
-    WebP support
-
-    Improved in multithreading
-
-    New Experimental OBJ Importer
-
-    UI improvements
-
-    Reduced memory consumption by nodes
-
-    New Curve Pen tool for drawing and editing curves, and a radically updated set of 3D drawing tools
-
-    Many changes and improvements to the Cycles renderer
-
-Epic Games updated the MetaHuman editor with mesh imports and additional face animations…
-
-{{< youtube "Aa2r9nbt6SA" >}}
+{{< youtube "https://www.youtube.com/watch?v=TnX4_BcFY54" >}}
 
 […as well as presets for lights, looped animations for testing, and compatibility with Unreal Engine 5’s internal tools.](https://www.unrealengine.com/en-US/blog/new-release-brings-mesh-to-metahuman-to-unreal-engine-and-much-more)
 
@@ -96,7 +74,7 @@ ProRender 3.4 for Blender and Maya released
 
 Mesh rendering system for Unity.
 
-{{< youtube "P7mUuCSAX0A" >}}
+{{< youtube "https://www.youtube.com/watch?v=P7mUuCSAX0A" >}}
 
 The system [supports](https://www.indiegogo.com/projects/the-unity-improver-nano-tech/coming_soon) HDRP/URP and is similar to Nanite in UE5.
 
@@ -120,7 +98,7 @@ The new installment in the console architecture series will provide additional i
 
 [Another report on testing in game development.](https://youtu.be/IW5i9DjKT3U)
 
-{{< youtube "IW5i9DjKT3U" >}}
+{{< youtube "https://youtu.be/IW5i9DjKT3U" >}}
 
 Although, in general, nothing new, it will not be worse if you fix the main theses.
 
@@ -144,7 +122,7 @@ GameDiscoverCo talked to the developers and tried to figure out how they did it 
 
 [Some details about the creation of The Matrix Awakens tech demo on Unreal Engine 5.](https://youtu.be/9S_I-qD7fus)
 
-{{< youtube "9S\_I-qD7fus" >}}
+{{< youtube "https://youtu.be/9S_I-qD7fus" >}}
 
 You can also read the [article on the Epic blog](https://www.unrealengine.com/en-US/spotlights/behind-the-scenes-on-the-matrix-awakens-an-unreal-engine-5-experience).
 
@@ -156,7 +134,7 @@ Character artist Joshua Gou/Wu shared a detailed description of the Jinx project
 
 [NVIDIA Renders Millions of Lights.](https://youtu.be/MUDveGZIRaM)
 
-{{< youtube "MUDveGZIRaM" >}}
+{{< youtube "https://youtu.be/MUDveGZIRaM" >}}
 
 The video explains the ReSTIR method and shows comparison between the previous methods.
 
@@ -170,7 +148,7 @@ In the article, using a specific example, the features of using various methods 
 
 [A small breakdown of how the dojo scene was created for The Matrix Resurrections using the Unreal Engine.](https://www.unrealengine.com/en-US/spotlights/dneg-creates-the-matrix-resurrections-dojo-scene-with-unreal-engine)
 
-{{< youtube "HygVE6I9LxM" >}}
+{{< youtube "https://www.youtube.com/watch?v=HygVE6I9LxM" >}}
 
 More in the text.
 
@@ -182,7 +160,7 @@ Battle Passes were first introduced in Valve’s Dota 2 and Team Fortress 2 and 
 
 [A good report about the open-source game Space Station 13.](https://youtu.be/z5sjwqUten0)
 
-{{< youtube "z5sjwqUten0" >}}
+{{< youtube "https://youtu.be/z5sjwqUten0" >}}
 
 Discussed the pros/cons of developing an open-source game and talked about interacting with the community.
 
@@ -224,7 +202,7 @@ We redistribute the load on the servers and prevent the entire data storage syst
 
 [Tutorial for beginners on working with lighting in Unreal Engine.](https://youtu.be/fSbBsXbjxPo)
 
-{{< youtube "fSbBsXbjxPo" >}}
+{{< youtube "https://youtu.be/fSbBsXbjxPo" >}}
 
 William Faucher, a creator of educational content for artists and CGSpectrum mentor, has posted a new video demonstrating how light works in real life and how to implement this photorealistic effect in your projects.
 
@@ -242,7 +220,7 @@ The first mobile online game, how publishers made money on Java games, the proge
 
 [Why does a 3D artist need mathematics: recording a stream with Davyd Vidiger](https://youtu.be/njRSYEe0Rfk).
 
-{{< youtube "njRSYEe0Rfk" >}}
+{{< youtube "https://youtu.be/njRSYEe0Rfk" >}}
 
 The lead technical artist from UNIGINE spun vectors and spaces to talk about real problems using mathematics in 3D graphics.
 
@@ -254,7 +232,7 @@ In its first mobile analytics report, the Unity team delved into growth and mone
 
 [A short film entirely created in Unreal Engine.](https://80.lv/articles/creating-a-short-film-entirely-in-unreal-engine/)
 
-{{< youtube "Kiey9JYy250" >}}
+{{< youtube "https://www.youtube.com/watch?v=Kiey9JYy250" >}}
 
 Loic Scalbert talked about working on the Seeker project, shared how character animation was created, and talked about what makes Unreal Engine a great tool for filmmaking.
 
@@ -266,13 +244,13 @@ How can the reward system help their development? The article explores the rewar
 
 [Magic Bridge Tutorial in Houdini and Unreal Engine.](https://youtu.be/DQW8m16m1L4)
 
-{{< youtube "DQW8m16m1L4" >}}
+{{< youtube "https://youtu.be/DQW8m16m1L4" >}}
 
 Tutorial creator and Houdini artist Simon Verstraete has released a new video on how to create a magic bridge with a formation effect using Houdini and Unreal Engine. This is just the first part of a two-part tutorial on working with Houdini. In the near future, Simon plans to release a second part devoted to working with the Unreal Engine.
 
 [How the episode Jibaro from Netflix’s Love, Death+Robots was created.](https://youtu.be/JeUuk-g_Qws)
 
-{{< youtube "JeUuk-g\_Qws" >}}
+{{< youtube "https://youtu.be/JeUuk-g_Qws" >}}
 
 Director Alberto Mielgo shared “behind the scenes” of the project.
 
@@ -284,7 +262,7 @@ Justin Arnold spoke about the features of the RPG in a Box tool, explained why t
 
 [A new global lighting system in the Kajiya engine.](https://github.com/EmbarkStudios/kajiya/blob/main/docs/gi-overview.md)
 
-{{< youtube "\_1g-XhlI\_5A" >}}
+{{< youtube "https://www.youtube.com/watch?v=_1g-XhlI_5A" >}}
 
 Tomasz Stochastic demonstrated the new Kajiya global illumination system and spoke in detail about it.
 
@@ -296,7 +274,7 @@ Mika Kuwilsky talked about working on the Gothic Architecture project, shared th
 
 [How to turn a 2D fractal into 3D.](https://youtu.be/__dSLc7-Cpo)
 
-{{< youtube "\_\_dSLc7-Cpo" >}}
+{{< youtube "https://youtu.be/__dSLc7-Cpo" >}}
 
 The video shows several ways to do this.
 

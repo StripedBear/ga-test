@@ -13,11 +13,9 @@ original_url: "https://generalarcade.com/new-release-kane-lynch-2-dog-days-compl
 draft: false
 ---
 
-![New release: Kane & Lynch 2: Dog Days – Complete Edition (GOG)](kane2.jpg)
-
 General Arcade specialists have spent approximately 3 weeks to complete the full Galaxy integration and perform a fine QA job.
 
-{{< youtube "RGkYDsCIibM" >}}
+{{< youtube "https://www.youtube.com/watch?v=RGkYDsCIibM" >}}
 
 Play as two of gaming’s most disturbing and realistic criminals; Lynch – a self medicated psychopath – and Kane – a disillusioned and desperate ex-mercenary, in a gritty and brutal crime shooter from IO Interactive. Kane and Lynch face the consequences of their actions when a simple job gone wrong finds them on a desperate and frantic struggle to escape. Experience their fight to survive through the back streets and rooftops of Shanghai’s gritty underworld. They can trust no one, not even each other as the cracks begin to appear in Lynch’s sanity and Kane’s stability.
 

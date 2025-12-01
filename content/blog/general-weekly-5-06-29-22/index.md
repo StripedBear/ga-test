@@ -9,8 +9,6 @@ original_url: "https://generalarcade.com/general-weekly-5-06-29-22/"
 draft: false
 ---
 
-![General Weekly #5 06.29.22](weekly5.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 News: AMD has opened the sources of FSR 2.0, an up-to-date note from Forbes about the state of game development in the country and about layoffs of entire studios, Unity Gaming Services has left the beta.
@@ -101,7 +99,7 @@ The package also includes the FSR2MovieRenderPipeline plugin, which allows you t
 
 [Death of a Game: Elyon (Ascent: Infinite Realm)](https://youtu.be/IMj6x-2QcjE)
 
-{{< youtube "IMj6x-2QcjE" >}}
+{{< youtube "https://youtu.be/IMj6x-2QcjE" >}}
 
 The video tells about the approach to Asian games, the delay in exits, and about errors specifically by Elyon.
 
@@ -117,13 +115,13 @@ A full analysis of the small effect that was made for the Level Up challenge can
 
 [How to make a game that was supposed to be small but ended up being huge](https://youtu.be/DcxRUc092WY)
 
-{{< youtube "DcxRUc092WY" >}}
+{{< youtube "https://youtu.be/DcxRUc092WY" >}}
 
 Speaking at the 2022 GDC, Adam Alker of People Can Fly talks about the production history of Outriders, the studio’s massive growth, and the challenges that growth has brought with it.
 
 [Creating water ripples in Blender and UE5](https://youtu.be/T4KAHVEmGM0)
 
-{{< youtube "T4KAHVEmGM0" >}}
+{{< youtube "https://youtu.be/T4KAHVEmGM0" >}}
 
 Leo Torres shared a method for creating realistic water ripples using Blender and Unreal Engine 5.
 

@@ -11,8 +11,6 @@ original_url: "https://generalarcade.com/etchu-daimon-ue5/"
 draft: false
 ---
 
-![Etchū-Daimon (UE5)](ue5station.jpg)
-
 An Italian 3D artist [Lorenzo Drago](https://www.artstation.com/subjectn) knows how to make amazing and beautiful designs. This is evident in his portfolio and his recent work, which has attracted a lot of attention.
 
 ![](lorenzo-drago-3-768x1024.jpg)
@@ -23,4 +21,4 @@ Etchū-Daimon Station (based on a real-life train station from Toyama, Japan) is
 
 Lumen, the new lighting model, makes the picture so realistic that people don’t immediately realize that what they’re looking at is a graphic rather than a photo. In dynamics, the station also looks great.
 
-{{< youtube "2paNFnw1wRs" >}}
+{{< youtube "https://www.youtube.com/watch?v=2paNFnw1wRs" >}}

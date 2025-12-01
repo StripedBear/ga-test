@@ -14,8 +14,6 @@ original_url: "https://generalarcade.com/general-weekly-4-06-22-22/"
 draft: false
 ---
 
-![General Weekly #4 06.22.22](weekly-3.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 In the news: Epic Online Services now lets you add crossplay to your PC games, Epic Games helped archaeologists bring a 10,000-year-old shaman back to life with MetaHuman, Radeon Memory Visualizer now supports Linux.
@@ -26,7 +24,7 @@ Interesting things: a report from the GDC about creating cognitive maps and desi
 
 [Epic Online Services now lets you add crossplay to your PC games.](https://dev.epicgames.com/en-US/news/epic-online-services-release-free-pc-crossplay-tools)
 
-{{< youtube "YLnCx\_KMPi0" >}}
+{{< youtube "https://www.youtube.com/watch?v=YLnCx_KMPi0" >}}
 
 Including between Steam and Epic Games. The service includes an overlay that combines friends from Steam and Epic Games into a single list, an interface for finding friends, sending and receiving add requests, and joining multiplayer game sessions across stores.
 
@@ -34,13 +32,13 @@ Adding support for macOS and Linux is in progress.
 
 [Epic Games helped archaeologists bring a 10,000-year-old shaman back to life with MetaHuman.](https://www.unrealengine.com/en-US/spotlights/metahuman-technology-brings-a-10-000-year-old-shaman-back-to-life)
 
-{{< youtube "2pINGSHNYSE" >}}
+{{< youtube "https://www.youtube.com/watch?v=2pINGSHNYSE" >}}
 
 The tool, in addition to the appearance of a person, made it possible to recreate his or her facial expressions.
 
 [Mark Brown releases tutorial video essay as a free game Platformer Toolkit.](https://gmtk.itch.io/platformer-toolkit)
 
-{{< youtube "zWi0jgghGcI" >}}
+{{< youtube "https://www.youtube.com/watch?v=zWi0jgghGcI" >}}
 
 You will be able to see for yourself how the characters in platform games are arranged, using a set of tools to change and adjust more than 30 variables that control the movement of the hero.
 
@@ -122,7 +120,7 @@ Epic Games interviewed the lucky Epic MegaGrant recipient about their game and w
 
 [Unity Shader Graph – Creating Full Screen Effects.](https://www.youtube.com/watch?v=mCpRxFP2J1c)
 
-{{< youtube "mCpRxFP2J1c" >}}
+{{< youtube "https://www.youtube.com/watch?v=mCpRxFP2J1c" >}}
 
 The tutorial shows how to apply effects to the entire screen. Can be used, for example, to warn of low health or taking damage.
 

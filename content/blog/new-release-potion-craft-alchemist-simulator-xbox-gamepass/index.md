@@ -9,8 +9,6 @@ original_url: "https://generalarcade.com/new-release-potion-craft-alchemist-simu
 draft: false
 ---
 
-![New Release: Potion Craft: Alchemist Simulator (Xbox, Gamepass)](potion-craft.jpg)
-
 [Potion Craft](https://generalarcade.com/project/potion-craft-alchemist-simulator/) is an alchemist simulator where you physically interact with your tools and ingredients to brew potions. You’re in full control of the whole shop: invent new recipes, attract customers and experiment to your heart’s content. Just remember: the whole town is counting on you.
 
 LEARN THE ART OF POTION MAKING

@@ -14,8 +14,6 @@ original_url: "https://generalarcade.com/general-weekly-1-06-01-22/"
 draft: false
 ---
 
-![General Weekly #1 06.01.22](weekly.jpg)
-
 News: Character Creator 4 and iClone 8, Phoenix 5.0 have been released, the Construct Animate beta has become available.
 
 Interesting things: Elden Ring rendering analysis, Z-Anatomy 3D reconstruction of the human body, the psychology of losing, Unreal Engine 5 goes all-in with dynamic global illumination and Lumen.
@@ -24,7 +22,7 @@ Interesting things: Elden Ring rendering analysis, Z-Anatomy 3D reconstruction o
 
 Character Creator 4 and iClone 8 are released.
 
-{{< youtube "EKRpdxmZ9PM" >}}
+{{< youtube "hhttps://www.youtube.com/watch?v=EKRpdxmZ9PM" >}}
 
 An [updated version of Character Creator](https://manual.reallusion.com/Character-Creator-4/Content/ENU/4.0/01_Welcome/Welcome.htm) will connect industry-leading pipelines to a single system for 3D character creation, rigging, asset management and interactive design.
 
@@ -36,7 +34,7 @@ The latest version of the TressFX UE patch, which provides high-quality simulati
 
 Phoenix 5.0 release.
 
-{{< youtube "qJgMr58UtQE" >}}
+{{< youtube "https://www.youtube.com/watch?v=qJgMr58UtQE" >}}
 
 The update introduces Thruster force and Axis Lock controls for scene objects affected by simulations, new options for controlling foam patterns created by fluid simulations, and a new voxel shader.
 
@@ -44,7 +42,7 @@ About the [update for Maya](https://docs.chaos.com/display/PHX4MAYA/5.00.00) and
 
 Construct Animate beta is now available.
 
-{{< youtube "I7u0d3ay\_Nc" >}}
+{{< youtube "https://www.youtube.com/watch?v=I7u0d3ay_Nc" >}}
 
 The creators of the Construct 3 game engine [have released](https://www.construct.net/en/blogs/construct-official-blog-1/announcing-new-product-beta-1589) a beta version of a new product, Construct Animate, which is a version of Construct 3 specifically designed to create 2D animations that can be exported as web apps, ads, or videos.
 
@@ -58,7 +56,7 @@ Parsing the rendering of Elden Ring.
 
 The psychology of losing.
 
-{{< youtube "N5HQaVy85s0" >}}
+{{< youtube "https://www.youtube.com/watch?v=N5HQaVy85s0" >}}
 
 Losing is not fun. We admire the winners, the losers are forgotten over time. Losing happens on numerous occasions in our lives, but the response to those losses is different. What is the psychology of losing? How do we react to failure on a cognitive level, and does our personality influence how we recover if we do.
 
@@ -88,7 +86,7 @@ Fabian Kraus [shared the story](https://80.lv/articles/creating-a-fantasy-mediev
 
 Gears of War could have come out without multiplayer.
 
-{{< youtube "VnM93LeCrL8" >}}
+{{< youtube "https://www.youtube.com/watch?v=VnM93LeCrL8" >}}
 
 The fact that the original Gears of War could have been released on the Xbox 360 without multiplayer was revealed to Ars Technica by lead level designer Lee Perry as part of the War Stories series.
 
@@ -102,7 +100,7 @@ What has Blackbird Interactive learned from working on Hardspace: Shipbreaker fo
 
 How to draw a metal texture: step by step tutorial
 
-{{< youtube "8vniQj61XSE" >}}
+{{< youtube "https://www.youtube.com/watch?v=8vniQj61XSE" >}}
 
 Korean artist Chimmugsonyeo shows how to paint realistic metal textures, one of the most common textures in painting.
 
@@ -120,7 +118,7 @@ Speculations and myths about DirectStorage.
 
 An introduction to hair and fur in Houdini 19
 
-{{< youtube "p4yUNgy5HSA" >}}
+{{< youtube "https://www.youtube.com/watch?v=p4yUNgy5HSA" >}}
 
 CFX artist Jonathan Kutzer has created a guide aimed at fully describing the process of working with fur/hair in Houdini 19, including but not limited to: handling geometry for pipeline and scene setup, working with specific tools, modifiers, fur generation, material setting.
 
@@ -132,7 +130,7 @@ Since version 2.2, UNIGINE [allows](https://habr.com/ru/company/unigine/blog/668
 
 Comparison of GPU texture compression algorithms.
 
-{{< youtube "3H-HGlsC0NY" >}}
+{{< youtube "https://www.youtube.com/watch?v=3H-HGlsC0NY" >}}
 
 Jeff Russell gave a talk at Marmoset on GPU Texture Compression. The presentation covers the basics of BC1-7 schemes, as well as some of the strategies and rationale for working with these formats.
 

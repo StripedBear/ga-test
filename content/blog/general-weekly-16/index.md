@@ -13,8 +13,6 @@ original_url: "https://generalarcade.com/general-weekly-16/"
 draft: false
 ---
 
-![General Weekly #16](weekly16.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
@@ -43,7 +41,7 @@ In 2022, over 12,000 indie games were released on Steam. Only ~550 (info from ht
 
 [Working at Valve: no managers and complete freedom?](https://youtu.be/s9aCwCKgkLo)
 
-{{< youtube "s9aCwCKgkLo" >}}
+{{< youtube "https://youtu.be/s9aCwCKgkLo" >}}
 
 Chris Brat and the team talked to former and current Valve employees and discussed the structure of the company in a video.
 
@@ -63,7 +61,7 @@ Tatiana Devos spoke about the Medieval House project, explained how modular elem
 
 [How to make a cool double boss?](https://youtu.be/evJeudz8ZXY)
 
-{{< youtube "evJeudz8ZXY" >}}
+{{< youtube "https://youtu.be/evJeudz8ZXY" >}}
 
 Yes, Smough and Ornstein included, but other examples are considered.
 
@@ -75,7 +73,7 @@ The editors of gamediscover decided to address this issue.
 
 [The Best Game Animations of 2022](https://youtu.be/Kwn32j8_-p0)
 
-{{< youtube "Kwn32j8\_-p0" >}}
+{{< youtube "https://youtu.be/Kwn32j8_-p0" >}}
 
 Daniel Floyd, professional animator and co-founder of Extra Credits, has taken a look at some of the coolest animations in games which came out in 2022.
 

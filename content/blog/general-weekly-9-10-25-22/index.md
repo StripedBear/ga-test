@@ -10,8 +10,6 @@ original_url: "https://generalarcade.com/general-weekly-9-10-25-22/"
 draft: false
 ---
 
-![General Weekly #9 10.25.22](weekly09.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
@@ -26,7 +24,7 @@ The update introduces a new terrain system, Sky Atmosphere and Stars components,
 
 The much anticipated new VR sculpting app.
 
-## {{< youtube "kUuLwAw1HsY" >}}
+## {{< youtube "https://www.youtube.com/watch?v=kUuLwAw1HsY" >}}
 
 ## Interesting articles/videos
 
@@ -80,7 +78,7 @@ Brian Clark worked for over 13 years at various studios such as EA Mythic, Trion
 
 [Why does Batman’s Arkham Series have one of the greatest combat systems?](https://youtu.be/Guz0DEWI6nM)
 
-{{< youtube "Guz0DEWI6nM" >}}
+{{< youtube "https://youtu.be/Guz0DEWI6nM" >}}
 
 There’s a nice video on the IGN channel about how the developers at Rocksteady Studios created one of the best gaming systems of all time.
 
@@ -128,7 +126,7 @@ In this article, you’ll learn about the main components of in-game ad design a
 
 [Creating fluffy stylized pine trees in Maya, ZBrush and Unreal](https://youtu.be/LbEv4CGz7LE)
 
-{{< youtube "LbEv4CGz7LE" >}}
+{{< youtube "https://youtu.be/LbEv4CGz7LE" >}}
 
 Victoria Zavgorodnyaya presented a new master class on creating stylized trees.
 
@@ -138,7 +136,7 @@ Gabriele Leone, creative director at NVIDIA, spoke about the NVIDIA Racer RTX te
 
 [Long-term career in design for non-leaders](https://youtu.be/Lf7aFknlO2U)
 
-{{< youtube "Lf7aFknlO2U" >}}
+{{< youtube "https://youtu.be/Lf7aFknlO2U" >}}
 
 In a GDC 2021 keynote, Cryptic Studios’ Brett Norton talks about the traditional “become a lead” career path, but then moves away from that form and offers some proven non-lead career paths.
 

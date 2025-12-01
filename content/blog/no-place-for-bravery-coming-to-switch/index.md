@@ -12,11 +12,9 @@ original_url: "https://generalarcade.com/no-place-for-bravery-coming-to-switch/"
 draft: false
 ---
 
-![No Place for Bravery coming to Switch](post.jpg)
-
 We are very happy to announce that our team is working on the Switch port! [Glitch Factory](https://twitter.com/GlitchFTY) and [Ysbryd Games](https://twitter.com/YsbrydGames) have made an amazing game and we can’t wait to bring it to your consoles.
 
-{{< youtube "QP1fpfRPIFA" >}}
+{{< youtube "https://www.youtube.com/watch?v=QP1fpfRPIFA" >}}
 
 *No Place for Bravery is a 2D top-down action RPG which weaves together high-quality visuals, a stirring soundtrack and intense combat moments into a deep and affecting tale of moral dilemmas and personal reflection of choices. YOUR choices.*
 

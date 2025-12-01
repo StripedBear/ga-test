@@ -15,8 +15,6 @@ original_url: "https://generalarcade.com/this-day-in-gaming-may-5-wolfenstein-3d
 draft: false
 ---
 
-![This Day in Gaming, May 5: Wolfenstein 3D: 30th Anniversary](wolfensteinpost.jpg)
-
 Up until May 5, 1992 the shooter genre had very little to offer. Sure, there were games with shooting episodes, there were even first-person shooter games, but it was Wolfenstein 3D that brought some order to a genre that no one had yet invented, albeit unknowingly. John Carmack and John Romero loved a) fast console games; b) dynamic arcade games; c) the two Castle Wolfenstein games and its creator Silas Warner. The first two points gave the world the Commander Keen series. And thanks to the c) a little later (with Warner’s permission) our birthday boy would be born.
 
 ![](wolfbox.jpg)

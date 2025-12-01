@@ -19,7 +19,7 @@ enableRobotsTXT = true
     weight = 3
   [[menu.main]]
     name = "Switch 2 Porting"
-    url = "/switch2porting/"
+    url = "/switch-2-porting/"
     weight = 4
   [[menu.main]]
     name = "About"
@@ -27,7 +27,7 @@ enableRobotsTXT = true
     weight = 5
   [[menu.main]]
     name = "Contact us"
-    url = "#footer"
+    url = "#contact-us"
     weight = 6
 
 

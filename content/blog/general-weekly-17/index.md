@@ -13,8 +13,6 @@ original_url: "https://generalarcade.com/general-weekly-17/"
 draft: false
 ---
 
-![General Weekly #17](weekly17.jpg)
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
@@ -121,7 +119,7 @@ Some analytics with real examples.
 
 [Death of a Game: Gwent](https://youtu.be/SgqIPeIFAqA)
 
-{{< youtube "SgqIPeIFAqA" >}}
+{{< youtube "https://youtu.be/SgqIPeIFAqA" >}}
 
 Analysis of a standalone game from CDPR, which grew out of the Witcher 3 mini-game.
 
