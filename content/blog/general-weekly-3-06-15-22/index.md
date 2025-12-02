@@ -1,17 +1,21 @@
 ---
-title: "General Weekly #3 06.15.22"
+title: 'General Weekly #3 06.15.22'
 date: 2022-06-15
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. In the news: probabilistic programming language MarkovJunior, Blender 3.2 released, Epic Games updated the MetaHuman editor, adding mesh imports and [\u2026]"
+description: 'The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. In the
+  news: probabilistic programming language MarkovJunior, Blender 3.2 released, Epic
+  Games updated the MetaHuman editor, adding mesh imports and […]'
 categories:
-  - "News"
+- News
 tags:
-  - "Unity"
-  - "Unreal Engine 5"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-3-06-15-22/"
+- Unity
+- Unreal Engine 5
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-3-06-15-22/
 draft: false
+url: /general-weekly-3-06-15-22/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 In the news: probabilistic programming language MarkovJunior, Blender 3.2 released, Epic Games updated the MetaHuman editor, adding mesh imports and additional face animations, Rusty Jam 2 and Houdini Game Jam 2022 game jams.

@@ -1,14 +1,18 @@
 ---
-title: "New release: Mafia Trilogy (GOG)"
+title: 'New release: Mafia Trilogy (GOG)'
 date: 2022-09-08
-description: "Mafia: Definitive Edition Re-made from the ground up, rise through the ranks of the mafia during the Prohibition-era. After an inadvertent brush with the mob, Tommy Angelo is reluctantly thrust into the world of organized crime. Initially uneasy about falling in with the Salieri family, the rewards become too big to ignore. Mafia III: Definitive [\u2026]"
+description: 'Mafia: Definitive Edition Re-made from the ground up, rise through the
+  ranks of the mafia during the Prohibition-era. After an inadvertent brush with the
+  mob, Tommy Angelo is reluctantly thrust into the world of organized crime. Initially
+  uneasy about falling in with the Salieri family, the rewards become too big to ignore.
+  Mafia III: Definitive […]'
 categories:
-  - "Blog"
-featured_image: "featured.png"
-original_url: "https://generalarcade.com/new-release-mafia-trilogy-gog/"
+- Blog
+featured_image: featured.png
+original_url: https://generalarcade.com/new-release-mafia-trilogy-gog/
 draft: false
+url: /new-release-mafia-trilogy-gog/
 ---
-
 **Mafia: Definitive Edition**  
 Re-made from the ground up, rise through the ranks of the mafia during the Prohibition-era. After an inadvertent brush with the mob, Tommy Angelo is reluctantly thrust into the world of organized crime. Initially uneasy about falling in with the Salieri family, the rewards become too big to ignore.
 

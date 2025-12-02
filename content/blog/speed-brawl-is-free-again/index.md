@@ -1,18 +1,21 @@
 ---
-title: "Speed Brawl is free again!"
+title: Speed Brawl is free again!
 date: 2021-09-16
-description: "London, 1888. After a decade of war with the Lunar invaders we named the Selenites, the British Empire finally vanquished the insect-like menace thanks to a dashing officer by the name of Hugo Wells. He crushed the colony\u2019s queen and in doing so cemented his status as both a hero of the empire, and the [\u2026]"
+description: London, 1888. After a decade of war with the Lunar invaders we named
+  the Selenites, the British Empire finally vanquished the insect-like menace thanks
+  to a dashing officer by the name of Hugo Wells. He crushed the colony’s queen and
+  in doing so cemented his status as both a hero of the empire, and the […]
 categories:
-  - "News"
+- News
 tags:
-  - "Epic Games"
-  - "sale"
-  - "Speed Brawl"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/speed-brawl-is-free-again/"
+- Epic Games
+- sale
+- Speed Brawl
+featured_image: featured.jpg
+original_url: https://generalarcade.com/speed-brawl-is-free-again/
 draft: false
+url: /speed-brawl-is-free-again/
 ---
-
 London, 1888. After a decade of war with the Lunar invaders we named the Selenites, the British Empire finally vanquished the insect-like menace thanks to a dashing officer by the name of Hugo Wells. He crushed the colony’s queen and in doing so cemented his status as both a hero of the empire, and the de facto patriarch of the drone-like Selenites…
 
 {{< youtube "https://www.youtube.com/watch?v=mVCV5OjLisw" >}}

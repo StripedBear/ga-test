@@ -1,15 +1,19 @@
 ---
-title: "General Weekly #10 11.01.22"
+title: 'General Weekly #10 11.01.22'
 date: 2022-11-01
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news Steam will change the display of game release dates No more jokes. Developers will be able to choose one [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  Steam will change the display of game release dates No more jokes. Developers will
+  be able to choose one […]
 categories:
-  - "Blog"
-  - "News"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-10-11-01-22/"
+- Blog
+- News
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-10-11-01-22/
 draft: false
+url: /general-weekly-10-11-01-22/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

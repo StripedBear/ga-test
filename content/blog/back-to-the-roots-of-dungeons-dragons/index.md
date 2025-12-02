@@ -1,17 +1,21 @@
 ---
-title: "Back to the roots of Dungeons & Dragons"
+title: Back to the roots of Dungeons & Dragons
 date: 2022-04-01
-description: "Dungeons & Dragons Gold Box Classics has finally been released on Steam bringing to life many of D&D\u2019s most iconic monsters, heroes, and villains! The Forgotten Realms world of Dungeons & Dragons has been home to many a hero and imagination since its publication, producing adventures and stories to be retold and enjoyed for years [\u2026]"
+description: Dungeons & Dragons Gold Box Classics has finally been released on Steam
+  bringing to life many of D&D’s most iconic monsters, heroes, and villains! The Forgotten
+  Realms world of Dungeons & Dragons has been home to many a hero and imagination
+  since its publication, producing adventures and stories to be retold and enjoyed
+  for years […]
 categories:
-  - "News"
+- News
 tags:
-  - "Dungeons & Dragons"
-  - "Dungeons & Dragons Gold Box Classics"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/back-to-the-roots-of-dungeons-dragons/"
+- Dungeons & Dragons
+- Dungeons & Dragons Gold Box Classics
+featured_image: featured.jpg
+original_url: https://generalarcade.com/back-to-the-roots-of-dungeons-dragons/
 draft: false
+url: /back-to-the-roots-of-dungeons-dragons/
 ---
-
 Dungeons & Dragons Gold Box Classics has finally been [released on Steam](https://store.steampowered.com/bundle/24494/Gold_Box_Classics/) bringing to life many of D&D’s most iconic monsters, heroes, and villains!
 
 The Forgotten Realms world of Dungeons & Dragons has been home to many a hero and imagination since its publication, producing adventures and stories to be retold and enjoyed for years to come.

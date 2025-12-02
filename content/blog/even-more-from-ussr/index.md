@@ -1,23 +1,26 @@
 ---
-title: "Even more from USSR"
+title: Even more from USSR
 date: 2021-07-29
-description: "The video game industry in the countries of the former Soviet Union looks quite strong, and we\u2019d like to continue talking about those games that got the titles of world wide hits as well as those that you may well have missed, although they are undoubtedly worthy of attention. But obscurity is definitely not something [\u2026]"
+description: The video game industry in the countries of the former Soviet Union looks
+  quite strong, and we’d like to continue talking about those games that got the titles
+  of world wide hits as well as those that you may well have missed, although they
+  are undoubtedly worthy of attention. But obscurity is definitely not something […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Blitzkrieg"
-  - "Cut the Rope"
-  - "Heroes of Might and Magic"
-  - "King\u2019s Bounty"
-  - "Om Nom Stories"
-  - "Parkan"
-  - "Rage of Mages"
-  - "Space Rangers"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/even-more-from-ussr/"
+- Blitzkrieg
+- Cut the Rope
+- Heroes of Might and Magic
+- King’s Bounty
+- Om Nom Stories
+- Parkan
+- Rage of Mages
+- Space Rangers
+featured_image: featured.jpg
+original_url: https://generalarcade.com/even-more-from-ussr/
 draft: false
+url: /even-more-from-ussr/
 ---
-
 The video game industry in the countries of the former Soviet Union looks quite strong, and we’d like to continue talking about those games that got the titles of world wide hits as well as those that you may well have missed, although they are undoubtedly worthy of attention.
 
 But obscurity is definitely not something that Rage of Mages can be accused of. The series dates back to 1998 when the original game was released. The events of the first game take place in Allod Umoyr, a mysterious place that doesn’t belong to any of the Empires of the game world and is shrouded in mystery… No one has ever returned from there, and of course, this only encourages adventure seekers of all stripes and the curious ones! And it is to this mysterious place that you will have to go as one of the four characters that you are offered to choose from.

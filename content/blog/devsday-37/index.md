@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #37"
+title: 'DEVsday #37'
 date: 2023-09-20
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Unpleasant situation with Unity The hottest news of this week. On September 12, without any warning, the company announced that [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Unpleasant
+  situation with Unity The hottest news of this week. On September 12, without any
+  warning, the company announced that […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-37/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-37/
 draft: false
+url: /devsday-37/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Unpleasant situation with Unity](https://blog.unity.com/news/plan-pricing-and-packaging-updates)

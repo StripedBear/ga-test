@@ -1,18 +1,21 @@
 ---
-title: "You don\u2019t need to outsource porting"
+title: You don’t need to outsource porting
 date: 2021-10-29
-description: "What is porting and what steps does it involve? What are the common pitfalls? What is quality adaptation? Is it possible to make the port on your own or do you need to involve the help of a third-party studio? What are the pros and cons of outsourcing the porting process? Gennadii Potapov, CEO of [\u2026]"
+description: What is porting and what steps does it involve? What are the common pitfalls?
+  What is quality adaptation? Is it possible to make the port on your own or do you
+  need to involve the help of a third-party studio? What are the pros and cons of
+  outsourcing the porting process? Gennadii Potapov, CEO of […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "DevGAMM"
-  - "outsource porting"
-  - "porting"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/you-dont-need-to-outsource-porting/"
+- DevGAMM
+- outsource porting
+- porting
+featured_image: featured.jpg
+original_url: https://generalarcade.com/you-dont-need-to-outsource-porting/
 draft: false
+url: /you-dont-need-to-outsource-porting/
 ---
-
 What is porting and what steps does it involve? What are the common pitfalls? What is quality adaptation? Is it possible to make the port on your own or do you need to involve the help of a third-party studio? What are the pros and cons of outsourcing the porting process? Gennadii Potapov, CEO of General Arcade, covers these and related issues in this lecture made at DevGAMM 2021 conference.
 
 If you speak Russian, you can just listen to it while watching the video, or you can read the full lecture in English right here!

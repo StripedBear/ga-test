@@ -1,17 +1,20 @@
 ---
-title: "John Romero writes a book!"
+title: John Romero writes a book!
 date: 2022-05-07
-description: "For our company, DOOM is more than just a game and its creators are more than just another bunch of talented people. John Romero and John Carmack have entered the history of video games as and will remain so forever. John Romero loves to share memories and his Blog and Twitter are always a pleasure [\u2026]"
+description: For our company, DOOM is more than just a game and its creators are more
+  than just another bunch of talented people. John Romero and John Carmack have entered
+  the history of video games as and will remain so forever. John Romero loves to share
+  memories and his Blog and Twitter are always a pleasure […]
 categories:
-  - "News"
+- News
 tags:
-  - "DOOM"
-  - "John Romero"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/john-romero-writes-a-book/"
+- DOOM
+- John Romero
+featured_image: featured.jpg
+original_url: https://generalarcade.com/john-romero-writes-a-book/
 draft: false
+url: /john-romero-writes-a-book/
 ---
-
 For our company, DOOM is more than just a game and its creators are more than just another bunch of talented people. John Romero and John Carmack have entered the history of video games as and will remain so forever.
 
 John Romero loves to share memories and his [Blog](https://rome.ro) and [Twitter](https://twitter.com/romero) are always a pleasure to read. But posts and tweets are sometimes not enough to get into a person’s story. That’s why John Romero has written an autobiography.

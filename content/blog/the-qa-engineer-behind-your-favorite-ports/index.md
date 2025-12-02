@@ -1,18 +1,19 @@
 ---
-title: "The QA Engineer Behind Your Favorite Ports"
+title: The QA Engineer Behind Your Favorite Ports
 date: 2024-12-18
-description: "QA Engineer shares how he focuses on ensuring the highest quality in every game we port, bringing a methodical approach and committed to excel which ensures our team\u2019s success with precision and professionalism."
+description: QA Engineer shares how he focuses on ensuring the highest quality in
+  every game we port, bringing a methodical approach and committed to excel which
+  ensures our team’s success with precision and professionalism.
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "gamedev"
-  - "general arcade team"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/the-qa-engineer-behind-your-favorite-ports/"
+- gamedev
+- general arcade team
+featured_image: featured.jpg
+original_url: https://generalarcade.com/the-qa-engineer-behind-your-favorite-ports/
 draft: false
+url: /the-qa-engineer-behind-your-favorite-ports/
 ---
-
-
 Putra’s foray into the technology sector began with a distinguished academic background in Information Technology, earned with Honors from the [University of Technology Mara](https://uitm.edu.my/index.php/en/) in Shah Alam. Inspired by his love for gaming, he set his sights on the gaming industry and joined General Arcade as a QA Engineer. Here, he’s making waves by ensuring the quality of the games we port to various platforms. His job involves testing games, hunting down bugs, and making sure everything meets industry standards. A typical day for Putra involves addressing technical requirements for PlayStation while collaborating closely with the development team to report issues and verify fixes, all aimed at enhancing the overall gaming experience.
 
 What really stands out for Putra at General Arcade is the collaborative vibe and the chance to work with a diverse team from around the globe.

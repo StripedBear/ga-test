@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #24"
+title: 'DEVsday #24'
 date: 2023-05-24
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. The developer and publisher of the game King of Avalon filed a class-action lawsuit for false advertising The in-game store [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. The developer
+  and publisher of the game King of Avalon filed a class-action lawsuit for false
+  advertising The in-game store […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-24/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-24/
 draft: false
+url: /devsday-24/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [The developer and publisher of the game King of Avalon filed a class-action lawsuit for false advertising](https://gamingonphone.com/news/funplus-king-of-avalon-koa-gets-a-class-action-lawsuit-for-mendacious-advertising/)

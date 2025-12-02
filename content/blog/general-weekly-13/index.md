@@ -1,15 +1,19 @@
 ---
-title: "General Weekly #13"
+title: 'General Weekly #13'
 date: 2022-12-08
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news The source code of the engine \u201cCaptain Blood\u201d game was made publicly available under GPL-3 You can download it [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  The source code of the engine “Captain Blood” game was made publicly available under
+  GPL-3 You can download it […]
 categories:
-  - "Blog"
-  - "News"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-13/"
+- Blog
+- News
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-13/
 draft: false
+url: /general-weekly-13/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

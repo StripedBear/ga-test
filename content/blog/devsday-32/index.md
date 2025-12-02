@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #32"
+title: 'DEVsday #32'
 date: 2023-07-19
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. AMD releases FidelityFX SDK 1.0 In addition to past technologies, 1.0 added Blur, Depth of Field and Lens Effects. Flax [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. AMD releases
+  FidelityFX SDK 1.0 In addition to past technologies, 1.0 added Blur, Depth of Field
+  and Lens Effects. Flax […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-32/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-32/
 draft: false
+url: /devsday-32/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [AMD releases FidelityFX SDK 1.0](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK)

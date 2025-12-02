@@ -1,14 +1,18 @@
 ---
-title: "General Weekly #6 08.11.22"
+title: 'General Weekly #6 08.11.22'
 date: 2022-08-12
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. In the news: The Machinery game engine is no longer supported, and the developers ask customers to remove the sources [\u2026]"
+description: 'The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. In the
+  news: The Machinery game engine is no longer supported, and the developers ask customers
+  to remove the sources […]'
 categories:
-  - "Blog"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-6-08-11-22/"
+- Blog
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-6-08-11-22/
 draft: false
+url: /general-weekly-6-08-11-22/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 In the news: The Machinery game engine is no longer supported, and the developers ask customers to remove the sources and binaries, 9 months of development and now Godot 3.5 has been released, DreamWorks plans to release the MoonRay renderer under the Apache 2.0 license by the end of the year.

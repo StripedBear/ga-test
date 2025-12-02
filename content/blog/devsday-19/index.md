@@ -1,14 +1,18 @@
 ---
-title: "DEVsday #19"
+title: 'DEVsday #19'
 date: 2023-04-12
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news WebGPU 1.0 standard released in Chrome The new version of Chrome will include support for the new WebGPU 1.0 [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  WebGPU 1.0 standard released in Chrome The new version of Chrome will include support
+  for the new WebGPU 1.0 […]
 categories:
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-19/"
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-19/
 draft: false
+url: /devsday-19/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

@@ -1,21 +1,25 @@
 ---
-title: "File:GamesFromUSSR/pt6"
+title: File:GamesFromUSSR/pt6
 date: 2021-11-08
-description: "Choosing the topic of video games that stand out for some specific feature (in our case, geography!) opens an endless world and unlimited springboard for content! Likewise with our series of articles about games created in the territory of the former USSR. Considering that new games appear continuously, we\u2019ll never be able to describe all [\u2026]"
+description: Choosing the topic of video games that stand out for some specific feature
+  (in our case, geography!) opens an endless world and unlimited springboard for content!
+  Likewise with our series of articles about games created in the territory of the
+  former USSR. Considering that new games appear continuously, we’ll never be able
+  to describe all […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "ATOM RPG"
-  - "Evade The Light"
-  - "Force Reboot"
-  - "illWill"
-  - "Pathfinder: Kingmaker"
-  - "The Final Station"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/filegamesfromussr-pt6/"
+- ATOM RPG
+- Evade The Light
+- Force Reboot
+- illWill
+- 'Pathfinder: Kingmaker'
+- The Final Station
+featured_image: featured.jpg
+original_url: https://generalarcade.com/filegamesfromussr-pt6/
 draft: false
+url: /filegamesfromussr-pt6/
 ---
-
 Choosing the topic of video games that stand out for some specific feature (in our case, geography!) opens an endless world and unlimited springboard for content! Likewise with our series of articles about games created in the territory of the former USSR. Considering that new games appear continuously, we’ll never be able to describe all of them. But in our case, the process is important, not the final result!
 
 And that means it’s time for another article in the mentioned series. This time we’d like to start it with a story about an interesting new indie project called illWill – don’t confuse it with the Lake of Tears’ eighth studio album. The illWill we’re talking about is a first-person shooter, which its creator describes as “the mix of Doom, Quake, Blood and Serious Sam with some bits of madness”. And by the way, this is not a mistype: it is the creator, not the creators. Only one person is working on the project, [Slava Bushuev](https://gamejolt.com/@slava_bushuev).

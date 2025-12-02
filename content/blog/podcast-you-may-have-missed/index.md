@@ -1,16 +1,19 @@
 ---
-title: "Podcast you may have missed"
+title: Podcast you may have missed
 date: 2022-06-14
-description: "There are so many podcasts that it\u2019s easy to miss an amazing but unpopular podcast. The General Arcade team encourages you to check out The House of the Dev podcast. House of the Dev is a podcast hosted by developer Petr Salnikov and former head of Arkane Studios Rafael Colantonio. The podcast\u2019s first season contains [\u2026]"
+description: There are so many podcasts that it’s easy to miss an amazing but unpopular
+  podcast. The General Arcade team encourages you to check out The House of the Dev
+  podcast. House of the Dev is a podcast hosted by developer Petr Salnikov and former
+  head of Arkane Studios Rafael Colantonio. The podcast’s first season contains […]
 categories:
-  - "News"
+- News
 tags:
-  - "Podcast"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/podcast-you-may-have-missed/"
+- Podcast
+featured_image: featured.jpg
+original_url: https://generalarcade.com/podcast-you-may-have-missed/
 draft: false
+url: /podcast-you-may-have-missed/
 ---
-
 There are so many podcasts that it’s easy to miss an amazing but unpopular podcast. The General Arcade team encourages you to check out [The House of the Dev](https://www.youtube.com/c/TheHouseofTheDev) podcast.
 
 {{< youtube "https://www.youtube.com/watch?v=-jyLT-3MlDI" >}}

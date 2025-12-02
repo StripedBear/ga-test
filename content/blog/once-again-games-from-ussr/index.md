@@ -1,22 +1,25 @@
 ---
-title: "Once again, games from USSR"
+title: Once again, games from USSR
 date: 2021-08-25
-description: "We are very glad that the articles on our website don\u2019t go missing, and the fact that we get feedback from our readers is always a pleasure. This is the fifth time that we look at the most notable games created in the territory of the former Soviet Union, and this article is slightly different [\u2026]"
+description: We are very glad that the articles on our website don’t go missing, and
+  the fact that we get feedback from our readers is always a pleasure. This is the
+  fifth time that we look at the most notable games created in the territory of the
+  former Soviet Union, and this article is slightly different […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Alien Shooter"
-  - "Disco Elysium"
-  - "Loop Hero"
-  - "Planet Alcatraz"
-  - "Truckers 2"
-  - "UAZ Racing 4x4"
-  - "Zombie Shooter"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/once-again-games-from-ussr/"
+- Alien Shooter
+- Disco Elysium
+- Loop Hero
+- Planet Alcatraz
+- Truckers 2
+- UAZ Racing 4x4
+- Zombie Shooter
+featured_image: featured.jpg
+original_url: https://generalarcade.com/once-again-games-from-ussr/
 draft: false
+url: /once-again-games-from-ussr/
 ---
-
 We are very glad that the articles on our website don’t go missing, and the fact that we get feedback from our readers is always a pleasure. This is the fifth time that we look at the most notable games created in the territory of the former Soviet Union, and this article is slightly different from those before.
 
 The fact is that all the games included in this part of our anthology are those about which our readers asked, “Why did you forget about this game?” Of course, we would have remembered about some of them ourselves, but it’s not in our rules to appropriate other people’s merits. So this article was written entirely “at your requests”!

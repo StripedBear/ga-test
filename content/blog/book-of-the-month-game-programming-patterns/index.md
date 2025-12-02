@@ -1,16 +1,20 @@
 ---
-title: "Book of the Month. Game Programming Patterns"
+title: Book of the Month. Game Programming Patterns
 date: 2022-06-21
-description: "The General Arcade library has hundreds of different books about video games and game development. Each month we cover the best of them, which will be useful for developers and/or inquisitive readers. It\u2019s good when your teacher is smart. It\u2019s even better when your teacher is experienced. Robert Nystrom has been programming for more than [\u2026]"
+description: The General Arcade library has hundreds of different books about video
+  games and game development. Each month we cover the best of them, which will be
+  useful for developers and/or inquisitive readers. It’s good when your teacher is
+  smart. It’s even better when your teacher is experienced. Robert Nystrom has been
+  programming for more than […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Game Programming Patterns"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/book-of-the-month-game-programming-patterns/"
+- Game Programming Patterns
+featured_image: featured.jpg
+original_url: https://generalarcade.com/book-of-the-month-game-programming-patterns/
 draft: false
+url: /book-of-the-month-game-programming-patterns/
 ---
-
 *The General Arcade library has hundreds of different books about video games and game development. Each month we cover the best of them, which will be useful for developers and/or inquisitive readers.*
 
 It’s good when your teacher is smart. It’s even better when your teacher is experienced. [Robert Nystrom](https://twitter.com/munificentbob) has been programming for more than twenty years, and he has something to tell about it.

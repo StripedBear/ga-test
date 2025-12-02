@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #26"
+title: 'DEVsday #26'
 date: 2023-06-08
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Unity 2022 LTS DOTS, multiplayer services, immersive HD environments with HDRP, high quality lighting and enhanced visuals (even on mobile), [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Unity
+  2022 LTS DOTS, multiplayer services, immersive HD environments with HDRP, high quality
+  lighting and enhanced visuals (even on mobile), […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-26/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-26/
 draft: false
+url: /devsday-26/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Unity 2022 LTS](https://unity.com/releases/lts)

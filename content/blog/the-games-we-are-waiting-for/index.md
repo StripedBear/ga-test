@@ -1,27 +1,30 @@
 ---
-title: "The games we are waiting for"
+title: The games we are waiting for
 date: 2021-08-23
-description: "Nowadays, almost everyone, to one degree or another, plays video games. And it goes without saying that many are waiting for some releases \u2013 well, or dream of some series to continue. And of course, people in the gaming industry are even more affected by this! So today we would like to talk about those [\u2026]"
+description: Nowadays, almost everyone, to one degree or another, plays video games.
+  And it goes without saying that many are waiting for some releases – well, or dream
+  of some series to continue. And of course, people in the gaming industry are even
+  more affected by this! So today we would like to talk about those […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "AIM"
-  - "BioShock"
-  - "Command & Conquer"
-  - "Disciples"
-  - "Divinity"
-  - "ELEX"
-  - "Forza Horizon"
-  - "Gothic"
-  - "Half-Life"
-  - "Outer Wilds"
-  - "Unreal"
-  - "Xenonauts"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/the-games-we-are-waiting-for/"
+- AIM
+- BioShock
+- Command & Conquer
+- Disciples
+- Divinity
+- ELEX
+- Forza Horizon
+- Gothic
+- Half-Life
+- Outer Wilds
+- Unreal
+- Xenonauts
+featured_image: featured.jpg
+original_url: https://generalarcade.com/the-games-we-are-waiting-for/
 draft: false
+url: /the-games-we-are-waiting-for/
 ---
-
 Nowadays, almost everyone, to one degree or another, plays video games. And it goes without saying that many are waiting for some releases – well, or dream of some series to continue. And of course, people in the gaming industry are even more affected by this! So today we would like to talk about those games that we would like to play.
 
 —

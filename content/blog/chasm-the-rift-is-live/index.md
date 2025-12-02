@@ -1,17 +1,18 @@
 ---
-title: "Chasm: The Rift is live!"
+title: 'Chasm: The Rift is live!'
 date: 2022-10-10
-description: "The remaster (and the original version) of the legendary Ukrainian shooter is already available with a 10% discount! Steam GOG"
+description: The remaster (and the original version) of the legendary Ukrainian shooter
+  is already available with a 10% discount! Steam GOG
 categories:
-  - "Blog"
-  - "News"
+- Blog
+- News
 tags:
-  - "Chasm: The Rift"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/chasm-the-rift-is-live/"
+- 'Chasm: The Rift'
+featured_image: featured.jpg
+original_url: https://generalarcade.com/chasm-the-rift-is-live/
 draft: false
+url: /chasm-the-rift-is-live/
 ---
-
 The remaster (and the original version) of the legendary Ukrainian shooter is already available with a 10% discount!
 
 [Steam](https://store.steampowered.com/app/2061230/Chasm_The_Rift/)

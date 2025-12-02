@@ -1,14 +1,18 @@
 ---
-title: "General Weekly #5 06.29.22"
+title: 'General Weekly #5 06.29.22'
 date: 2022-07-01
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. News: AMD has opened the sources of FSR 2.0, an up-to-date note from Forbes about the state of game development [\u2026]"
+description: 'The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. News:
+  AMD has opened the sources of FSR 2.0, an up-to-date note from Forbes about the
+  state of game development […]'
 categories:
-  - "News"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-5-06-29-22/"
+- News
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-5-06-29-22/
 draft: false
+url: /general-weekly-5-06-29-22/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 News: AMD has opened the sources of FSR 2.0, an up-to-date note from Forbes about the state of game development in the country and about layoffs of entire studios, Unity Gaming Services has left the beta.

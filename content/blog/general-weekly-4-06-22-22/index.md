@@ -1,19 +1,23 @@
 ---
-title: "General Weekly #4 06.22.22"
+title: 'General Weekly #4 06.22.22'
 date: 2022-06-24
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. In the news: Epic Online Services now lets you add crossplay to your PC games, Epic Games helped archaeologists bring [\u2026]"
+description: 'The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. In the
+  news: Epic Online Services now lets you add crossplay to your PC games, Epic Games
+  helped archaeologists bring […]'
 categories:
-  - "News"
+- News
 tags:
-  - "Epic Games"
-  - "Linux"
-  - "Unity"
-  - "Unreal Engine 5"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-4-06-22-22/"
+- Epic Games
+- Linux
+- Unity
+- Unreal Engine 5
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-4-06-22-22/
 draft: false
+url: /general-weekly-4-06-22-22/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 In the news: Epic Online Services now lets you add crossplay to your PC games, Epic Games helped archaeologists bring a 10,000-year-old shaman back to life with MetaHuman, Radeon Memory Visualizer now supports Linux.

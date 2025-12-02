@@ -1,18 +1,21 @@
 ---
-title: "Virtual Mars on UE5\u2026 for NASA"
+title: Virtual Mars on UE5… for NASA
 date: 2022-05-16
-description: "The crossover we deserve \u2014 NASA has created a \u201cvirtual Mars\u201d on Unreal Engine 5. Sounds like an idea for a game, but no, this is serious. The XOSS MarsXR virtual environment allows astronauts to create the conditions humanity will experience on Mars in the future. In virtual reality (but at the same time being [\u2026]"
+description: The crossover we deserve — NASA has created a “virtual Mars” on Unreal
+  Engine 5. Sounds like an idea for a game, but no, this is serious. The XOSS MarsXR
+  virtual environment allows astronauts to create the conditions humanity will experience
+  on Mars in the future. In virtual reality (but at the same time being […]
 categories:
-  - "News"
+- News
 tags:
-  - "Mars"
-  - "NASA"
-  - "Unreal Engine 5"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/virtual-mars-on-ue5-for-nasa/"
+- Mars
+- NASA
+- Unreal Engine 5
+featured_image: featured.jpg
+original_url: https://generalarcade.com/virtual-mars-on-ue5-for-nasa/
 draft: false
+url: /virtual-mars-on-ue5-for-nasa/
 ---
-
 The crossover we deserve — [NASA has created a “virtual Mars” on Unreal Engine 5](https://www.nasa.gov/help-nasa-develop-vr-for-mars-missions).
 
 Sounds like an idea for a game, but no, this is serious. The XOSS MarsXR virtual environment allows astronauts to create the conditions humanity will experience on Mars in the future. In virtual reality (but at the same time being on Earth) scientists will study the red planet, its weather, “sights” and their impact on Earth technology.

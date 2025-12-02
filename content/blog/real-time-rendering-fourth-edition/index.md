@@ -1,18 +1,21 @@
 ---
-title: "Real-Time Rendering, Fourth Edition"
+title: Real-Time Rendering, Fourth Edition
 date: 2022-04-19
-description: "As the next book that will be really useful for developers, we\u2019d like to recommend Real-Time Rendering, Fourth Edition. This is a collective work, and each of those who contributed to writing a hand has reached quite decent heights in the computer industry. Actually, one can already write a separate article about each of them! [\u2026]"
+description: As the next book that will be really useful for developers, we’d like
+  to recommend Real-Time Rendering, Fourth Edition. This is a collective work, and
+  each of those who contributed to writing a hand has reached quite decent heights
+  in the computer industry. Actually, one can already write a separate article about
+  each of them! […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Real-Time Rendering"
-  - "Real-Time Rendering Fourth Edition"
-featured_image: "featured.png"
-original_url: "https://generalarcade.com/real-time-rendering-fourth-edition/"
+- Real-Time Rendering
+- Real-Time Rendering Fourth Edition
+featured_image: featured.png
+original_url: https://generalarcade.com/real-time-rendering-fourth-edition/
 draft: false
+url: /real-time-rendering-fourth-edition/
 ---
-
-
 As the next book that will be really useful for developers, we’d like to recommend Real-Time Rendering, Fourth Edition. This is a collective work, and each of those who contributed to writing a hand has reached quite decent heights in the computer industry. Actually, one can already write a separate article about each of them!
 
 

@@ -1,14 +1,18 @@
 ---
-title: "DEVsday #20"
+title: 'DEVsday #20'
 date: 2023-04-19
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Dreams Active Support Ends September 1st Players will be able to continue downloading other people\u2019s levels and create their own, [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Dreams
+  Active Support Ends September 1st Players will be able to continue downloading other
+  people’s levels and create their own, […]
 categories:
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-20/"
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-20/
 draft: false
+url: /devsday-20/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Dreams Active Support Ends September 1st](https://docs.indreams.me/en-US/whats-happening/news/dreams-support-update)

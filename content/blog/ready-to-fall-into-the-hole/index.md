@@ -1,17 +1,21 @@
 ---
-title: "Ready to fall into the Hole?"
+title: Ready to fall into the Hole?
 date: 2022-04-06
-description: "It\u2019s time for Ludum Dare (Latin for \u201cgive a game\u201d), speed game development competition, which was first held by Geoff Howland back in 2002. There are certain rules for Ludum Dare: you have three days to create a well-functioning game, the theme is picked beforehand, etc. Quality multiplied by speed, one might say. And just [\u2026]"
+description: 'It’s time for Ludum Dare (Latin for “give a game”), speed game development
+  competition, which was first held by Geoff Howland back in 2002. There are certain
+  rules for Ludum Dare: you have three days to create a well-functioning game, the
+  theme is picked beforehand, etc. Quality multiplied by speed, one might say. And
+  just […]'
 categories:
-  - "News"
+- News
 tags:
-  - "Hole"
-  - "Ludum Dare"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/ready-to-fall-into-the-hole/"
+- Hole
+- Ludum Dare
+featured_image: featured.jpg
+original_url: https://generalarcade.com/ready-to-fall-into-the-hole/
 draft: false
+url: /ready-to-fall-into-the-hole/
 ---
-
 It’s time for Ludum Dare (Latin for “give a game”), speed game development competition, which was first held by Geoff Howland back in 2002. There are certain rules for Ludum Dare: you have three days to create a well-functioning game, the theme is picked beforehand, etc. Quality multiplied by speed, one might say.
 
 And just like before, [we decided to take a shot](https://ldjam.com/)… The theme picked this time was “Delay the inevitable” – in other words, a game where you got into unexpected, unpleasant and difficult circumstances and you got to get out of it. Basically, this idea suits any game. So, after long and painful brainstorms, we agreed on the actual concept.

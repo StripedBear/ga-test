@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #38"
+title: 'DEVsday #38'
 date: 2023-10-26
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Roblox made employees choose between working in the office and quitting Roblox management wants employees to return to the office. [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Roblox
+  made employees choose between working in the office and quitting Roblox management
+  wants employees to return to the office. […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-38/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-38/
 draft: false
+url: /devsday-38/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Roblox made employees choose between working in the office and quitting](https://blog.roblox.com/2023/10/future-work-together-roblox/)

@@ -1,15 +1,19 @@
 ---
-title: "General Weekly #14"
+title: 'General Weekly #14'
 date: 2023-01-18
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news Duelyst developers posted the source and assets of this CCG into open access All according to the Creative Commons [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  Duelyst developers posted the source and assets of this CCG into open access All
+  according to the Creative Commons […]
 categories:
-  - "Blog"
-  - "News"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-14/"
+- Blog
+- News
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-14/
 draft: false
+url: /general-weekly-14/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

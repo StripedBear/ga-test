@@ -1,20 +1,24 @@
 ---
-title: "This Day in Gaming, May 5: Wolfenstein 3D: 30th Anniversary"
+title: 'This Day in Gaming, May 5: Wolfenstein 3D: 30th Anniversary'
 date: 2022-05-05
-description: "Up until May 5, 1992 the shooter genre had very little to offer. Sure, there were games with shooting episodes, there were even first-person shooter games, but it was Wolfenstein 3D that brought some order to a genre that no one had yet invented, albeit unknowingly. John Carmack and John Romero loved a) fast console [\u2026]"
+description: Up until May 5, 1992 the shooter genre had very little to offer. Sure,
+  there were games with shooting episodes, there were even first-person shooter games,
+  but it was Wolfenstein 3D that brought some order to a genre that no one had yet
+  invented, albeit unknowingly. John Carmack and John Romero loved a) fast console
+  […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Game Engine Black Book: Wolfenstein 3D"
-  - "id Software"
-  - "Retro"
-  - "This Day in Gaming"
-  - "Wolfenstein 3D"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/this-day-in-gaming-may-5-wolfenstein-3d-30th-anniversary/"
+- 'Game Engine Black Book: Wolfenstein 3D'
+- id Software
+- Retro
+- This Day in Gaming
+- Wolfenstein 3D
+featured_image: featured.jpg
+original_url: https://generalarcade.com/this-day-in-gaming-may-5-wolfenstein-3d-30th-anniversary/
 draft: false
+url: /this-day-in-gaming-may-5-wolfenstein-3d-30th-anniversary/
 ---
-
 Up until May 5, 1992 the shooter genre had very little to offer. Sure, there were games with shooting episodes, there were even first-person shooter games, but it was Wolfenstein 3D that brought some order to a genre that no one had yet invented, albeit unknowingly. John Carmack and John Romero loved a) fast console games; b) dynamic arcade games; c) the two Castle Wolfenstein games and its creator Silas Warner. The first two points gave the world the Commander Keen series. And thanks to the c) a little later (with Warner’s permission) our birthday boy would be born.
 
 ![](wolfbox.jpg)

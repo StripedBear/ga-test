@@ -1,18 +1,22 @@
 ---
-title: "General Weekly #16"
+title: 'General Weekly #16'
 date: 2023-01-30
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news 4A Games releases SDK for Metro: Exodus A set of tools for creating mods for Metro Exodus will help [\u2026]"
+description: 'The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  4A Games releases SDK for Metro: Exodus A set of tools for creating mods for Metro
+  Exodus will help […]'
 categories:
-  - "Blog"
-  - "News"
+- Blog
+- News
 tags:
-  - "gamedev"
-  - "Unity"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-16/"
+- gamedev
+- Unity
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-16/
 draft: false
+url: /general-weekly-16/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

@@ -1,17 +1,18 @@
 ---
-title: "A joint venture by General Arcade and Lunate: Beware of Bytes!"
+title: 'A joint venture by General Arcade and Lunate: Beware of Bytes!'
 date: 2025-03-16
-description: "Beware of Bytes!, a strategic joint venture built for scale, technical excellence, and stability in today's evolving industry."
+description: Beware of Bytes!, a strategic joint venture built for scale, technical
+  excellence, and stability in today's evolving industry.
 categories:
-  - "Blog"
+- Blog
 tags:
-  - "Lunate Games"
-  - "Unreal Engine"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/a-joint-venture-by-general-arcade-and-lunate-beware-of-bytes/"
+- Lunate Games
+- Unreal Engine
+featured_image: featured.jpg
+original_url: https://generalarcade.com/a-joint-venture-by-general-arcade-and-lunate-beware-of-bytes/
 draft: false
+url: /a-joint-venture-by-general-arcade-and-lunate-beware-of-bytes/
 ---
-
 We’re teaming up with **[Lunate Games](https://www.linkedin.com/company/lunate-games/)** to launch **[Beware of Bytes!](https://bewareofbytes.com/)**, a strategic joint venture built for scale, technical excellence, and stability in today’s evolving industry.
 
 ***What This Means for The Games Industry?***

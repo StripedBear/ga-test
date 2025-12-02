@@ -1,15 +1,19 @@
 ---
-title: "General Weekly #18"
+title: 'General Weekly #18'
 date: 2023-03-23
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news DreamWorks released MoonRay renderer It was used in the production of, for example, The Bad Guys, How to Train [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  DreamWorks released MoonRay renderer It was used in the production of, for example,
+  The Bad Guys, How to Train […]
 categories:
-  - "Blog"
-  - "News"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-18/"
+- Blog
+- News
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-18/
 draft: false
+url: /general-weekly-18/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

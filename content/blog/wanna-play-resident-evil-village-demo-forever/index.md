@@ -1,19 +1,23 @@
 ---
-title: "Wanna play Resident Evil Village demo forever?.."
-slug: "wanna-play-resident-evil-village-demo-forever"
+title: Wanna play Resident Evil Village demo forever?..
+slug: wanna-play-resident-evil-village-demo-forever
 date: 2021-05-13
-description: "A long awaited and critically acclaimed Resident Evil Village is finally here. Set a few years after the horrifying events in the critically acclaimed Resident Evil 7 biohazard, the all-new storyline begins with Ethan Winters and his wife Mia living peacefully in a new location, free from their past nightmares. Just as they are building [\u2026]"
+description: A long awaited and critically acclaimed Resident Evil Village is finally
+  here. Set a few years after the horrifying events in the critically acclaimed Resident
+  Evil 7 biohazard, the all-new storyline begins with Ethan Winters and his wife Mia
+  living peacefully in a new location, free from their past nightmares. Just as they
+  are building […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Resident Evil"
-  - "Resident Evil Village"
-  - "Resident Evil Village demo"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/wanna-play-resident-evil-village-demo-forever/"
+- Resident Evil
+- Resident Evil Village
+- Resident Evil Village demo
+featured_image: featured.jpg
+original_url: https://generalarcade.com/wanna-play-resident-evil-village-demo-forever/
 draft: false
+url: /wanna-play-resident-evil-village-demo-forever/
 ---
-
 A long awaited and critically acclaimed Resident Evil Village is finally here. Set a few years after the horrifying events in the critically acclaimed Resident Evil 7 biohazard, the all-new storyline begins with Ethan Winters and his wife Mia living peacefully in a new location, free from their past nightmares. Just as they are building their new life together, tragedy befalls them once again.
 
 A free demo of this fine product is over and the servers are no longer reachable (yes, the demo was not playable without performing a one-time online authentication). We, of course, tried the demo out when it was just released and it was really a kickass, we liked it a lot. Sadly, we couldn’t try it anymore due to the servers not reachable. Thankfully, we still had the downloaded game files from Steam, so we decided to make it running again, even though the task might seem impossible or “almost” impossible. It was a nice challenge for us and we would like to split the article into two parts: server authorization bypass and extending the demo play time by freezing or resetting the in-game timer.

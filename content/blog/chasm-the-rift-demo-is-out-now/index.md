@@ -1,18 +1,22 @@
 ---
-title: "Chasm: The Rift Demo is OUT NOW!"
+title: 'Chasm: The Rift Demo is OUT NOW!'
 date: 2022-09-26
-description: "Having its roots in 1997, Chasm: The Rift is one of the most thrilling and innovative FPS from this era and the first Eastern European boomer shooter ever made. GAME FEATURES \u2013 Blow off monsters\u2019 limbs even as they continue to attack with remaining appendages\u2013 Different effects including water, rain, snow, wind, smoke, dust, sparks, [\u2026]"
+description: 'Having its roots in 1997, Chasm: The Rift is one of the most thrilling
+  and innovative FPS from this era and the first Eastern European boomer shooter ever
+  made. GAME FEATURES – Blow off monsters’ limbs even as they continue to attack with
+  remaining appendages– Different effects including water, rain, snow, wind, smoke,
+  dust, sparks, […]'
 categories:
-  - "Blog"
-  - "News"
+- Blog
+- News
 tags:
-  - "Chasm: The Rift"
-  - "Demo"
-featured_image: "featured.png"
-original_url: "https://generalarcade.com/chasm-the-rift-demo-is-out-now/"
+- 'Chasm: The Rift'
+- Demo
+featured_image: featured.png
+original_url: https://generalarcade.com/chasm-the-rift-demo-is-out-now/
 draft: false
+url: /chasm-the-rift-demo-is-out-now/
 ---
-
 Having its roots in 1997, Chasm: The Rift is one of the most thrilling and innovative FPS from this era and the first Eastern European boomer shooter ever made.
 
 #### GAME FEATURES

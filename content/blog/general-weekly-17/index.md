@@ -1,18 +1,22 @@
 ---
-title: "General Weekly #17"
+title: 'General Weekly #17'
 date: 2023-03-08
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news Godot 4.0 release After over 3 years of rebuilding from the ground up, a complete core overhaul and engine [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  Godot 4.0 release After over 3 years of rebuilding from the ground up, a complete
+  core overhaul and engine […]
 categories:
-  - "Blog"
-  - "News"
+- Blog
+- News
 tags:
-  - "General Weekly"
-  - "news"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-17/"
+- General Weekly
+- news
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-17/
 draft: false
+url: /general-weekly-17/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

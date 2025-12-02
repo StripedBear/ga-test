@@ -1,17 +1,21 @@
 ---
-title: "General Weekly #2 06.08.22"
+title: 'General Weekly #2 06.08.22'
 date: 2022-06-08
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. News: USD Hydra plugin for Blender version 1.1, Epic Games has introduced the Unreal Educator Accelerator. Interesting things: a series [\u2026]"
+description: 'The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. News:
+  USD Hydra plugin for Blender version 1.1, Epic Games has introduced the Unreal Educator
+  Accelerator. Interesting things: a series […]'
 categories:
-  - "News"
+- News
 tags:
-  - "Unity"
-  - "Unreal Engine 5"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-2-06-08-22/"
+- Unity
+- Unreal Engine 5
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-2-06-08-22/
 draft: false
+url: /general-weekly-2-06-08-22/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 News: USD Hydra plugin for Blender version 1.1, Epic Games has introduced the Unreal Educator Accelerator.

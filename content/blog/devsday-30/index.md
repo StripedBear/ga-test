@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #30"
+title: 'DEVsday #30'
 date: 2023-07-05
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Blender 3.6 LTS A major update with new features ranging from the highly anticipated node simulation system to support for [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Blender
+  3.6 LTS A major update with new features ranging from the highly anticipated node
+  simulation system to support for […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-30/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-30/
 draft: false
+url: /devsday-30/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Blender 3.6 LTS](https://www.blender.org/press/blender-3-6-lts-release/)

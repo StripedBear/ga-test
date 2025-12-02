@@ -1,16 +1,16 @@
 ---
-title: "Quick look back to Ion Fury"
+title: Quick look back to Ion Fury
 date: 2021-05-07
-description: "%"
+description: '%'
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Ion Fury"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/quick-look-back-to-ion-fury/"
+- Ion Fury
+featured_image: featured.jpg
+original_url: https://generalarcade.com/quick-look-back-to-ion-fury/
 draft: false
+url: /quick-look-back-to-ion-fury/
 ---
-
 When guys from 3D Realms contacted us back in 2019 and offered to work with Ion Fury, it didn’t take much time from us to agree. The game is really great, so we got extremely excited after their proposition! We worked with BUILD engine before (Shadow Warrior port to iOS in 2012 and Duke Nukem 3D: Megaton Edition along with Shadow Warrior Classic Redux in 2013), so we expected quite clear and straightforward work. Looks like we really underestimated the project…
 
 Several points made everything much harder than we thought: Eduke32 specific features like limit removal, true room over room, CON scripting, etc. Levels in the game have much more detailed geometry than any other BUILD game.

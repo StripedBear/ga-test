@@ -1,17 +1,18 @@
 ---
-title: "Best Programming Books # 2 | Algorithms, Coding Practices & GameDev"
+title: 'Best Programming Books # 2 | Algorithms, Coding Practices & GameDev'
 date: 2024-09-09
-description: "Best Programming Books Recommended by the Ganeral Arcade Team: Master C++,3D Game Development, Design Patterns and Coding Standards."
+description: 'Best Programming Books Recommended by the Ganeral Arcade Team: Master
+  C++,3D Game Development, Design Patterns and Coding Standards.'
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "gamedev"
-  - "programming books"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/best-programming-books-2-algorithms-coding-practices-gamedev/"
+- gamedev
+- programming books
+featured_image: featured.jpg
+original_url: https://generalarcade.com/best-programming-books-2-algorithms-coding-practices-gamedev/
 draft: false
+url: /best-programming-books-2-algorithms-coding-practices-gamedev/
 ---
-
 *Our team of experts are committed to continuous learning and knowledge sharing. One of our Software Engineers, Denis, has a unique approach to programming that focuses on simplicity and strategic problem-solving. He believes that understanding how people think is essential in programming, as it begins in the mind rather than on a computer. While technical skills like programming languages and mathematical methods are important, the core of programming lies in the mental process and problem-solving abilities. Drawing from years of experience and a passion for mentoring, Denis has curated a list of best programming books that  act as essential resources for those looking to advance their programming skills, especially in game development and C++ programming.*
 
 **Denis R.: A Comprehensive Guide for Aspiring and Experienced Programmers**

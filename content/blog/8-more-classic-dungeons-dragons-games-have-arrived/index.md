@@ -1,18 +1,22 @@
 ---
-title: "8 more Classic Dungeons & Dragons Games have arrived!"
+title: 8 more Classic Dungeons & Dragons Games have arrived!
 date: 2023-03-28
-description: "D&D games collection has been updated with eight new adventures! If you liked Dungeons & Dragons: Gold Box Classics and classic D&D games in general, then don\u2019t miss the following games! Silver Box Classics collection includes 4 games: Heroes of the Lance: Discover the world of Krynn in this D&D epic. Control the Companions of [\u2026]"
+description: 'D&D games collection has been updated with eight new adventures! If
+  you liked Dungeons & Dragons: Gold Box Classics and classic D&D games in general,
+  then don’t miss the following games! Silver Box Classics collection includes 4 games:
+  Heroes of the Lance: Discover the world of Krynn in this D&D epic. Control the Companions
+  of […]'
 categories:
-  - "Blog"
-  - "News"
+- Blog
+- News
 tags:
-  - "Dungeons & Dragons"
-  - "Dungeons & Dragons Gold Box Classics"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/8-more-classic-dungeons-dragons-games-have-arrived/"
+- Dungeons & Dragons
+- Dungeons & Dragons Gold Box Classics
+featured_image: featured.jpg
+original_url: https://generalarcade.com/8-more-classic-dungeons-dragons-games-have-arrived/
 draft: false
+url: /8-more-classic-dungeons-dragons-games-have-arrived/
 ---
-
 D&D games collection has been updated with eight new adventures!
 
 If you liked [Dungeons & Dragons: Gold Box Classics](https://generalarcade.com/project/dungeons-dragons-gold-box-classics/) and classic D&D games in general, then don’t miss the following games!

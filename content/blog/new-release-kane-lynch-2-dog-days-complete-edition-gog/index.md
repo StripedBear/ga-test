@@ -1,18 +1,22 @@
 ---
-title: "New release: Kane & Lynch 2: Dog Days \u2013 Complete Edition (GOG)"
+title: 'New release: Kane & Lynch 2: Dog Days – Complete Edition (GOG)'
 date: 2022-07-18
-description: "General Arcade specialists have spent approximately 3 weeks to complete the full Galaxy integration and perform a fine QA job. Play as two of gaming\u2019s most disturbing and realistic criminals; Lynch \u2013 a self medicated psychopath \u2013 and Kane \u2013 a disillusioned and desperate ex-mercenary, in a gritty and brutal crime shooter from IO Interactive. [\u2026]"
+description: General Arcade specialists have spent approximately 3 weeks to complete
+  the full Galaxy integration and perform a fine QA job. Play as two of gaming’s most
+  disturbing and realistic criminals; Lynch – a self medicated psychopath – and Kane
+  – a disillusioned and desperate ex-mercenary, in a gritty and brutal crime shooter
+  from IO Interactive. […]
 categories:
-  - "Blog"
-  - "News"
+- Blog
+- News
 tags:
-  - "GOG"
-  - "Kane & Lynch 2"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/new-release-kane-lynch-2-dog-days-complete-edition-gog/"
+- GOG
+- Kane & Lynch 2
+featured_image: featured.jpg
+original_url: https://generalarcade.com/new-release-kane-lynch-2-dog-days-complete-edition-gog/
 draft: false
+url: /new-release-kane-lynch-2-dog-days-complete-edition-gog/
 ---
-
 General Arcade specialists have spent approximately 3 weeks to complete the full Galaxy integration and perform a fine QA job.
 
 {{< youtube "https://www.youtube.com/watch?v=RGkYDsCIibM" >}}

@@ -1,16 +1,20 @@
 ---
-title: "Etch\u016b-Daimon (UE5)"
+title: Etchū-Daimon (UE5)
 date: 2022-05-14
-description: "An Italian 3D artist Lorenzo Drago knows how to make amazing and beautiful designs. This is evident in his portfolio and his recent work, which has attracted a lot of attention. Etch\u016b-Daimon Station (based on a real-life train station from Toyama, Japan) is made in Unreal Engine 5 and is stunningly beautiful. Lumen, the new [\u2026]"
+description: An Italian 3D artist Lorenzo Drago knows how to make amazing and beautiful
+  designs. This is evident in his portfolio and his recent work, which has attracted
+  a lot of attention. Etchū-Daimon Station (based on a real-life train station from
+  Toyama, Japan) is made in Unreal Engine 5 and is stunningly beautiful. Lumen, the
+  new […]
 categories:
-  - "News"
+- News
 tags:
-  - "Unreal Engine 5"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/etchu-daimon-ue5/"
+- Unreal Engine 5
+featured_image: featured.jpg
+original_url: https://generalarcade.com/etchu-daimon-ue5/
 draft: false
+url: /etchu-daimon-ue5/
 ---
-
 An Italian 3D artist [Lorenzo Drago](https://www.artstation.com/subjectn) knows how to make amazing and beautiful designs. This is evident in his portfolio and his recent work, which has attracted a lot of attention.
 
 ![](lorenzo-drago-3-768x1024.jpg)

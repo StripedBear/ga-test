@@ -1,18 +1,22 @@
 ---
-title: "Book of the Month. DOOM: SCARYDARKFAST"
+title: 'Book of the Month. DOOM: SCARYDARKFAST'
 date: 2022-05-19
-description: "The General Arcade library has hundreds of different books about video games and game development. Each month we cover the best of them, which will be useful for developers and/or inquisitive readers. So much has been said and shown about DOOM that it would seem there is nothing more to add. Hundreds, no, thousands of [\u2026]"
+description: The General Arcade library has hundreds of different books about video
+  games and game development. Each month we cover the best of them, which will be
+  useful for developers and/or inquisitive readers. So much has been said and shown
+  about DOOM that it would seem there is nothing more to add. Hundreds, no, thousands
+  of […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Books"
-  - "DOOM"
-  - "Game Studies"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/book-of-the-month-doom-scarydarkfast/"
+- Books
+- DOOM
+- Game Studies
+featured_image: featured.jpg
+original_url: https://generalarcade.com/book-of-the-month-doom-scarydarkfast/
 draft: false
+url: /book-of-the-month-doom-scarydarkfast/
 ---
-
 *The General Arcade library has hundreds of different books about video games and game development. Each month we cover the best of them, which will be useful for developers and/or inquisitive readers.*
 
 So much has been said and shown about DOOM that it would seem there is nothing more to add. Hundreds, no, thousands of articles, essays, and interviews. A book about the history of the developers, [a book about the game’s engine](https://generalarcade.com/game-engine-black-book-doom/), even novels based on the game… But what if a famous game developer who is crazy about DOOM wrote a scientific book and looked at the game from the Game Studies point of view? Just think about it: DOOM, science, and a book. Such a mix is definitely worth a try.

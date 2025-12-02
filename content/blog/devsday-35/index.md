@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #35"
+title: 'DEVsday #35'
 date: 2023-08-23
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. AMD releases Radeon GPU Detective to detect bugs in graphics cards The utility automatically saves and analyzes the dumps, and [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. AMD releases
+  Radeon GPU Detective to detect bugs in graphics cards The utility automatically
+  saves and analyzes the dumps, and […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-35/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-35/
 draft: false
+url: /devsday-35/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [AMD releases Radeon GPU Detective to detect bugs in graphics cards](https://gpuopen.com/radeon_gpu_detective_available_now/)

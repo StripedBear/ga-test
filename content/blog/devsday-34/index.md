@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #34"
+title: 'DEVsday #34'
 date: 2023-08-17
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Quake II Remastered Sources Now Available on GitHub Including Quake 2 code 64. Punch Club 2: Fast Forward made $1.4 [\u2026]"
+description: 'The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Quake
+  II Remastered Sources Now Available on GitHub Including Quake 2 code 64. Punch Club
+  2: Fast Forward made $1.4 […]'
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-34/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-34/
 draft: false
+url: /devsday-34/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Quake II Remastered Sources Now Available on GitHub](https://github.com/id-Software/quake2-rerelease-dll)

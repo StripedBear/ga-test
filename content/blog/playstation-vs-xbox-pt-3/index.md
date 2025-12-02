@@ -1,19 +1,22 @@
 ---
-title: "PlayStation vs Xbox, pt.3"
+title: PlayStation vs Xbox, pt.3
 date: 2021-05-27
-description: "Once again, the third wave of the console war started in unusual way, but this time it was not about the release date. Xbox One and PlayStation 4 appeared on the market at about the same time (in the USA, for example, the difference in the time of the consoles sale start was only a [\u2026]"
+description: Once again, the third wave of the console war started in unusual way,
+  but this time it was not about the release date. Xbox One and PlayStation 4 appeared
+  on the market at about the same time (in the USA, for example, the difference in
+  the time of the consoles sale start was only a […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Microsoft"
-  - "PlayStation"
-  - "Sony"
-  - "Xbox"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/playstation-vs-xbox-pt-3/"
+- Microsoft
+- PlayStation
+- Sony
+- Xbox
+featured_image: featured.jpg
+original_url: https://generalarcade.com/playstation-vs-xbox-pt-3/
 draft: false
+url: /playstation-vs-xbox-pt-3/
 ---
-
 Once again, the third wave of the console war started in unusual way, but this time it was not about the release date. Xbox One and PlayStation 4 appeared on the market at about the same time (in the USA, for example, the difference in the time of the consoles sale start was only a week!), but the approach of the companies was different once again. Let’s start from the beginning.
 
 The Xbox One was first introduced to the world at Microsoft’s own conference in 2013, and the developers had a lot of news for players. But the thing was that they weren’t really optimistic about that news… In the last article of this series, we already mentioned that Microsoft has never shied away from innovations, and this time the company also decided to try an innovative approach. Which consisted in the fact that Xbox One was announced not as an ordinary game console, but as a real media center, which, among other things, also made it possible to play the games.

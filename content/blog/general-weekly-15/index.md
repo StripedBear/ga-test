@@ -1,15 +1,19 @@
 ---
-title: "General Weekly #15"
+title: 'General Weekly #15'
 date: 2023-01-24
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news CDPR released a plugin that allows you to share links to specific Blueprint nodes A useful plugin for UE, [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  CDPR released a plugin that allows you to share links to specific Blueprint nodes
+  A useful plugin for UE, […]
 categories:
-  - "Blog"
-  - "News"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-15/"
+- Blog
+- News
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-15/
 draft: false
+url: /general-weekly-15/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #28"
+title: 'DEVsday #28'
 date: 2023-06-22
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Epic Games releases MetaHuman Animator This tool allows you to easily create facial animations for Metahumans and record facial expressions [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Epic Games
+  releases MetaHuman Animator This tool allows you to easily create facial animations
+  for Metahumans and record facial expressions […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-28/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-28/
 draft: false
+url: /devsday-28/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Epic Games releases MetaHuman Animator](https://youtu.be/WghYEFIoaM8)

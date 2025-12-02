@@ -1,46 +1,73 @@
 {{ define "title" }}{{ .Title }}{{ end }}
+
 {{ define "main" }}
 <div class="container">
   <article class="content">
+
+    {{/* ABOUT + SWITCH2 */}}
     {{ if or (eq .Section "about") (eq .Section "switch2porting") }}
-    <div class="about-header{{ if eq .Section "switch2porting" }} switch2porting-header{{ end }}">
-      <span class="page-label">{{ .Title }}</span>
-      {{ if .Params.subtitle }}
-      <h1 class="page-title">{{ .Params.subtitle }}</h1>
-      {{ else }}
-      <h1 class="page-title">{{ .Title }}</h1>
-      {{ end }}
-    </div>
+      <div class="about-header{{ if eq .Section "switch2porting" }} switch2porting-header{{ end }}">
+        <span class="page-label">{{ .Title }}</span>
+        {{ if .Params.subtitle }}
+          <h1 class="page-title">{{ .Params.subtitle }}</h1>
+        {{ else }}
+          <h1 class="page-title">{{ .Title }}</h1>
+        {{ end }}
+      </div>
+
     {{ else }}
-  <h1>{{ .Title }}</h1>
+      <h1>{{ .Title }}</h1>
     {{ end }}
-    
+
     {{ .Content }}
-    
-    {{ if eq .Section "blog" }}
-  <ul class="post-list">
-    {{ range .Pages }}
-      <li class="post-item">
-        <a href="{{ .RelPermalink }}">
-          <h3>{{ .Title }}</h3>
-          {{ with .Date }}<time datetime="{{ . }}">{{ .Format "January 2, 2006" }}</time>{{ end }}
-          {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
-        </a>
-      </li>
-      {{ end }}
-    </ul>
+
+    {{/* ───────── TAXONOMIES (categories/tags/platforms) ───────── */}}
+    {{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+      <ul class="post-list">
+        {{ range .Pages }}
+          <li class="post-item">
+            <a href="{{ .RelPermalink }}">
+              <h3>{{ .Title }}</h3>
+              {{ with .Date }}
+                <time datetime="{{ . }}">{{ .Format "January 2, 2006" }}</time>
+              {{ end }}
+              {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+
+    {{/* ───────── BLOG SECTION ───────── */}}
+    {{ else if eq .Section "blog" }}
+      <ul class="post-list">
+        {{ range .Pages }}
+          <li class="post-item">
+            <a href="{{ .RelPermalink }}">
+              <h3>{{ .Title }}</h3>
+              {{ with .Date }}
+                <time datetime="{{ . }}">{{ .Format "January 2, 2006" }}</time>
+              {{ end }}
+              {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+
+    {{/* ───────── PROJECTS SECTION ───────── */}}
     {{ else if eq .Section "projects" }}
-    <ul class="project-list">
-      {{ range .Pages }}
-      <li class="project-item">
-        <a href="{{ .RelPermalink }}">
-          <h3>{{ .Title }}</h3>
-          {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
-        </a>
-      </li>
+      <ul class="project-list">
+        {{ range .Pages }}
+          <li class="project-item">
+            <a href="{{ .RelPermalink }}">
+              <h3>{{ .Title }}</h3>
+              {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+
     {{ end }}
-  </ul>
-{{ end }}
+
   </article>
 </div>
 {{ end }}

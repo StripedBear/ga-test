@@ -1,17 +1,18 @@
 ---
-title: "Need for Remake: Underground 2"
+title: 'Need for Remake: Underground 2'
 date: 2022-05-13
-description: "Need for Remake: Underground 2. Even 18 years later, this game is admired for its design, music, and gameplay. And it's still a good game."
+description: 'Need for Remake: Underground 2. Even 18 years later, this game is admired
+  for its design, music, and gameplay. And it''s still a good game.'
 categories:
-  - "News"
+- News
 tags:
-  - "Need for Speed: Underground 2"
-  - "Unreal Engine 4"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/need-for-remake-underground-2/"
+- 'Need for Speed: Underground 2'
+- Unreal Engine 4
+featured_image: featured.jpg
+original_url: https://generalarcade.com/need-for-remake-underground-2/
 draft: false
+url: /need-for-remake-underground-2/
 ---
-
 Need for Speed: Underground 2 needs no introduction. Even 18 (!) years later, this game is admired for its design, music, and gameplay. If you don’t think about the game’s unavailability in stores and potential problems with launching on modern systems, it’s still a good game. In the comments below the videos about the game people often dream of a remake. Each person imagines a remake of such a game quite differently, but one of the opinions deserves a separate blog post.
 
 Russian programmer Ivan Novozhilov from Uglich town likes Underground 2 so much that he is developing the game’s remake himself. Here it should be clarified that Ivan is generally fond of programming, and in particular working on programming related to cars in video games.

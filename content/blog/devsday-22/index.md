@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #22"
+title: 'DEVsday #22'
 date: 2023-05-04
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. British antitrust regulator blocks Microsoft\u2019s deal with Activision Blizzard About how Microsoft could thwart competition in the nascent cloud market [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. British
+  antitrust regulator blocks Microsoft’s deal with Activision Blizzard About how Microsoft
+  could thwart competition in the nascent cloud market […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-22/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-22/
 draft: false
+url: /devsday-22/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [British antitrust regulator blocks Microsoft’s deal with Activision Blizzard](https://www.videogameschronicle.com/news/the-uk-regulator-has-blocked-microsofts-acquisition-of-activision/)

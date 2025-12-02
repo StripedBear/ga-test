@@ -1,17 +1,18 @@
 ---
-title: "From Malaysia to the US and back: The New Star Of Our Team"
+title: 'From Malaysia to the US and back: The New Star Of Our Team'
 date: 2024-10-08
-description: "From Malaysia to the US and back: there are loads of cool projects happening at the same time, creating an exciting environment for creative minds."
+description: 'From Malaysia to the US and back: there are loads of cool projects happening
+  at the same time, creating an exciting environment for creative minds.'
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "gamedev"
-  - "general arcade team"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/from-malaysia-to-the-us-and-back-the-new-star-of-our-team/"
+- gamedev
+- general arcade team
+featured_image: featured.jpg
+original_url: https://generalarcade.com/from-malaysia-to-the-us-and-back-the-new-star-of-our-team/
 draft: false
+url: /from-malaysia-to-the-us-and-back-the-new-star-of-our-team/
 ---
-
 Sacchin’s journey into the tech world started with his dad’s nudge, who also studied in the US. Following his dad’s lead, he chose the cool [DigiPen Institute of Technology](https://www.digipen.edu/) in Redmond, Washington. Sacchin thrived there, learning heaps about computer science and game development, setting the stage for his future career.
 
 After graduating, Sacchin joined *The Forge* in San Diego, California, as a Graphics Programmer, where he quickly moved up the ranks to become a Senior Graphics Programmer. His time at The Forge was marked by big contributions to major projects, which fuelled his passion for game development.

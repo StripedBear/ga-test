@@ -1,19 +1,22 @@
 ---
-title: "PlayStation vs Xbox, pt.4"
+title: PlayStation vs Xbox, pt.4
 date: 2021-06-30
-description: "For 2021, the current (but clearly not the last!) stage of the Console Wars can be considered the confrontation between the PlayStation 5 from Sony and the tandem of Xbox Series X and Xbox Series S from Microsoft, which were presented to the public in November 2020. An interesting fact is that there is a [\u2026]"
+description: For 2021, the current (but clearly not the last!) stage of the Console
+  Wars can be considered the confrontation between the PlayStation 5 from Sony and
+  the tandem of Xbox Series X and Xbox Series S from Microsoft, which were presented
+  to the public in November 2020. An interesting fact is that there is a […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Microsoft"
-  - "PlayStation"
-  - "Sony"
-  - "Xbox"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/playstation-vs-xbox-pt-4/"
+- Microsoft
+- PlayStation
+- Sony
+- Xbox
+featured_image: featured.jpg
+original_url: https://generalarcade.com/playstation-vs-xbox-pt-4/
 draft: false
+url: /playstation-vs-xbox-pt-4/
 ---
-
 For 2021, the current (but clearly not the last!) stage of the Console Wars can be considered the confrontation between the PlayStation 5 from Sony and the tandem of Xbox Series X and Xbox Series S from Microsoft, which were presented to the public in November 2020.
 
 An interesting fact is that there is a huge possibility that it was Microsoft who made Sony to rush with the new version of PlayStation. The fact is that on May 22, 2018, John Kodera, who at that time was the president and CEO of Sony Interactive Entertainment, in an interview with The Wall Street Journal during an official Sony event for investors said that «the next big leap for the brand PlayStation will take place no earlier than March 2021».

@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #36"
+title: 'DEVsday #36'
 date: 2023-08-30
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. NVIDIA Announces DLSS 3.5 The new version has added Ray Reconstruction, which should improve the quality of traced images by [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. NVIDIA
+  Announces DLSS 3.5 The new version has added Ray Reconstruction, which should improve
+  the quality of traced images by […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.png"
-original_url: "https://generalarcade.com/devsday-36/"
+- Blog
+- Digest
+featured_image: featured.png
+original_url: https://generalarcade.com/devsday-36/
 draft: false
+url: /devsday-36/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [NVIDIA Announces DLSS 3.5](https://developer.nvidia.com/blog/generate-groundbreaking-ray-traced-images-with-next-generation-nvidia-dlss/)

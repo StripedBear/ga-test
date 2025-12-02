@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #31"
+title: 'DEVsday #31'
 date: 2023-07-12
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Godot 4.1 The update is aimed at improving stability and fixing bugs. In addition, AI navigation is improved and now [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Godot
+  4.1 The update is aimed at improving stability and fixing bugs. In addition, AI
+  navigation is improved and now […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-31/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-31/
 draft: false
+url: /devsday-31/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Godot 4.1](https://godotengine.org/article/godot-4-1-is-here/)

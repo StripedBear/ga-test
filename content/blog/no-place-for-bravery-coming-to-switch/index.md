@@ -1,17 +1,20 @@
 ---
-title: "No Place for Bravery coming to Switch"
+title: No Place for Bravery coming to Switch
 date: 2022-06-13
-description: "We are very happy to announce that our team is working on the Switch port! Glitch Factory and Ysbryd Games have made an amazing game and we can\u2019t wait to bring it to your consoles. No Place for Bravery is a 2D top-down action RPG which weaves together high-quality visuals, a stirring soundtrack and intense [\u2026]"
+description: We are very happy to announce that our team is working on the Switch
+  port! Glitch Factory and Ysbryd Games have made an amazing game and we can’t wait
+  to bring it to your consoles. No Place for Bravery is a 2D top-down action RPG which
+  weaves together high-quality visuals, a stirring soundtrack and intense […]
 categories:
-  - "News"
+- News
 tags:
-  - "Nintendo Switch"
-  - "No Place for Bravery"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/no-place-for-bravery-coming-to-switch/"
+- Nintendo Switch
+- No Place for Bravery
+featured_image: featured.jpg
+original_url: https://generalarcade.com/no-place-for-bravery-coming-to-switch/
 draft: false
+url: /no-place-for-bravery-coming-to-switch/
 ---
-
 We are very happy to announce that our team is working on the Switch port! [Glitch Factory](https://twitter.com/GlitchFTY) and [Ysbryd Games](https://twitter.com/YsbrydGames) have made an amazing game and we can’t wait to bring it to your consoles.
 
 {{< youtube "https://www.youtube.com/watch?v=QP1fpfRPIFA" >}}

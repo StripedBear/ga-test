@@ -1,15 +1,19 @@
 ---
-title: "General Weekly #11 11.08.22"
+title: 'General Weekly #11 11.08.22'
 date: 2022-11-09
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news Andrey \u201cKranK\u201d Kuzmin died Founder of K-D LAB and KranX Productions, game designer of the Vangers and the first [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  Andrey “KranK” Kuzmin died Founder of K-D LAB and KranX Productions, game designer
+  of the Vangers and the first […]
 categories:
-  - "Blog"
-  - "News"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-11-11-08-22/"
+- Blog
+- News
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-11-11-08-22/
 draft: false
+url: /general-weekly-11-11-08-22/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

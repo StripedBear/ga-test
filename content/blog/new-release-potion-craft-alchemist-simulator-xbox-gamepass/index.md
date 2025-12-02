@@ -1,14 +1,18 @@
 ---
-title: "New Release: Potion Craft: Alchemist Simulator (Xbox, Gamepass)"
+title: 'New Release: Potion Craft: Alchemist Simulator (Xbox, Gamepass)'
 date: 2022-12-20
-description: "Potion Craft is an alchemist simulator where you physically interact with your tools and ingredients to brew potions. You\u2019re in full control of the whole shop: invent new recipes, attract customers and experiment to your heart\u2019s content. Just remember: the whole town is counting on you. LEARN THE ART OF POTION MAKING Concoct your potion [\u2026]"
+description: 'Potion Craft is an alchemist simulator where you physically interact
+  with your tools and ingredients to brew potions. You’re in full control of the whole
+  shop: invent new recipes, attract customers and experiment to your heart’s content.
+  Just remember: the whole town is counting on you. LEARN THE ART OF POTION MAKING
+  Concoct your potion […]'
 categories:
-  - "Blog"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/new-release-potion-craft-alchemist-simulator-xbox-gamepass/"
+- Blog
+featured_image: featured.jpg
+original_url: https://generalarcade.com/new-release-potion-craft-alchemist-simulator-xbox-gamepass/
 draft: false
+url: /new-release-potion-craft-alchemist-simulator-xbox-gamepass/
 ---
-
 [Potion Craft](https://generalarcade.com/project/potion-craft-alchemist-simulator/) is an alchemist simulator where you physically interact with your tools and ingredients to brew potions. You’re in full control of the whole shop: invent new recipes, attract customers and experiment to your heart’s content. Just remember: the whole town is counting on you.
 
 LEARN THE ART OF POTION MAKING

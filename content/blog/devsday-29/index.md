@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #29"
+title: 'DEVsday #29'
 date: 2023-06-28
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. RealityScan is now available not only on iOS, but also on Android It allows you to create high-quality 3D models [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. RealityScan
+  is now available not only on iOS, but also on Android It allows you to create high-quality
+  3D models […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-29/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-29/
 draft: false
+url: /devsday-29/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [RealityScan is now available not only on iOS, but also on Android](https://www.unrealengine.com/en-US/blog/realityscan-is-now-available-for-android-devices)

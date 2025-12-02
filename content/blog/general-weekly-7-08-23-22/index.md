@@ -1,15 +1,19 @@
 ---
-title: "General Weekly #7 08.23.22"
+title: 'General Weekly #7 08.23.22'
 date: 2022-08-23
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news Unity\u2019s board of directors rejects AppLovin\u2019s offer to buy And they said that such a takeover \u201cdoes not meet [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  Unity’s board of directors rejects AppLovin’s offer to buy And they said that such
+  a takeover “does not meet […]
 categories:
-  - "Blog"
-  - "News"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-7-08-23-22/"
+- Blog
+- News
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-7-08-23-22/
 draft: false
+url: /general-weekly-7-08-23-22/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

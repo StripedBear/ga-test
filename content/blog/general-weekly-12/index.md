@@ -1,15 +1,19 @@
 ---
-title: "General Weekly #12"
+title: 'General Weekly #12'
 date: 2022-12-01
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news An almost two-hour documentary about the history of Crystal Dynamics Rollback in netcode and other multi-user solutions An excellent [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  An almost two-hour documentary about the history of Crystal Dynamics Rollback in
+  netcode and other multi-user solutions An excellent […]
 categories:
-  - "Blog"
-  - "News"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-12/"
+- Blog
+- News
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-12/
 draft: false
+url: /general-weekly-12/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news

@@ -1,18 +1,21 @@
 ---
-title: "Game Engine Black Book: Wolfenstein 3D"
+title: 'Game Engine Black Book: Wolfenstein 3D'
 date: 2022-02-08
-description: "Game Engine Black Book: Wolfenstein 3D is the first book by Fabien Sanglard, he wrote it a year before Game Engine Black Book: DOOM, which we already talked about. And just like in book about DOOM, in this work Sanglard decided to talk about a game that was way ahead of its time. But even [\u2026]"
+description: 'Game Engine Black Book: Wolfenstein 3D is the first book by Fabien Sanglard,
+  he wrote it a year before Game Engine Black Book: DOOM, which we already talked
+  about. And just like in book about DOOM, in this work Sanglard decided to talk about
+  a game that was way ahead of its time. But even […]'
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Game Engine Black Book: Wolfenstein 3D"
-  - "Sanglard"
-  - "Wolfenstein 3D"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/game-engine-black-book-wolfenstein-3d/"
+- 'Game Engine Black Book: Wolfenstein 3D'
+- Sanglard
+- Wolfenstein 3D
+featured_image: featured.jpg
+original_url: https://generalarcade.com/game-engine-black-book-wolfenstein-3d/
 draft: false
+url: /game-engine-black-book-wolfenstein-3d/
 ---
-
 Game Engine Black Book: Wolfenstein 3D is the first book by Fabien Sanglard, he wrote it a year before Game Engine Black Book: DOOM, which we already talked about. And just like in book about DOOM, in this work Sanglard decided to talk about a game that was way ahead of its time.
 
 But even though the graphics was incredible for its time, id Software continued to work on improvements. Back in 1992 John Carmack found a way to use integers instead of floating point (there was no hardware support for floating point), and it became one of the turning points in the history of computer game development in general.

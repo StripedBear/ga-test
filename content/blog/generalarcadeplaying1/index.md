@@ -1,21 +1,24 @@
 ---
-title: "General Arcade Playing #1"
+title: 'General Arcade Playing #1'
 date: 2022-05-24
-description: "Games surround our company every day. It is impossible to develop games without playing in your free time. There are many experienced gamers in our team who will tell you what they are playing right now. We would also like to make a point that the opinion of an employee does not represent the position [\u2026]"
+description: Games surround our company every day. It is impossible to develop games
+  without playing in your free time. There are many experienced gamers in our team
+  who will tell you what they are playing right now. We would also like to make a
+  point that the opinion of an employee does not represent the position […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Destiny 2"
-  - "Disco Elysium"
-  - "Final Fantasy XI"
-  - "General Arcade"
-  - "Lego Star Wars: The Skywalker Saga"
-  - "Wolfenstein (2009)"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/generalarcadeplaying1/"
+- Destiny 2
+- Disco Elysium
+- Final Fantasy XI
+- General Arcade
+- 'Lego Star Wars: The Skywalker Saga'
+- Wolfenstein (2009)
+featured_image: featured.jpg
+original_url: https://generalarcade.com/generalarcadeplaying1/
 draft: false
+url: /generalarcadeplaying1/
 ---
-
 *Games surround our company every day. It is impossible to develop games without playing in your free time. There are many experienced gamers in our team who will tell you what they are playing right now. We would also like to make a point that the opinion of an employee does not represent the position of the company.*
 
 **Gennadi (CEO) plays Lego Star Wars: The Skywalker Saga (PC).**

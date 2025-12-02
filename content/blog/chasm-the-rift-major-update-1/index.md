@@ -1,15 +1,18 @@
 ---
-title: "Chasm: The Rift \u2014 Major Update #1"
+title: 'Chasm: The Rift — Major Update #1'
 date: 2023-05-18
-description: "Official message from SNEG Team: Last months the team was quite busy working on bringing Chasm: The Rift to consoles and at the same time introducing more tweaks and improvements for PC version. Today it all goes live. In order to celebrate it we are running a 50% promo on the game for Steam gamers. [\u2026]"
+description: 'Official message from SNEG Team: Last months the team was quite busy
+  working on bringing Chasm: The Rift to consoles and at the same time introducing
+  more tweaks and improvements for PC version. Today it all goes live. In order to
+  celebrate it we are running a 50% promo on the game for Steam gamers. […]'
 categories:
-  - "Blog"
-  - "News"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/chasm-the-rift-major-update-1/"
+- Blog
+- News
+featured_image: featured.jpg
+original_url: https://generalarcade.com/chasm-the-rift-major-update-1/
 draft: false
+url: /chasm-the-rift-major-update-1/
 ---
-
 **Official message from SNEG Team:**
 
 Last months the team was quite busy working on bringing Chasm: The Rift to consoles and at the same time introducing more tweaks and improvements for PC version. Today it all goes live. In order to celebrate it we are running a 50% promo on the game for Steam gamers.

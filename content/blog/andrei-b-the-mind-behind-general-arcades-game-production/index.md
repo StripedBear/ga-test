@@ -1,17 +1,18 @@
 ---
-title: "Andrei B.: The Mind Behind General Arcade\u2019s Game Production"
+title: 'Andrei B.: The Mind Behind General Arcade’s Game Production'
 date: 2025-01-14
-description: "General Arcade\u2019s Game Production: Meet Andrei B., our Production Director with a career spanning over two decades in the IT industry"
+description: 'General Arcade’s Game Production: Meet Andrei B., our Production Director
+  with a career spanning over two decades in the IT industry'
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "gamedev"
-  - "general arcade team"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/andrei-b-the-mind-behind-general-arcades-game-production/"
+- gamedev
+- general arcade team
+featured_image: featured.jpg
+original_url: https://generalarcade.com/andrei-b-the-mind-behind-general-arcades-game-production/
 draft: false
+url: /andrei-b-the-mind-behind-general-arcades-game-production/
 ---
-
 *It’s 2025, and we’re thrilled to continue our series of interviews with the incredible minds behind General Arcade. Meet Andrei B., our Production Director with a career spanning over two decades in the IT industry, Andrei’s path to game production has been shaped by a combination of his expertise in management and his ability to navigate both the technical challenges and the human aspects of game development.*
 
 ---

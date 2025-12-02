@@ -1,19 +1,23 @@
 ---
-title: "Game Engine Black Book: DOOM"
+title: 'Game Engine Black Book: DOOM'
 date: 2022-01-25
-description: "\u201cIn early 1993, id Software was on top of gaming industry. Wolfenstein 3D launched the first-person shooter genre, and sales of its sequel, Spear of Destiny, skyrocketed\u201d. That\u2019s the words that started Engine Black Book: DOOM released 25 years after the DOOM.ZIP file appeared on the FTP server of the University of Wisconsin-Madison, and it [\u2026]"
+description: '“In early 1993, id Software was on top of gaming industry. Wolfenstein
+  3D launched the first-person shooter genre, and sales of its sequel, Spear of Destiny,
+  skyrocketed”. That’s the words that started Engine Black Book: DOOM released 25
+  years after the DOOM.ZIP file appeared on the FTP server of the University of Wisconsin-Madison,
+  and it […]'
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "DOOM"
-  - "Engine Black Book: DOOM"
-  - "Fabien Sanglard"
-  - "Sanglard"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/game-engine-black-book-doom/"
+- DOOM
+- 'Engine Black Book: DOOM'
+- Fabien Sanglard
+- Sanglard
+featured_image: featured.jpg
+original_url: https://generalarcade.com/game-engine-black-book-doom/
 draft: false
+url: /game-engine-black-book-doom/
 ---
-
 “In early 1993, id Software was on top of gaming industry. Wolfenstein 3D launched the first-person shooter genre, and sales of its sequel, Spear of Destiny, skyrocketed”. That’s the words that started Engine Black Book: DOOM released 25 years after the DOOM.ZIP file appeared on the FTP server of the University of Wisconsin-Madison, and it is rather difficult to argue even with such a peremptory statements.
 
 The thing is that the technologies and tools that were used by id Software really surpassed everything that any of many competitors could offer — it was not in vain that the company spent years creating them. But while id was able to safely follow the beaten path that guaranteed them some definite success, the company acted much more daringly, “playing all-in”, leaving everything and starting from scratch. “Definite success” was not enough for the future authors of DOOM and Quake, they wanted everything at once. That’s what Game Engine Black Book: DOOM is about — “the story of how they did it, a book about history and technology”.

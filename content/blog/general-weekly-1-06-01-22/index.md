@@ -1,19 +1,23 @@
 ---
-title: "General Weekly #1 06.01.22"
+title: 'General Weekly #1 06.01.22'
 date: 2022-06-01
-description: "News: Character Creator 4 and iClone 8, Phoenix 5.0 have been released, the Construct Animate beta has become available. Interesting things: Elden Ring rendering analysis, Z-Anatomy 3D reconstruction of the human body, the psychology of losing, Unreal Engine 5 goes all-in with dynamic global illumination and Lumen. Updates/releases/news: Character Creator 4 and iClone 8 are [\u2026]"
+description: 'News: Character Creator 4 and iClone 8, Phoenix 5.0 have been released,
+  the Construct Animate beta has become available. Interesting things: Elden Ring
+  rendering analysis, Z-Anatomy 3D reconstruction of the human body, the psychology
+  of losing, Unreal Engine 5 goes all-in with dynamic global illumination and Lumen.
+  Updates/releases/news: Character Creator 4 and iClone 8 are […]'
 categories:
-  - "News"
+- News
 tags:
-  - "Elden Ring"
-  - "Gears of War"
-  - "PlayStation"
-  - "Unreal Engine 5"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-1-06-01-22/"
+- Elden Ring
+- Gears of War
+- PlayStation
+- Unreal Engine 5
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-1-06-01-22/
 draft: false
+url: /general-weekly-1-06-01-22/
 ---
-
 News: Character Creator 4 and iClone 8, Phoenix 5.0 have been released, the Construct Animate beta has become available.
 
 Interesting things: Elden Ring rendering analysis, Z-Anatomy 3D reconstruction of the human body, the psychology of losing, Unreal Engine 5 goes all-in with dynamic global illumination and Lumen.

@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #25"
+title: 'DEVsday #25'
 date: 2023-05-31
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Microsoft files appeal against UK deal ban with Activision Blizzard The British antitrust regulator blocked Microsoft\u2019s $69 billion deal with [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Microsoft
+  files appeal against UK deal ban with Activision Blizzard The British antitrust
+  regulator blocked Microsoft’s $69 billion deal with […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-25/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-25/
 draft: false
+url: /devsday-25/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Microsoft files appeal against UK deal ban with Activision Blizzard](https://www.bloomberg.com/news/articles/2023-05-24/microsoft-appeals-uk-s-decision-to-block-activision-mega-deal)

@@ -1,18 +1,21 @@
 ---
-title: "Croteam\u2019s \u201cserious\u201d DRM"
+title: Croteam’s “serious” DRM
 date: 2022-02-15
-description: "Serious Sam is one of the series that got its love from the players absolutely worthily. Whether it\u2019s posh The First Encounter, crazy The Second Encounter, controversial Serious Sam 2 or \u201cadult\u201d Serious Sam 3, each game invariably immerses you in a unique mix of grotesque and an irony with inornate jokes of protagonist and [\u2026]"
+description: Serious Sam is one of the series that got its love from the players absolutely
+  worthily. Whether it’s posh The First Encounter, crazy The Second Encounter, controversial
+  Serious Sam 2 or “adult” Serious Sam 3, each game invariably immerses you in a unique
+  mix of grotesque and an irony with inornate jokes of protagonist and […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Croteam"
-  - "Serious Sam"
-  - "Serious Sam 3"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/croteams-serious-drm/"
+- Croteam
+- Serious Sam
+- Serious Sam 3
+featured_image: featured.jpg
+original_url: https://generalarcade.com/croteams-serious-drm/
 draft: false
+url: /croteams-serious-drm/
 ---
-
 Serious Sam is one of the series that got its love from the players absolutely worthily. Whether it’s posh The First Encounter, crazy The Second Encounter, controversial Serious Sam 2 or “adult” Serious Sam 3, each game invariably immerses you in a unique mix of grotesque and an irony with inornate jokes of protagonist and non-stop action.
 
 Ten years have passed since the release of Serious Sam 3, and lots of things changed in the world during that time — a new generation of consoles arrived, the bitcoin rate skyrocketed… Video games have also changed. But something remained unchanged — anti-piracy protection by Croteam.

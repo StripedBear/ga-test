@@ -1,17 +1,18 @@
 ---
-title: "From Gamer Girl to QA Engineer at General Arcade"
+title: From Gamer Girl to QA Engineer at General Arcade
 date: 2025-01-21
-description: "Every game we work on goes through rigorous testing, refinement, and improvement. Meet Elle, our QA Engineer, and a gamer girl."
+description: Every game we work on goes through rigorous testing, refinement, and
+  improvement. Meet Elle, our QA Engineer, and a gamer girl.
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "gamedev"
-  - "general arcade team"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/a-leap-of-faith-from-gamer-girl-to-qa-engineer-at-general-arcade/"
+- gamedev
+- general arcade team
+featured_image: featured.jpg
+original_url: https://generalarcade.com/a-leap-of-faith-from-gamer-girl-to-qa-engineer-at-general-arcade/
 draft: false
+url: /a-leap-of-faith-from-gamer-girl-to-qa-engineer-at-general-arcade/
 ---
-
 At General Arcade, every game we work on goes through rigorous testing, refinement, and improvement. One of the minds leading this critical process is Elle, our QA Engineer, and a gamer girl. Her keen eye for detail ensures every game we deliver meets the highest standards.
 
 Here’s her story:

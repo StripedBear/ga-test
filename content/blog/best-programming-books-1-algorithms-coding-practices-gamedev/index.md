@@ -1,17 +1,18 @@
 ---
-title: "Best Programming Books # 1 | Algorithms, Coding Practices & GameDev"
+title: 'Best Programming Books # 1 | Algorithms, Coding Practices & GameDev'
 date: 2024-07-08
-description: "Explore the best programming books recommended by General Arcade team, covering algorithms, coding practces and game development."
+description: Explore the best programming books recommended by General Arcade team,
+  covering algorithms, coding practces and game development.
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "gamedev"
-  - "programming books"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/best-programming-books-1-algorithms-coding-practices-gamedev/"
+- gamedev
+- programming books
+featured_image: featured.jpg
+original_url: https://generalarcade.com/best-programming-books-1-algorithms-coding-practices-gamedev/
 draft: false
+url: /best-programming-books-1-algorithms-coding-practices-gamedev/
 ---
-
 *Some great programming books recommended by our former team member Aleksandr Novikov which are perfect for those short on inspiration and time.*
 
 [Grokking Algorithms](https://www.adit.io/posts/2016-05-25-Grokking-Algorithms-Is-Out.html) *by Aditya Y. Bhargava*

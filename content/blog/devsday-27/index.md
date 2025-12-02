@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #27"
+title: 'DEVsday #27'
 date: 2023-06-15
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Photon Quantum is now free during development Up to 20 CCUs! Fyrox Engine 0.30 A major update to the Rust [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Photon
+  Quantum is now free during development Up to 20 CCUs! Fyrox Engine 0.30 A major
+  update to the Rust […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-27/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-27/
 draft: false
+url: /devsday-27/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Photon Quantum is now free during development](https://blog.photonengine.com/photon-quantum-is-now-free-for-development/#)

@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #33"
+title: 'DEVsday #33'
 date: 2023-08-03
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Unreal Engine 5.3 Preview In this version, the rendering functions provide more control over performance and produce better results. The [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Unreal
+  Engine 5.3 Preview In this version, the rendering functions provide more control
+  over performance and produce better results. The […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-33/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-33/
 draft: false
+url: /devsday-33/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Unreal Engine 5.3 Preview](https://forums.unrealengine.com/t/unreal-engine-5-3-preview/1240016)

@@ -1,18 +1,22 @@
 ---
-title: "Game of Crone for Graveyard Keeper available now!"
+title: Game of Crone for Graveyard Keeper available now!
 date: 2021-06-24
-description: "What the true caretakers of medieval cemeteries were eagerly awaiting has come true! Game Of Crone, a full-fledged add-on to the most unrealistic simulator of the life of these glorious hard workers Graveyard Keeper released on all the platforms! In the original Graveyard Keeper and in the Game Of Crone expansion, you are invited to [\u2026]"
+description: What the true caretakers of medieval cemeteries were eagerly awaiting
+  has come true! Game Of Crone, a full-fledged add-on to the most unrealistic simulator
+  of the life of these glorious hard workers Graveyard Keeper released on all the
+  platforms! In the original Graveyard Keeper and in the Game Of Crone expansion,
+  you are invited to […]
 categories:
-  - "News"
+- News
 tags:
-  - "Game of Crone"
-  - "Graveyard Keeper"
-  - "Graveyard Keeper: Game of Crone"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/game-of-crone-for-graveyard-keeper-available-now/"
+- Game of Crone
+- Graveyard Keeper
+- 'Graveyard Keeper: Game of Crone'
+featured_image: featured.jpg
+original_url: https://generalarcade.com/game-of-crone-for-graveyard-keeper-available-now/
 draft: false
+url: /game-of-crone-for-graveyard-keeper-available-now/
 ---
-
 What the true caretakers of medieval cemeteries were eagerly awaiting has come true! Game Of Crone, a full-fledged add-on to the most unrealistic simulator of the life of these glorious hard workers Graveyard Keeper released on all the platforms!
 
 In the original Graveyard Keeper and in the Game Of Crone expansion, you are invited to live the unremarkable life of a graveyard keeper. You’ll have to burn witches for the joy of the crowd, intimidate the residents of neighboring villages, use… available resources instead of wasting money on buying meat for hot dogs during the fair… Well, everything is as usual – a sheer routine and nothing more.

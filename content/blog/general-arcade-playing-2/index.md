@@ -1,14 +1,17 @@
 ---
-title: "General Arcade Playing #2"
+title: 'General Arcade Playing #2'
 date: 2023-05-06
-description: "Games surround our company every day. It is impossible to develop games without playing in your free time. There are many experienced gamers in our team who will tell you what they are playing right now. We would also like to make a point that the opinion of an employee does not represent the position [\u2026]"
+description: Games surround our company every day. It is impossible to develop games
+  without playing in your free time. There are many experienced gamers in our team
+  who will tell you what they are playing right now. We would also like to make a
+  point that the opinion of an employee does not represent the position […]
 categories:
-  - "Blog"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-arcade-playing-2/"
+- Blog
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-arcade-playing-2/
 draft: false
+url: /general-arcade-playing-2/
 ---
-
 *Games surround our company every day. It is impossible to develop games without playing in your free time. There are many experienced gamers in our team who will tell you what they are playing right now. We would also like to make a point that the opinion of an employee does not represent the position of the company.*
 
 **Mikhail (QA Engineer) plays Barotrauma** **(PC)**

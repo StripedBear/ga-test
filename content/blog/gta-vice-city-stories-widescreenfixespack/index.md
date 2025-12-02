@@ -1,17 +1,18 @@
 ---
-title: "GTA Vice City Stories | WidescreenFixesPack"
+title: GTA Vice City Stories | WidescreenFixesPack
 date: 2024-08-08
-description: "GTA Vice City Stories | WidescreenFixesPack: improved controls, script fixes for 60fps, right-stick camera support, and more."
+description: 'GTA Vice City Stories | WidescreenFixesPack: improved controls, script
+  fixes for 60fps, right-stick camera support, and more.'
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "gamedev"
-  - "general arcade team"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/gta-vice-city-stories-widescreenfixespack/"
+- gamedev
+- general arcade team
+featured_image: featured.jpg
+original_url: https://generalarcade.com/gta-vice-city-stories-widescreenfixespack/
 draft: false
+url: /gta-vice-city-stories-widescreenfixespack/
 ---
-
 *In the ever-evolving world of gaming, the allure of classic games remains strong. For Sergey, this allure became a mission to enhance and modernize beloved old titles. Through his project, WidescreenFixesPack, Sergey has made significant strides in improving the quality of life for gamers who cherish these timeless classics.*
 
 *Learn more about the project here:* *[GitHub](https://lnkd.in/eVrPaPxk)*

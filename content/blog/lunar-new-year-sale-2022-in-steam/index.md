@@ -1,32 +1,35 @@
 ---
-title: "Lunar New Year Sale 2022 in Steam"
+title: Lunar New Year Sale 2022 in Steam
 date: 2022-01-29
-description: "Steam Lunar New Year Sale 2022 is in full swing until February 3rd, giving everyone the opportunity to purchase a variety of games at incredible discounts! Many games that were ported and optimized by the General Arcade team also made it to the list\u2026 A little tour of Steam low price territory during the Lunar [\u2026]"
+description: Steam Lunar New Year Sale 2022 is in full swing until February 3rd, giving
+  everyone the opportunity to purchase a variety of games at incredible discounts!
+  Many games that were ported and optimized by the General Arcade team also made it
+  to the list… A little tour of Steam low price territory during the Lunar […]
 categories:
-  - "Articles"
+- Articles
 tags:
-  - "Blade of Darkness"
-  - "Diggles: The Myth of Fenris"
-  - "Fantasy General"
-  - "LUFTRAUSERS"
-  - "Lunar New Year Sale"
-  - "Metal Wolf Chaos XD"
-  - "OlliOlli"
-  - "Pacific General"
-  - "Pathologic Classic HD"
-  - "Shadow Warrior"
-  - "Shadow Warrior Classic Redux"
-  - "Siege of Avalon: Anthology"
-  - "Steam"
-  - "Tooth and Tail"
-  - "War Wind II: Human Onslaught"
-  - "Witchaven"
-  - "Witchaven II: Blood Vengeance"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/lunar-new-year-sale-2022-in-steam/"
+- Blade of Darkness
+- 'Diggles: The Myth of Fenris'
+- Fantasy General
+- LUFTRAUSERS
+- Lunar New Year Sale
+- Metal Wolf Chaos XD
+- OlliOlli
+- Pacific General
+- Pathologic Classic HD
+- Shadow Warrior
+- Shadow Warrior Classic Redux
+- 'Siege of Avalon: Anthology'
+- Steam
+- Tooth and Tail
+- 'War Wind II: Human Onslaught'
+- Witchaven
+- 'Witchaven II: Blood Vengeance'
+featured_image: featured.jpg
+original_url: https://generalarcade.com/lunar-new-year-sale-2022-in-steam/
 draft: false
+url: /lunar-new-year-sale-2022-in-steam/
 ---
-
 Steam Lunar New Year Sale 2022 is in full swing until February 3rd, giving everyone the opportunity to purchase a variety of games at incredible discounts! Many games that were ported and optimized by the General Arcade team also made it to the list…
 
 A little tour of Steam low price territory during the Lunar New Year Sale 2022! After all, saving is not superfluous, right?

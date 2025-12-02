@@ -1,16 +1,19 @@
 ---
-title: "DISPOSAL"
+title: DISPOSAL
 date: 2021-04-30
-description: "We present our project for Ludum Dare 48! You are janitor for critical situations. Your job as simple worker is to control the hazardous waste flow entering the landfill from \u201cGreen Technologies\u201d factory. And this is your typical work day! Please enjoy! Downloads and Links: Source Code; Microsoft Windows; HTML5 (web)."
+description: 'We present our project for Ludum Dare 48! You are janitor for critical
+  situations. Your job as simple worker is to control the hazardous waste flow entering
+  the landfill from “Green Technologies” factory. And this is your typical work day!
+  Please enjoy! Downloads and Links: Source Code; Microsoft Windows; HTML5 (web).'
 categories:
-  - "News"
+- News
 tags:
-  - "DISPOSAL"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/disposal/"
+- DISPOSAL
+featured_image: featured.jpg
+original_url: https://generalarcade.com/disposal/
 draft: false
+url: /disposal/
 ---
-
 We present our project for Ludum Dare 48!
 
 ![](3e2a6.png)

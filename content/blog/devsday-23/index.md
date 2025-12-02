@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #23"
+title: 'DEVsday #23'
 date: 2023-05-17
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. British regulator imposes additional restrictions on Microsoft and Activision Blizzard They now need to get written approval from the CMA [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. British
+  regulator imposes additional restrictions on Microsoft and Activision Blizzard They
+  now need to get written approval from the CMA […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-23/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-23/
 draft: false
+url: /devsday-23/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [British regulator imposes additional restrictions on Microsoft and Activision Blizzard](https://assets.publishing.service.gov.uk/media/645cac312226ee000c0ae5fd/Interim_Order_.pdf)

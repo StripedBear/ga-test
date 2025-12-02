@@ -1,18 +1,22 @@
 ---
-title: "New release: Warhammer 40,000: Space Marine (GOG)"
+title: 'New release: Warhammer 40,000: Space Marine (GOG)'
 date: 2022-08-10
-description: "In Warhammer 40,000: Space Marine you are Captain Titus, a Space Marine of the Ultramarines chapter and a seasoned veteran of countless battles. A millions-strong Ork horde has invaded an Imperial Forge World, one of the planet-sized factories where the war machines for humanity\u2019s never ending battle for survival are created. Losing this planet is [\u2026]"
+description: 'In Warhammer 40,000: Space Marine you are Captain Titus, a Space Marine
+  of the Ultramarines chapter and a seasoned veteran of countless battles. A millions-strong
+  Ork horde has invaded an Imperial Forge World, one of the planet-sized factories
+  where the war machines for humanity’s never ending battle for survival are created.
+  Losing this planet is […]'
 categories:
-  - "Blog"
-  - "News"
+- Blog
+- News
 tags:
-  - "GOG"
-  - "Warhammer 40000"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/new-release-warhammer-40000-space-marine-gog/"
+- GOG
+- Warhammer 40000
+featured_image: featured.jpg
+original_url: https://generalarcade.com/new-release-warhammer-40000-space-marine-gog/
 draft: false
+url: /new-release-warhammer-40000-space-marine-gog/
 ---
-
 In Warhammer 40,000: Space Marine you are Captain Titus, a Space Marine of the Ultramarines chapter and a seasoned veteran of countless battles.
 
 A millions-strong Ork horde has invaded an Imperial Forge World, one of the planet-sized factories where the war machines for humanity’s never ending battle for survival are created. Losing this planet is not an option and be aware of the far more evil threat lurking large in the shadows of this world.

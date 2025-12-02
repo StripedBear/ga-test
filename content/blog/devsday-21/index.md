@@ -1,15 +1,19 @@
 ---
-title: "DEVsday #21"
+title: 'DEVsday #21'
 date: 2023-04-27
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Babylon.js 6.0 and Havok Microsoft has released Babylon.js 6.0. Developers team added the Havok physics engine. And not just added, [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Babylon.js
+  6.0 and Havok Microsoft has released Babylon.js 6.0. Developers team added the Havok
+  physics engine. And not just added, […]
 categories:
-  - "Blog"
-  - "Digest"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/devsday-21/"
+- Blog
+- Digest
+featured_image: featured.jpg
+original_url: https://generalarcade.com/devsday-21/
 draft: false
+url: /devsday-21/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 [Babylon.js 6.0 and Havok](https://blogs.windows.com/windowsdeveloper/2023/04/20/part-1-announcing-babylon-js-6-0/)

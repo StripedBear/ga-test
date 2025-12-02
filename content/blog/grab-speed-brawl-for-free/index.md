@@ -1,16 +1,19 @@
 ---
-title: "Grab Speed Brawl for free!"
+title: Grab Speed Brawl for free!
 date: 2021-07-30
-description: "Good news for everyone who likes good games and loves geting \u2019em for free! Speed Brawl from Double Stallion Games is going to be released on Epic Games Store really soon, and if you\u2019ll be fast enough, you won\u2019t have to pay for it! The game will be absolutelly free from August 5th to August [\u2026]"
+description: Good news for everyone who likes good games and loves geting ’em for
+  free! Speed Brawl from Double Stallion Games is going to be released on Epic Games
+  Store really soon, and if you’ll be fast enough, you won’t have to pay for it! The
+  game will be absolutelly free from August 5th to August […]
 categories:
-  - "News"
+- News
 tags:
-  - "Speed Brawl"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/grab-speed-brawl-for-free/"
+- Speed Brawl
+featured_image: featured.jpg
+original_url: https://generalarcade.com/grab-speed-brawl-for-free/
 draft: false
+url: /grab-speed-brawl-for-free/
 ---
-
 Good news for everyone who likes good games and loves geting ’em for free! Speed Brawl from Double Stallion Games is going to be released on Epic Games Store really soon, and if you’ll be fast enough, you won’t have to pay for it!
 
 The game will be absolutelly free from August 5th to August 12th, so [don’t miss your chance](https://www.epicgames.com/store/en-US/p/speed-brawl)!

@@ -1,18 +1,22 @@
 ---
-title: "General Weekly #8 09.27.22"
+title: 'General Weekly #8 09.27.22'
 date: 2022-09-27
-description: "The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers. Updates/releases/news Unity announces new tools for developing multiplayer games Access to Netcode for GameObjects (NGO) 1.0, which goes hand in [\u2026]"
+description: The game development industry brings something new all the time. General
+  Arcade shows the most interesting releases, updates and news of the past week, which
+  are recommended reading for both industry veterans and novice developers. Updates/releases/news
+  Unity announces new tools for developing multiplayer games Access to Netcode for
+  GameObjects (NGO) 1.0, which goes hand in […]
 categories:
-  - "Blog"
-  - "News"
+- Blog
+- News
 tags:
-  - "gamedev"
-  - "Unity"
-featured_image: "featured.jpg"
-original_url: "https://generalarcade.com/general-weekly-8-09-27-22/"
+- gamedev
+- Unity
+featured_image: featured.jpg
+original_url: https://generalarcade.com/general-weekly-8-09-27-22/
 draft: false
+url: /general-weekly-8-09-27-22/
 ---
-
 *The game development industry brings something new all the time. General Arcade shows the most interesting releases, updates and news of the past week, which are recommended reading for both industry veterans and novice developers.*
 
 ## Updates/releases/news
