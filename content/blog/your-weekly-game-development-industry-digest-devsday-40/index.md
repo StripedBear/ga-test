@@ -1,5 +1,7 @@
 ---
 title: "Game Development Industry Digest | DEVsday #40"
+url: "/your-weekly-game-development-industry-digest-devsday-40/"
+
 date: 2025-01-31
 description: "At General Arcade, we\u2019re here to keep you in the loop with our Weekly Game Development Industry Digest , whether you\u2019re a gaming enthusiast or a developer."
 categories:

@@ -45,3 +45,6 @@ disableKinds = []
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[permalinks]
+blog = "/:slug/"

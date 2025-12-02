@@ -1,5 +1,6 @@
 ---
 title: "Wanna play Resident Evil Village demo forever?.."
+slug: "wanna-play-resident-evil-village-demo-forever"
 date: 2021-05-13
 description: "A long awaited and critically acclaimed Resident Evil Village is finally here. Set a few years after the horrifying events in the critically acclaimed Resident Evil 7 biohazard, the all-new storyline begins with Ethan Winters and his wife Mia living peacefully in a new location, free from their past nightmares. Just as they are building [\u2026]"
 categories:

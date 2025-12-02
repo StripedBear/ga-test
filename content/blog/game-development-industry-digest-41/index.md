@@ -1,5 +1,7 @@
 ---
 title: "Game Development Industry Digest #41"
+slug: "game-development-industry-digest-41"
+url: "/game-development-industry-digest-41/"
 date: 2025-02-07
 description: "What happened this week? Check out our Weekly Game Development Industry Digest, whether you\u2019re a gaming enthusiast or a developer."
 categories:
@@ -21,7 +23,7 @@ Hold your horses rookie game developers! The RPG Game Maker VX is now FREE on St
 
 [**Video Game History Foundation Brings Rare Magazines Back to Life**](https://gamehistory.org/what-were-doing/)
 
-<img src="Copy-of-devsday-38.jpg">
+[](Copy-of-devsday-38.jpg)
 
 What was the video game history?
 Over 1,500 out-of-print gaming magazines, rare game development documents, and promotional materials are now available in a free digital archive from the Video Game History Foundation.

@@ -1,6 +1,8 @@
 ---
 title: "Game Development Industry Diges | DEVsday #39"
 date: 2025-01-24
+slug: "your-weekly-game-development-industry-digest-devsday-39"
+url: "/your-weekly-game-development-industry-digest-devsday-39/"
 description: "We're here to keep you in the loop with the game development industry, where exciting updates, fresh ideas, and innovations are constantly buzzing."
 categories:
   - "Blog"

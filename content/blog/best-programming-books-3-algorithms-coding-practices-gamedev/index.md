@@ -1,5 +1,6 @@
 ---
 title: "Best Programming Books # 3 | Algorithms, Coding Practices & GameDev"
+url: "/best-programming-books-3-algorithms-coding-practices-gamedev/"
 date: 2024-10-21
 description: "Best programming book: perfect for beginners and experienced coders, these books emphasize mastering fundamentals and problem-solving skills."
 categories:
