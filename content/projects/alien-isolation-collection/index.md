@@ -15,98 +15,15 @@ As Amanda, you will navigate through an increasingly volatile world as you find 
 
 Underpowered and underprepared, you must scavenge resources, improvise solutions and use your wits, not just to succeed in your mission, but to simply stay alive.
 
-One Software Engineer and one QA Engineer from the General Arcade team worked on the port. The goal was to make a complete integration of the Galaxy services and of course to keep the game DRM-free. The custom engine was written in C++, so the appropriate toolkit was used. It took approximately a month to complete the work.
-
-			
-				
-			
-				
-				Alien: Isolation
-				
-			
-				
-			
-				
-				Alien: Isolation
-				
-			
-				
-			
-				
-				Alien: Isolation
-				
-			
-				
-			
-				
-				Alien: Isolation
-
-{{< image src="AlienIsolation2-300x171.jpg" >}}
-
-{{< image src="AlienIsolation3-300x171.jpg" >}}
-
-Alien: Isolation
-				
-			
-				
-			
-				
-				Alien: Isolation
-				
-			
-				
-			
-				
-				Alien: Isolation
-
-{{< image src="https://generalarcade.com/content/uploads/2022/06/alienisolation.png" >}}
-
-{{< image src="AlienIsolation1-300x169.jpg" >}}
-
-{{< image src="AlienIsolation6.jpg" >}}
-
-{{< video iframe="<iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/8iMrY5byVMM\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>" >}}
+{{< youtube "https://www.youtube.com/watch?v=8iMrY5byVMM" >}}
 
 One Software Engineer and one QA Engineer from the General Arcade team worked on the port. The goal was to make a complete integration of the Galaxy services and of course to keep the game DRM-free. The custom engine was written in C++, so the appropriate toolkit was used. It took approximately a month to complete the work.
 
-			
-				
-			
-				
-				Alien: Isolation
-				
-			
-				
-			
-				
-				Alien: Isolation
-
-{{< image src="AlienIsolation4-300x171.jpg" >}}
-
-{{< image src="AlienIsolation5-300x169.jpg" >}}
-
-Alien: Isolation
-				
-			
-				
-			
-				
-				Alien: Isolation
-				
-			
-				
-			
-				
-				Alien: Isolation
-				
-			
-				
-			
-				
-				Alien: Isolation
-				
-			
-				
-			
-				
-				Alien: Isolation
+{{< slider >}}
+  <img src="AlienIsolation6.jpg" alt="">
+  <img src="AlienIsolation5.jpg" alt="">
+  <img src="AlienIsolation4.jpg" alt="">
+  <img src="AlienIsolation3.jpg" alt="">
+  <img src="AlienIsolation2.jpg" alt="">
+  <img src="AlienIsolation1.jpg" alt="">
+{{< /slider >}}

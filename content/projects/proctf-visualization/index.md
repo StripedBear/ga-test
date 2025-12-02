@@ -9,4 +9,3 @@ draft: false
 
 Developed a system to visualize progress of CTF hacker competion
 
-{{< image src="https://generalarcade.com/content/uploads/2020/09/pr-ctf.png" >}}

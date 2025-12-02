@@ -6,6 +6,7 @@ client: "GOG"
 developer: "AMPLITUDE Studios"
 publisher: "SEGA"
 website: "https://www.gog.com/en/game/dungeon_of_the_endless_definitive_edition"
+featured_image: "featured.jpg"
 draft: false
 ---
 
@@ -18,31 +19,20 @@ Every set of holding cells also functioned as an escape pod, so the ship let its
 #### Gather A Team.
 
 - Form a team of heroes, each with their own strengths (and psychoses)
-
 - Equip them, deploy them, and earn powerful abilities
-
 - Manage the balance between ex-prison inmates and guards
-
 - Experience four player coop and watch your back
 
 #### Build Your Defenses.
 
 - Use the Dust you gather to power the rooms
-
 - Use scarce resources to help your team survive
-
 - Build minor and major modules to hold off waves of monsters
-
 - Decode Endless ruins to discover life-saving technologies
 
 #### Open the Door.
 
 - Each door is a danger; prepare yourself and your team for anything
-
 - Explore and discover an infinity of levels and layouts
-
 - Carry your crystal through waves of monsters to the exit of each level
-
 - Fight your way to the surface to discover the truth about Auriga
-
-{{< image src="Dungeon_of_the_ENDLESS.jpg" >}}

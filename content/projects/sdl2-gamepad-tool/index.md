@@ -10,4 +10,3 @@ draft: false
 
 Developed a simple GUI tool to create/modify gamepad mappings for games that use SDL2 Game Controller API.
 
-{{< image src="https://generalarcade.com/content/uploads/2013/10/pr-SD2GT.png" >}}

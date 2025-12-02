@@ -9,7 +9,7 @@ featured_image: "featured.jpg"
 draft: false
 ---
 
-<!-- The spiritual successor to the award-winning game Void_Bastards, **Wild Bastards** is a roguelike strategy shooter with heart-pounding FPS action, mod management, and a tactical campaign. Saddle up and lead the most notorious outlaws in the galaxy.
+The spiritual successor to the award-winning game Void_Bastards, **Wild Bastards** is a roguelike strategy shooter with heart-pounding FPS action, mod management, and a tactical campaign. Saddle up and lead the most notorious outlaws in the galaxy.
 
 From the veteran team behind Void Bastards and Card Hunter, **Wild Bastards** has you travel from planet to planet to recruit, manage and gun sling with a team of 13 outlaws, each of whom has their own weaponry, special power, and growth tree. On planets, you’ll wrangle loot and start showdowns that are then played out in intense, bite-sized shootouts.
 
@@ -47,35 +47,17 @@ After completing the main campaign, a challenge mode unlocks to offer a sequence
 
 Roam the procedurally-generated galactic sectors and planets with varying parameters such as gravity, terrain features, weather, and more.
 
-**Our work: **
+{{< youtube "https://www.youtube.com/watch?v=3Ay2BzDEUAg" >}}
+
+**Our work:**
 
 General Arcade specialists ported **Wild Bastards** to Xbox Series X/S, PlayStation 5, and Nintendo Switch. After completing the porting process, we conducted thorough compliance testing to ensure that all versions of the game met the strict standards and requirements of each platform.
-
-{{< image src="ss_906199cd7b5f487951910da6a23d98f98411cd70.1920x1080-1-300x169.jpg" >}}
-
-{{< image src="ss_702dd03e59309abb89ef6565b329125838013a03.1920x1080-1-300x169.jpg" >}}
-
-{{< image src="https://generalarcade.com/content/uploads/2024/09/opFfSBfPbPiFJrhmgPuGE5-1200-80.jpg" >}}
-
-{{< image src="ss_8643dd77ae8a4e0b329954f66b880ed52dffd400.1920x1080-1-300x169.jpg" >}}
-
-{{< image src="ss_bd9dc3491b28c7c8463403c9452bcaaeb9818136.1920x1080-1.jpg" >}}
-
-{{< video iframe="<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3Ay2BzDEUAg?si=PRLbiNFPvNfqUfyq\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>" >}}
-
-**Our work: **
-
-General Arcade specialists ported **Wild Bastards** to Xbox Series X/S, PlayStation 5, and Nintendo Switch. After completing the porting process, we conducted thorough compliance testing to ensure that all versions of the game met the strict standards and requirements of each platform.
-
-{{< image src="ss_14eb73c959bbde47c65176cea66cef6500dca860.1920x1080-1-300x169.jpg" >}}
-
-{{< image src="ss_98ab7a8a5b8b22ef0600dc31681326957bf556d5.1920x1080-1-300x169.jpg" >}} -->
 
 {{< slider >}}
-  <img src="ss_906199cd7b5f487951910da6a23d98f98411cd70.1920x1080-1-300x169.jpg" alt="">
   <img src="ss_14eb73c959bbde47c65176cea66cef6500dca860.1920x1080-1-300x169.jpg" alt="">
-  <img src="ss_702dd03e59309abb89ef6565b329125838013a03.1920x1080-1-300x169.jpg" alt="">
-  <img src="ss_702dd03e59309abb89ef6565b329125838013a03.1920x1080-1-300x169.jpg" alt="">
-  <img src="ss_702dd03e59309abb89ef6565b329125838013a03.1920x1080-1-300x169.jpg" alt="">
-  <img src="ss_702dd03e59309abb89ef6565b329125838013a03.1920x1080-1-300x169.jpg" alt="">
+  <img src="ss_98ab7a8a5b8b22ef0600dc31681326957bf556d5.1920x1080-1.jpg" alt="">
+  <img src="ss_14eb73c959bbde47c65176cea66cef6500dca860.1920x1080-1.jpg" alt="">
+  <img src="ss_702dd03e59309abb89ef6565b329125838013a03.1920x1080-1.jpg" alt="">
+  <img src="ss_906199cd7b5f487951910da6a23d98f98411cd70.1920x1080-1.jpg" alt="">
+  <img src="ss_8643dd77ae8a4e0b329954f66b880ed52dffd400.1920x1080-1.jpg" alt="">
 {{< /slider >}}

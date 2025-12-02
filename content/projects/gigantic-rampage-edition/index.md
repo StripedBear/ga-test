@@ -15,31 +15,20 @@ draft: false
 Our engineers help with the following tasks:
 
 - Backend development
-
 - Common tasks for XB1/XSX/PS4/PS5 porting
-
 - GDK online subsystem implementation
-
 - ranked mode (client and backend side)
-
 - UI development
-
 - Tutorial improvements
-
 - Bugfixing
 
-{{< image src="ss_559a4769b0ff9a33dd06fcb74c3a370258468d3f.1920x1080-300x169.jpg" >}}
+{{< youtube "https://www.youtube.com/watch?v=WvKqQr6ePRc" >}}
 
-{{< image src="ss_c57e5484fca2573de511f0c85530d81e7c9e3a92.1920x1080-300x169.jpg" >}}
-
-{{< image src="https://generalarcade.com/content/uploads/2024/04/gigantic.0.jpg" >}}
-
-{{< image src="ss_7f28034676a0b2f3f05920a00d4d840b0a1a6f92.1920x1080-300x169.jpg" >}}
-
-{{< image src="ss_a5d432c1fbd5090e51b68c6356bccdc3df3caa6f.1920x1080.jpg" >}}
-
-{{< video iframe="<iframe title=\"GIGANTIC: RAMPAGE EDITION | Announcement Trailer\" src=\"https://www.youtube.com/embed/WvKqQr6ePRc\" width=\"2542\" height=\"1105\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>" >}}
-
-{{< image src="ss_4f0ae9ecd23d0bd902c895cdad9966ff066abd4d.1920x1080-300x169.jpg" >}}
-
-{{< image src="ss_963f5258c5fc71e687b940062cdf786c79397a63.1920x1080-300x169.jpg" >}}
+{{< slider >}}
+  <img src="ss_a5d432c1fbd5090e51b68c6356bccdc3df3caa6f.1920x1080.jpg" alt="">
+  <img src="ss_963f5258c5fc71e687b940062cdf786c79397a63.1920x1080.jpg" alt="">
+  <img src="ss_4f0ae9ecd23d0bd902c895cdad9966ff066abd4d.1920x1080.jpg" alt="">
+  <img src="ss_c57e5484fca2573de511f0c85530d81e7c9e3a92.1920x1080.jpg" alt="">
+  <img src="ss_559a4769b0ff9a33dd06fcb74c3a370258468d3f.1920x1080.jpg" alt="">
+  <img src="ss_7f28034676a0b2f3f05920a00d4d840b0a1a6f92.1920x1080.jpg" alt="">
+{{< /slider >}}

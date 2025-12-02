@@ -18,16 +18,10 @@ Fowl Twists and Turns: Not everything is as it seems at St. PigeoNation’s Inst
 
 One of our Software Engineers ported the game to iOS and Android to let more people enjoy the bird love. He needed two months, Unity and C#. Please Note! No birds were hurt in the making of Hatoful Boyfriend. In fact, many found love&#8230;
 
-{{< image src="unnamed1-169x300.png" >}}
-
-{{< image src="unnamed-169x300.png" >}}
-
-{{< image src="https://generalarcade.com/content/uploads/2020/09/pr-hb.png" >}}
-
-{{< image src="unnamed4.png" >}}
-
-portrait'>
-
-{{< image src="unnamed3-169x300.png" >}}
-
-{{< image src="unnamed2-169x300.png" >}}
+{{< slider >}}
+  <img src="01.png" >
+  <img src="02.png" >
+  <img src="03.png" >
+  <img src="04.png" >
+  <img src="05.png" >
+{{< /slider >}}

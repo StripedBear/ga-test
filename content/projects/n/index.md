@@ -12,14 +12,9 @@ draft: false
 
 **Our team has been supporting the console versions of the game, during which several patches have been released to improve the stability of the game and the player experience.**
 
-{{< image src="N_1-300x169.jpg" >}}
-
-{{< image src="https://generalarcade.com/content/uploads/2023/09/nplusplus.jpg" >}}
-
-{{< image src="N_2-300x169.jpg" >}}
-
-{{< image src="apps.17192.70678773216767199.46fb6678-c8a0-4d4c-a17d-b1fd3829e039.jpg" >}}
-
-t/uploads/2023/09/apps.17192.70678773216767199.46fb6678-c8a0-4d4c-a17d-b1fd3829e039.jpg'>
-
-{{< image src="apps.43404.70678773216767199.46fb6678-c8a0-4d4c-a17d-b1fd3829e039-300x169.png" >}}
+{{< slider >}}
+  <img src="apps.17192.70678773216767199.46fb6678-c8a0-4d4c-a17d-b1fd3829e039.jpg" alt="">
+  <img src="apps.43404.70678773216767199.46fb6678-c8a0-4d4c-a17d-b1fd3829e039.png" alt="">
+  <img src="N_2.jpg" alt="">
+  <img src="N_1.jpg" alt="">
+{{< /slider >}}

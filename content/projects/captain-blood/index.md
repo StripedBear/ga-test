@@ -10,7 +10,7 @@ featured_image: "featured.jpg"
 draft: false
 ---
 
-**Resurrecting a Lost Classic — Captain Blood**
+__Resurrecting a Lost Classic — Captain Blood__
 
 Captain Blood was one of those infamous titles — announced in 2003, nearly completed, then shelved indefinitely. It languished in Development Hell for over a decade. That is, until SNEG partnered with us to finish what had been left behind.
 
@@ -20,21 +20,13 @@ Over 15 months, our team at General Arcade — including producers, engineers, a
 
 Captain Blood was originally a 32-bit title built around long-defunct tools. Here's what we tackled:
 
-- 
+- **64-bit Conversion** — Full codebase upgrade to modern x64 systems.
 
-**64-bit Conversion** — Full codebase upgrade to modern x64 systems.
+- **Physics Overhaul** — Transitioned from PhysX 2.8.0 to PhysX 5.3 for compatibility and performance.
 
-- 
+- **Graphics Engine Rewrite** — Replaced DirectX 9 with our own cross-platform renderer, Rendozer.
 
-**Physics Overhaul** — Transitioned from PhysX 2.8.0 to PhysX 5.3 for compatibility and performance.
-
-- 
-
-**Graphics Engine Rewrite** — Replaced DirectX 9 with our own cross-platform renderer, Rendozer.
-
-- 
-
-**Custom Toolchain Development** — Reversed proprietary formats and built new pipelines to upscale and integrate assets across platforms.
+- **Custom Toolchain Development** — Reversed proprietary formats and built new pipelines to upscale and integrate assets across platforms.
 
 We released the game on nearly every major platform: PlayStation 4/5, Xbox One/Series, Nintendo Switch, Steam (including Steam Deck), macOS, GOG, Epic Games Store, and Windows Store.
 
@@ -42,62 +34,37 @@ We released the game on nearly every major platform: PlayStation 4/5, Xbox One/S
 
 Beyond technical work, we introduced a wide range of quality-of-life improvements:
 
-- 
+- Reworked QTEs for clarity and responsiveness.
 
-Reworked QTEs for clarity and responsiveness.
+- Haptic feedback added for immersive gameplay.
 
-- 
+- Full achievement support across platforms.
 
-Haptic feedback added for immersive gameplay.
+- Revamped UI — stats, tutorials, an updated shop with combo videos.
 
-- 
+- New control schemes and expanded settings menu.
 
-Full achievement support across platforms.
+- Widescreen and multi-display support.
 
-- 
-
-Revamped UI — stats, tutorials, an updated shop with combo videos.
-
-- 
-
-New control schemes and expanded settings menu.
-
-- 
-
-Widescreen and multi-display support.
-
-- 
-
-Localization into 17 languages.
+- Localization into 17 languages.
 
 ### Visual Enhancements
 
 We didn’t just modernize the code — we gave the visuals a full upgrade:
 
-- 
+- Upscaled over 60 weapon models, 40 characters, 600 environments, and 1,000+ textures.
 
-Upscaled over 60 weapon models, 40 characters, 600 environments, and 1,000+ textures.
+- Fully redrawn HUD and backgrounds for 4K resolution.
 
-- 
+- Added HDR, motion blur, ambient occlusion, and anti-aliasing.
 
-Fully redrawn HUD and backgrounds for 4K resolution.
+{{< youtube "https://www.youtube.com/watch?v=lDIODgnY8Nc" >}}
 
-- 
-
-Added HDR, motion blur, ambient occlusion, and anti-aliasing.
-
-{{< image src="ss_d5ba8768c38395316bf4497be6707750d4430597.1920x1080-300x169.jpg" >}}
-
-{{< image src="ss_36b0802ce6bc2167aab9e11ea8acd5eb538ec4f7.1920x1080-300x169.jpg" >}}
-
-{{< image src="https://generalarcade.com/content/uploads/2025/05/Library-Hero_Captain-Blood_1920х1080-1.jpg" >}}
-
-{{< image src="ss_9b576b9b9971b648276df131b018c82c069565c5.1920x1080-300x169.jpg" >}}
-
-{{< image src="ss_623693a7e04a0c36509aa289d29b8d964c5d1ac7.1920x1080.jpg" >}}
-
-{{< video iframe="<iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/lDIODgnY8Nc?si=LZ1lK_Hkl3mJ4FI-\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>" >}}
-
-{{< image src="ss_1dda63b0577e71648714e3cf6d211840ce4cd734.1920x1080-300x169.jpg" >}}
-
-{{< image src="ss_980c7b12f2920532eaf0c12b812db89bf2ce4b12.1920x1080-300x169.jpg" >}}
+{{< slider >}}
+  <img src="ss_623693a7e04a0c36509aa289d29b8d964c5d1ac7.1920x1080.jpg" alt="">
+  <img src="ss_980c7b12f2920532eaf0c12b812db89bf2ce4b12.1920x1080.jpg" alt="">
+  <img src="ss_1dda63b0577e71648714e3cf6d211840ce4cd734.1920x1080.jpg" alt="">
+  <img src="ss_36b0802ce6bc2167aab9e11ea8acd5eb538ec4f7.1920x1080.jpg" alt="">
+  <img src="ss_d5ba8768c38395316bf4497be6707750d4430597.1920x1080.jpg" alt="">
+  <img src="ss_9b576b9b9971b648276df131b018c82c069565c5.1920x1080.jpg" alt="">
+{{< /slider >}}

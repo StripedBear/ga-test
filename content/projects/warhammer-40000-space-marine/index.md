@@ -21,98 +21,15 @@ BLOCKBUSTER ENTERTAINMENT
 
 With an Imperial liberation fleet en-route, the Ultramarines are sent in to hold key locations until reinforcements arrive. Captain Titus and a squad of Ultramarine veterans use the bolter and chainsword to take the fight to the enemies of mankind.
 
-General Arcade specialists have spent approximately 1 month to complete the full Galaxy integration and perform a fine QA job. The game uses a custom proprietary engine, but our team has a lot of experience with this type of work, so we did it in the shortest possible time (one and a half month).
-
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-				
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-				
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-				
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-
-{{< image src="warhammer40k2-300x169.jpg" >}}
-
-{{< image src="warhammer40k3-300x169.jpg" >}}
-
-Warhammer 40,000: Space Marine
-				
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-				
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-
-{{< image src="https://generalarcade.com/content/uploads/2022/08/warhammer-40000-space-marine-scaled.jpg" >}}
-
-{{< image src="warhammer40k1-300x169.jpg" >}}
-
-{{< image src="warhammer40k6.jpg" >}}
-
-{{< video iframe="<iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/EZ-4wt5SZ9A\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>" >}}
+{{< youtube "https://www.youtube.com/watch?v=EZ-4wt5SZ9A" >}}
 
 General Arcade specialists have spent approximately 1 month to complete the full Galaxy integration and perform a fine QA job. The game uses a custom proprietary engine, but our team has a lot of experience with this type of work, so we did it in the shortest possible time (one and a half month).
 
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-				
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-
-{{< image src="warhammer40k4-300x169.jpg" >}}
-
-{{< image src="warhammer40k5-300x169.jpg" >}}
-
-Warhammer 40,000: Space Marine
-				
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-				
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-				
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
-				
-			
-				
-			
-				
-				Warhammer 40,000: Space Marine
+{{< slider >}}
+  <img src="warhammer40k6.jpg" alt="">
+  <img src="warhammer40k5.jpg" alt="">
+  <img src="warhammer40k4.jpg" alt="">
+  <img src="warhammer40k3.jpg" alt="">
+  <img src="warhammer40k2.jpg" alt="">
+  <img src="warhammer40k1.jpg" alt="">
+{{< /slider >}}
