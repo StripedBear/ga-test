@@ -1,43 +1,30 @@
 {{ define "title" }}{{ .Title }}{{ end }}
-
 {{ define "main" }}
-{{ $projects := .Pages.ByWeight.Reverse }}
+
 {{ $currentPlatform := .Title | urlize }}
+{{ $projects := .Pages.ByWeight.Reverse }}
 
 <div class="container mb-5 mb-md-6">
   <div class="o-inner-container o-inner-container--small mx-auto">
     <div class="text-center text-white">
       <h1 class="u-fs-huge mb-0">{{ .Title }}</h1>
     </div>
-
-    <!-- Back button -->
-    <div class="text-center mt-4">
-      <a href="/projects/" class="back-button" 
-        style="display:inline-block;padding:10px 20px;border:1px solid rgba(255,255,255,.4);
-               border-radius:6px;color:#fff;text-decoration:none;transition:background .2s;"
-        onmouseover="this.style.background='rgba(255,255,255,0.1)'"
-        onmouseout="this.style.background='transparent'">
-        ← Back to Projects
-      </a>
-    </div>
   </div>
 </div>
 
-<!-- Platforms dropdown (same as on projects page) -->
-<div class="c-dd-nav c-dd-nav--open" id="projects-category-dropdown">
+<!-- identical dropdown (same HTML as in projects section) -->
+<div class="c-dd-nav" id="projects-category-dropdown">
   <span class="c-dd-nav__current js-dd-nav-open" id="projects-category-toggle">
-    <span class="projects-categories-selected">{{ .Title }}</span>
+    <span class="projects-categories-selected">All categories</span>
   </span>
-
-  <ul class="c-dd-nav__list js-dd-nav-list" id="projects-categories-menu">
+  <ul class="c-dd-nav__list js-dd-nav-list" id="projects-categories-menu" >
     <li class="projects-categories-item">
       <a href="/projects/" class="blog-categories-link">All categories</a>
     </li>
-
     {{ range .Site.Taxonomies.platforms }}
-    <li class="projects-categories-item {{ if eq (.Page.Title | urlize) $currentPlatform }}active{{ end }}"
-        data-value="{{ .Page.Title | urlize }}">
-      <a href="{{ .Page.Permalink }}" class="blog-categories-link {{ if eq (.Page.Title | urlize) $currentPlatform }}active{{ end }}">
+    <li class="projects-categories-item {{ if eq (.Page.Title | urlize) $currentPlatform }}active{{ end }}">
+      <a href="{{ .Page.Permalink }}"
+         class="blog-categories-link {{ if eq (.Page.Title | urlize) $currentPlatform }}active{{ end }}">
         {{ .Page.Title }}
       </a>
     </li>
@@ -45,15 +32,13 @@
   </ul>
 </div>
 
-<!-- Projects grid (IDENTICAL TO /projects/) -->
-<div class="projects-grid" id="projects-grid">
+<!-- FULL projects grid EXACTLY as in /projects/ -->
+<div class="projects-grid" id="projects-grid" style="margin-top: 0px">
   {{ range $projects }}
   <article class="project-card"
            data-platforms="{{ range .Params.platforms }}{{ . | urlize }} {{ end }}">
-
     <a href="{{ .RelPermalink }}" class="project-card-link">
 
-      {{/* Featured image */}}
       {{ $featuredImage := false }}
       {{ if .Params.featured_image }}
         {{ $featuredImage = .Resources.Get .Params.featured_image }}
@@ -67,8 +52,8 @@
         {{ end }}
       {{ end }}
 
-      <div class="project-card__background"
-        {{ if $featuredImage }} style="background-image:url('{{ $featuredImage.RelPermalink }}')"{{ end }}>
+      <div class="project-card__background" {{ if $featuredImage }}
+           style="background-image:url('{{ $featuredImage.RelPermalink }}');"{{ end }}>
       </div>
 
       <div class="project-card__overlay"></div>
@@ -80,6 +65,7 @@
           {{ range $i, $p := $platforms }}{{ $p }}{{ if lt $i (sub (len $platforms) 1) }}, {{ end }}{{ end }}
         </span>
         {{ end }}
+
         <h3 class="project-card__title">{{ .Title }}</h3>
       </div>
 
