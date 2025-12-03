@@ -15,10 +15,20 @@
 
           {{ $isActive := eq $.RelPermalink (.URL | relURL) }}
 
-          <a href="{{ .URL | relURL }}"
-             class="c-nav-underline {{ if $isActive }}active{{ end }}">
-             {{ .Name }}
-          </a>
+          {{ if hasPrefix .URL "#" }}
+            <!-- Anchor link: DO NOT relURL -->
+            <a href="{{ .URL }}"
+               class="c-nav-underline">
+               {{ .Name }}
+            </a>
+
+          {{ else }}
+            <!-- Normal link -->
+            <a href="{{ .URL | relURL }}"
+               class="c-nav-underline {{ if $isActive }}active{{ end }}">
+               {{ .Name }}
+            </a>
+          {{ end }}
 
         </li>
         {{ end }}
@@ -31,12 +41,11 @@
   <div class="c-home-header-bg"></div>
   <div class="c-home-header-wrapper">
     <div class="o-inner-container o-inner-container--small mx-auto ">
-        <div class="text-center text-white mb-5 mb-lg-7">
-          <h1 class="u-fs-huge mb-3 link-underline-onload">General Arcade</h1>
-          <p>Video games engineering specialists</p>
-        </div>
-        
+      <div class="text-center text-white mb-5 mb-lg-7">
+        <h1 class="u-fs-huge mb-3 link-underline-onload">General Arcade</h1>
+        <p>Video games engineering specialists</p>
       </div>
+    </div>
   </div>
   {{ end }}
 </header>

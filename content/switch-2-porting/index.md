@@ -43,4 +43,4 @@ Our track record spans collaborations with **AAA publishers and leading indies**
 # Get Started
 Don’t miss the early-mover advantage on Nintendo Switch 2.
 
-Contact us today for a quote: contact@generalarcade.com
+**Contact us today for a quote:** contact@generalarcade.com

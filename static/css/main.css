@@ -50,6 +50,11 @@ html, body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   font-family: "campaign_groteskregular", sans-serif;
   font-weight: 400;

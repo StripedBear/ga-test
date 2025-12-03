@@ -641,3 +641,33 @@ onReady(function () {
   }
 
 })();
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('a[href^="#"], a[href^="/#"]').forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      const href = a.getAttribute("href");
+      const id = href.replace(/^\/?#/, ""); // убираем / и #
+
+      if (!id) return;
+
+      const target = document.getElementById(id);
+      if (target) {
+        e.preventDefault();
+
+        const header = document.querySelector(".site-header, .main-header");
+        const offset = header ? header.offsetHeight : 0;
+        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+        window.scrollTo({
+          top: Math.max(0, top),
+          behavior: "smooth",
+        });
+
+        // Обновляем URL без перезагрузки
+        if (history.pushState) {
+          history.pushState(null, null, `#${id}`);
+        }
+      }
+    });
+  });
+});
