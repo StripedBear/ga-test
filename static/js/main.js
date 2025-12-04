@@ -4,68 +4,29 @@
   function q(sel,ctx){return (ctx||d).querySelector(sel)}
   function qa(sel,ctx){return Array.prototype.slice.call((ctx||d).querySelectorAll(sel))}
 
-onReady(function () {
-  qa('a[href*="#"]').forEach(function (a) {
-    a.addEventListener("click", function (e) {
-      var href = a.getAttribute("href");
-      if (!href) return;
-
-      // ищем хэш в href
-      var hashIndex = href.indexOf("#");
-      if (hashIndex === -1) return;
-
-      var hash = href.slice(hashIndex + 1); 
-      if (!hash) return; // href="#"
-
-      var linkUrl;
-      try {
-        linkUrl = new URL(href, w.location.origin);
-      } catch (err) {
-        return; 
-      }
-
-      if (linkUrl.pathname !== w.location.pathname) {
-        return;
-      }
-
-      var target = q('#' + hash);
-      if (!target) return;
-
-      e.preventDefault();
-
-      var header = q('.site-header');
-      var headerHeight = header ? header.offsetHeight : 0;
-
-      var top = target.getBoundingClientRect().top + w.pageYOffset - headerHeight;
-
-      if ("scrollBehavior" in d.documentElement.style) {
-        w.scrollTo({
-          top: Math.max(0, top),
-          behavior: "smooth"
-        });
-      } else {
-        w.scrollTo(0, Math.max(0, top));
-      }
-
-      if (w.history && w.history.pushState) {
-        w.history.pushState(null, null, "#" + hash);
-      }
+  onReady(function(){
+    qa('a[href^="#"]').forEach(function(a){
+      a.addEventListener("click",function(e){
+        var href=a.getAttribute("href");
+        if(href && href.length>1 && href!="#"){
+          e.preventDefault();
+          var targetId=href.substring(1);
+          var t=q("#"+targetId);
+          if(t){
+            var headerHeight=q('.site-header')?q('.site-header').offsetHeight:0;
+            var top=t.getBoundingClientRect().top+w.pageYOffset-headerHeight;
+            if("scrollBehavior" in d.documentElement.style){
+              w.scrollTo({top:Math.max(0,top),behavior:"smooth"});
+            }else{
+              w.scrollTo(0,Math.max(0,top));
+            }
+            if(w.history && w.history.pushState){
+              w.history.pushState(null,null,href);
+            }
+          }
+        }
+      });
     });
-  });
-
-  if (w.location.hash && w.location.hash.length > 1) {
-    var initId = w.location.hash.slice(1);
-    var t = q('#' + initId);
-    if (t) {
-      var header = q('.site-header');
-      var headerHeight = header ? header.offsetHeight : 0;
-      var top = t.getBoundingClientRect().top + w.pageYOffset - headerHeight;
-      w.scrollTo(0, Math.max(0, top));
-    }
-  }
-});
-
-
 
     var toggle=q('[data-toggle="nav"], .js-menu-toggle');
     var nav=q('[data-target="nav"], .js-nav');
@@ -641,33 +602,3 @@ onReady(function () {
   }
 
 })();
-
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll('a[href^="#"], a[href^="/#"]').forEach(function (a) {
-    a.addEventListener("click", function (e) {
-      const href = a.getAttribute("href");
-      const id = href.replace(/^\/?#/, ""); // убираем / и #
-
-      if (!id) return;
-
-      const target = document.getElementById(id);
-      if (target) {
-        e.preventDefault();
-
-        const header = document.querySelector(".site-header, .main-header");
-        const offset = header ? header.offsetHeight : 0;
-        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-
-        window.scrollTo({
-          top: Math.max(0, top),
-          behavior: "smooth",
-        });
-
-        // Обновляем URL без перезагрузки
-        if (history.pushState) {
-          history.pushState(null, null, `#${id}`);
-        }
-      }
-    });
-  });
-});
