@@ -8,7 +8,7 @@ summary: "General Arcade is a porting house and co-development studio based in S
 {{< services-grid >}}
 service-1.png|Porting from any platform to any platform
 service-2.png|Co-development
-service-3.png|Remastering
+service-3.png|Remastered/enhanced versions development
 service-4.png|Performance optimization
 service-5.png|Network implementation (including cross-play)
 service-6.png|SDK / DRM integration
