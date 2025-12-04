@@ -31,31 +31,31 @@ General Arcade delivered exceptional results in porting our game to Xbox, PS5, a
 {{< /testimonials-carousel >}}
 
 {{< clients-partners >}}
-larian.png
-devolver.png
-unity.png
-gog.png
-3d-realms.png
-from-software.png
-capcom.png
-sega.png
-square-enix.png
-aspyr.png
-irregular-corporation.png
-vlambeer.png
-indie-stone.png
-ice-pick.png
-ysbryd.png
-roll-7.png
-pocketwatch.png
-kongregate.png
-gentlebros.png
-abstraction.png
-fullbright.png
-plug-in-digital.png
-playism.png
-messhof.png
-505.png
-tinybuild.png
-redhook.png
+larian.png | https://larian.com/
+devolver.png | http://www.devolverdigital.com/
+unity.png | https://www.unity.com/
+gog.png | https://www.gog.com/
+3d-realms.png | http://www.3drealms.com/
+from-software.png | https://www.fromsoftware.jp/ww/
+capcom.png | http://www.capcom.com/
+sega.png | https://www.sega.com/
+square-enix.png | https://square-enix-games.com/
+aspyr.png | https://aspyr.com/
+irregular-corporation.png | https://theirregularcorporation.com/
+vlambeer.png | https://www.vlambeer.com/
+indie-stone.png | http://www.theindiestone.com/
+ice-pick.png | http://ice-pick.com/en/
+ysbryd.png | http://www.ysbryd.net/
+roll-7.png | http://www.roll7.co.uk/
+pocketwatch.png | http://www.pocketwatchgames.com/
+kongregate.png | https://www.kongregate.com/
+gentlebros.png | https://thegentlebros.com/
+abstraction.png | https://www.abstraction.games/
+fullbright.png | https://fullbrig.ht/
+plug-in-digital.png | https://plugindigital.com/
+playism.png | https://playism.com/
+messhof.png | https://messhof.com/
+505.png | https://505games.com/
+tinybuild.png | https://www.tinybuild.com/
+redhook.png | http://www.redhookgames.com/
 {{< /clients-partners >}}

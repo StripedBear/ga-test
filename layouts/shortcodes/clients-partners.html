@@ -5,7 +5,14 @@
     {{ range $logos }}
       {{ $line := trim . " \t\r" }}
       {{ if and $line (ne $line "") }}
-        {{ $logo := $line }}
+
+        {{ $parts := split $line "|" }}
+        {{ $logo := trim (index $parts 0) " " }}
+        {{ $link := "" }}
+        {{ if gt (len $parts) 1 }}
+          {{ $link = trim (index $parts 1) " " }}
+        {{ end }}
+
         {{ $imgResource := false }}
         {{ if $.Page.Resources }}
           {{ $imgResource = $.Page.Resources.Get $logo }}
@@ -13,21 +20,26 @@
             {{ $imgResource = $.Page.Resources.GetMatch (printf "*%s*" $logo) }}
           {{ end }}
         {{ end }}
-        {{ $altText := $logo | replaceRE `\.png$` "" | replaceRE `\.jpg$` "" | replaceRE `\.jpeg$` "" | replaceRE `[-_]` " " | title }}
-        {{ if $imgResource }}
-          <li class="c-partners__item"><img src="{{ $imgResource.RelPermalink }}" alt="{{ $altText }}" /></li>
-        {{ else }}
-          <li class="c-partners__item"><img src="{{ (printf "/img/%s" $logo) | relURL }}" alt="{{ $altText }}" /></li>
-        {{ end }}
+
+        {{ $altText := $logo | replaceRE `\.(png|jpg|jpeg)$` "" | replaceRE `[-_]` " " | title }}
+
+        <li class="c-partners__item">
+          {{ if $link }}
+            <a href="{{ $link }}" target="_blank" rel="noopener">
+          {{ end }}
+
+          {{ if $imgResource }}
+            <img src="{{ $imgResource.RelPermalink }}" alt="{{ $altText }}" />
+          {{ else }}
+            <img src="{{ (printf "/img/%s" $logo) | relURL }}" alt="{{ $altText }}" />
+          {{ end }}
+
+          {{ if $link }}
+            </a>
+          {{ end }}
+        </li>
+
       {{ end }}
     {{ end }}
   </ul>
 </div>
-
-
-
-
-
-
-
-
