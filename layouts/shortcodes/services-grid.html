@@ -1,6 +1,53 @@
 {{ $gridClass := default "services-grid" (.Get "gridClass") }}
 {{ $itemClass := default "service-item" (.Get "itemClass") }}
 
+{{ if eq $gridClass "services-grid-homepage" }}
+<style>
+  .services-grid-homepage {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 40px 20px !important;
+  }
+
+  /* Mobile: match original sizes */
+  @media (max-width: 767px) {
+    .services-grid-homepage {
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 30px 20px !important;
+    }
+
+    /* Services heading: 30px on mobile */
+    .c-services-home .u-fs-huge {
+      font-size: 30px !important;
+    }
+
+    /* Service icons: 110x110 on mobile */
+    .services-grid-homepage .service-item__icon {
+      width: 110px !important;
+      height: 110px !important;
+      margin-bottom: 22px !important;
+    }
+
+    .services-grid-homepage .service-item__icon img {
+      width: 110px !important;
+      height: 110px !important;
+    }
+
+    /* Service title: 14px on mobile */
+    .services-grid-homepage .service-item h3 {
+      font-size: 14px !important;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .services-grid-homepage {
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 20px 12px !important;
+    }
+  }
+</style>
+{{ end }}
+
 <div class="{{ $gridClass }}">
   {{ $services := split .Inner "\n" }}
   {{ range $services }}

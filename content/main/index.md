@@ -5,7 +5,7 @@ summary: "General Arcade is a porting house and co-development studio based in S
 ---
 
 {{< services-home >}}
-{{< services-grid >}}
+{{< services-grid gridClass="services-grid-homepage" >}}
 service-1.png|Porting from any platform to any platform
 service-2.png|Co-development
 service-3.png|Remastered/enhanced versions development

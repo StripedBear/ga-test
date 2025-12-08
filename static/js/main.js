@@ -28,12 +28,43 @@
       });
     });
 
-    var toggle=q('[data-toggle="nav"], .js-menu-toggle');
-    var nav=q('[data-target="nav"], .js-nav');
-    if(toggle&&nav){
+    // Mobile navigation toggle
+    var toggle=q('.js-menu-toggle');
+    var nav=q('.js-nav');
+    var backdrop=q('.js-nav-backdrop');
+    var body=d.body;
+
+    if(toggle&&nav&&backdrop){
       toggle.addEventListener("click",function(){
+        var isOpen=nav.classList.contains("open");
+
         nav.classList.toggle("open");
         toggle.classList.toggle("open");
+        backdrop.classList.toggle("open");
+        body.classList.toggle("nav-open");
+
+        // Update ARIA attribute
+        toggle.setAttribute("aria-expanded",!isOpen);
+      });
+
+      // Close on backdrop click
+      backdrop.addEventListener("click",function(){
+        nav.classList.remove("open");
+        toggle.classList.remove("open");
+        backdrop.classList.remove("open");
+        body.classList.remove("nav-open");
+        toggle.setAttribute("aria-expanded","false");
+      });
+
+      // Close on navigation link click
+      qa('.main-nav a',nav).forEach(function(link){
+        link.addEventListener("click",function(){
+          nav.classList.remove("open");
+          toggle.classList.remove("open");
+          backdrop.classList.remove("open");
+          body.classList.remove("nav-open");
+          toggle.setAttribute("aria-expanded","false");
+        });
       });
     }
 
@@ -299,7 +330,7 @@
   var isAnimating = false;
   var autoPlayInterval = null;
   var realSlideCount = testimonials.length;
-  var isMobile = window.innerWidth < 720;
+  var isMobile = window.innerWidth < 768;
   var transitionDuration = 700; // ms
   
   // Clone slides for seamless infinite loop
@@ -511,7 +542,7 @@
   // Handle window resize
   window.addEventListener('resize', function() {
     var wasMobile = isMobile;
-    isMobile = window.innerWidth < 720;
+    isMobile = window.innerWidth < 768;
     if (wasMobile !== isMobile) {
       centerActiveSlide();
     }
@@ -598,6 +629,39 @@
           }, 5000);
         }
       });
+    }
+  }
+
+  // Touch swipe support for mobile
+  if (testimonialsTrack) {
+    var touchStartX = 0;
+    var touchEndX = 0;
+    var touchStartY = 0;
+    var touchEndY = 0;
+
+    testimonialsTrack.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+      touchStartY = e.changedTouches[0].screenY;
+    }, {passive: true});
+
+    testimonialsTrack.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].screenX;
+      touchEndY = e.changedTouches[0].screenY;
+      handleSwipe();
+    }, {passive: true});
+
+    function handleSwipe() {
+      var swipeThreshold = 50;
+      var horizontalSwipe = Math.abs(touchEndX - touchStartX);
+      var verticalSwipe = Math.abs(touchEndY - touchStartY);
+
+      if (horizontalSwipe > verticalSwipe && horizontalSwipe > swipeThreshold) {
+        if (touchEndX < touchStartX) {
+          if (nextBtn) nextSlide();
+        } else {
+          if (prevBtn) prevSlide();
+        }
+      }
     }
   }
 

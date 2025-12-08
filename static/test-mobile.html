@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Mobile Grid</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <h1 style="text-align: center; padding: 20px;">Test Services Grid - Mobile</h1>
+    <div class="services-grid-home">
+        <div class="services-grid-homepage">
+            <div class="service-item">
+                <div class="service-item__icon mb-5">
+                    <img src="/img/service-1.png" alt="Service 1">
+                </div>
+                <h3>Service 1</h3>
+            </div>
+            <div class="service-item">
+                <div class="service-item__icon mb-5">
+                    <img src="/img/service-2.png" alt="Service 2">
+                </div>
+                <h3>Service 2</h3>
+            </div>
+            <div class="service-item">
+                <div class="service-item__icon mb-5">
+                    <img src="/img/service-3.png" alt="Service 3">
+                </div>
+                <h3>Service 3</h3>
+            </div>
+            <div class="service-item">
+                <div class="service-item__icon mb-5">
+                    <img src="/img/service-4.png" alt="Service 4">
+                </div>
+                <h3>Service 4</h3>
+            </div>
+            <div class="service-item">
+                <div class="service-item__icon mb-5">
+                    <img src="/img/service-1.png" alt="Service 5">
+                </div>
+                <h3>Service 5</h3>
+            </div>
+            <div class="service-item">
+                <div class="service-item__icon mb-5">
+                    <img src="/img/service-2.png" alt="Service 6">
+                </div>
+                <h3>Service 6</h3>
+            </div>
+            <div class="service-item">
+                <div class="service-item__icon mb-5">
+                    <img src="/img/service-3.png" alt="Service 7">
+                </div>
+                <h3>Service 7</h3>
+            </div>
+            <div class="service-item">
+                <div class="service-item__icon mb-5">
+                    <img src="/img/service-4.png" alt="Service 8">
+                </div>
+                <h3>Service 8</h3>
+            </div>
+            <div class="service-item">
+                <div class="service-item__icon mb-5">
+                    <img src="/img/service-1.png" alt="Service 9">
+                </div>
+                <h3>Service 9</h3>
+            </div>
+            <div class="service-item">
+                <div class="service-item__icon mb-5">
+                    <img src="/img/service-2.png" alt="Service 10">
+                </div>
+                <h3>Service 10</h3>
+            </div>
+        </div>
+    </div>
+    <div style="padding: 20px; text-align: center; margin-top: 50px; border-top: 2px solid #ccc;">
+        <p>На десктопе (≥768px) должно быть <strong>5 колонок</strong></p>
+        <p>На мобильных (<768px) должно быть <strong>2 колонки</strong></p>
+        <p>Текущая ширина: <span id="width"></span>px</p>
+    </div>
+    <script>
+        function updateWidth() {
+            document.getElementById('width').textContent = window.innerWidth;
+        }
+        updateWidth();
+        window.addEventListener('resize', updateWidth);
+    </script>
+</body>
+</html>
