@@ -4,8 +4,6 @@
     <div class="c-testimonials-controls__button c-testimonials-controls__button--prev js-testimonials-carousel-prev-slide"></div>
     <div class="c-testimonials-controls__button c-testimonials-controls__button--next js-testimonials-carousel-next-slide"></div>
     <div class="c-testimonials-controls">
-      
-      
     </div>
     <div class="c-testimonials-container">
       <div class="c-testimonials-track js-testimonials-track">
@@ -28,7 +26,19 @@
         {{ end }}
       </div>
     </div>
-    
+
+    <!-- Мобильная навигация: кнопки + логотип между ними -->
+    <div class="c-testimonials-mobile-nav js-testimonials-mobile-nav">
+      <div class="c-testimonials-controls__button c-testimonials-controls__button--prev js-testimonials-carousel-prev-slide-mobile"></div>
+      <div class="c-mobile-company js-mobile-company">
+        <!-- Заполняется через JavaScript -->
+      </div>
+      <div class="c-testimonials-controls__button c-testimonials-controls__button--next js-testimonials-carousel-next-slide-mobile"></div>
+    </div>
+
+    <!-- Точки-индикаторы (скрыты на мобильных) -->
+    <div class="c-testimonials-dots js-testimonials-dots"></div>
+
     <div class="c-navigation-carousel-container">
       <div class="c-navigation-carousel-track js-navigation-carousel-track">
         {{ $testimonials := split .Inner "\n" }}

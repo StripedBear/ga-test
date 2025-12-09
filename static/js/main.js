@@ -321,17 +321,61 @@
   var testimonialsTrack = q('.js-testimonials-track');
   var navigationTrack = q('.js-navigation-carousel-track');
   var navigationContainer = q('.c-navigation-carousel-container');
+  var mobileNavContainer = q('.js-testimonials-mobile-nav');
+  var mobileCompanyContainer = q('.js-mobile-company');
   var prevBtn = q('.js-testimonials-carousel-prev-slide');
   var nextBtn = q('.js-testimonials-carousel-next-slide');
-  
+  var prevBtnMobile = q('.js-testimonials-carousel-prev-slide-mobile');
+  var nextBtnMobile = q('.js-testimonials-carousel-next-slide-mobile');
+
   var testimonials = testimonialsTrack ? qa('.js-testimonials-track .c-testimonial') : [];
   var navSlides = navigationTrack ? qa('.js-navigation-carousel-track .c-navigation-carousel__slide') : [];
+  var dotsContainer = q('.js-testimonials-dots');
   var currentIndex = 0;
   var isAnimating = false;
   var autoPlayInterval = null;
   var realSlideCount = testimonials.length;
   var isMobile = window.innerWidth < 768;
   var transitionDuration = 700; // ms
+
+  // Собираем данные о компаниях из навигационной карусели
+  var companiesData = [];
+  navSlides.forEach(function(slide) {
+    var icon = slide.querySelector('.c-navigation-carousel__icon img');
+    var details = slide.querySelectorAll('.c-navigation-carousel__details span');
+    companiesData.push({
+      logo: icon ? icon.src : '',
+      alt: icon ? icon.alt : '',
+      company: details[0] ? details[0].textContent : '',
+      author: details[1] ? details[1].textContent : ''
+    });
+  });
+
+  // Обновить логотип компании в мобильной навигации
+  function updateMobileCompany() {
+    if (!mobileCompanyContainer || companiesData.length === 0) return;
+
+    var data = companiesData[currentIndex] || companiesData[0];
+    mobileCompanyContainer.innerHTML =
+      '<div class="c-mobile-company__logo"><img src="' + data.logo + '" alt="' + data.alt + '"></div>' +
+      '<div class="c-mobile-company__name">' + data.company + '</div>' +
+      '<div class="c-mobile-company__author">' + data.author + '</div>';
+  }
+
+  function updateMobileCarousel() {
+    if (!testimonialsTrack) return;
+    var offset = -currentIndex * 100;
+    testimonialsTrack.style.transform = 'translateX(' + offset + '%)';
+    updateMobileCompany();
+  }
+
+  function goToSlideMobile(idx) {
+    if (isAnimating || idx === currentIndex) return;
+    isAnimating = true;
+    currentIndex = idx;
+    updateMobileCarousel();
+    setTimeout(function() { isAnimating = false; }, transitionDuration);
+  }
   
   // Clone slides for seamless infinite loop
   function cloneSlides() {
@@ -502,15 +546,37 @@
   function nextSlide() {
     if (isAnimating || testimonials.length === 0) return;
     isAnimating = true;
-    currentIndex++;
-    updateCarousel(false);
+
+    if (isMobile) {
+      // On mobile without clones, wrap around
+      currentIndex++;
+      if (currentIndex >= realSlideCount) {
+        currentIndex = 0;
+      }
+      updateMobileCarousel();
+      setTimeout(function() { isAnimating = false; }, transitionDuration);
+    } else {
+      currentIndex++;
+      updateCarousel(false);
+    }
   }
-  
+
   function prevSlide() {
     if (isAnimating || testimonials.length === 0) return;
     isAnimating = true;
-    currentIndex--;
-    updateCarousel(false);
+
+    if (isMobile) {
+      // On mobile without clones, wrap around
+      currentIndex--;
+      if (currentIndex < 0) {
+        currentIndex = realSlideCount - 1;
+      }
+      updateMobileCarousel();
+      setTimeout(function() { isAnimating = false; }, transitionDuration);
+    } else {
+      currentIndex--;
+      updateCarousel(false);
+    }
   }
   
   var transitionEndHandler = function(e) {
@@ -544,21 +610,65 @@
     var wasMobile = isMobile;
     isMobile = window.innerWidth < 768;
     if (wasMobile !== isMobile) {
-      centerActiveSlide();
+      // Переинициализировать при смене режима
+      if (isMobile) {
+        // Переключились на мобильный
+        currentIndex = Math.max(0, Math.min(currentIndex - 1, realSlideCount - 1));
+        updateMobileCarousel();
+        createDots();
+        if (navigationContainer) {
+          navigationContainer.style.display = 'none';
+        }
+      } else {
+        // Переключились на десктоп
+        if (dotsContainer) {
+          dotsContainer.innerHTML = '';
+        }
+        if (navigationContainer) {
+          navigationContainer.style.display = '';
+        }
+        currentIndex = currentIndex + 1;
+        updateCarousel(true);
+      }
     }
   });
   
   // Initialize carousel with clones
   if (testimonials.length > 0 && realSlideCount > 0) {
-    cloneSlides();
-    updateCarousel(true);
-    
-    // Use requestAnimationFrame for initial positioning
-    requestAnimationFrame(function() {
+    if (isMobile) {
+      // On mobile, don't use clones - simpler carousel
+      currentIndex = 0;
+
+      // Ensure proper display on mobile
+      testimonialsTrack.style.display = 'flex';
+      testimonialsTrack.style.transform = 'translateX(0)';
+      testimonialsTrack.style.transition = 'transform 0.7s ease';
+
+      // Set each testimonial to 100% width
+      for (var i = 0; i < testimonials.length; i++) {
+        testimonials[i].style.flexShrink = '0';
+        testimonials[i].style.width = '100%';
+        testimonials[i].style.display = 'block';
+      }
+
+      // Hide navigation carousel on mobile
+      if (navigationContainer) {
+        navigationContainer.style.display = 'none';
+      }
+
+      // Показать логотип компании для первого слайда
+      updateMobileCompany();
+    } else {
+      cloneSlides();
+      updateCarousel(true);
+
+      // Use requestAnimationFrame for initial positioning
       requestAnimationFrame(function() {
-        updateCarousel(false);
+        requestAnimationFrame(function() {
+          updateCarousel(false);
+        });
       });
-    });
+    }
   }
   
   // Attach event listeners for buttons
@@ -569,9 +679,26 @@
       nextSlide();
     });
   }
-  
+
   if (prevBtn) {
     prevBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      prevSlide();
+    });
+  }
+
+  // Mobile buttons
+  if (nextBtnMobile) {
+    nextBtnMobile.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      nextSlide();
+    });
+  }
+
+  if (prevBtnMobile) {
+    prevBtnMobile.addEventListener('click', function(e) {
       e.preventDefault();
       e.stopPropagation();
       prevSlide();

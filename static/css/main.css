@@ -994,14 +994,26 @@ main + .site-footer {
 
   .main-nav li {
     width: 100%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: none;
   }
 
   .main-nav a {
     display: block;
     padding: 16px 0;
-    font-size: 18px;
+    font-size: 25px;
+    color: #a4a8f2;
     white-space: normal;
+    background: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .main-nav a:hover,
+  .main-nav a:active,
+  .main-nav a.active,
+  .main-nav a:focus {
+    color: #ffffff;
+    background: none !important;
+    outline: none;
   }
 
   /* Prevent body scroll when drawer is open */
@@ -1034,8 +1046,20 @@ main + .site-footer {
   }
 
   .main-nav a {
-    font-size: 16px;
+    font-size: 25px;
+    color: #a4a8f2;
     padding: 14px 0;
+    background: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .main-nav a:hover,
+  .main-nav a:active,
+  .main-nav a.active,
+  .main-nav a:focus {
+    color: #ffffff;
+    background: none !important;
+    outline: none;
   }
 }
 
@@ -2864,16 +2888,43 @@ body.homepage {
 /* ===== Hero Section Mobile ===== */
 
 @media (max-width: 767px) {
+  /* Home header starts from top */
   .c-home-header-container {
-    margin-top: -80px;
-    padding-top: 80px;
+    margin-top: 0;
+    padding-top: 0;
   }
 
+  /* Background extends to full header height */
   .c-home-header-bg {
     background-position: center top;
     background-size: cover;
+    height: 100%;
   }
 
+  /* Logo: centered, 107.92×149.97px */
+  body.homepage .site-header .header-inner {
+    justify-content: center;
+  }
+
+  body.homepage .logo {
+    margin: 0 auto !important;
+  }
+
+  body.homepage .logo img {
+    width: 107.92px !important;
+    height: 149.97px !important;
+    transform: none !important;
+  }
+
+  /* Hamburger button stays in top-right */
+  body.homepage .hamburger-toggle {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* Who we are section */
   .c-home-header-section .row {
     flex-direction: column;
   }
@@ -2882,15 +2933,20 @@ body.homepage {
   .c-home-header-section .col-md-5 {
     width: 100%;
     margin-bottom: 32px;
-    text-align: center;
+    text-align: center !important;
+  }
+
+  /* Force center alignment for text */
+  .c-home-header-section .text-md-left {
+    text-align: center !important;
   }
 
   .c-home-header-section .col-md-7 {
-    order: 2;
+    order: 2; /* Text below image */
   }
 
   .c-home-header-section .col-md-5 {
-    order: 1;
+    order: 1; /* Image on top */
   }
 
   .u-fs-large {
@@ -2899,13 +2955,14 @@ body.homepage {
 
   .c-wp {
     padding: 0 16px;
+    text-align: center !important;
   }
 }
 
 @media (max-width: 575px) {
-  .c-home-header-container {
-    margin-top: -70px;
-    padding-top: 70px;
+  .logo img {
+    width: 107.92px;
+    height: 149.97px;
   }
 
   .u-fs-large {
@@ -3063,6 +3120,11 @@ body.homepage .c-home-header-section {
   margin: 0 auto;
 }
 
+/* Мобильная навигация скрыта на десктопе */
+.c-testimonials-mobile-nav {
+  display: none;
+}
+
 .c-testimonials-container {
   position: relative;
   width: 100%;
@@ -3217,83 +3279,139 @@ body.homepage .c-home-header-section {
 /* ===== Testimonials Carousel Mobile ===== */
 
 @media (max-width: 767px) {
+  /* Testimonials heading size */
+  .container .u-fs-huge {
+    font-size: 30px;
+  }
+
   .c-testimonials-wrapper {
     padding: 0 16px;
     max-width: 100%;
+    position: relative;
   }
 
+  /* Узкий бокс для комментариев */
   .c-testimonials-container {
-    max-width: 100%;
-    padding: 0 48px;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 0;
+    min-height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .c-testimonials-track {
+    display: flex !important;
+    width: 100%;
+  }
+
+  .c-testimonials-track .c-testimonial {
+    flex-shrink: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box;
   }
 
   .c-testimonial__content {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 30px;
-    padding: 0 8px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
   }
 
   .c-testimonials-controls {
-    margin: 20px auto;
+    display: none;
   }
 
-  .c-testimonials-controls__button {
-    width: 32px;
-    height: 32px;
-    top: 50%;
-    transform: translateY(-50%);
+  /* Скрыть десктопные кнопки на мобильных */
+  .c-testimonials-wrapper > .c-testimonials-controls__button {
+    display: none;
   }
 
-  .c-testimonials-controls__button--prev {
-    left: 8px;
+  /* Навигация под комментариями: кнопки + логотип между ними */
+  .c-testimonials-mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 30px;
   }
 
-  .c-testimonials-controls__button--next {
-    right: 8px;
+  .c-testimonials-mobile-nav .c-testimonials-controls__button {
+    position: static;
+    transform: none;
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    display: block;
   }
 
+  /* Логотип компании между кнопками */
+  .c-mobile-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    min-width: 100px;
+  }
+
+  .c-mobile-company__logo {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .c-mobile-company__logo img {
+    max-height: 32px;
+    max-width: 90px;
+    opacity: 0.8;
+  }
+
+  .c-mobile-company__name {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+  }
+
+  .c-mobile-company__author {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+  }
+
+  /* Скрыть навигационную карусель компаний на мобильных */
   .c-navigation-carousel-container {
-    max-width: 100%;
-    padding: 0 20px;
+    display: none;
   }
 
-  .c-navigation-carousel__icon {
-    height: 100px;
-  }
-
-  .c-navigation-carousel__icon img {
-    max-height: 36px;
-    max-width: 80px;
-  }
-
-  .c-navigation-carousel__details span {
-    font-size: 0.75rem;
+  /* Скрыть точки-индикаторы */
+  .c-testimonials-dots {
+    display: none;
   }
 }
 
 @media (max-width: 575px) {
   .c-testimonials-container {
-    padding: 0 40px;
+    max-width: 260px;
   }
 
   .c-testimonial__content {
-    font-size: 14px;
-    padding: 0 4px;
+    font-size: 13px;
   }
 
-  .c-testimonials-controls__button {
-    width: 28px;
-    height: 28px;
+  .c-testimonials-mobile-nav {
+    gap: 16px;
   }
 
-  .c-navigation-carousel__icon {
-    height: 80px;
+  .c-testimonials-mobile-nav .c-testimonials-controls__button {
+    width: 32px;
+    height: 32px;
   }
 
-  .c-navigation-carousel__icon img {
-    max-height: 30px;
-    max-width: 70px;
+  .c-mobile-company__logo img {
+    max-height: 28px;
+    max-width: 80px;
   }
 }
 
