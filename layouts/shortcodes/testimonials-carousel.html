@@ -1,4 +1,5 @@
-<div class="container mb-8 mb-lg-9 pt-lg-6">
+<!-- DESKTOP VERSION -->
+<div class="container mb-8 mb-lg-9 pt-lg-6 d-none d-md-block">
   <h2 class="u-fs-huge text-center mb-6 mb-lg-8">What our clients say</h2>
   <div class="c-testimonials-wrapper">
     <div class="c-testimonials-controls__button c-testimonials-controls__button--prev js-testimonials-carousel-prev-slide"></div>
@@ -26,18 +27,6 @@
         {{ end }}
       </div>
     </div>
-
-    <!-- Мобильная навигация: кнопки + логотип между ними -->
-    <div class="c-testimonials-mobile-nav js-testimonials-mobile-nav">
-      <div class="c-testimonials-controls__button c-testimonials-controls__button--prev js-testimonials-carousel-prev-slide-mobile"></div>
-      <div class="c-mobile-company js-mobile-company">
-        <!-- Заполняется через JavaScript -->
-      </div>
-      <div class="c-testimonials-controls__button c-testimonials-controls__button--next js-testimonials-carousel-next-slide-mobile"></div>
-    </div>
-
-    <!-- Точки-индикаторы (скрыты на мобильных) -->
-    <div class="c-testimonials-dots js-testimonials-dots"></div>
 
     <div class="c-navigation-carousel-container">
       <div class="c-navigation-carousel-track js-navigation-carousel-track">
@@ -81,10 +70,55 @@
   </div>
 </div>
 
+<!-- MOBILE VERSION -->
+<div class="container mb-8 pt-4 d-block d-md-none">
+  <h2 class="u-fs-huge text-center mb-5">What our clients say</h2>
+  <div class="c-testimonials-mobile js-testimonials-mobile">
+    <div class="c-testimonials-mobile__container">
+      <div class="c-testimonials-mobile__track js-testimonials-mobile-track">
+        {{ $testimonials := split .Inner "\n" }}
+        {{ range $testimonials }}
+          {{ $line := trim . " \t\r" }}
+          {{ if and $line (ne $line "") }}
+            {{ $parts := split $line "|" }}
+            {{ if ge (len $parts) 4 }}
+              {{ $testimonial := trim (index $parts 0) " " }}
+              {{ $logo := trim (index $parts 1) " " }}
+              {{ $company := trim (index $parts 2) " " }}
+              {{ $author := trim (index $parts 3) " " }}
+              {{ if $testimonial }}
+                {{ $imgResource := false }}
+                {{ if $.Page.Resources }}
+                  {{ $imgResource = $.Page.Resources.Get $logo }}
+                  {{ if not $imgResource }}
+                    {{ $imgResource = $.Page.Resources.GetMatch (printf "*%s*" $logo) }}
+                  {{ end }}
+                {{ end }}
+                <div class="c-testimonials-mobile__slide js-testimonials-mobile-slide"
+                     data-logo="{{ if $imgResource }}{{ $imgResource.RelPermalink }}{{ else }}{{ (printf "/img/%s" $logo) | relURL }}{{ end }}"
+                     data-company="{{ $company }}"
+                     data-author="{{ $author }}">
+                  <div class="c-testimonials-mobile__content">
+                    <span class="text-white">"</span>{{ $testimonial }}<span class="text-white">"</span>
+                  </div>
+                </div>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
 
-
-
-
-
-
-
+    <div class="c-testimonials-mobile__nav">
+      <button class="c-testimonials-mobile__btn c-testimonials-mobile__btn--prev js-testimonials-mobile-prev" aria-label="Previous"></button>
+      <div class="c-testimonials-mobile__company">
+        <img class="c-testimonials-mobile__logo js-testimonials-mobile-logo" src="" alt="">
+        <div class="c-testimonials-mobile__company-info">
+          <div class="c-testimonials-mobile__company-name js-testimonials-mobile-company"></div>
+          <div class="c-testimonials-mobile__company-author js-testimonials-mobile-author"></div>
+        </div>
+      </div>
+      <button class="c-testimonials-mobile__btn c-testimonials-mobile__btn--next js-testimonials-mobile-next" aria-label="Next"></button>
+    </div>
+  </div>
+</div>
