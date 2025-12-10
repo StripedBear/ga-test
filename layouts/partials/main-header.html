@@ -8,6 +8,17 @@
       {{ end }}
     </a>
 
+    <!-- Desktop navigation - scrolls with header -->
+    <nav class="desktop-nav">
+      {{ range .Site.Menus.main }}
+        {{ if hasPrefix .URL "#" }}
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ else }}
+          <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+        {{ end }}
+      {{ end }}
+    </nav>
+
     <button class="hamburger-toggle js-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span class="hamburger-line"></span>
       <span class="hamburger-line"></span>
