@@ -13,31 +13,5 @@
       <span class="hamburger-line"></span>
       <span class="hamburger-line"></span>
     </button>
-
-    <nav class="main-nav js-nav">
-      <ul>
-        {{ range .Site.Menus.main }}
-        <li>
-
-          {{ $isActive := eq $.RelPermalink (.URL | relURL) }}
-
-          {{ if hasPrefix .URL "#" }}
-            <a href="{{ .URL }}"
-               class="c-nav-underline">
-               {{ .Name }}
-            </a>
-          {{ else }}
-            <a href="{{ .URL | relURL }}"
-               class="c-nav-underline {{ if $isActive }}active{{ end }}">
-               {{ .Name }}
-            </a>
-          {{ end }}
-
-        </li>
-        {{ end }}
-      </ul>
-    </nav>
-
-    <div class="nav-backdrop js-nav-backdrop"></div>
   </div>
 </header>

@@ -39,6 +39,27 @@ frame-ancestors 'self';
 {{ else }}
 <body>
 {{ end }}
+    <!-- Mobile nav overlay - на уровне body для правильного z-index -->
+    <nav class="main-nav js-nav">
+      <button class="nav-close js-nav-close" aria-label="Close menu">
+        <span></span>
+        <span></span>
+      </button>
+      <ul>
+        {{ range .Site.Menus.main }}
+        <li>
+          {{ $isActive := eq $.RelPermalink (.URL | relURL) }}
+          {{ if hasPrefix .URL "#" }}
+            <a href="{{ .URL }}" class="c-nav-underline">{{ .Name }}</a>
+          {{ else }}
+            <a href="{{ .URL | relURL }}" class="c-nav-underline {{ if $isActive }}active{{ end }}">{{ .Name }}</a>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+    <div class="nav-backdrop js-nav-backdrop"></div>
+
     {{ if .IsHome }}
     {{ partial "main-header.html" . }}
   {{ else }}

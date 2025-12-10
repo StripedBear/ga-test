@@ -32,7 +32,16 @@
     var toggle=q('.js-menu-toggle');
     var nav=q('.js-nav');
     var backdrop=q('.js-nav-backdrop');
+    var closeBtn=q('.js-nav-close');
     var body=d.body;
+
+    function closeNav(){
+      nav.classList.remove("open");
+      toggle.classList.remove("open");
+      backdrop.classList.remove("open");
+      body.classList.remove("nav-open");
+      toggle.setAttribute("aria-expanded","false");
+    }
 
     if(toggle&&nav&&backdrop){
       toggle.addEventListener("click",function(){
@@ -47,23 +56,19 @@
         toggle.setAttribute("aria-expanded",!isOpen);
       });
 
+      // Close on close button click
+      if(closeBtn){
+        closeBtn.addEventListener("click",closeNav);
+      }
+
       // Close on backdrop click
-      backdrop.addEventListener("click",function(){
-        nav.classList.remove("open");
-        toggle.classList.remove("open");
-        backdrop.classList.remove("open");
-        body.classList.remove("nav-open");
-        toggle.setAttribute("aria-expanded","false");
-      });
+      backdrop.addEventListener("click",closeNav);
 
       // Close on navigation link click
-      qa('.main-nav a',nav).forEach(function(link){
-        link.addEventListener("click",function(){
-          nav.classList.remove("open");
-          toggle.classList.remove("open");
-          backdrop.classList.remove("open");
-          body.classList.remove("nav-open");
-          toggle.setAttribute("aria-expanded","false");
+      qa('a',nav).forEach(function(link){
+        link.addEventListener("click",function(e){
+          closeNav();
+          // Let the default link behavior happen (don't preventDefault)
         });
       });
     }
