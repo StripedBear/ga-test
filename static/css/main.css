@@ -106,7 +106,7 @@ a:hover {
   margin: 0;
   padding: 0 clamp(16px, 3vw, 40px);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -142,22 +142,44 @@ a:hover {
   /* Desktop navigation - inside header, scrolls with page */
   .desktop-nav {
     display: flex;
-    gap: 48px;
+    gap: 20px;
     align-items: center;
+    margin-top: -160px;
+  }
+
+  /* Homepage specific gap */
+  body.homepage .desktop-nav {
+    gap: 27px;
   }
 
   .desktop-nav a {
+    position: relative;
     color: var(--text-primary);
     font-size: 16px;
     text-decoration: none;
     white-space: nowrap;
     font-weight: 400;
     letter-spacing: 0.2px;
-    transition: color 0.2s ease;
   }
 
-  .desktop-nav a:hover {
-    color: var(--accent);
+  .desktop-nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(
+      to right,
+      rgba(61, 65, 103, 0.2) 0%,
+      rgba(59, 69, 111, 0.2) 5%,
+      #1398ff 100%
+    );
+    transition: width 0.3s ease;
+  }
+
+  .desktop-nav a:hover::after {
+    width: 100%;
   }
 }
 
@@ -3171,21 +3193,15 @@ body.homepage .site-header::before {
     color: #ffffff !important;
   }
 
-  /* Comet underline for subtitle */
+  /* Subtitle - no underline on mobile */
   .mobile-subtitle-underline {
     position: relative !important;
     display: inline-block !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 0 !important;
   }
 
   .mobile-subtitle-underline .underline-comet {
-    position: absolute !important;
-    bottom: 2px !important;
-    left: 0 !important;
-    right: 0 !important;
-    height: 2px !important;
-    background: linear-gradient(to right, rgba(61, 65, 103, 0.2) 0%, rgba(59, 69, 111, 0.2) 5%, #1398ff 100%) !important;
-    display: block !important;
+    display: none !important;
   }
 
   /* Who we are section */
