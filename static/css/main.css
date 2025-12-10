@@ -3014,8 +3014,8 @@ body.homepage .logo {
 .c-home-header-container {
   position: relative;
   width: 100%;
-  margin-top: -164px;
-  padding-top: 164px;
+  margin-top: 0;
+  padding-top: 80px;
 }
 
 /* Background image for homepage header - using ::before pseudo-element */
