@@ -1,29 +1,47 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
-<div class="container mb-8 mb-md-9 pt-6">
-  <nav class="services-nav">
-    <ul>
-      {{ $servicesSection := .Site.GetPage "section" "services" }}
-      {{ $allPages := slice }}
-      {{ if $servicesSection }}
-        {{ $allPages = $allPages | append $servicesSection }}
-        {{ range $servicesSection.Pages }}
-          {{ $allPages = $allPages | append . }}
-        {{ end }}
-      {{ end }}
-      {{ $sortedPages := sort $allPages "Weight" }}
-      {{ range $sortedPages }}
-  {{ if .RelPermalink }}
-    {{ $isActive := eq $.RelPermalink .RelPermalink }}
-    <li>
-      <a href="{{ .RelPermalink }}" class="c-nav-underline {{ if $isActive }}active{{ end }}">
-        {{ .Title }}
-      </a>
-    </li>
+{{ $servicesSection := .Site.GetPage "section" "services" }}
+{{ $allPages := slice }}
+{{ if $servicesSection }}
+  {{ $allPages = $allPages | append $servicesSection }}
+  {{ range $servicesSection.Pages }}
+    {{ $allPages = $allPages | append . }}
   {{ end }}
 {{ end }}
+{{ $sortedPages := sort $allPages "Weight" }}
+
+{{/* Desktop navigation */}}
+<div class="container mb-8 mb-md-9 pt-6 services-nav-desktop">
+  <nav class="services-nav">
+    <ul>
+      {{ range $sortedPages }}
+      {{ if .RelPermalink }}
+      {{ $isActive := eq $.RelPermalink .RelPermalink }}
+      <li>
+        <a href="{{ .RelPermalink }}" class="c-nav-underline {{ if $isActive }}active{{ end }}">
+          {{ .Title }}
+        </a>
+      </li>
+      {{ end }}
+      {{ end }}
     </ul>
   </nav>
+</div>
+
+{{/* Mobile dropdown navigation */}}
+<div class="c-dd-nav services-dd-nav" id="services-category-dropdown">
+  <span class="c-dd-nav__current js-dd-nav-open" id="services-category-toggle">
+    <span class="services-categories-selected">{{ .Title }}</span>
+  </span>
+  <ul class="c-dd-nav__list js-dd-nav-list" id="services-categories-menu">
+    {{ range $sortedPages }}
+    {{ if .RelPermalink }}
+    <li class="services-categories-item{{ if eq $.RelPermalink .RelPermalink }} active{{ end }}">
+      <a href="{{ .RelPermalink }}" class="services-categories-link{{ if eq $.RelPermalink .RelPermalink }} active{{ end }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
 </div>
 
 <div class="container">

@@ -1321,6 +1321,21 @@ main + .site-footer {
   font-weight: 600;
 }
 
+/* Services navigation - desktop vs mobile */
+.services-dd-nav {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .services-nav-desktop {
+    display: none;
+  }
+
+  .services-dd-nav {
+    display: block;
+  }
+}
+
 /* ===== Services Grid ===== */
 .services-grid {
   display: grid;
@@ -4064,6 +4079,28 @@ body.homepage .c-home-header-section {
   transform: translateY(-4px);
 }
 
+/* Mobile: 2 columns for services grids */
+@media (max-width: 767px) {
+  .services-grid-page {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 20px;
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .services-grid-page .service-item-page:nth-child(10) {
+    grid-column: auto;
+  }
+
+  .service-item-page__icon img {
+    width: 70px;
+  }
+
+  .service-item-page h3 {
+    font-size: 14px;
+  }
+}
+
 /* ===== ALTERNATIVE SERVICES GRID (ENGINES / PLATFORMS STYLE) ===== */
 
 /* ОБЁРТКА ОДНОГО ЭЛЕМЕНТА (иконка + текст) */
@@ -4126,6 +4163,54 @@ body.homepage .c-home-header-section {
   justify-items: center;
   max-width: 60%;
   margin-left: 115px;
+}
+
+/* Mobile: 2 columns for engines/platforms grids */
+@media (max-width: 767px) {
+  .services-grid-alt-top {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-left: 0;
+    padding: 0 16px;
+  }
+
+  .services-grid-alt-bottom {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+    max-width: 100%;
+    margin-left: 0;
+    padding: 0 16px;
+  }
+
+  .service-item-alt {
+    margin-bottom: 20px;
+  }
+
+  .service-item-alt__icon img {
+    width: 80px;
+    height: 70px;
+    margin: 0 auto;
+  }
+
+  .service-item-alt h3 {
+    font-size: 14px;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Центрировать последний нечётный элемент в сетке 2 колонки */
+  .services-grid-alt-top .service-item-alt:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .services-grid-alt-bottom .service-item-alt:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
 }
 
 /* Новый underline-эффект */

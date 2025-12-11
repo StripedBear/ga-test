@@ -319,6 +319,25 @@
     }
   }
 
+  // Services category dropdown (for /services/, /services/engines/, /services/platforms/)
+  var servicesCategoryDropdown = q('#services-category-dropdown');
+  var servicesCategoryToggle = q('#services-category-toggle');
+
+  if (servicesCategoryDropdown && servicesCategoryToggle) {
+    // Toggle dropdown
+    servicesCategoryToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      servicesCategoryDropdown.classList.toggle('c-dd-nav--open');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!servicesCategoryDropdown.contains(e.target)) {
+        servicesCategoryDropdown.classList.remove('c-dd-nav--open');
+      }
+    });
+  }
+
   // Testimonials carousel - based on original Owl Carousel implementation
   var testimonialsTrack = q('.js-testimonials-track');
   var navigationTrack = q('.js-navigation-carousel-track');
