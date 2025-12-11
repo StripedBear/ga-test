@@ -4040,10 +4040,10 @@ body.homepage .c-home-header-section {
 .services-grid-page {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px 0px;
+  gap: 80px 150px;
   justify-items: center;
   align-items: start;
-  max-width: 900px;
+  max-width: 1100px;
 /*  margin: 0 auto 80px;*/
   margin-left: auto !important;
   margin-right: auto !important;
