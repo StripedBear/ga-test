@@ -47,10 +47,8 @@
 {{/* Team photo */}}
 {{ $teamPhoto := .Resources.GetMatch "team-photo.*" }}
 {{ if $teamPhoto }}
-<div class="block1" style="height: 1518px; width: 100%; position: relative;">
-  <div>
-    <img src="{{ $teamPhoto.RelPermalink }}" class="o-crop__content o-crop__content--center" alt="{{ .Site.Title }}">
-  </div>
+<div class="block1">
+  <img src="{{ $teamPhoto.RelPermalink }}" alt="{{ .Site.Title }}">
 </div>
 {{ end }}
 {{ end }}
