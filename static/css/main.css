@@ -1175,6 +1175,10 @@ main + .site-footer {
     text-align: center;
   }
 
+  .main-nav a.c-nav-underline {
+    display: inline-block;
+  }
+
   .main-nav a:hover,
   .main-nav a:active,
   .main-nav a.active,
