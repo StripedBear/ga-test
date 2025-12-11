@@ -1550,7 +1550,9 @@ main + .site-footer {
   margin: 0;
   padding: 20px 0;
   /*display: none;*/
-  position: relative;
+  position: absolute;
+  left: 0;
+  width: 100%;
   background: linear-gradient(to bottom, #25283b 0%, rgba(37, 40, 59, 0.85) 87%, rgba(37, 40, 59, 0.85) 100%);
   max-height: 360px;
   overflow-y: auto;
@@ -1559,9 +1561,6 @@ main + .site-footer {
 
 @media (min-width: 768px) {
   .c-dd-nav__list {
-    position: absolute;
-    left: 0;
-    width: 100%;
     padding-bottom: 30px;
   }
 }
