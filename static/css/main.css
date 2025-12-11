@@ -272,6 +272,7 @@ main {
 .content {
   color: var(--text-secondary);
   line-height: 1.8;
+  text-align: left;
 }
 
 .content h1,
@@ -330,6 +331,7 @@ main {
   margin-right: auto;
   margin-top: 2rem;
   margin-bottom: 0;
+  text-align: left;
 }
 
 body:has(.services-grid-page) .post-body {
@@ -1652,6 +1654,7 @@ main + .site-footer {
 
 .c-article__content {
   padding: 20px;
+  text-align: left;
 }
 
 @media (min-width: 1600px) {
@@ -2028,6 +2031,7 @@ main + .site-footer {
 .project-content {
   color: var(--text-primary);
   line-height: 1.8;
+  text-align: left;
 }
 
 .project-content p {
@@ -3252,7 +3256,15 @@ body.homepage .site-header::before {
 
   .c-wp {
     padding: 0 16px !important;
-    text-align: center !important;
+    text-align: left !important;
+  }
+
+  /* Выравнивание текста по левому краю для статей */
+  .content,
+  .post-body,
+  .project-content,
+  .c-article__content {
+    text-align: left !important;
   }
 }
 
