@@ -142,14 +142,9 @@ a:hover {
   /* Desktop navigation - inside header, scrolls with page */
   .desktop-nav {
     display: flex;
-    gap: 20px;
+    gap: 27px;
     align-items: center;
     margin-top: -160px;
-  }
-
-  /* Homepage specific gap */
-  body.homepage .desktop-nav {
-    gap: 27px;
   }
 
   .desktop-nav a {
