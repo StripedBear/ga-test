@@ -909,10 +909,11 @@ main + .site-footer {
   }
   
   .logo img {
-    height: 115.2px;
-    transform: translateY(0);
+    width: auto;
+    height: 149px;
+    transform: none;
   }
-  
+
   .main-nav {
     margin-top: 0;
     width: 100%;
@@ -1066,8 +1067,24 @@ main + .site-footer {
   }
 
   .logo img {
-    height: 60px;
+    height: 149px;
     transform: none;
+  }
+
+  /* Non-homepage: logo centered, burger right (absolute) */
+  body:not(.homepage) .header-inner {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+    position: relative;
+  }
+
+  body:not(.homepage) .hamburger-toggle {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   /* Transform nav into fullscreen overlay */
@@ -1202,7 +1219,7 @@ main + .site-footer {
   }
 
   .logo img {
-    height: 50px;
+    height: 149px;
   }
 
   .main-nav {
@@ -3030,19 +3047,7 @@ body.homepage .logo {
   z-index: 11 !important;
 }
 
-/* Desktop homepage nav - inside header, scrolls with page */
-@media (min-width: 768px) {
-  body.homepage .desktop-nav {
-    display: flex;
-    gap: 48px;
-    align-items: center;
-  }
-
-  body.homepage .desktop-nav a {
-    font-size: 16px;
-    color: var(--text-primary);
-  }
-}
+/* Desktop homepage nav styles removed - using unified .desktop-nav styles */
 
 .c-home-header-container {
   position: relative;
@@ -3158,8 +3163,8 @@ body.homepage .site-header::before {
   }
 
   body.homepage .logo img {
-    width: 107.92px !important;
-    height: 149.97px !important;
+    width: auto !important;
+    height: 149px !important;
     transform: none !important;
   }
 
@@ -3235,8 +3240,8 @@ body.homepage .site-header::before {
 
 @media (max-width: 575px) {
   body.homepage .logo img {
-    width: 107.92px !important;
-    height: 149.97px !important;
+    width: auto !important;
+    height: 149px !important;
   }
 
   .u-fs-large {
@@ -3392,6 +3397,7 @@ body.homepage .c-home-header-section {
 
 .c-projects-home {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .c-testimonials-wrapper {
