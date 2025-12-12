@@ -10,11 +10,18 @@
 
     <!-- Desktop navigation - scrolls with header -->
     <nav class="desktop-nav">
+      {{ $currentURL := .RelPermalink }}
       {{ range .Site.Menus.main }}
+        {{ $isActive := false }}
         {{ if hasPrefix .URL "#" }}
           <a href="{{ .URL }}">{{ .Name }}</a>
         {{ else }}
-          <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+          {{ if eq $currentURL .URL }}
+            {{ $isActive = true }}
+          {{ else if and (gt (len .URL) 1) (hasPrefix $currentURL .URL) }}
+            {{ $isActive = true }}
+          {{ end }}
+          <a href="{{ .URL | relURL }}"{{ if $isActive }} class="active"{{ end }}>{{ .Name }}</a>
         {{ end }}
       {{ end }}
     </nav>
