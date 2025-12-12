@@ -113,26 +113,58 @@
     }
   });
 
-  // Blog category filter
+  // Blog category filter and load more
   var categoryDropdown = q('#blog-category-dropdown');
   var categoryToggle = q('#blog-category-toggle');
   var categoryMenu = q('#blog-categories-menu');
   var categorySelected = q('.blog-categories-selected');
-  
+  var loadMoreBtn = q('#blog-load-more-btn');
+  var allPosts = qa('.blog-post-entry');
+  var postsPerPage = 9;
+  var currentBlogCategory = '';
+
+  // Helper: check if post matches current category
+  function postMatchesCategory(post) {
+    if (!currentBlogCategory) return true;
+    var postCategories = post.getAttribute('data-categories') || '';
+    return postCategories.indexOf(currentBlogCategory) !== -1;
+  }
+
+  // Helper: get hidden posts matching current category
+  function getHiddenMatchingPosts() {
+    return allPosts.filter(function(post) {
+      return post.classList.contains('hidden') && postMatchesCategory(post);
+    });
+  }
+
+  // Helper: update Load more button visibility
+  function updateLoadMoreButton() {
+    if (!loadMoreBtn) return;
+    var hiddenMatching = getHiddenMatchingPosts();
+    loadMoreBtn.style.display = hiddenMatching.length > 0 ? '' : 'none';
+  }
+
+  // Initially hide posts beyond first page
+  allPosts.forEach(function(post, index) {
+    if (index >= postsPerPage) {
+      post.classList.add('hidden');
+    }
+  });
+
   if (categoryDropdown && categoryToggle && categoryMenu) {
     // Toggle dropdown
     categoryToggle.addEventListener('click', function(e) {
       e.stopPropagation();
       categoryDropdown.classList.toggle('c-dd-nav--open');
     });
-    
+
     // Close dropdown when clicking outside
     d.addEventListener('click', function(e) {
       if (!categoryDropdown.contains(e.target)) {
         categoryDropdown.classList.remove('open');
       }
     });
-    
+
     // Handle category selection
     var categoryItems = qa('.blog-categories-item');
     categoryItems.forEach(function(item) {
@@ -142,98 +174,123 @@
           e.preventDefault();
           var value = item.getAttribute('data-value');
           var text = link.textContent.trim();
-          
+
+          // Save current category
+          currentBlogCategory = value;
+
           // Update selected text
           categorySelected.textContent = text;
-          
+
           // Update active state
           categoryItems.forEach(function(i) {
             i.classList.remove('active');
           });
           item.classList.add('active');
-          
-          // Filter posts
-          var posts = qa('.blog-post-entry');
-          posts.forEach(function(post) {
+
+          // Filter posts - show only matching, hide non-matching
+          allPosts.forEach(function(post, index) {
             var postCategories = post.getAttribute('data-categories') || '';
             if (!value || postCategories.indexOf(value) !== -1) {
-              post.classList.remove('hidden');
+              // Matches category - show only first N
+              var matchingBefore = allPosts.slice(0, index).filter(function(p) {
+                return !value || (p.getAttribute('data-categories') || '').indexOf(value) !== -1;
+              }).length;
+              if (matchingBefore < postsPerPage) {
+                post.classList.remove('hidden');
+              } else {
+                post.classList.add('hidden');
+              }
             } else {
               post.classList.add('hidden');
             }
           });
-          
+
+          // Update load more button visibility
+          updateLoadMoreButton();
+
           // Close dropdown
           categoryDropdown.classList.remove('open');
+          categoryDropdown.classList.remove('c-dd-nav--open');
         });
       }
     });
   }
 
   // Blog load more
-  var loadMoreBtn = q('#blog-load-more-btn');
   if (loadMoreBtn) {
-    var allPosts = qa('.blog-post-entry');
-    var postsPerPage = 9;
-    var visibleCount = postsPerPage;
-    
-    // Initially hide posts beyond first page
-    allPosts.forEach(function(post, index) {
-      if (index >= postsPerPage) {
-        post.classList.add('hidden');
-      }
-    });
-    
-    // Show more posts function
+    // Show more posts function - respects current category filter
     function showMorePosts() {
-      var toShow = Math.min(postsPerPage, allPosts.length - visibleCount);
-      
-      for (var i = visibleCount; i < visibleCount + toShow; i++) {
-        if (allPosts[i]) {
-          allPosts[i].classList.remove('hidden');
-        }
+      var hiddenMatching = getHiddenMatchingPosts();
+      var toShow = Math.min(postsPerPage, hiddenMatching.length);
+
+      for (var i = 0; i < toShow; i++) {
+        hiddenMatching[i].classList.remove('hidden');
       }
-      
-      visibleCount += toShow;
-      
-      // Hide button if all posts are visible
-      if (visibleCount >= allPosts.length) {
-        loadMoreBtn.style.display = 'none';
-      }
+
+      updateLoadMoreButton();
     }
-    
+
     // Attach click handler
     loadMoreBtn.addEventListener('click', function(e) {
       e.preventDefault();
       showMorePosts();
     });
-    
-    // Hide button if all posts are already visible
-    if (allPosts.length <= postsPerPage) {
-      loadMoreBtn.style.display = 'none';
-    }
+
+    // Initial button state
+    updateLoadMoreButton();
   }
 
-  // Projects category filter
+  // Projects category filter and load more
   var projectsCategoryDropdown = q('#projects-category-dropdown');
   var projectsCategoryToggle = q('#projects-category-toggle');
   var projectsCategorySelected = q('.projects-categories-selected');
-  
+  var projectsLoadMoreBtn = q('#projects-load-more-btn');
+  var allProjects = qa('.project-card');
+  var projectsPerPage = 9;
+  var currentProjectPlatform = '';
+
+  // Helper: check if project matches current platform
+  function projectMatchesPlatform(project) {
+    if (!currentProjectPlatform) return true;
+    var projectPlatforms = project.getAttribute('data-platforms') || '';
+    return projectPlatforms.indexOf(currentProjectPlatform) !== -1;
+  }
+
+  // Helper: get hidden projects matching current platform
+  function getHiddenMatchingProjects() {
+    return allProjects.filter(function(project) {
+      return project.classList.contains('hidden') && projectMatchesPlatform(project);
+    });
+  }
+
+  // Helper: update Load more button visibility
+  function updateProjectsLoadMoreButton() {
+    if (!projectsLoadMoreBtn) return;
+    var hiddenMatching = getHiddenMatchingProjects();
+    projectsLoadMoreBtn.style.display = hiddenMatching.length > 0 ? '' : 'none';
+  }
+
+  // Initially hide projects beyond first page
+  allProjects.forEach(function(project, index) {
+    if (index >= projectsPerPage) {
+      project.classList.add('hidden');
+    }
+  });
+
   if (projectsCategoryDropdown && projectsCategoryToggle) {
     // Toggle dropdown
-        projectsCategoryToggle.addEventListener('click', function(e) {
+    projectsCategoryToggle.addEventListener('click', function(e) {
       e.preventDefault();
       projectsCategoryDropdown.classList.toggle('c-dd-nav--open');
     });
 
-    
     // Close dropdown when clicking outside
     document.addEventListener('click', function(e) {
       if (!projectsCategoryDropdown.contains(e.target)) {
         projectsCategoryDropdown.classList.remove('c-dd-nav--open');
       }
     });
-    
+
     // Handle category selection
     var projectsCategoryItems = qa('.projects-categories-item');
     projectsCategoryItems.forEach(function(item) {
@@ -243,10 +300,13 @@
           e.preventDefault();
           var value = item.getAttribute('data-value');
           var text = link.textContent.trim();
-          
+
+          // Save current platform
+          currentProjectPlatform = value;
+
           // Update selected text
           projectsCategorySelected.textContent = text;
-          
+
           // Update active state
           projectsCategoryItems.forEach(function(i) {
             i.classList.remove('active');
@@ -255,18 +315,28 @@
           });
           item.classList.add('active');
           link.classList.add('active');
-          
-          // Filter projects
-          var projects = qa('.project-card');
-          projects.forEach(function(project) {
+
+          // Filter projects - show only matching, hide non-matching
+          allProjects.forEach(function(project, index) {
             var projectPlatforms = project.getAttribute('data-platforms') || '';
             if (!value || projectPlatforms.indexOf(value) !== -1) {
-              project.classList.remove('hidden');
+              // Matches platform - show only first N
+              var matchingBefore = allProjects.slice(0, index).filter(function(p) {
+                return !value || (p.getAttribute('data-platforms') || '').indexOf(value) !== -1;
+              }).length;
+              if (matchingBefore < projectsPerPage) {
+                project.classList.remove('hidden');
+              } else {
+                project.classList.add('hidden');
+              }
             } else {
               project.classList.add('hidden');
             }
           });
-          
+
+          // Update load more button visibility
+          updateProjectsLoadMoreButton();
+
           // Close dropdown
           projectsCategoryDropdown.classList.remove('open');
           projectsCategoryDropdown.classList.remove('c-dd-nav--open');
@@ -276,47 +346,27 @@
   }
 
   // Projects load more
-  var projectsLoadMoreBtn = q('#projects-load-more-btn');
   if (projectsLoadMoreBtn) {
-    var allProjects = qa('.project-card');
-    var projectsPerPage = 9;
-    var visibleProjectsCount = projectsPerPage;
-    
-    // Initially hide projects beyond first page
-    allProjects.forEach(function(project, index) {
-      if (index >= projectsPerPage) {
-        project.classList.add('hidden');
-      }
-    });
-    
-    // Show more projects function
+    // Show more projects function - respects current platform filter
     function showMoreProjects() {
-      var toShow = Math.min(projectsPerPage, allProjects.length - visibleProjectsCount);
-      
-      for (var i = visibleProjectsCount; i < visibleProjectsCount + toShow; i++) {
-        if (allProjects[i]) {
-          allProjects[i].classList.remove('hidden');
-        }
+      var hiddenMatching = getHiddenMatchingProjects();
+      var toShow = Math.min(projectsPerPage, hiddenMatching.length);
+
+      for (var i = 0; i < toShow; i++) {
+        hiddenMatching[i].classList.remove('hidden');
       }
-      
-      visibleProjectsCount += toShow;
-      
-      // Hide button if all projects are visible
-      if (visibleProjectsCount >= allProjects.length) {
-        projectsLoadMoreBtn.style.display = 'none';
-      }
+
+      updateProjectsLoadMoreButton();
     }
-    
+
     // Attach click handler
     projectsLoadMoreBtn.addEventListener('click', function(e) {
       e.preventDefault();
       showMoreProjects();
     });
-    
-    // Hide button if all projects are already visible
-    if (allProjects.length <= projectsPerPage) {
-      projectsLoadMoreBtn.style.display = 'none';
-    }
+
+    // Initial button state
+    updateProjectsLoadMoreButton();
   }
 
   // Services category dropdown (for /services/, /services/engines/, /services/platforms/)
